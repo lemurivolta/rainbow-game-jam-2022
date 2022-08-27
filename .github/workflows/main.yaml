@@ -53,13 +53,13 @@ jobs:
       #     path: artifacts
 
       # Build
-      - name: Create .upmconfig.toml UPM authentication file
-        run: |
-          mkdir /home/runner/work/_temp/_github_home
-          cd /home/runner/work/_temp/_github_home
-          echo "[npmAuth.\"https://upm.example.com\"]" >> .upmconfig.toml
-          echo "alwaysAuth = true" >> .upmconfig.toml
-          echo "token = \"${{ secrets.NPM_TOKEN }}\"" >> .upmconfig.toml
+      # - name: Create .upmconfig.toml UPM authentication file
+      #   run: |
+      #     mkdir -p /home/runner/work/_temp/_github_home
+      #     cd /home/runner/work/_temp/_github_home
+      #     echo "[npmAuth.\"https://upm.example.com\"]" >> .upmconfig.toml
+      #     echo "alwaysAuth = true" >> .upmconfig.toml
+      #     echo "token = \"${{ secrets.NPM_TOKEN }}\"" >> .upmconfig.toml
 
       - name: Build project
         uses: game-ci/unity-builder@v2
