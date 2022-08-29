@@ -16,11 +16,7 @@ public class ScoutAnimationsHandler : MonoBehaviour
         var walking = direction.x != 0 || direction.y != 0;
         if (walking)
         {
-            animator.SetFloat("Direction",
-                direction.x > 0 ? 1.0f :
-                direction.y < 0 ? 2.0f :
-                direction.x < 0 ? 3.0f :
-                0.0f);
+            animator.SetFloat("Direction", direction.ToDirectionFloat());
         }
         animator.SetBool("Walking", walking);
     }
