@@ -21,7 +21,7 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
 
     private FollowerTracker followerTracker;
 
-    public UnityEvent<Vector2> StepDiscarded = new();
+    public IList<Vector2> Steps { get { return steps.AsReadOnly(); } }
 
     // Start is called before the first frame update
     void Start()
@@ -43,7 +43,6 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
         {
             var discardedStep = steps[0];
             steps.RemoveAt(0);
-            StepDiscarded.Invoke(discardedStep);
         }
     }
 }

@@ -1,10 +1,15 @@
 using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+/// <summary>
+/// Component that makes a follower track its target keeping a specified distance, walking at the same speed as the target.
+/// </summary>
 [RequireComponent(typeof(FollowerTracker))]
+[RequireComponent(typeof(FollowerTargetPositionRecorder))]
 public class FollowerFollowTarget : MonoBehaviour
 {
     [Tooltip("Invoked whenever the followers start to move to follow the target, with a direction vector parameter")]
@@ -15,31 +20,48 @@ public class FollowerFollowTarget : MonoBehaviour
 
     private Coroutine MovementCoroutine = null;
 
+    private Vector2? CurrentDestination = Vector2.positiveInfinity;
+
     private float speed;
+
+    private FollowerTracker followerTracker;
+
+    private FollowerTargetPositionRecorder followerTargetPositionRecorder;
+
+    [Tooltip("Maximum distance allowed for the target, after which the follower starts moving")]
+    public float MaxDistance = 1f;
 
     private void Start()
     {
+        followerTargetPositionRecorder = GetComponent<FollowerTargetPositionRecorder>();
         // copy the speed from the target
-        speed = GetComponent<FollowerTracker>().Target
-            .GetComponent<ScoutMovementHandler>().Speed;
+        followerTracker = GetComponent<FollowerTracker>();
+        speed = followerTracker.Target.GetComponent<ScoutMovementHandler>().Speed;
     }
 
-    public void OnStepDiscarded(Vector2 discardedStep)
+    private void Update()
     {
-        // don't start any animation if we are already there
-        var totalDistance = (discardedStep - (Vector2)transform.position).sqrMagnitude;
-        // Debug.Log($"from {(Vector2)transform.position} to {discardedStep} totalDistance: {totalDistance}");
-        if (Mathf.Approximately(totalDistance, 0f))
+        // run follow animation if the target went too far
+        var targetPosition = (Vector2)followerTracker.Target.transform.position;
+        var myPosition = (Vector2)transform.position;
+        if ((targetPosition - myPosition).sqrMagnitude > MaxDistance * MaxDistance)
         {
-            return;
+            // look for the nearest step at given distance
+            var steps = followerTargetPositionRecorder.Steps;
+            var targetStep = followerTargetPositionRecorder.Steps
+                .First(step => (targetPosition - step).sqrMagnitude < MaxDistance * MaxDistance);
+            if (targetStep == CurrentDestination)
+            {
+                return;
+            }
+            // found it! start animation, stopping the previous one if necessary
+            if (MovementCoroutine != null)
+            {
+                StopCoroutine(MovementCoroutine);
+            }
+            CurrentDestination = targetStep;
+            MovementCoroutine = StartCoroutine(MoveTo(targetStep));
         }
-        // stop previous animation if necessary
-        if (MovementCoroutine != null)
-        {
-            StopCoroutine(MovementCoroutine);
-        }
-        // start animation
-        MovementCoroutine = StartCoroutine(MoveTo(discardedStep));
     }
 
     private IEnumerator MoveTo(Vector2 discardedStep)
@@ -61,10 +83,12 @@ public class FollowerFollowTarget : MonoBehaviour
             {
                 break;
             }
+            var t = (Time.time - startTime) / (endTime - startTime);
+            Debug.Log($"lerping({t}) toward {endPosition}");
             transform.position = Vector3.Lerp(
                 startPosition,
                 endPosition,
-                (Time.time - startTime) / (endTime - startTime)
+                t
             );
             yield return null;
         }
@@ -74,6 +98,7 @@ public class FollowerFollowTarget : MonoBehaviour
 
         // we finished!
         MovementCoroutine = null;
+        CurrentDestination = Vector2.positiveInfinity;
         StopMoving.Invoke();
     }
 }
