@@ -37,7 +37,8 @@ jobs:
           git reset --hard
 
       # Cache
-      - uses: actions/cache@v2
+      - name: Cache unity library folder
+        uses: actions/cache@v2
         with:
           path: Library
           key: Library-${{ matrix.targetPlatform}}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
@@ -54,13 +55,15 @@ jobs:
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
 
-      - uses: actions/upload-artifact@v2
+      - name: Upload full build as artifact
+        uses: actions/upload-artifact@v2
         with:
           name: FullBuild-${{ matrix.targetPlatform }}
           path: build
 
       # Upload to itch.io page
-      - uses: manleydev/butler-publish-itchio-action@master
+      - name: Uploads to itch.io
+        uses: manleydev/butler-publish-itchio-action@master
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
           CHANNEL: ${{ matrix.channel }}
