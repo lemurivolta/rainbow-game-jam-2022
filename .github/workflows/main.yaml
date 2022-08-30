@@ -11,7 +11,7 @@ jobs:
             package: build/WebGL/WebGL
           - targetPlatform: StandaloneLinux64
             channel: linux
-            package: builld/StandaloneLinux64
+            package: build/StandaloneLinux64
     name: Build (WebGL) for ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
     steps:
