@@ -12,7 +12,7 @@ jobs:
           - targetPlatform: StandaloneLinux64
             channel: linux
             package: build/StandaloneLinux64
-    name: Build (WebGL) for ${{ matrix.targetPlatform }}
+    name: Build ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
     steps:
       # Checkout
@@ -35,6 +35,110 @@ jobs:
           git lfs pull
           git add .
           git reset --hard
+
+      # Cache
+      - name: Cache unity library folder
+        uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform}}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-${{ matrix.targetPlatform}}-
+            Library-
+
+      - name: Build project
+        uses: game-ci/unity-builder@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+
+      - name: Upload full build as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: FullBuild-${{ matrix.targetPlatform }}
+          path: build
+
+      # Upload to itch.io page
+      - name: Uploads to itch.io
+        uses: manleydev/butler-publish-itchio-action@master
+        env:
+          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+          CHANNEL: ${{ matrix.channel }}
+          ITCH_GAME: test-mattia-non-toccare
+          ITCH_USER: lopossum-sognante
+          PACKAGE: ${{ matrix.package }}
+
+  buildOnWindowsPlatform:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - targetPlatform: StandaloneWindows64
+            channel: windows
+            package: build/StandaloneWindows64
+    name: Build ${{ matrix.targetPlatform }}
+    runs-on: windows-2019
+    steps:
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
+
+      # Cache
+      - name: Cache unity library folder
+        uses: actions/cache@v2
+        with:
+          path: Library
+          key: Library-${{ matrix.targetPlatform}}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-${{ matrix.targetPlatform}}-
+            Library-
+
+      - name: Build project
+        uses: game-ci/unity-builder@v2
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: ${{ matrix.targetPlatform }}
+
+      - name: Upload full build as artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: FullBuild-${{ matrix.targetPlatform }}
+          path: build
+
+      # Upload to itch.io page
+      - name: Uploads to itch.io
+        uses: manleydev/butler-publish-itchio-action@master
+        env:
+          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+          CHANNEL: ${{ matrix.channel }}
+          ITCH_GAME: test-mattia-non-toccare
+          ITCH_USER: lopossum-sognante
+          PACKAGE: ${{ matrix.package }}
+
+  buildOnMacOSPlatform:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - targetPlatform: StandaloneOSX
+            channel: mac
+            package: build/StandaloneOSX
+    name: Build ${{ matrix.targetPlatform }}
+    runs-on: macos-latest
+    steps:
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          lfs: true
 
       # Cache
       - name: Cache unity library folder
