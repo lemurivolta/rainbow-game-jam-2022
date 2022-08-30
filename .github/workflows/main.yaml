@@ -51,10 +51,10 @@ jobs:
           targetPlatform: WebGL
 
       # Save build in artifacts
-      - uses: actions/upload-artifact@v2
-        with:
-          name: BuildWebGL
-          path: build/WebGL/WebGL
+      #- uses: actions/upload-artifact@v2
+      #  with:
+      #    name: BuildWebGL
+      #    path: build/WebGL/WebGL
 
       - uses: actions/upload-artifact@v2
         with:
@@ -62,10 +62,10 @@ jobs:
           path: build
 
       # Upload to itch.io page
-      - uses: manleydev/butler-publish-itchio-action@master
-        env:
-          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
-          CHANNEL: html
-          ITCH_GAME: test-mattia-non-toccare
-          ITCH_USER: lopossum-sognante
-          PACKAGE: build/WebGL/WebGL
+      #- uses: manleydev/butler-publish-itchio-action@master
+      #  env:
+      #    BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+      #    CHANNEL: html
+      #    ITCH_GAME: test-mattia-non-toccare
+      #    ITCH_USER: lopossum-sognante
+      #    PACKAGE: build/WebGL/WebGL
