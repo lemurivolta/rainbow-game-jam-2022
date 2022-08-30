@@ -14,8 +14,9 @@ GameObject:
   - component: {fileID: 6341511906888311699}
   - component: {fileID: 6341511906888311698}
   - component: {fileID: 6341511906888311697}
-  - component: {fileID: 6341511906888311696}
   - component: {fileID: 6341511906888311703}
+  - component: {fileID: 6341511906888311696}
+  - component: {fileID: 5460361685067767332}
   m_Layer: 0
   m_Name: Follower
   m_TagString: Untagged
@@ -149,21 +150,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinStepDistance: 0.001
   MaxStepsNumber: 40
-  StepDiscarded:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6341511906888311696}
-        m_TargetAssemblyTypeName: FollowerFollowTarget, Assembly-CSharp
-        m_MethodName: OnStepDiscarded
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+--- !u!114 &6341511906888311703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6341511906888311711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e07d1c0af6f27843bf2f6bcad63587f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6341511906888311696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,6 +172,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb0b4967c8925a54aa613b7f20a495f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StoppedMovingAndTolerance:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6341511906888311703}
+        m_TargetAssemblyTypeName: FollowerAnimationsHandler, Assembly-CSharp
+        m_MethodName: OnStopMoving
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  MaxDistance: 1
+  FrameTolerance: 15
+--- !u!114 &5460361685067767332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6341511906888311711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2dee9abec95ac46a890e838377be75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   StartMoving:
@@ -191,11 +218,23 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6341511906888311696}
+        m_TargetAssemblyTypeName: FollowerFollowTarget, Assembly-CSharp
+        m_MethodName: OnStartMoving
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   StopMoving:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6341511906888311703}
-        m_TargetAssemblyTypeName: FollowerAnimationsHandler, Assembly-CSharp
+      - m_Target: {fileID: 6341511906888311696}
+        m_TargetAssemblyTypeName: FollowerFollowTarget, Assembly-CSharp
         m_MethodName: OnStopMoving
         m_Mode: 1
         m_Arguments:
@@ -206,15 +245,3 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6341511906888311703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6341511906888311711}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e07d1c0af6f27843bf2f6bcad63587f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
