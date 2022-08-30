@@ -45,4 +45,13 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
             steps.RemoveAt(0);
         }
     }
+
+    private void OnDrawGizmos()
+    {
+        foreach (var step in steps)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawSphere(step, 0.1f);
+        }
+    }
 }

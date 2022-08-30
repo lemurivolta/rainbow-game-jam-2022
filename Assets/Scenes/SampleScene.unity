@@ -272,9 +272,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 0.22113821
     width: 1
-    height: 1
+    height: 0.55884147
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -9968,6 +9968,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2130732413
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2130732415}
+  - component: {fileID: 2130732414}
+  m_Layer: 0
+  m_Name: TweenHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2130732414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130732413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1619444bd43cc644397667b01b18b7ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2130732415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130732413}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.78154504, y: 1.8528368, z: -0.051252026}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5632364822634952379
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10037,8 +10081,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6341511906888311697, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
+      propertyPath: MaxStepsNumber
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 6341511906888311697, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
       propertyPath: MinStepDistance
-      value: 0.1
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 6341511906888311699, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
       propertyPath: Target
@@ -10050,11 +10098,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6341511906888311708, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.009776831
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6341511906888311708, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.6525445
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6341511906888311708, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
       propertyPath: m_LocalPosition.z

@@ -18,6 +18,6 @@ public class ScoutMovementHandler : MonoBehaviour
     public void OnMovement(InputAction.CallbackContext context)
     {
         var direction = context.ReadValue<Vector2>();
-        rigidBody2D.velocity = Speed * direction;
+        rigidBody2D.velocity = Speed * direction.normalized;
     }
 }

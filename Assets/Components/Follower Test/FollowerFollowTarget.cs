@@ -18,12 +18,7 @@ public class FollowerFollowTarget : MonoBehaviour
     [Tooltip("Invoked whenever the followers stops moving because it reached the target")]
     public UnityEvent StopMoving;
 
-    private Coroutine MovementCoroutine = null;
-
-    private Vector2? CurrentDestination = Vector2.positiveInfinity;
-
     private float speed;
-
     private FollowerTracker followerTracker;
 
     private FollowerTargetPositionRecorder followerTargetPositionRecorder;
@@ -31,11 +26,15 @@ public class FollowerFollowTarget : MonoBehaviour
     [Tooltip("Maximum distance allowed for the target, after which the follower starts moving")]
     public float MaxDistance = 1f;
 
+    [Tooltip("Number of frames to wait before declaring that the movement has actually stopped")]
+    public int FrameTolerance = 5;
+
     private void Start()
     {
+        // get components we'll reference during execution
         followerTargetPositionRecorder = GetComponent<FollowerTargetPositionRecorder>();
-        // copy the speed from the target
         followerTracker = GetComponent<FollowerTracker>();
+        // copy the speed from the target
         speed = followerTracker.Target.GetComponent<ScoutMovementHandler>().Speed;
     }
 
@@ -44,61 +43,103 @@ public class FollowerFollowTarget : MonoBehaviour
         // run follow animation if the target went too far
         var targetPosition = (Vector2)followerTracker.Target.transform.position;
         var myPosition = (Vector2)transform.position;
-        if ((targetPosition - myPosition).sqrMagnitude > MaxDistance * MaxDistance)
+        var sqrMaxDistance = MaxDistance * MaxDistance;
+        if ((targetPosition - myPosition).sqrMagnitude >= sqrMaxDistance)
         {
-            // look for the nearest step at given distance
+            // find the destination position
             var steps = followerTargetPositionRecorder.Steps;
-            var targetStep = followerTargetPositionRecorder.Steps
-                .First(step => (targetPosition - step).sqrMagnitude < MaxDistance * MaxDistance);
-            if (targetStep == CurrentDestination)
-            {
-                return;
-            }
-            // found it! start animation, stopping the previous one if necessary
-            if (MovementCoroutine != null)
-            {
-                StopCoroutine(MovementCoroutine);
-            }
-            CurrentDestination = targetStep;
-            MovementCoroutine = StartCoroutine(MoveTo(targetStep));
+            var targetStep = steps[0];
+            MoveTo(targetStep);
         }
     }
 
-    private IEnumerator MoveTo(Vector2 discardedStep)
+    #region movement coroutine
+
+    private Coroutine MovementCoroutine = null;
+
+    private float TimeStart = 0;
+    private Vector2 MovementStart = Vector2.positiveInfinity;
+    private Vector2 MovementEnd = Vector2.positiveInfinity;
+
+    private void MoveTo(Vector2 destination)
     {
-        // compute start and end data
-        var startPosition = transform.position;
-        var startTime = Time.time;
+        // nothing to do if the destination is our current value
+        if (MovementEnd == destination)
+        {
+            return;
+        }
+        StopDeclareMovementFinishedCoroutine();
+        // update movement parameters
+        MovementStart = MovementCoroutine == null ? transform.position : GetCurrentMovementValue();
+        MovementEnd = destination;
+        TimeStart = Time.time;
+        // start the coroutine if it was stopped
+        if (MovementCoroutine == null)
+        {
+            Debug.Log($"started at frame {Time.frameCount}");
+            MovementCoroutine = StartCoroutine(MoveTo());
+        }
+        // inform listeners of the movement
+        StartMoving.Invoke(MovementEnd - MovementStart);
+    }
 
-        Vector3 endPosition = discardedStep;
-        var endTime = startTime + (endPosition - startPosition).magnitude / speed;
+    private Vector2 GetCurrentMovementValue()
+    {
+        return MovementStart + (MovementEnd - MovementStart).normalized * (Time.time - TimeStart) * speed;
+    }
 
-        // inform listeners that we start moving
-        StartMoving.Invoke(endPosition - startPosition);
-
+    private IEnumerator MoveTo()
+    {
         // update position every frame
         for (; ; )
         {
-            if (Time.time >= endTime)
+            // check if we reached the end
+            var timeEnd = TimeStart + (MovementEnd - MovementStart).sqrMagnitude / speed;
+            if (Time.time >= timeEnd)
             {
                 break;
             }
-            var t = (Time.time - startTime) / (endTime - startTime);
-            Debug.Log($"lerping({t}) toward {endPosition}");
-            transform.position = Vector3.Lerp(
-                startPosition,
-                endPosition,
-                t
-            );
+            // if not, update the position and wait for a frame
+            transform.position = GetCurrentMovementValue();
             yield return null;
         }
 
-        // at the end, forcibly set the destination
-        transform.position = endPosition;
+        // at the end, forcibly set the end destination
+        transform.position = MovementEnd;
 
         // we finished!
         MovementCoroutine = null;
-        CurrentDestination = Vector2.positiveInfinity;
-        StopMoving.Invoke();
+        StartDeclareMovementFinishedCoroutine();
     }
+
+    private Coroutine DeclareMovementFinishedCoroutine = null;
+
+    private void StartDeclareMovementFinishedCoroutine()
+    {
+        StopDeclareMovementFinishedCoroutine();
+        DeclareMovementFinishedCoroutine = StartCoroutine(DeclareMovementFinished());
+    }
+
+    private void StopDeclareMovementFinishedCoroutine()
+    {
+        if (DeclareMovementFinishedCoroutine != null)
+        {
+            StopCoroutine(DeclareMovementFinishedCoroutine);
+            DeclareMovementFinishedCoroutine = null;
+        }
+    }
+
+    private IEnumerator DeclareMovementFinished()
+    {
+        var numFrames = Time.frameCount;
+        while (Time.frameCount < numFrames + FrameTolerance)
+        {
+            yield return null;
+        }
+        Debug.Log($"finished at frame {Time.frameCount}");
+        StopMoving.Invoke();
+        DeclareMovementFinishedCoroutine = null;
+    }
+
+    #endregion
 }
