@@ -271,10 +271,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.22113821
-    width: 1
-    height: 0.55884147
+    x: 0.06861199
+    y: 0
+    width: 0.8622503
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -10080,9 +10080,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6341511906888311696, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
+      propertyPath: FrameTolerance
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 6341511906888311697, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
       propertyPath: MaxStepsNumber
-      value: 40
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6341511906888311697, guid: f6f0121804aa6a5499ff63efadb1cf82, type: 3}
       propertyPath: MinStepDistance
