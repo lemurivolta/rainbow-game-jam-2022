@@ -58,7 +58,7 @@ jobs:
 
       - uses: actions/upload-artifact@v2
         with:
-          name: FullBuild
+          name: FullBuild-${{ matrix.targetPlatform }}
           path: build
 
       # Upload to itch.io page
