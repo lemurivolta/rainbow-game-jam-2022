@@ -95,4 +95,4 @@ jobs:
         run: |
           curl -JOL https://broth.itch.ovh/butler/darwin-amd64/LATEST/archive/default
           unzip butler-darwin-amd64.zip
-          ./butler push ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
+          ./butler push --ignore StandaloneOSX_BackUpThisFolder_ButDontShipItWithYourGame ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
