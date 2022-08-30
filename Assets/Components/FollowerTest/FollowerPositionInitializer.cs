@@ -11,7 +11,8 @@ public class FollowerPositionInitializer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        transform.position = GetComponent<FollowerTracker>().Target.transform.position;
+        transform.position = GetComponent<FollowerTracker>().Target.transform.position +
+            0.01f * Vector3.up;
     }
 
 }
