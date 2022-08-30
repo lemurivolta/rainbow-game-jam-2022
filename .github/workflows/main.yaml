@@ -9,11 +9,24 @@ jobs:
           - targetPlatform: WebGL
             channel: html
             package: build/WebGL/WebGL
+            platform: ubuntu-latest
           - targetPlatform: StandaloneLinux64
             channel: linux
             package: build/StandaloneLinux64
+            platform: ubuntu-latest
+          - targetPlatform: StandaloneWindows64
+            channel: windows
+            package: build/StandaloneWindows64
+            platform: windows-2019
+          - targetPlatform: StandaloneOSX
+            channel: mac
+            package: build/StandaloneOSX
+            platform: macos-latest
+    defaults:
+      run:
+        shell: bash
     name: Build ${{ matrix.targetPlatform }}
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.platform }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -58,57 +71,16 @@ jobs:
           name: FullBuild-${{ matrix.targetPlatform }}
           path: build
 
-      - name: Uploads to itch.io
-        uses: manleydev/butler-publish-itchio-action@master
+      - name: Upload build to itch.io (linux)
+        if: matrix.platform == 'ubuntu-latest'
         env:
-          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
-          CHANNEL: ${{ matrix.channel }}
-          ITCH_GAME: test-mattia-non-toccare
-          ITCH_USER: lopossum-sognante
-          PACKAGE: ${{ matrix.package }}
+          BUTLER_API_KEY: ${{ secrets.BUTLER_CREDENTIALS }}
+        run: |
+          curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-butler.sh" | sudo bash
+          butler push ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
 
-
-  buildOnWindowsPlatform:
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - targetPlatform: StandaloneWindows64
-            channel: windows
-            package: build/StandaloneWindows64
-    name: Build ${{ matrix.targetPlatform }}
-    runs-on: windows-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          lfs: true
-
-      - name: Cache unity library folder
-        uses: actions/cache@v2
-        with:
-          path: Library
-          key: Library-${{ matrix.targetPlatform}}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
-          restore-keys: |
-            Library-${{ matrix.targetPlatform}}-
-            Library-
-
-      - name: Build project
-        uses: game-ci/unity-builder@v2
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          targetPlatform: ${{ matrix.targetPlatform }}
-
-      - name: Upload full build as artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: FullBuild-${{ matrix.targetPlatform }}
-          path: build
-
-      - name: Upload build to itch.io
+      - name: Upload build to itch.io (windows)
+        if: matrix.platform == 'windows-2019'
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_CREDENTIALS }}
         run: |
@@ -116,52 +88,11 @@ jobs:
           butler push ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
         shell: cmd
 
-
-  buildOnMacOSPlatform:
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          - targetPlatform: StandaloneOSX
-            channel: mac
-            package: build/StandaloneOSX
-    name: Build ${{ matrix.targetPlatform }}
-    runs-on: macos-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-        with:
-          lfs: true
-
-      - name: Cache unity library folder
-        uses: actions/cache@v2
-        with:
-          path: Library
-          key: Library-${{ matrix.targetPlatform}}-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
-          restore-keys: |
-            Library-${{ matrix.targetPlatform}}-
-            Library-
-
-      - name: Build project
-        uses: game-ci/unity-builder@v2
-        env:
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-        with:
-          targetPlatform: ${{ matrix.targetPlatform }}
-
-      - name: Upload full build as artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: FullBuild-${{ matrix.targetPlatform }}
-          path: build
-
-      - name: Upload build to itch.io
+      - name: Upload build to itch.io (macos)
+        if: matrix.platform == 'macos-latest'
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_CREDENTIALS }}
         run: |
           curl -JOL https://broth.itch.ovh/butler/darwin-amd64/LATEST/archive/default
           unzip butler-darwin-amd64.zip
           ./butler push ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
-        shell: bash
