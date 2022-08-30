@@ -5,9 +5,13 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        targetPlatform:
-          - StandaloneLinux64
-          - WebGL
+        include:
+          - targetPlatform: WebGL
+            channel: html
+            package: build/WebGL/WebGL
+          - targetPlatform: StandaloneLinux64
+            channel: linux
+            package: builld/StandaloneLinux64
     name: Build (WebGL) for ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
     steps:
@@ -50,22 +54,16 @@ jobs:
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
 
-      # Save build in artifacts
-      #- uses: actions/upload-artifact@v2
-      #  with:
-      #    name: BuildWebGL
-      #    path: build/WebGL/WebGL
-
       - uses: actions/upload-artifact@v2
         with:
           name: FullBuild-${{ matrix.targetPlatform }}
           path: build
 
       # Upload to itch.io page
-      #- uses: manleydev/butler-publish-itchio-action@master
-      #  env:
-      #    BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
-      #    CHANNEL: html
-      #    ITCH_GAME: test-mattia-non-toccare
-      #    ITCH_USER: lopossum-sognante
-      #    PACKAGE: build/WebGL/WebGL
+      - uses: manleydev/butler-publish-itchio-action@master
+        env:
+          BUTLER_CREDENTIALS: ${{ secrets.BUTLER_CREDENTIALS }}
+          CHANNEL: ${{ matrix.channel }}
+          ITCH_GAME: test-mattia-non-toccare
+          ITCH_USER: lopossum-sognante
+          PACKAGE: ${{ matrix.package }}
