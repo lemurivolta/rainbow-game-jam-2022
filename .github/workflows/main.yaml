@@ -77,7 +77,7 @@ jobs:
           BUTLER_API_KEY: ${{ secrets.BUTLER_CREDENTIALS }}
         run: |
           curl "https://raw.githubusercontent.com/AnotherFoxGuy/ci-scripts/main/install-butler.sh" | sudo bash
-          butler push ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
+          butler push --ignore StandaloneLinux64_BackUpThisFolder_ButDontShipItWithYourGame --ignore StandaloneLinux64_BurstDebugInformation_DoNotShip "non-binary_BurstDebugInformation_DoNotShip" ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
 
       - name: Upload build to itch.io (windows)
         if: matrix.platform == 'windows-2019'
@@ -85,7 +85,7 @@ jobs:
           BUTLER_API_KEY: ${{ secrets.BUTLER_CREDENTIALS }}
         run: |
           choco install butler -y
-          butler push ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
+          butler push --ignore StandaloneWindows64_BackUpThisFolder_ButDontShipItWithYourGame --ignore StandaloneWindows64_BurstDebugInformation_DoNotShip ${{ matrix.package }} lopossum-sognante/test-mattia-non-toccare:${{ matrix.channel }}
         shell: cmd
 
       - name: Upload build to itch.io (macos)
