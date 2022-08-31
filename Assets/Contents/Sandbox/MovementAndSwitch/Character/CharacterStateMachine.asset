@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfc0cb6b07e68aa44abedb57b4545231, type: 3}
+  m_Name: CharacterStateMachine
+  m_EditorClassIdentifier: 
+  States:
+  - Name: ControlledByPlayer
+    StateHooks:
+    - {fileID: 11400000, guid: 04251a56a8684e5438ecb102daeb0622, type: 2}
+  - Name: Following
+    StateHooks:
+    - {fileID: 11400000, guid: 399ad844699f1f14d9bb35eb75593701, type: 2}
+  Transitions:
+  - Name: Switch
+    From: Following
+    To: ControlledByPlayer
+  - Name: Switch
+    From: ControlledByPlayer
+    To: Following

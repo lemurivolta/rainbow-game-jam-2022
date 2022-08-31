@@ -34,7 +34,7 @@ public class FollowerFollowTarget : MonoBehaviour
         followerTracker = GetComponent<FollowerTracker>();
         followerMove = GetComponent<FollowerMove>();
         // copy the speed from the target
-        speed = followerTracker.Target.GetComponent<ScoutMovementHandler>().Speed;
+        speed = followerTracker.Target.GetComponent<CharacterMovementHandler>().Speed;
     }
 
     private void Update()
