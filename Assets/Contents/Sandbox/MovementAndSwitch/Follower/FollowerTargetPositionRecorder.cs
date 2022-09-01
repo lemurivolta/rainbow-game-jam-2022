@@ -23,10 +23,23 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
 
     public IList<Vector2> Steps { get { return steps.AsReadOnly(); } }
 
-    // Start is called before the first frame update
-    void Start()
+    private void OnEnable()
     {
-        followerTracker = GetComponent<FollowerTracker>();
+        followerTracker = followerTracker != null ? followerTracker : GetComponent<FollowerTracker>();
+        // make a fake history of steps from our position to the target
+        for(var i = 0; i < MaxStepsNumber; i++)
+        {
+            steps.Add(Vector2.Lerp(
+                transform.position,
+                followerTracker.Target.transform.position,
+                (float)i / (MaxStepsNumber - 1)
+            ));
+        }
+    }
+
+    private void OnDisable()
+    {
+        steps.Clear();
     }
 
     // Update is called once per frame

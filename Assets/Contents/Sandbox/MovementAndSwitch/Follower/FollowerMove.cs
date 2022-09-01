@@ -49,6 +49,19 @@ public class FollowerMove : MonoBehaviour
     }
 
     /// <summary>
+    /// Stop all the currently ongoing movements.
+    /// </summary>
+    public void Stop()
+    {
+        if (MovementCoroutine != null)
+        {
+            StopCoroutine(MovementCoroutine);
+            MovementCoroutine = null;
+            StopMoving.Invoke();
+        }
+    }
+
+    /// <summary>
     /// The position at Time.time.
     /// </summary>
     private Vector2 PositionAtCurrentTime
@@ -78,7 +91,7 @@ public class FollowerMove : MonoBehaviour
             yield return null;
         }
 
-        // at the end, forcibly set the end destination to avoid rouding errors
+        // at the end, forcibly set the end destination to avoid rounding errors
         transform.position = EndPosition;
 
         // we finished!

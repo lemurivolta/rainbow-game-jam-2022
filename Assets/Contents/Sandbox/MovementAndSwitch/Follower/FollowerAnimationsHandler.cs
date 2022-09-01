@@ -13,7 +13,8 @@ public class FollowerAnimationsHandler : MonoBehaviour
 
     public void OnStartMoving(Vector2 direction)
     {
-        animator.SetFloat("Direction", direction.ToDirectionFloat());
+        animator.SetFloat("DirectionX", direction.x);
+        animator.SetFloat("DirectionY", direction.y);
         animator.SetBool("Walking", true);
     }
 
