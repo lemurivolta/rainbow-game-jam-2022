@@ -12,12 +12,37 @@ public class CharacterControlledBy : MonoBehaviour
 
     public Players Player;
 
+    private GameObject _Companion = null;
+
+    /// <summary>
+    /// The other character controlled by the same player.
+    /// </summary>
+    public GameObject Companion
+    {
+        get
+        {
+            if (_Companion != null) return _Companion;
+
+            var gameObjects = GameObject.FindGameObjectsWithTag("Player");
+            foreach (var gameObject in gameObjects)
+            {
+                if (gameObject.GetComponent<CharacterControlledBy>().Player == this.Player &&
+                    gameObject != this.gameObject)
+                {
+                    _Companion = gameObject;
+                    return _Companion;
+                }
+            }
+            throw new System.Exception("Cannot find companion of " + gameObject.name);
+        }
+    }
+
     public GameObject GetCompanion()
     {
         var gameObjects = GameObject.FindGameObjectsWithTag("Player");
-        foreach(var gameObject in gameObjects)
+        foreach (var gameObject in gameObjects)
         {
-            if(gameObject.GetComponent<CharacterControlledBy>().Player == this.Player &&
+            if (gameObject.GetComponent<CharacterControlledBy>().Player == this.Player &&
                 gameObject != this.gameObject)
             {
                 return gameObject;

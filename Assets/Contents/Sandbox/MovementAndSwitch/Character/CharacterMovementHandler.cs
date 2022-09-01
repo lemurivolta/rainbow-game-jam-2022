@@ -1,3 +1,4 @@
+using SimpleStateMachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,23 +9,38 @@ public class CharacterMovementHandler : MonoBehaviour
     [Tooltip("Speed of the character while moving")]
     public float Speed;
 
-    private Vector2 Velocity = Vector2.zero;
+    private Vector2 VelocityP1 = Vector2.zero;
+
+    private Vector2 VelocityP2 = Vector2.zero;
 
     private BoxCollider2D BoxCollider2D;
+
+    private CharacterControlledBy CharacterControlledBy;
 
     private void Start()
     {
         BoxCollider2D = GetComponent<BoxCollider2D>();
+        CharacterControlledBy = GetComponent<CharacterControlledBy>();
     }
 
     /// <summary>
-    /// Called by the input system to set a movement direction.
+    /// Called by the input system to set the movement of player 1.
     /// </summary>
     /// <param name="context">The input context.</param>
-    public void OnMovement(InputAction.CallbackContext context)
+    public void OnMovementP1(InputAction.CallbackContext context)
     {
         var direction = context.ReadValue<Vector2>();
-        Velocity = Speed * direction.normalized;
+        VelocityP1 = Speed * direction.normalized;
+    }
+
+    /// <summary>
+    /// Called by the input system to set the movement of player 2.
+    /// </summary>
+    /// <param name="context">The input context.</param>
+    public void OnMovementP2(InputAction.CallbackContext context)
+    {
+        var direction = context.ReadValue<Vector2>();
+        VelocityP2 = Speed * direction.normalized;
     }
 
     /// <summary>
@@ -32,7 +48,7 @@ public class CharacterMovementHandler : MonoBehaviour
     /// </summary>
     public void StopMovement()
     {
-        Velocity = Vector2.zero;
+        VelocityP2 = Vector2.zero;
     }
 
     /// <summary>
@@ -52,47 +68,29 @@ public class CharacterMovementHandler : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (Velocity.x == 0 && Velocity.y == 0)
+        // get the correct velocity according to which player controls us
+        var velocity = CharacterControlledBy.Player == CharacterControlledBy.Players.P1
+            ? VelocityP1
+            : VelocityP2;
+        // don't do anything if not moving
+        if (velocity.x == 0 && velocity.y == 0)
         {
-            // not moving, do nothing
             return;
         }
-        // check if we will collide with something else, trying all the directions
-        var delta = Time.fixedDeltaTime * Velocity;
-        Debug.Log($"Checking for base {delta}");
-        // try also skewed (projected) directions in order to "slide" against walls
+        // check if we will collide with something else, trying all the (projected) directions
+        var delta = Time.fixedDeltaTime * velocity;
         foreach (var rotation in TentativeRotations)
         {
             var actualDelta = RotateAndProject(rotation, delta);
-            Debug.Log($"Checking for {actualDelta}");
             var center = (Vector2)transform.position + BoxCollider2D.offset + actualDelta;
-            // we collide with the common objects and the other player
             var collider = Physics2D.OverlapBox(center, BoxCollider2D.size, 0, CollisionMask);
             if (collider == null)
             {
-                // no collision: apply movement and stop.
-                Debug.Log("Good!");
+                // no collision: apply movement and stop searching for a direction
                 transform.position += (Vector3)actualDelta;
                 break;
             }
         }
-    }
-
-    /// <summary>
-    /// Check if a collision happens when we move in a given direction.
-    /// </summary>
-    /// <param name="delta">The delta of movement to apply before checking.</param>
-    /// <returns>Whether the collision happens.</returns>
-    private bool Collides(Vector2 delta)
-    {
-        var center = (Vector2)transform.position + BoxCollider2D.offset + delta;
-        var collider = Physics2D.OverlapBox(center, BoxCollider2D.size, 0, CollisionMask);
-        if (collider != null)
-        {
-            // collision detected
-            return true;
-        }
-        return false;
     }
 
     /// <summary>

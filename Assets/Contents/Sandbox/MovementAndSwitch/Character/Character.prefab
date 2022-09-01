@@ -19,12 +19,9 @@ GameObject:
   - component: {fileID: 5594815815017140838}
   - component: {fileID: 5402811337432878353}
   - component: {fileID: 2056247752597001949}
-  - component: {fileID: 4783914801323060704}
-  - component: {fileID: 1248396990487274429}
   - component: {fileID: 693240651772864845}
-  - component: {fileID: 2341958136109802978}
-  - component: {fileID: 4853987174673488121}
   - component: {fileID: 639941356714927502}
+  - component: {fileID: 2389197504449970514}
   m_Layer: 3
   m_Name: Character
   m_TagString: Player
@@ -127,7 +124,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3903119584884876940}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -160,6 +157,177 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StateMachine: {fileID: 11400000, guid: 818d1e301464941498925973fcc95d24, type: 2}
   InitialStateName: 
+  Hooks:
+  - StateName: ControlledByPlayer
+    Enter:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5402811337432878353}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 934336133185989116}
+          m_TargetAssemblyTypeName: CharacterAnimationsHandler, Assembly-CSharp
+          m_MethodName: set_UseInput
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 2056247752597001949}
+          m_TargetAssemblyTypeName: CharacterSelectorHandler, Assembly-CSharp
+          m_MethodName: ShowSelector
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 1698085624232620087}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    Exit:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 5402811337432878353}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 934336133185989116}
+          m_TargetAssemblyTypeName: CharacterAnimationsHandler, Assembly-CSharp
+          m_MethodName: set_UseInput
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2056247752597001949}
+          m_TargetAssemblyTypeName: CharacterSelectorHandler, Assembly-CSharp
+          m_MethodName: ShowSelector
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1698085624232620087}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - StateName: Following
+    Enter:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 693240651772864845}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 2389197504449970514}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    Exit:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 693240651772864845}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2389197504449970514}
+          m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 639941356714927502}
+          m_TargetAssemblyTypeName: FollowerMove, Assembly-CSharp
+          m_MethodName: Stop
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!114 &948477122543488537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,10 +356,58 @@ MonoBehaviour:
   InputActionAsset: {fileID: -944628639613478452, guid: b6feb20f8f3613342956668a7dcb8435, type: 3}
   MovementP1:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5402811337432878353}
+        m_TargetAssemblyTypeName: CharacterMovementHandler, Assembly-CSharp
+        m_MethodName: OnMovementP1
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 934336133185989116}
+        m_TargetAssemblyTypeName: CharacterAnimationsHandler, Assembly-CSharp
+        m_MethodName: OnMovementP1
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   MovementP2:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5402811337432878353}
+        m_TargetAssemblyTypeName: CharacterMovementHandler, Assembly-CSharp
+        m_MethodName: OnMovementP2
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 934336133185989116}
+        m_TargetAssemblyTypeName: CharacterAnimationsHandler, Assembly-CSharp
+        m_MethodName: OnMovementP2
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   SwitchCharactersP1:
     m_PersistentCalls:
       m_Calls:
@@ -253,7 +469,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3903119584884876940}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 14e1bb5cd7729ed488a4f6ca91ed19f3, type: 3}
   m_Name: 
@@ -262,12 +478,6 @@ MonoBehaviour:
   CollisionMask:
     serializedVersion: 2
     m_Bits: 1
-  CollisionMaskP1:
-    serializedVersion: 2
-    m_Bits: 8
-  CollisionMaskP2:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!114 &2056247752597001949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,31 +491,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Selector: {fileID: 4976138183133875467}
---- !u!114 &4783914801323060704
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903119584884876940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26d8fa0722c4e3948b1913ec7a8f2e6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Target: {fileID: 0}
---- !u!114 &1248396990487274429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903119584884876940}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f100fa7849a5c2d48b4ede80cdb8d394, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &693240651772864845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,47 +505,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MinStepDistance: 0.01
   MaxStepsNumber: 10
---- !u!114 &2341958136109802978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903119584884876940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e07d1c0af6f27843bf2f6bcad63587f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &4853987174673488121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903119584884876940}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb0b4967c8925a54aa613b7f20a495f4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  StoppedMovingAndTolerance:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2341958136109802978}
-        m_TargetAssemblyTypeName: FollowerAnimationsHandler, Assembly-CSharp
-        m_MethodName: OnStopMoving
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  MaxDistance: 1
-  FrameTolerance: 10
 --- !u!114 &639941356714927502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,9 +520,9 @@ MonoBehaviour:
   StartMoving:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2341958136109802978}
-        m_TargetAssemblyTypeName: FollowerAnimationsHandler, Assembly-CSharp
-        m_MethodName: OnStartMoving
+      - m_Target: {fileID: 934336133185989116}
+        m_TargetAssemblyTypeName: CharacterAnimationsHandler, Assembly-CSharp
+        m_MethodName: SetMovementDirection
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -388,7 +532,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 4853987174673488121}
+      - m_Target: {fileID: 2389197504449970514}
         m_TargetAssemblyTypeName: FollowerFollowTarget, Assembly-CSharp
         m_MethodName: OnStartMoving
         m_Mode: 1
@@ -403,7 +547,7 @@ MonoBehaviour:
   StopMoving:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4853987174673488121}
+      - m_Target: {fileID: 2389197504449970514}
         m_TargetAssemblyTypeName: FollowerFollowTarget, Assembly-CSharp
         m_MethodName: OnStopMoving
         m_Mode: 1
@@ -415,6 +559,35 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2389197504449970514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903119584884876940}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb0b4967c8925a54aa613b7f20a495f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StoppedMovingAndTolerance:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 934336133185989116}
+        m_TargetAssemblyTypeName: CharacterAnimationsHandler, Assembly-CSharp
+        m_MethodName: StopMovement
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  MaxDistance: 1
+  FrameTolerance: 15
 --- !u!1 &4976138183133875467
 GameObject:
   m_ObjectHideFlags: 0

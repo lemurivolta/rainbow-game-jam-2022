@@ -29,7 +29,7 @@ public class FollowerMove : MonoBehaviour
     /// <param name="speed">The speed to reach the destination.</param>
     public void MoveTo(Vector2 destination, float speed)
     {
-        // nothing to do if the destination is our current value
+        // if no movement parameter has changed, keep doing what we're doing
         if (EndPosition == destination && Speed == speed)
         {
             return;
@@ -39,7 +39,7 @@ public class FollowerMove : MonoBehaviour
         EndPosition = destination;
         StartTime = Time.time;
         Speed = speed;
-        // start the coroutine if it was stopped
+        // otherwise, start the coroutine if it was stopped
         if (MovementCoroutine == null)
         {
             MovementCoroutine = StartCoroutine(MoveTo());

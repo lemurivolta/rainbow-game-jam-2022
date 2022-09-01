@@ -8,15 +8,6 @@ namespace SimpleStateMachine
     public class StateMachine : ScriptableObject
     {
         [System.Serializable]
-        public struct State
-        {
-            public string Name;
-            public StateHooks[] StateHooks;
-        }
-
-        public State[] States;
-
-        [System.Serializable]
         public struct Transition
         {
             public string Name;

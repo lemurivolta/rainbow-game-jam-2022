@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace SimpleStateMachine
 {
@@ -15,10 +16,69 @@ namespace SimpleStateMachine
 
         private string _CurrentStateName;
 
-        private void OnEnable()
+        public string CurrentStateName { get => _CurrentStateName; }
+
+        /// <summary>
+        /// Possible phases for a hook.
+        /// </summary>
+        public enum HookPhase
+        {
+            /// <summary>
+            /// Enter happens on the initial state at state machine initialization,
+            /// or at the end of a successful transition.
+            /// </summary>
+            Enter,
+            /// <summary>
+            /// Exit happens at the beginning of a successful transition.
+            /// </summary>
+            Exit
+        }
+
+        /// <summary>
+        /// Description of a hook event.
+        /// </summary>
+        public class HookEventDescription
+        {
+            /// <summary>
+            /// Phase this hook has been called on.
+            /// </summary>
+            public HookPhase Phase;
+            /// <summary>
+            /// Starting state of the transition.
+            /// </summary>
+            public string FromStateName;
+            /// <summary>
+            /// Final state of the transition.
+            /// </summary>
+            public string ToStateName;
+        }
+
+        /// <summary>
+        /// A hook, used to connect events to the state machine.
+        /// </summary>
+        [System.Serializable]
+        public class Hook {
+            [Tooltip("Name of the state this hook is relative to.")]
+            public string StateName;
+            [Tooltip("Event called when this state is entered (initial state at initialization included).")]
+            public UnityEvent<HookEventDescription> Enter;
+            [Tooltip("Event called when this state is exited.")]
+            public UnityEvent<HookEventDescription> Exit;
+        }
+
+        [Tooltip("All the hooks")]
+        public Hook[] Hooks;
+
+        private void Start()
         {
             _CurrentStateName = InitialStateName;
-            ForEachCurrentStateHooks(h => h.OnEnter(this));
+            var description = new HookEventDescription()
+            {
+                Phase = HookPhase.Enter,
+                FromStateName = null,
+                ToStateName = InitialStateName
+            };
+            ForEachHook(h => h.Enter.Invoke(description));
         }
 
         /// <summary>
@@ -33,9 +93,16 @@ namespace SimpleStateMachine
                 if(transition.Name == transitionName &&
                     transition.From == _CurrentStateName)
                 {
-                    ForEachCurrentStateHooks(h => h.OnExit(this));
-                    _CurrentStateName = transition.To;
-                    ForEachCurrentStateHooks(h => h.OnEnter(this));
+                    var description = new HookEventDescription()
+                    {
+                        Phase = HookPhase.Exit,
+                        FromStateName = _CurrentStateName,
+                        ToStateName = transition.To
+                    };
+                    ForEachHook(h => h.Exit.Invoke(description));
+                    _CurrentStateName = description.ToStateName;
+                    description.Phase = HookPhase.Enter;
+                    ForEachHook(h => h.Enter.Invoke(description));
                     return true;
                 }
             }
@@ -43,39 +110,16 @@ namespace SimpleStateMachine
         }
 
         /// <summary>
-        /// Get a state from its name.
+        /// Calls an action for every hook found for the current state
         /// </summary>
-        /// <param name="name">Name of the state to look for in the state machine.</param>
-        /// <returns>The state.</returns>
-        /// <exception cref="System.Exception">If no state could be found with given name.</exception>
-        private StateMachine.State GetStateFromName(string name)
+        /// <param name="action">The action to call.</param>
+        public void ForEachHook(System.Action<Hook> action)
         {
-            foreach (var state in StateMachine.States)
+            foreach(var hook in Hooks)
             {
-                if (state.Name == name)
+                if(hook.StateName == _CurrentStateName)
                 {
-                    return state;
-                }
-            }
-            throw new System.Exception("Cannot find state " + name);
-        }
-
-        /// <summary>
-        /// Call an action for every hook of the current state.
-        /// Exceptions are logged as errors.
-        /// </summary>
-        /// <param name="action">The action to call on every hook of the current state.</param>
-        private void ForEachCurrentStateHooks(System.Action<StateHooks> action)
-        {
-            foreach (var h in GetStateFromName(_CurrentStateName).StateHooks)
-            {
-                try
-                {
-                    action(h);
-                }
-                catch (System.Exception e)
-                {
-                    Debug.LogError(e.Message + "\n" + e.StackTrace, this);
+                    action(hook);
                 }
             }
         }

@@ -8,7 +8,7 @@ using UnityEngine.Events;
 /// It keeps only a set amount of positions with a given minimum distance between them.
 /// Notifies through events when we're starting to discard older positions.
 /// </summary>
-[RequireComponent(typeof(FollowerTracker))]
+[RequireComponent(typeof(CharacterControlledBy))]
 public class FollowerTargetPositionRecorder : MonoBehaviour
 {
     [Tooltip("Minimum distance the target has to walk before a new step is recorded")]
@@ -19,19 +19,19 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
 
     private List<Vector2> steps = new();
 
-    private FollowerTracker followerTracker;
-
     public IList<Vector2> Steps { get { return steps.AsReadOnly(); } }
+
+    private CharacterControlledBy CharacterControlledBy;
 
     private void OnEnable()
     {
-        followerTracker = followerTracker != null ? followerTracker : GetComponent<FollowerTracker>();
+        CharacterControlledBy = CharacterControlledBy != null ? CharacterControlledBy : GetComponent<CharacterControlledBy>();
         // make a fake history of steps from our position to the target
         for(var i = 0; i < MaxStepsNumber; i++)
         {
             steps.Add(Vector2.Lerp(
                 transform.position,
-                followerTracker.Target.transform.position,
+                CharacterControlledBy.Companion.transform.position,
                 (float)i / (MaxStepsNumber - 1)
             ));
         }
@@ -46,7 +46,7 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
     void Update()
     {
         // adds a step only if we have no steps, or if the target has walked far enough
-        Vector2 newPosition = followerTracker.Target.transform.position;
+        Vector2 newPosition = CharacterControlledBy.Companion.transform.position;
         if (steps.Count == 0 || (steps[steps.Count - 1] - newPosition).sqrMagnitude > MinStepDistance)
         {
             steps.Add(newPosition);

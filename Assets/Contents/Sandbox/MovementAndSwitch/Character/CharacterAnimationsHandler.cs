@@ -1,25 +1,53 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class CharacterAnimationsHandler : MonoBehaviour
 {
-    private Animator animator;
+    private Animator Animator;
+
+    private CharacterControlledBy CharacterControlledBy;
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        Animator = GetComponent<Animator>();
+        CharacterControlledBy = GetComponent<CharacterControlledBy>();
     }
 
-    public void OnMovement(InputAction.CallbackContext context)
+    public bool UseInput { get; set; } = false;
+
+    public void OnMovementP1(InputAction.CallbackContext context)
     {
-        var direction = context.ReadValue<Vector2>();
+        OnInputMovement(context, CharacterControlledBy.Players.P1);
+    }
+
+    public void OnMovementP2(InputAction.CallbackContext context)
+    {
+        OnInputMovement(context, CharacterControlledBy.Players.P2);
+    }
+
+    private void OnInputMovement(InputAction.CallbackContext context, CharacterControlledBy.Players player)
+    {
+        if (UseInput && CharacterControlledBy.Player == player)
+        {
+            SetMovementDirection(context.ReadValue<Vector2>());
+        }
+    }
+
+    public void SetMovementDirection(Vector2 direction)
+    {
         var walking = !Mathf.Approximately(direction.x, 0) ||
             !Mathf.Approximately(direction.y, 0);
         if (walking)
         {
-            animator.SetFloat("DirectionX", direction.x);
-            animator.SetFloat("DirectionY", direction.y);
+            Animator.SetFloat("DirectionX", direction.x);
+            Animator.SetFloat("DirectionY", direction.y);
         }
-        animator.SetBool("Walking", walking);
+        Animator.SetBool("Walking", walking);
+    }
+
+    public void StopMovement()
+    {
+        SetMovementDirection(Vector2.zero);
     }
 }

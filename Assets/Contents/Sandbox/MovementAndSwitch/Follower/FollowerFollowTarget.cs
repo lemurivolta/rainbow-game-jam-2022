@@ -9,7 +9,7 @@ using UnityEngine.Events;
 /// Component that follows the target, leveraging the target step tracking of FollowerTargetPositionRecorder,
 /// and the ability to move of FollowerMove.
 /// </summary>
-[RequireComponent(typeof(FollowerTracker))]
+[RequireComponent(typeof(CharacterControlledBy))]
 [RequireComponent(typeof(FollowerTargetPositionRecorder))]
 [RequireComponent(typeof(FollowerMove))]
 public class FollowerFollowTarget : MonoBehaviour
@@ -17,12 +17,13 @@ public class FollowerFollowTarget : MonoBehaviour
     [Tooltip("Invoked whenever the followers stops moving because it reached the target, and the given tolerance in frames have been considered")]
     public UnityEvent StoppedMovingAndTolerance;
 
-    private float speed;
-    private FollowerTracker followerTracker;
+    private float Speed;
 
-    private FollowerTargetPositionRecorder followerTargetPositionRecorder;
+    private CharacterControlledBy CharacterControlledBy;
 
-    private FollowerMove followerMove;
+    private FollowerTargetPositionRecorder FollowerTargetPositionRecorder;
+
+    private FollowerMove FollowerMove;
 
     [Tooltip("Maximum distance allowed for the target, after which the follower starts moving")]
     public float MaxDistance = 1f;
@@ -30,26 +31,26 @@ public class FollowerFollowTarget : MonoBehaviour
     private void Start()
     {
         // get components we'll reference during execution
-        followerTargetPositionRecorder = GetComponent<FollowerTargetPositionRecorder>();
-        followerTracker = GetComponent<FollowerTracker>();
-        followerMove = GetComponent<FollowerMove>();
+        FollowerTargetPositionRecorder = GetComponent<FollowerTargetPositionRecorder>();
+        CharacterControlledBy = GetComponent<CharacterControlledBy>();
+        FollowerMove = GetComponent<FollowerMove>();
         // copy the speed from the target
-        speed = followerTracker.Target.GetComponent<CharacterMovementHandler>().Speed;
+        Speed = CharacterControlledBy.Companion.GetComponent<CharacterMovementHandler>().Speed;
     }
 
     private void Update()
     {
         // run follow animation if the target went too far
-        var targetPosition = (Vector2)followerTracker.Target.transform.position;
+        var targetPosition = (Vector2)CharacterControlledBy.Companion.transform.position;
         var myPosition = (Vector2)transform.position;
         var sqrMaxDistance = MaxDistance * MaxDistance;
         if ((targetPosition - myPosition).sqrMagnitude >= sqrMaxDistance)
         {
             // find the destination position
-            var steps = followerTargetPositionRecorder.Steps;
+            var steps = FollowerTargetPositionRecorder.Steps;
             var destination = steps[0];
             // start the movement
-            followerMove.MoveTo(destination, speed);
+            FollowerMove.MoveTo(destination, Speed);
         }
     }
 
