@@ -17,6 +17,10 @@ public class CharacterInputHandler : MonoBehaviour
 
     public UnityEvent<InputAction.CallbackContext> SwitchCharactersP2;
 
+    public UnityEvent<InputAction.CallbackContext> ReleaseSwitchCharactersP1;
+
+    public UnityEvent<InputAction.CallbackContext> ReleaseSwitchCharactersP2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,6 +41,12 @@ public class CharacterInputHandler : MonoBehaviour
 
         InputActionAsset.FindAction("SwitchCharactersP2").performed +=
             SwitchCharactersP2.Invoke;
+
+        InputActionAsset.FindAction("ReleaseSwitchCharactersP1").performed +=
+            ReleaseSwitchCharactersP1.Invoke;
+
+        InputActionAsset.FindAction("ReleaseSwitchCharactersP2").performed +=
+            ReleaseSwitchCharactersP2.Invoke;
     }
 
     // TODO: unregister
