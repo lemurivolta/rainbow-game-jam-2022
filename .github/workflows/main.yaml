@@ -35,10 +35,13 @@ jobs:
     steps:
       - name: Get the version
         id: get_version
-        run: echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
+        run: |
+          echo "Github ref is $GITHUB_REF"
+          echo "Cut github ref is $(echo $GITHUB_REF | cut -d / -f 3)"
+          echo ::set-output name=VERSION::$(echo $GITHUB_REF | cut -d / -f 3)
 
       - name: Write tag name
-        run: echo ${{ steps.tag.outputs.result }}
+        run: echo ${{ steps.get_version.outputs.VERSION }}
 
       - name: Checkout repository
         uses: actions/checkout@v2
