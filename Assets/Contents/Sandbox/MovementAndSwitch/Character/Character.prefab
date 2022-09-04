@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3903119584884876941}
   - component: {fileID: 1698085624232620087}
   - component: {fileID: 7868759658486953986}
+  - component: {fileID: 4259835647172206616}
   - component: {fileID: 948477122543488537}
   - component: {fileID: 6045868279775346323}
   - component: {fileID: 7584115163060991042}
@@ -251,6 +252,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: -944628639613478452, guid: b6feb20f8f3613342956668a7dcb8435, type: 3}
+          m_TargetAssemblyTypeName: UnityEngine.InputSystem.InputActionAsset, Unity.InputSystem
+          m_MethodName: Enable
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
     Exit:
       m_PersistentCalls:
         m_Calls:
@@ -338,6 +351,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
+        - m_Target: {fileID: -944628639613478452, guid: b6feb20f8f3613342956668a7dcb8435, type: 3}
+          m_TargetAssemblyTypeName: UnityEngine.InputSystem.InputActionAsset, Unity.InputSystem
+          m_MethodName: Disable
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
   - StateName: Following
     Enter:
       m_PersistentCalls:
@@ -405,6 +430,19 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &4259835647172206616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3903119584884876940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffde9a879f6572947a57cd0dd853c020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Duration: 0.3
 --- !u!114 &948477122543488537
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -463,6 +501,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 948477122543488537}
         m_TargetAssemblyTypeName: CharacterControlledBy, Assembly-CSharp
+        m_MethodName: OnExchangePerformed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4259835647172206616}
+        m_TargetAssemblyTypeName: ExchangeAnimation, Assembly-CSharp
         m_MethodName: OnExchangePerformed
         m_Mode: 1
         m_Arguments:
@@ -965,7 +1015,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 842a4e786a95ee940a25a903bd6536e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ExchangeEnabledEvent: {fileID: 11400000, guid: 62809c608cf0bd34db9808fd84641973, type: 2}
+  ExchangeEnabled: {fileID: 11400000, guid: 784da84f5d6908946b1906a72f7bbf3c, type: 2}
+  BlockingMask:
+    serializedVersion: 2
+    m_Bits: 1
 --- !u!1 &7938997469281491430
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,15 +7,27 @@ public class ExchangeVisibility : MonoBehaviour
     public float ReferenceWidth = 1.2f;
 
     private SpriteRenderer SpriteRenderer;
+    private bool SpriteRendererEnabled = false;
 
     private void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
+        UpdateVisibility();
     }
+
     public void ChangeExchangeVisibility(bool visible)
     {
-        SpriteRenderer.enabled = visible;
-        UpdatePositionAndSize();
+        SpriteRendererEnabled = visible;
+        UpdateVisibility();
+    }
+
+    private void UpdateVisibility()
+    {
+        if (SpriteRenderer != null)
+        {
+            SpriteRenderer.enabled = SpriteRendererEnabled;
+            UpdatePositionAndSize();
+        }
     }
 
     private void Update()
