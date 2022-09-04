@@ -5,7 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Contents/Sandbox/MovementAndSwitch/MovementAndSwitch.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Contents/Sandbox/Interactions/InteractionsSandbox.unity
+    guid: 038e27065f0280545aff488ebce85d80
   m_configObjects: {}

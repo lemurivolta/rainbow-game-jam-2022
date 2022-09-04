@@ -12,9 +12,9 @@ TagManager:
   - Water
   - UI
   - Exchange
-  - 
-  - 
-  - 
+  - InteractableTriggers
+  - Camera
+  - EnemySight
   - 
   - 
   - 

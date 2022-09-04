@@ -194,7 +194,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a533f2d6da8a0e4dae7cf1c46f01182, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player1KeyBindings: {fileID: 11400000, guid: 82fc961c79ce17d4eb926ce3774b7103, type: 2}
+  Player2KeyBindings: {fileID: 11400000, guid: 6bfab2d0459811f4ba69cab6dd09c4fa, type: 2}
   InputActionAsset: {fileID: -944628639613478452, guid: b6feb20f8f3613342956668a7dcb8435, type: 3}
+  InputEnabled: 1
   MovementP1:
     m_PersistentCalls:
       m_Calls: []
@@ -261,6 +264,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  ActionP1:
+    m_PersistentCalls:
+      m_Calls: []
+  ActionP2:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8152585954779344352
 GameObject:
   m_ObjectHideFlags: 0

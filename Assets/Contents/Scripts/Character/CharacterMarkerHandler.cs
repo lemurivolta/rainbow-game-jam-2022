@@ -6,9 +6,9 @@ public class CharacterMarkerHandler : MonoBehaviour
 {
     private bool IsFollowing = true;
 
-    private CharacterControlledBy.Players ThisPlayer;
+    private CharacterInfo.Players ThisPlayer;
 
-    public CharacterControlledBy.Players Player;
+    public CharacterInfo.Players Player;
 
     private SpriteRenderer SpriteRenderer;
 
@@ -23,7 +23,7 @@ public class CharacterMarkerHandler : MonoBehaviour
         UpdateMarker();
     }
 
-    public void OnPlayerChanged(CharacterControlledBy.Players thisPlayer)
+    public void OnPlayerChanged(CharacterInfo.Players thisPlayer)
     {
         ThisPlayer = thisPlayer;
         UpdateMarker();

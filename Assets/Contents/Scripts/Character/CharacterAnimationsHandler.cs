@@ -6,31 +6,31 @@ public class CharacterAnimationsHandler : MonoBehaviour
 {
     private Animator Animator;
 
-    private CharacterControlledBy CharacterControlledBy;
+    private CharacterInfo CharacterControlledBy;
 
     private void Start()
     {
         Animator = GetComponent<Animator>();
-        CharacterControlledBy = GetComponent<CharacterControlledBy>();
+        CharacterControlledBy = GetComponent<CharacterInfo>();
     }
 
     public bool UseInput { get; set; } = false;
 
-    public void OnMovementP1(InputAction.CallbackContext context)
+    public void OnMovementP1(Vector2 direction)
     {
-        OnInputMovement(context, CharacterControlledBy.Players.P1);
+        OnInputMovement(direction, CharacterInfo.Players.P1);
     }
 
-    public void OnMovementP2(InputAction.CallbackContext context)
+    public void OnMovementP2(Vector2 direction)
     {
-        OnInputMovement(context, CharacterControlledBy.Players.P2);
+        OnInputMovement(direction, CharacterInfo.Players.P2);
     }
 
-    private void OnInputMovement(InputAction.CallbackContext context, CharacterControlledBy.Players player)
+    private void OnInputMovement(Vector2 direction, CharacterInfo.Players player)
     {
         if (UseInput && CharacterControlledBy.Player == player)
         {
-            SetMovementDirection(context.ReadValue<Vector2>());
+            SetMovementDirection(direction);
         }
     }
 

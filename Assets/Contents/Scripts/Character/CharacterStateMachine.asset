@@ -25,3 +25,9 @@ MonoBehaviour:
   - Name: ExchangeFinished
     From: ControlledByPlayerExchanging
     To: ControlledByPlayer
+  - Name: Exchange
+    From: Following
+    To: FollowingExchanging
+  - Name: ExchangeFinished
+    From: FollowingExchanging
+    To: Following

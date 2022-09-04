@@ -9,7 +9,7 @@ using UnityEngine.Events;
 /// Component that follows the target, leveraging the target step tracking of FollowerTargetPositionRecorder,
 /// and the ability to move of FollowerMove.
 /// </summary>
-[RequireComponent(typeof(CharacterControlledBy))]
+[RequireComponent(typeof(CharacterInfo))]
 [RequireComponent(typeof(FollowerTargetPositionRecorder))]
 [RequireComponent(typeof(FollowerMove))]
 public class FollowerFollowTarget : MonoBehaviour
@@ -19,7 +19,7 @@ public class FollowerFollowTarget : MonoBehaviour
 
     private float Speed;
 
-    private CharacterControlledBy CharacterControlledBy;
+    private CharacterInfo CharacterControlledBy;
 
     private FollowerTargetPositionRecorder FollowerTargetPositionRecorder;
 
@@ -32,7 +32,7 @@ public class FollowerFollowTarget : MonoBehaviour
     {
         // get components we'll reference during execution
         FollowerTargetPositionRecorder = GetComponent<FollowerTargetPositionRecorder>();
-        CharacterControlledBy = GetComponent<CharacterControlledBy>();
+        CharacterControlledBy = GetComponent<CharacterInfo>();
         FollowerMove = GetComponent<FollowerMove>();
         // copy the speed from the target
         Speed = CharacterControlledBy.Companion.GetComponent<CharacterMovementHandler>().Speed;

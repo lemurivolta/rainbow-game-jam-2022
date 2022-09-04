@@ -43,11 +43,11 @@ public class ExchangeVisibility : MonoBehaviour
         }
         // find he root transforms of the two main characters
         Transform p1 = null, p2 = null;
-        foreach(var ccb in CharacterControlledBy.AllCharacterControlledBy)
+        foreach(var ccb in CharacterInfo.AllCharacterControlledBy)
         {
             if(!ccb.IsFollower)
             {
-                if(ccb.Player == CharacterControlledBy.Players.P1)
+                if(ccb.Player == CharacterInfo.Players.P1)
                 {
                     p1 = ccb.transform;
                 } else

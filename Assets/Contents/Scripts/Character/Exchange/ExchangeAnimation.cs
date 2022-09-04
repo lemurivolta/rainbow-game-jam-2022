@@ -1,28 +1,32 @@
 using System.Collections;
-using System.Collections.Generic;
+using UnityAtoms.BaseAtoms;
 using UnityEngine;
 
 public class ExchangeAnimation : MonoBehaviour
 {
-    private CharacterControlledBy CharacterControlledBy;
+    private CharacterInfo CharacterInfo;
+
+    public VoidEvent ExchangeAnimationFinished;
 
     public float Duration = 1f;
 
     private void Start()
     {
-        CharacterControlledBy = GetComponent<CharacterControlledBy>();
+        CharacterInfo = GetComponent<CharacterInfo>();
     }
 
     public void OnExchangePerformed()
     {
-        if (!CharacterControlledBy.IsFollower)
+        if (!CharacterInfo.IsFollower)
         {
-            Destination = CharacterControlledBy.Companion.transform.position;
+            Destination = CharacterInfo.Correspondent.transform.position;
             StartCoroutine(StartExchangeAnimation());
         }
     }
 
     private Vector3 Destination;
+
+    private static int NumAnimationsFinished = 0;
 
     private IEnumerator StartExchangeAnimation()
     {
@@ -44,5 +48,12 @@ public class ExchangeAnimation : MonoBehaviour
             );
         }
         transform.position = Destination;
+        // there are always 2 exchange animations finishing together
+        NumAnimationsFinished++;
+        if (NumAnimationsFinished == 2)
+        {
+            NumAnimationsFinished = 0;
+            ExchangeAnimationFinished.Raise();
+        }
     }
 }

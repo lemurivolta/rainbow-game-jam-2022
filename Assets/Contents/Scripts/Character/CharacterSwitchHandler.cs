@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class CharacterSwitchHandler : MonoBehaviour
 {
-    private CharacterControlledBy characterControlledBy;
+    private CharacterInfo characterControlledBy;
     private StateMachineRunner stateMachineRunner;
     private bool inExchangeDistance;
 
     private void Start()
     {
-        characterControlledBy = GetComponent<CharacterControlledBy>();
+        characterControlledBy = GetComponent<CharacterInfo>();
         stateMachineRunner = GetComponent<StateMachineRunner>();
     }
 
@@ -22,7 +22,7 @@ public class CharacterSwitchHandler : MonoBehaviour
 
     public void OnSwitchCharactersP1()
     {
-        if(characterControlledBy.Player == CharacterControlledBy.Players.P1 &&
+        if(characterControlledBy.Player == CharacterInfo.Players.P1 &&
             !inExchangeDistance)
         {
             Switch();
@@ -31,7 +31,7 @@ public class CharacterSwitchHandler : MonoBehaviour
 
     public void OnSwitchCharactersP2()
     {
-        if (characterControlledBy.Player == CharacterControlledBy.Players.P2 &&
+        if (characterControlledBy.Player == CharacterInfo.Players.P2 &&
             !inExchangeDistance)
         {
             Switch();

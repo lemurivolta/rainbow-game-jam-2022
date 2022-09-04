@@ -15,21 +15,20 @@ public class CharacterMovementHandler : MonoBehaviour
 
     private BoxCollider2D BoxCollider2D;
 
-    private CharacterControlledBy CharacterControlledBy;
+    private CharacterInfo CharacterControlledBy;
 
     private void Start()
     {
         BoxCollider2D = GetComponent<BoxCollider2D>();
-        CharacterControlledBy = GetComponent<CharacterControlledBy>();
+        CharacterControlledBy = GetComponent<CharacterInfo>();
     }
 
     /// <summary>
     /// Called by the input system to set the movement of player 1.
     /// </summary>
     /// <param name="context">The input context.</param>
-    public void OnMovementP1(InputAction.CallbackContext context)
+    public void OnMovementP1(Vector2 direction)
     {
-        var direction = context.ReadValue<Vector2>();
         VelocityP1 = Speed * direction.normalized;
     }
 
@@ -37,9 +36,8 @@ public class CharacterMovementHandler : MonoBehaviour
     /// Called by the input system to set the movement of player 2.
     /// </summary>
     /// <param name="context">The input context.</param>
-    public void OnMovementP2(InputAction.CallbackContext context)
+    public void OnMovementP2(Vector2 direction)
     {
-        var direction = context.ReadValue<Vector2>();
         VelocityP2 = Speed * direction.normalized;
     }
 
@@ -69,7 +67,7 @@ public class CharacterMovementHandler : MonoBehaviour
     private void FixedUpdate()
     {
         // get the correct velocity according to which player controls us
-        var velocity = CharacterControlledBy.Player == CharacterControlledBy.Players.P1
+        var velocity = CharacterControlledBy.Player == CharacterInfo.Players.P1
             ? VelocityP1
             : VelocityP2;
         // don't do anything if not moving

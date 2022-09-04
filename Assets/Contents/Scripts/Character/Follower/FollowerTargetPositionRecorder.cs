@@ -8,7 +8,7 @@ using UnityEngine.Events;
 /// It keeps only a set amount of positions with a given minimum distance between them.
 /// Notifies through events when we're starting to discard older positions.
 /// </summary>
-[RequireComponent(typeof(CharacterControlledBy))]
+[RequireComponent(typeof(CharacterInfo))]
 public class FollowerTargetPositionRecorder : MonoBehaviour
 {
     [Tooltip("Minimum distance the target has to walk before a new step is recorded")]
@@ -21,17 +21,17 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
 
     public IList<Vector2> Steps { get { return steps.AsReadOnly(); } }
 
-    private CharacterControlledBy CharacterControlledBy;
+    private CharacterInfo CharacterInfo;
 
     private void OnEnable()
     {
-        CharacterControlledBy = CharacterControlledBy != null ? CharacterControlledBy : GetComponent<CharacterControlledBy>();
+        SetupCharacterInfo();
         // make a fake history of steps from our position to the target
-        for(var i = 0; i < MaxStepsNumber; i++)
+        for (var i = 0; i < MaxStepsNumber; i++)
         {
             steps.Add(Vector2.Lerp(
                 transform.position,
-                CharacterControlledBy.Companion.transform.position,
+                CharacterInfo.Companion.transform.position,
                 (float)i / (MaxStepsNumber - 1)
             ));
         }
@@ -46,7 +46,7 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
     void Update()
     {
         // adds a step only if we have no steps, or if the target has walked far enough
-        Vector2 newPosition = CharacterControlledBy.Companion.transform.position;
+        Vector2 newPosition = CharacterInfo.Companion.transform.position;
         if (steps.Count == 0 || (steps[steps.Count - 1] - newPosition).sqrMagnitude > MinStepDistance)
         {
             steps.Add(newPosition);
@@ -66,5 +66,25 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawSphere(step, 0.1f);
         }
+    }
+
+    private List<Vector2> Stash;
+
+    public void SetStashFromCorrespondent()
+    {
+        SetupCharacterInfo();
+        Stash = CharacterInfo.Correspondent
+            .GetComponent<FollowerTargetPositionRecorder>()
+            .steps;
+    }
+
+    public void ApplyStash()
+    {
+        steps = Stash;
+    }
+
+    private void SetupCharacterInfo()
+    {
+        CharacterInfo = CharacterInfo != null ? CharacterInfo : GetComponent<CharacterInfo>();
     }
 }
