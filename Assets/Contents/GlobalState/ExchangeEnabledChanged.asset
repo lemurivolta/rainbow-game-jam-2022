@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0635ac2f70594bd3a31a5ced16469dc, type: 3}
   m_Name: ExchangeEnabledChanged
   m_EditorClassIdentifier: 
-  _developerDescription: 
+  _developerDescription: Raised whenever ExchangeEnabled has changed, with the new
+    value as argument
   _replayBufferSize: 1
   _inspectorRaiseValue: 0
