@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[System.Serializable]
 public class Schermata : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] string schermataName;
+    [SerializeField] Transform playerOneSpawnPoint;
+    [SerializeField] Transform playerTwoSpawnPoint;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] Barks barks;
 }
