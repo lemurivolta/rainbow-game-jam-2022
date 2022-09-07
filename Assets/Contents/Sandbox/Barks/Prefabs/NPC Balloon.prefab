@@ -134,7 +134,8 @@ MonoBehaviour:
   maxTimeToBark: 6
   barkLifetime: 5
   balloonText: {fileID: 1834664520727111387}
-  balloonGO: {fileID: 1834664520499718738}
+  balloonGO: {fileID: 1834664521629996570}
+  useTimer: 1
 --- !u!1 &1834664520727111381
 GameObject:
   m_ObjectHideFlags: 0

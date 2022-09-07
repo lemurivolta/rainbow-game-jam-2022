@@ -13,6 +13,7 @@ public class NPCBarks : MonoBehaviour
     [SerializeField] float barkLifetime = 5;
     [SerializeField] TMP_Text balloonText;
     [SerializeField] GameObject balloonGO;
+    [SerializeField] bool useTimer = true;
 
     float timer;
     bool isShowingBark = false;
@@ -25,7 +26,7 @@ public class NPCBarks : MonoBehaviour
 
     private void Update()
     {
-        if (isShowingBark)
+        if (isShowingBark || !useTimer)
             return;
 
         UpdateTimer();        
@@ -41,10 +42,11 @@ public class NPCBarks : MonoBehaviour
     void CheckTimer()
     {
         if (timer <= 0)
-            TimeIsOut();
+            TimeToBark();
     }
 
-    private void TimeIsOut()
+    // funzione che può essere richiamata dall'interazione con un pulsante
+    public void TimeToBark()
     {
         StartCoroutine(ShowBalloon());        
     }
