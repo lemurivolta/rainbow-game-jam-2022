@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -5,21 +7,49 @@ public class EnemyFaint : MonoBehaviour
 {
     public UnityEvent Fainted;
 
-    public void OnPlayer1Action() {
+    private List<CharacterInfo> CharacterInfoInArea = new();
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        OnTrigger(other, CharacterInfoInArea.Add);
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        OnTrigger(other, ci => CharacterInfoInArea.Remove(ci));
+    }
+
+    private void OnTrigger(Collider2D other, Action<CharacterInfo> action)
+    {
+        var characterInfo = other.gameObject.GetComponent<CharacterInfo>();
+        if (characterInfo != null)
+        {
+            action(characterInfo);
+        }
+    }
+
+    public void OnPlayer1Action()
+    {
         OnPlayerAction(CharacterInfo.Players.P1);
     }
 
-    public void OnPlayer2Action() {
+    public void OnPlayer2Action()
+    {
         OnPlayerAction(CharacterInfo.Players.P2);
     }
 
     private void OnPlayerAction(CharacterInfo.Players p)
     {
-        foreach(var character in CharacterInfo.AllCharacterControlledBy) {
-            if(character.Player == p && !character.IsFollower) {
-                if(character.Character == CHARACTER.MARCELLA) {
+        foreach (var characterInfo in CharacterInfoInArea)
+        {
+            if (characterInfo.Player == p && !characterInfo.IsFollower)
+            {
+                if (characterInfo.Character == CHARACTER.MARCELLA)
+                {
                     Faint();
-                } else {
+                }
+                else
+                {
                     break;
                 }
             }
