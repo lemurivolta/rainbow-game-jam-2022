@@ -105,10 +105,9 @@ namespace SimpleStateMachine
                     _CurrentStateName = description.ToStateName;
                     description.Phase = HookPhase.Enter;
                     ForEachHook(h => h.Enter.Invoke(description));
-                    //return true;
+                    break;
                 }
             }
-            //return false;
         }
 
         /// <summary>
