@@ -138,7 +138,2317 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Stanza dei giochi_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 573
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71bd843c9cf7e34fbd5eab616fd4990
+      internalID: 686960002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 580
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f79621df896e7d4eab7436ee89900e8
+      internalID: -74015751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 532
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc09a6642723a241a2a31580599dfa9
+      internalID: -1831539252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 518
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822619003d1f89c47b6deb9aaee8aab8
+      internalID: 437127906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_4
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 574
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e371c1c3eb3194f880c0f2758ed263
+      internalID: -141511983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_5
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 619
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d489c03222998348ac0f866f29726ea
+      internalID: -1345520031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 618
+        width: 48
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679ef63e93409274ba212a1a4693a69b
+      internalID: -1653026284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 580
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77820928520a31144ac452cfbdaf1e3b
+      internalID: 4761361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 548
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d783c95d228934eae5e9511ceb1123
+      internalID: -1233293723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 532
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a28f5cc08e405a4dabf4b8a246c8512
+      internalID: 2063679677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_10
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 583
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84cbec6c1990924cbcc0cdedcf80294
+      internalID: -1390024501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_11
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 596
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1777d7e7afddbdd438758415a1f91f3c
+      internalID: 1626038818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_12
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 580
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0eb5a22585a7d45aec8bc3959694c0
+      internalID: -1308243124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_13
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 551
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afa1315d42899c419a377775eccb432
+      internalID: 450035334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_14
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 564
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dcacaab0eb3c343977c2432f3d246f
+      internalID: -34467411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 548
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31ff74a3348913e418f56f7619a25828
+      internalID: 1278631664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_16
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 519
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6646a03ec5c434db17158ad0fddff0
+      internalID: -2129377522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_17
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 532
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcf3aff3aceed0419f4326a48314416
+      internalID: -134986192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_18
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 516
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc836c838514e6442b0f49e2cfc5ab26
+      internalID: 698851765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_19
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 499
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbcb3da9e9a0cc4f9703f608425c9c1
+      internalID: 770248634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 500
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc46b87754fad6848affb9b7b943b35a
+      internalID: 1543853727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_21
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 504
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116bdb83562bbed4c829e7757021eda1
+      internalID: 81737283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_22
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 485
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3d943af8a4f6843962d39c8292135c
+      internalID: -1948519040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_23
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 485
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7dad3a767df9e8419b1b04be83bc23a
+      internalID: 1715417690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_24
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 501
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44227d4f539dfe4d86cc6756c7a25f7
+      internalID: 543196779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_25
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 489
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac432fbb0cd860840a3893be5f14daac
+      internalID: 1279961607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_26
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 440
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb95ad229c71b5440bd2ea6549e4c0b6
+      internalID: -1255197298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_27
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 404
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75f532892fc9c542813d8e3dde81d53
+      internalID: -1090263216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_28
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 405
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabf576c3a472ed468f263787f6491cc
+      internalID: -1889796100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 373
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0832b26a2ea06cb40a6194de7ee71d1d
+      internalID: 163897717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 341
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5da0a0a770d11543aa551d46487e3a5
+      internalID: 1843094825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_31
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 325
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42610f6dfacd9046a9843abac4f2938
+      internalID: -354245563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 392
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcff5c1c2b080314daaf2a8d27f8b7ef
+      internalID: 962892258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_33
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 389
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd6f357ecb64964088ce144440a2b21
+      internalID: -1478313643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_34
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 390
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998789d18b2942344952253ecf66529f
+      internalID: 314096917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 312
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83749dfbce11844ebd7deaaa53243ba
+      internalID: 1541540693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 310
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bbd2a460ca17c409a66c8aebbeff05
+      internalID: -1628760204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 312
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3baa009e18e2adf41a097c4101ee4524
+      internalID: -758850269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 302
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d13a760f17a454fa3d3ceac4f66179
+      internalID: 184549551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 294
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24c1239cfc638343bf63c94cc4f7aaf
+      internalID: -1401868308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 306
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8391ed97f3319cb4b8afbdacc6a6abf6
+      internalID: -243671396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_41
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 301
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1547fc9bb71a5499e98c4449c54d2a
+      internalID: -2087607716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 300
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ede77c6b3a53040aa75d4ce1f583c2
+      internalID: 862428565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 300
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db7cf1d216bd8042803e2de42008176
+      internalID: -10945226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_44
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 300
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 855010879046e79449f9f4cfd3978b19
+      internalID: -1801373656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_45
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 468
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6468562fb39ee447b382d3475d7f105
+      internalID: -195051795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_46
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 468
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04e59bbbb3b47941a22cec4b5a1c9ab
+      internalID: 1342268186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_47
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 429
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b07d6539cfb8845b7c4879839ce852
+      internalID: 1285149074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 429
+        width: 11
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78278d16f5394fb4dbb9bc35d13f993b
+      internalID: -1238682008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 452
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36252ad653ce3584dadc6506532f8d41
+      internalID: 703268558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_50
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 436
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa62c39ac2819344b4a260abca6c78d
+      internalID: -1053166490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_51
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 468
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9281db8367068ab479792c21f4e7acff
+      internalID: 1505080607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_52
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 484
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9722fc6768a4741b806dea1058f8fc
+      internalID: -978392147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_53
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 328
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f753b870d726e448348d6faff47bf6
+      internalID: 233135825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_54
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 328
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be6768ba95aa16d40a4b0629b7531b62
+      internalID: 695540989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_55
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 328
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac13657a1edd544e85f4d1a5501f6c3
+      internalID: -536991952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_56
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 296
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd33d607da4195d4a97ebe3257cedb36
+      internalID: 1262885561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_57
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 276
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20067447afbf544c95ee44c80c7fada
+      internalID: 546082737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_58
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 285
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d232f462c6329245a1c6d4db3d3fa6a
+      internalID: -1994819662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_59
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 285
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5310d361d969144c923c0e7fee937dd
+      internalID: 470240336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_60
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 285
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beea53a35300b7489af5216e6fc36b5
+      internalID: 1381161751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_61
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 297
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3369bbe008acaa1408d69e8ace19eece
+      internalID: -1837178685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_62
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 308
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a1a3c47dffa6b4aa54c65b911139df
+      internalID: 1555116570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_63
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 306
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77f27224ba2eb640a6c260254f190ce
+      internalID: 1263497939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_64
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 229
+        width: 6
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e4e28fdec1a62c418385e677daf38a6
+      internalID: 471999859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_65
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 228
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfbda643f52dcb43ad7de3ac80a4293
+      internalID: -581423960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_66
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 265
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413fef4043847364889243ea5647f688
+      internalID: -130387459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_67
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 265
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522e7cf20839ef74cb124b2baff72844
+      internalID: 1488865639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_68
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 261
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc534a475a1c804aad611056d27946f
+      internalID: 1664352963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_69
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 261
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55cb0ec1f49eb34fbb00d33fb65d67a
+      internalID: -2128363929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_70
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 229
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688ec81d3857757449b21e4298092166
+      internalID: 1193609936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_71
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 197
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5439c86050500d47a639f148a285c92
+      internalID: -1646851635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_72
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 206
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79bc9c893864284a83b9f494cbd4227
+      internalID: 1398404485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_73
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 206
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc019c05b4b7de44bbc7797b9e0f7242
+      internalID: 1546221738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_74
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 165
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce5413773795b642bd536b30c52e121
+      internalID: 1199797869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_75
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 174
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 591a5bde70c979a499cfd21dfc84f2a7
+      internalID: -859338860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_76
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 174
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da99d36c12f5a1b48a22399226d7d202
+      internalID: 1947185410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_77
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 197
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc97db276c495ef4aaad0fb9e3cebd86
+      internalID: 478905233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_78
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 229
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d47b367c656bb7428ad84c40e164804
+      internalID: 1368476668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_79
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 233
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4e09b5e8ec1564babafc38c457473a
+      internalID: 997562454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_80
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 233
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b74195f8c63cf4e8e9e1ec3fe7145d
+      internalID: 39343515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_81
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 165
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7069bbc7745aa645b4684cfcc156e0a
+      internalID: -1272967499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 132
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f1529d687f91d42b1cd18fa2d7a27e
+      internalID: -1998626551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_83
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 132
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3da91ab256a8fec4c973a14983dc7e5b
+      internalID: 275655174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_84
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 132
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e51bff72e6d3284480d193f97ad30d4
+      internalID: -1700674025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 116
+        width: 18
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17177f8125219b14ea14f99f164a2784
+      internalID: -1603488312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_86
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 120
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be7f0c3923186d4db8d1868be81a3d3
+      internalID: 1823979375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 15
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08a668c38fc1e34a896a726eaa4f458
+      internalID: 29214828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 84
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822da61d0bc273a45a91b3429ee009ab
+      internalID: -1494221136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_89
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 98
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e2412cdb7ad5a41a8235e0b1682a3a
+      internalID: 997102835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_90
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 111
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37013c19c2e1e4e4592abe3c7c66c7ca
+      internalID: -917516315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_91
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7b8a4979ae5684595fff7f89310600
+      internalID: -1165149955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_92
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 11
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0845cda4c4a0e6548803beef83bab1b0
+      internalID: 636440572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_93
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 8
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4da1dc3f28a10b4a98a38baa6b18e26
+      internalID: -1437220231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_94
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 24
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed53509039e95c64da0518375ff0228e
+      internalID: 1927505977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_95
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 24
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0ce3b3ce76a0342a37a7fa4497da5d
+      internalID: -1484381614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_96
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 43
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00901ae1f01c8274d9f53349e26b3444
+      internalID: 1871993448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_97
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 43
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 365c8bd3c11d00f4f8cc52bce16e179a
+      internalID: -795181170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_98
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 36
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3f30ff38397c34bbac994171cc5156
+      internalID: -2107636716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_99
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 53
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f099aba6fc56442a04babafea06a84
+      internalID: 870561006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 36
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749d79ba8cad7fa45b43ecba1b1c36c6
+      internalID: 1370574891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_101
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 84
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea390296da3c85846b3160c895b2de02
+      internalID: -422058836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_102
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 69
+        width: 63
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395451524f2a97149ba563a67bbc56b2
+      internalID: -1359962831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_103
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 124
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc7e5432e84d8c41bc5e3079f3dec29
+      internalID: 1110413154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_104
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 124
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec6a80d8db8daf4984a90ed78ad7987
+      internalID: 1699242929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_105
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 394
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3f66ba6f190b74eae41d0da1124f00
+      internalID: -612453329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_106
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 362
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 842a6b5ab1aa7e843abcdda910a13c31
+      internalID: -2070560347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_107
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 330
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69569d5e330be1e468c09ec98d2848f8
+      internalID: 1163630811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_108
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 433
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6411bdaf7734b4183e857260c4cea3
+      internalID: 84992414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_109
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c73cf271201c141b0c48b54c578593
+      internalID: 2090522092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +2459,117 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stanza dei giochi_70: 1193609936
+      Stanza dei giochi_90: -917516315
+      Stanza dei giochi_10: -1390024501
+      Stanza dei giochi_12: -1308243124
+      Stanza dei giochi_107: 1163630811
+      Stanza dei giochi_34: 314096917
+      Stanza dei giochi_96: 1871993448
+      Stanza dei giochi_75: -859338860
+      Stanza dei giochi_52: -978392147
+      Stanza dei giochi_49: 703268558
+      Stanza dei giochi_69: -2128363929
+      Stanza dei giochi_24: 543196779
+      Stanza dei giochi_74: 1199797869
+      Stanza dei giochi_53: 233135825
+      Stanza dei giochi_7: 4761361
+      Stanza dei giochi_56: 1262885561
+      Stanza dei giochi_68: 1664352963
+      Stanza dei giochi_33: -1478313643
+      Stanza dei giochi_3: 437127906
+      Stanza dei giochi_63: 1263497939
+      Stanza dei giochi_14: -34467411
+      Stanza dei giochi_98: -2107636716
+      Stanza dei giochi_83: 275655174
+      Stanza dei giochi_50: -1053166490
+      Stanza dei giochi_5: -1345520031
+      Stanza dei giochi_41: -2087607716
+      Stanza dei giochi_97: -795181170
+      Stanza dei giochi_19: 770248634
+      Stanza dei giochi_82: -1998626551
+      Stanza dei giochi_35: 1541540693
+      Stanza dei giochi_66: -130387459
+      Stanza dei giochi_109: 2090522092
+      Stanza dei giochi_2: -1831539252
+      Stanza dei giochi_4: -141511983
+      Stanza dei giochi_46: 1342268186
+      Stanza dei giochi_1: -74015751
+      Stanza dei giochi_102: -1359962831
+      Stanza dei giochi_88: -1494221136
+      Stanza dei giochi_100: 1370574891
+      Stanza dei giochi_87: 29214828
+      Stanza dei giochi_31: -354245563
+      Stanza dei giochi_95: -1484381614
+      Stanza dei giochi_43: -10945226
+      Stanza dei giochi_30: 1843094825
+      Stanza dei giochi_91: -1165149955
+      Stanza dei giochi_32: 962892258
+      Stanza dei giochi_65: -581423960
+      Stanza dei giochi_15: 1278631664
+      Stanza dei giochi_48: -1238682008
+      Stanza dei giochi_18: 698851765
+      Stanza dei giochi_54: 695540989
+      Stanza dei giochi_80: 39343515
+      Stanza dei giochi_85: -1603488312
+      Stanza dei giochi_93: -1437220231
+      Stanza dei giochi_60: 1381161751
+      Stanza dei giochi_16: -2129377522
+      Stanza dei giochi_77: 478905233
+      Stanza dei giochi_25: 1279961607
+      Stanza dei giochi_40: -243671396
+      Stanza dei giochi_47: 1285149074
+      Stanza dei giochi_58: -1994819662
+      Stanza dei giochi_67: 1488865639
+      Stanza dei giochi_6: -1653026284
+      Stanza dei giochi_59: 470240336
+      Stanza dei giochi_76: 1947185410
+      Stanza dei giochi_72: 1398404485
+      Stanza dei giochi_104: 1699242929
+      Stanza dei giochi_89: 997102835
+      Stanza dei giochi_81: -1272967499
+      Stanza dei giochi_28: -1889796100
+      Stanza dei giochi_39: -1401868308
+      Stanza dei giochi_8: -1233293723
+      Stanza dei giochi_51: 1505080607
+      Stanza dei giochi_79: 997562454
+      Stanza dei giochi_61: -1837178685
+      Stanza dei giochi_78: 1368476668
+      Stanza dei giochi_101: -422058836
+      Stanza dei giochi_20: 1543853727
+      Stanza dei giochi_29: 163897717
+      Stanza dei giochi_84: -1700674025
+      Stanza dei giochi_108: 84992414
+      Stanza dei giochi_44: -1801373656
+      Stanza dei giochi_71: -1646851635
+      Stanza dei giochi_27: -1090263216
+      Stanza dei giochi_55: -536991952
+      Stanza dei giochi_36: -1628760204
+      Stanza dei giochi_94: 1927505977
+      Stanza dei giochi_17: -134986192
+      Stanza dei giochi_23: 1715417690
+      Stanza dei giochi_42: 862428565
+      Stanza dei giochi_13: 450035334
+      Stanza dei giochi_57: 546082737
+      Stanza dei giochi_11: 1626038818
+      Stanza dei giochi_26: -1255197298
+      Stanza dei giochi_73: 1546221738
+      Stanza dei giochi_0: 686960002
+      Stanza dei giochi_86: 1823979375
+      Stanza dei giochi_21: 81737283
+      Stanza dei giochi_62: 1555116570
+      Stanza dei giochi_64: 471999859
+      Stanza dei giochi_9: 2063679677
+      Stanza dei giochi_99: 870561006
+      Stanza dei giochi_92: 636440572
+      Stanza dei giochi_37: -758850269
+      Stanza dei giochi_105: -612453329
+      Stanza dei giochi_22: -1948519040
+      Stanza dei giochi_38: 184549551
+      Stanza dei giochi_45: -195051795
+      Stanza dei giochi_103: 1110413154
+      Stanza dei giochi_106: -2070560347
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
