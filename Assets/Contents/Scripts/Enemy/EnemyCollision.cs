@@ -62,7 +62,7 @@ public class EnemyCollision : MonoBehaviour
             DangerLevelChanged.Invoke(dangerValue);
             if (dangerValue >= 1)
             {
-                SchermateManager.Instance.Restart();
+                SchermateManager.Instance.GameOver();
             }
             else if (dangerValue <= 0)
             {

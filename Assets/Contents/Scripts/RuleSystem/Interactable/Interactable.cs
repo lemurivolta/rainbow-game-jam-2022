@@ -84,12 +84,12 @@ public class Interactable : MonoBehaviour
                 if (CameraStateUpdater != null && CameraStateUpdater.NumCameras > 0)
                 {
                     // oops: object was under camera and we tried to interact!
-                    SchermateManager.Instance.Restart();
+                    SchermateManager.Instance.GameOver();
                 }
                 else
                 {
                     // check if this character can interact with this interactable
-                    if ((!CanCloeInteract && activePlayer.Character == CHARACTER.MARCELLA) ||
+                    if ((!CanCloeInteract && activePlayer.Character == CHARACTER.CLOE) ||
                     (!CanMarielleInteract && activePlayer.Character == CHARACTER.MARIELLE) ||
                     (!CanSarahInteract && activePlayer.Character == CHARACTER.SARAH) ||
                     (!CanYelenaInteract && activePlayer.Character == CHARACTER.YELENA))

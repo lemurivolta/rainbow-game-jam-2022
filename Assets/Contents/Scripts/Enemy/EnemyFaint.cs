@@ -44,7 +44,7 @@ public class EnemyFaint : MonoBehaviour
         {
             if (characterInfo.Player == p && !characterInfo.IsFollower)
             {
-                if (characterInfo.Character == CHARACTER.MARCELLA)
+                if (characterInfo.Character == CHARACTER.CLOE)
                 {
                     Faint();
                 }
