@@ -12,6 +12,14 @@ public class Interactable : MonoBehaviour
 
     private CameraStateUpdater CameraStateUpdater;
 
+    public bool CanCloeInteract = true;
+
+    public bool CanYelenaInteract = true;
+
+    public bool CanSarahInteract = true;
+
+    public bool CanMarielleInteract = true;
+
     private void Start()
     {
         CameraStateUpdater = GetComponentInChildren<CameraStateUpdater>();
@@ -24,7 +32,8 @@ public class Interactable : MonoBehaviour
     public void OnCharacterApproach(Collider2D collision)
     {
         var ccb = collision.gameObject.GetComponent<CharacterInfo>();
-        if (ccb != null && NearbyCharacters.IndexOf(ccb) < 0) {
+        if (ccb != null && NearbyCharacters.IndexOf(ccb) < 0)
+        {
             NearbyCharacters.Add(ccb);
         }
     }
@@ -66,10 +75,11 @@ public class Interactable : MonoBehaviour
     /// the action.
     /// </summary>
     /// <param name="player">Player to check.</param>
-    private void OnAction(CharacterInfo.Players player) {
-        foreach(var activePlayer in NearbyCharacters)
+    private void OnAction(CharacterInfo.Players player)
+    {
+        foreach (var activePlayer in NearbyCharacters)
         {
-            if(activePlayer.Player == player)
+            if (activePlayer.Player == player)
             {
                 if (CameraStateUpdater != null && CameraStateUpdater.NumCameras > 0)
                 {
@@ -78,6 +88,18 @@ public class Interactable : MonoBehaviour
                 }
                 else
                 {
+                    // check if this character can interact with this interactable
+                    if ((!CanCloeInteract && activePlayer.Character == CHARACTER.MARCELLA) ||
+                    (!CanMarielleInteract && activePlayer.Character == CHARACTER.MARIELLE) ||
+                    (!CanSarahInteract && activePlayer.Character == CHARACTER.SARAH) ||
+                    (!CanYelenaInteract && activePlayer.Character == CHARACTER.YELENA))
+                    {
+                        activePlayer
+                            .gameObject
+                            .GetComponent<UnknownAction>()
+                            .ShowUnknownAction();
+                        return;
+                    }
                     // ok, we can do it!
                     Interaction.Invoke();
                 }
