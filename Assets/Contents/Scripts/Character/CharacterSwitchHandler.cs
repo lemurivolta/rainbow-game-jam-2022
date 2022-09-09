@@ -1,17 +1,15 @@
 using SimpleStateMachine;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterSwitchHandler : MonoBehaviour
 {
-    private CharacterInfo characterControlledBy;
+    private CharacterInfo characterInfo;
     private StateMachineRunner stateMachineRunner;
     private bool inExchangeDistance;
 
     private void Start()
     {
-        characterControlledBy = GetComponent<CharacterInfo>();
+        characterInfo = GetComponent<CharacterInfo>();
         stateMachineRunner = GetComponent<StateMachineRunner>();
     }
 
@@ -22,7 +20,7 @@ public class CharacterSwitchHandler : MonoBehaviour
 
     public void OnSwitchCharactersP1()
     {
-        if(characterControlledBy.Player == CharacterInfo.Players.P1 &&
+        if(characterInfo.Player == CharacterInfo.Players.P1 &&
             !inExchangeDistance)
         {
             Switch();
@@ -31,7 +29,7 @@ public class CharacterSwitchHandler : MonoBehaviour
 
     public void OnSwitchCharactersP2()
     {
-        if (characterControlledBy.Player == CharacterInfo.Players.P2 &&
+        if (characterInfo.Player == CharacterInfo.Players.P2 &&
             !inExchangeDistance)
         {
             Switch();
