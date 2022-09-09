@@ -138,7 +138,763 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bimbi 2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f640da7b5e4f2374aae4afd0465a91c0
+      internalID: 2105148976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 172
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbdae14688468540961a2cf215d9490
+      internalID: 677090638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 172
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038d80ad35a0a1948973db50138435b3
+      internalID: 393799394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 173
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39142418424e03742b00700b9567a5dd
+      internalID: 855583512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 137
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a18977de57e7a344a53802a90b9a9d3
+      internalID: -71536179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 140
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f88b7886b3a3044b9c9f20726cc4c92
+      internalID: 482066933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 125
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597eee8b71da52148ac78f3bf2c1884d
+      internalID: -388806527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 109
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6888a76aabbf82040b619003807a744d
+      internalID: 1257005132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 167
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9a9d20ff0e3584a8c8b55176405039
+      internalID: 1961104973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 134
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457f3106da7477140a3928ef82a545a6
+      internalID: 562891225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 134
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9663306bb3acd5848aee504b221fe182
+      internalID: 172854916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 103
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bfbf194db972549bc1534634c5592b
+      internalID: -1511288532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 103
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60803bd6556b93459194971878a8dc1
+      internalID: 2143099080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 103
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4970b9a5d63f246bb3d5729f8bd932
+      internalID: 1454016925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 75
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de45a817304f6564bac8d0f20204dd93
+      internalID: 1771544373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_15
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 43
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cccb0d042093e47b26f83e34e37346
+      internalID: -1296985509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_16
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 39
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a081797d28233294b990171a3c8b7c90
+      internalID: 1632874652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_17
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 39
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0199d253cbd78104c88bf58ba67e76bc
+      internalID: -1106247590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_18
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 22
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eb33df7e025c742ae13722438d323c
+      internalID: 585883532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 23
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea874cac270ed854391c9e9e80ddeaa6
+      internalID: -1220147309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_20
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 55
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680fdc8cd48733844a6383cbcc728ed4
+      internalID: 1270988011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_21
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 71
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6dd299cdf70028499a6640242a32de3
+      internalID: 768216055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_22
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 79
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2e2518ea6522145b625eceb65385e1
+      internalID: 96335095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_23
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 47
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4565c628b63ad5f4689f6304145a73ee
+      internalID: 540139488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_24
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 15
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a626de82bc37b504c893353e49ad0040
+      internalID: -472321583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 21
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0daca14398ddac445a8cfb2b7200cdbb
+      internalID: -1350067257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 37
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366da24e9b99d8b4e99be9d5e9c4cba6
+      internalID: -1437831994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_27
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 37
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0af6ca5fcd996945b3514840907fe50
+      internalID: 1060271548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_28
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 69
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e76eaf31deb55c4f85e4ec17032bd14
+      internalID: 388851531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 69
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a76aeb26473f94aaed7e5ee7554fc6
+      internalID: -1041285624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 69
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c736b5d593dbf4840a4fca039e0b256e
+      internalID: -1444312076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 69
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 638e5174cdc2ae74fa6c9c01a540bee4
+      internalID: 756175755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 15
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac45dbd1aabd5fc4fa53a4b2485d6051
+      internalID: -1210963393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_33
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 15
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395927ce9951c7f4989ea100c57b8b50
+      internalID: 1909924175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 166
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236bf7edbcb0b654bbf70aa32bc6204d
+      internalID: 204962124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi 2_35
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 134
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796567b5c48fdf1429c229f29ddac3c9
+      internalID: -51532980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +905,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bimbi 2_5: 482066933
+      Bimbi 2_23: 540139488
+      Bimbi 2_33: 1909924175
+      Bimbi 2_2: 393799394
+      Bimbi 2_31: 756175755
+      Bimbi 2_8: 1961104973
+      Bimbi 2_3: 855583512
+      Bimbi 2_13: 1454016925
+      Bimbi 2_10: 172854916
+      Bimbi 2_20: 1270988011
+      Bimbi 2_21: 768216055
+      Bimbi 2_29: -1041285624
+      Bimbi 2_15: -1296985509
+      Bimbi 2_7: 1257005132
+      Bimbi 2_6: -388806527
+      Bimbi 2_16: 1632874652
+      Bimbi 2_32: -1210963393
+      Bimbi 2_19: -1220147309
+      Bimbi 2_14: 1771544373
+      Bimbi 2_35: -51532980
+      Bimbi 2_1: 677090638
+      Bimbi 2_28: 388851531
+      Bimbi 2_17: -1106247590
+      Bimbi 2_12: 2143099080
+      Bimbi 2_22: 96335095
+      Bimbi 2_26: -1437831994
+      Bimbi 2_11: -1511288532
+      Bimbi 2_24: -472321583
+      Bimbi 2_4: -71536179
+      Bimbi 2_25: -1350067257
+      Bimbi 2_27: 1060271548
+      Bimbi 2_9: 562891225
+      Bimbi 2_18: 585883532
+      Bimbi 2_30: -1444312076
+      Bimbi 2_0: 2105148976
+      Bimbi 2_34: 204962124
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

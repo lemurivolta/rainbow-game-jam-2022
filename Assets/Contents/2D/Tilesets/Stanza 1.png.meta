@@ -138,7 +138,1645 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Stanza 1_0
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 570
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aede1a2459be4f94da99f407cd1f0711
+      internalID: 581238322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 490
+        width: 40
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85117ae85c05a246b3fa4eac607d669
+      internalID: 1260434892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 552
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1ad378d2589854b92caaad298ce783
+      internalID: -196565631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 632
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a772391baf7004998e40a582d846b9
+      internalID: -1665412221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 570
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae336cc0fc0a51541b52fc624b67c968
+      internalID: 23909292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 571
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02b625dc21f12a45b94dd12e54f1a4b
+      internalID: -970064667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_6
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 587
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf97f99a4eefd7418530d48eec3d7f9
+      internalID: 1791117475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 587
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c2b6c7ad81b104dbbf4d848c34c901
+      internalID: 1267375191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 603
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb714f0a26884564eaa07cf066c58bc2
+      internalID: -928453132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_9
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 524
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f6f887eeacc2445be1c9b3db3e3718
+      internalID: -46332078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 648
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d990f417a15c274499e77ad3d05f131
+      internalID: 297101358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 610
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e46ea787b702c46b4a5d5e6dc648a8
+      internalID: 716612375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_12
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 610
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbe3cac176371b4995831a019f56f30
+      internalID: 2126111761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 576
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ee9ed56c90d36e488d8b887e6908609
+      internalID: -1104824865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 585
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8c375469b2a91448076d5138f789ed
+      internalID: 1815775585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 556
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29db16dbb3090e041af368b05b8683ca
+      internalID: -205030215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_16
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 538
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e25090f0b0fb1340b0192d1f672cd9a
+      internalID: -688823515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_17
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 489
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1912eb15e221241b8ea259d44399d6
+      internalID: -967392869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_18
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 527
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40c9119a0bc1434ba9bf49eff0c9192
+      internalID: -2014379427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 465
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d894eb56284f4774cbfbda58cdb0b770
+      internalID: 1734822059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_20
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 449
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8a1d5285ff2d914cab8ba02ad84ecd9
+      internalID: 1267656959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_21
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 433
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9b4da7ee2b7524cbded39764c395df
+      internalID: 1957711586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 464
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 320e055686fc82844a1405267690c545
+      internalID: -753138820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_23
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 432
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e492704f619d07c49aae7829a906f194
+      internalID: 1027360815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_24
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 400
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616b5d0415791c242b51972560ab904c
+      internalID: 1096688123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_25
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 400
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08aedeb6fe301f14195aafbcbbcb1746
+      internalID: 675661489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_26
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 352
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2c0d748de11434981bbf3788289306
+      internalID: -564037225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 353
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8510e2281bf0117418f06846d5cd4e12
+      internalID: 1865204473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_28
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 361
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf4d26eafea2fa489554e796fb6b988
+      internalID: 718733611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_29
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 441
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1260d22f6f91d244986869e176c87e8e
+      internalID: -1749072007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_30
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 441
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65be08a397ce6fd4cb8ed63901f12db8
+      internalID: -1214824565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 441
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1111062f1d59b454abda94c0222c53b6
+      internalID: 632169804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_32
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 332
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17acd29c2626f784ebef565d7938e517
+      internalID: 401854494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 329
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ceca4cd6379f249a1f98602a1c2ce1
+      internalID: 294256341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_34
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 366
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c20b8f0a441b0cb45a0a6412c740a310
+      internalID: -1231732635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 366
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3c88462cbf5b14d8514cdde786f88c
+      internalID: 1854444561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 376
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3f77cfa3661284696a8294f615bc7a
+      internalID: 1148938845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_37
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 360
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: addaf7a8f58dda34ea278b7dd26fd2ad
+      internalID: 806848182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_38
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 329
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8d37c88e7962143aeadac443a1d54f
+      internalID: 1294950893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_39
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 328
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d1b515c84e514d96b076db787e549
+      internalID: 1171164848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 328
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 896e146ae782037418cfbbe47aa5875e
+      internalID: 2137842532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_41
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 287
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa79ea11543588c4e818b8a27a0f1a71
+      internalID: -1741538745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_42
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 287
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf7d8633c4d0554e94b3b684b57c79d
+      internalID: 22565623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_43
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 285
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c3d261fe42e38478aaa50122c181a7
+      internalID: -1435923735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_44
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 285
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14e58e9114f5904fa02d76a8fc7f8bf
+      internalID: 518740486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_45
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 237
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b1d6fae3c15b74e85239c87d4e4960
+      internalID: -1814796119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 237
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfab941a37f312e42b40b91bc59622c9
+      internalID: 1532856010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_47
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 287
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c23b90a4163ce478754367d010884e
+      internalID: -301191085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_48
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 287
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b5ca6e9bd7eca4dbd2d4395ac24538
+      internalID: -290735248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_49
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb2d524f44c3fb44a8bfd5a5c55edd9
+      internalID: -1416995719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 247
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10db9a1a19df4d40a76a88db3920786
+      internalID: -959113194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 247
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338e5f06b94b4ef47a85aeae8520a15d
+      internalID: -279463001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_52
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 184
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44eeb00b2499d1d45a05a9874c3fffab
+      internalID: 370029851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_53
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2343a960f331d1545ba2463b8d9435b5
+      internalID: -1152903188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 176
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24eca1625c8ce94585b03c1b7bd7dcb
+      internalID: -669623034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_55
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 185
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a11cf49d58bff4598cae37fffdb9cc
+      internalID: -1819970447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_56
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 139
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456282b16c38c254182438cc1101bde4
+      internalID: -928336946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_57
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 140
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e018ceb169e3742ab0ea030776fb0e
+      internalID: 873499410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_58
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 141
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bbe9aa6399c8bc4a904129896ed81c7
+      internalID: 1048984926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_59
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 127
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e648ac539436a44ca562e50ff6172c2
+      internalID: 1273460933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_60
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 128
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3734e373215b6204aa837d80b3b37435
+      internalID: -1164859628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_61
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 184
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858d2ab00b75ca046aae73b93c9a299e
+      internalID: 1069515509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de48bbf4df70d140841e9ea38c2d0d8
+      internalID: 113908889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04af38f6d34b05c4897f4f08e1109abb
+      internalID: -1669355309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543a3fb0a1679014ea400bd8a2bbefc8
+      internalID: 2091470615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_65
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 8
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeceb47f93376a940a1ee42fefa77e4c
+      internalID: -2101989351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_66
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 7
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecf58c28a1d1c649a612aa17333c820
+      internalID: 638752728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_67
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 8
+        width: 21
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab598803d3e8704d871111d617d60e0
+      internalID: 544624845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_68
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 7
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f63c73883b011b44b9eec33dc7009cbc
+      internalID: 1352893107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_69
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 24
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c9586a3975c6f43a1c6b24be92628e
+      internalID: -2147453256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_70
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 24
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c451c5f97d57c37439c693dac526cd30
+      internalID: 2042185648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_71
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 264
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a144d389989724688da9bd09b0fb8c
+      internalID: 1663637968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_72
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 250
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d628c6a9806946e42abefc571675ec3c
+      internalID: 1562409602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_73
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 292
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b210a2bf1702e341bc1d26e906c2fe9
+      internalID: -2127216413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_74
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 625
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21e4b17e8b238a746b670723c751a118
+      internalID: 238417040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_75
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 618
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da428838374f7284ca67d19ae442d6d8
+      internalID: -233610104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_76
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 585
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee03a0b012a519a40be479b4225e04fe
+      internalID: -1385287139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza 1_77
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 571
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c956cdc1b14d9341a1018fdd7f15434
+      internalID: 1027547415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +1787,85 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stanza 1_53: -1152903188
+      Stanza 1_11: 716612375
+      Stanza 1_76: -1385287139
+      Stanza 1_69: -2147453256
+      Stanza 1_42: 22565623
+      Stanza 1_4: 23909292
+      Stanza 1_18: -2014379427
+      Stanza 1_26: -564037225
+      Stanza 1_43: -1435923735
+      Stanza 1_57: 873499410
+      Stanza 1_72: 1562409602
+      Stanza 1_55: -1819970447
+      Stanza 1_46: 1532856010
+      Stanza 1_50: -959113194
+      Stanza 1_59: 1273460933
+      Stanza 1_34: -1231732635
+      Stanza 1_21: 1957711586
+      Stanza 1_23: 1027360815
+      Stanza 1_52: 370029851
+      Stanza 1_74: 238417040
+      Stanza 1_49: -1416995719
+      Stanza 1_65: -2101989351
+      Stanza 1_7: 1267375191
+      Stanza 1_67: 544624845
+      Stanza 1_36: 1148938845
+      Stanza 1_39: 1171164848
+      Stanza 1_38: 1294950893
+      Stanza 1_15: -205030215
+      Stanza 1_37: 806848182
+      Stanza 1_25: 675661489
+      Stanza 1_66: 638752728
+      Stanza 1_75: -233610104
+      Stanza 1_0: 581238322
+      Stanza 1_16: -688823515
+      Stanza 1_17: -967392869
+      Stanza 1_44: 518740486
+      Stanza 1_5: -970064667
+      Stanza 1_62: 113908889
+      Stanza 1_27: 1865204473
+      Stanza 1_31: 632169804
+      Stanza 1_33: 294256341
+      Stanza 1_61: 1069515509
+      Stanza 1_47: -301191085
+      Stanza 1_77: 1027547415
+      Stanza 1_48: -290735248
+      Stanza 1_71: 1663637968
+      Stanza 1_14: 1815775585
+      Stanza 1_45: -1814796119
+      Stanza 1_19: 1734822059
+      Stanza 1_24: 1096688123
+      Stanza 1_12: 2126111761
+      Stanza 1_41: -1741538745
+      Stanza 1_9: -46332078
+      Stanza 1_8: -928453132
+      Stanza 1_64: 2091470615
+      Stanza 1_3: -1665412221
+      Stanza 1_10: 297101358
+      Stanza 1_29: -1749072007
+      Stanza 1_60: -1164859628
+      Stanza 1_54: -669623034
+      Stanza 1_13: -1104824865
+      Stanza 1_1: 1260434892
+      Stanza 1_32: 401854494
+      Stanza 1_20: 1267656959
+      Stanza 1_51: -279463001
+      Stanza 1_2: -196565631
+      Stanza 1_56: -928336946
+      Stanza 1_68: 1352893107
+      Stanza 1_30: -1214824565
+      Stanza 1_6: 1791117475
+      Stanza 1_70: 2042185648
+      Stanza 1_28: 718733611
+      Stanza 1_63: -1669355309
+      Stanza 1_73: -2127216413
+      Stanza 1_40: 2137842532
+      Stanza 1_58: 1048984926
+      Stanza 1_35: 1854444561
+      Stanza 1_22: -753138820
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

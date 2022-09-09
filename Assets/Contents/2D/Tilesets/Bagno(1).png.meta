@@ -138,7 +138,889 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Bagno(1)_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 496
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da8aa7aee1729d42be277e24e1a04f0
+      internalID: 231363764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 471
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d648cc98c656ca4ca99e449642730ff
+      internalID: 1959793228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 471
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597b35350583a674f917d7ff2a7ad314
+      internalID: -49312376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_3
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 470
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08476fe17eec776439189a0ce489a9a8
+      internalID: -1713090490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 470
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2879ff42a83fc5a4da4a32cb0ffdab2f
+      internalID: 1477538601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_5
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 500
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb60409689f64b44bba1f6da47a67b8
+      internalID: 1339088978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 499
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003681b94cb34de49b97fa18246667b1
+      internalID: 1503213355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 471
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7299deea67e55e47a9c381e0727b611
+      internalID: 75878400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_8
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 439
+        width: 12
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f084bbaa4550f92479b6c0813eab69e7
+      internalID: -1892550161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 422
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab0847c942c28d4485e6ea4639cbc5e
+      internalID: 997104298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_10
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 422
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822954d146e2ce34489b60940315cb34
+      internalID: 1886555560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_11
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 480
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e3560b3d5916445ace4af66f0ab886
+      internalID: -2129834139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 407
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf62c9ede7b24d458cc071316936338
+      internalID: 155669783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 410
+        width: 27
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec8259c2d8cd414da462d216a408b9b
+      internalID: 854536601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 404
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3dbbc13d8f1754cbe364f8e0d569b5
+      internalID: -892233409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 412
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251102098ba356747b9babc819e7b588
+      internalID: 1652659496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_16
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 380
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9eec321a0e5d8149accc9fd4a971ca1
+      internalID: -1432990571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 380
+        width: 26
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531c3be353da4894aa3eb177a8df093e
+      internalID: 803451276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 373
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39378bfc3e3f884e8c809b5a07a413a
+      internalID: 149840678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_19
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 400
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04de324e2ee61014bae3c1657b43f93d
+      internalID: -1361036438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_20
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 360
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adfbc599fed7a647837f108b0a3b701
+      internalID: 1634141298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_21
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 320
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f60a627f138cd4aa981ad93c94f213
+      internalID: -1476247598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 314
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04983ce49bce1d44aa8f90bcf530078e
+      internalID: 1048715420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 227
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad5c5480ad16374fb4c0f0c5e6388a2
+      internalID: -261358819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 227
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b62a6448b13c34bbd2d09b95496584
+      internalID: -810443795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_25
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 227
+        width: 14
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89be3866f7da9a14ca1a2fc004980fb1
+      internalID: 1066717707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 153
+        width: 49
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efbd253cb3053734fae9031c125d3095
+      internalID: 1445758783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 173
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46cf35478efd7f44585f32e54c79a227
+      internalID: 1113176049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_28
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 213
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5788267b9cdcf7140b90e02994166335
+      internalID: -744990079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_29
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 201
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0875406c0d7ee4c4fa2de523a5027f16
+      internalID: 769831017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_30
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 164
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a360999b635fde4588f40293cc92362
+      internalID: 216499195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_31
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 155
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eb3188bca975746b0dd919b55b4301
+      internalID: -735446736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_32
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 97
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13111d7d27507034ca650b8764a135a8
+      internalID: 2076460645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_33
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 102
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4336bab3089032448ed2c62533d42ec
+      internalID: 1495287424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_34
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 102
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a408f4bcae32a64b944c3334c9bd20a
+      internalID: -217415904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 53
+        width: 15
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93170f51c00a454c8758a98e0285d42
+      internalID: -1572545371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 53
+        width: 15
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc47a86eb674444cad43ee40ba50724
+      internalID: -862624835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 6
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9df4272716921394dad833c81e24bdaa
+      internalID: -1990452092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_38
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 54
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1783e722f2067b64bb3ff369b96156cf
+      internalID: -284276730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_39
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 6
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27152307ad6a6324ca807ae894512471
+      internalID: -850553339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_40
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 96
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aedc17c54ebb6944b1c8861dc4d61c7
+      internalID: 2110087067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bagno(1)_41
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 58
+        width: 21
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111befc95caa3f94b888847884e4f9db
+      internalID: -1616927393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +1031,49 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bagno(1)_37: -1990452092
+      Bagno(1)_17: 803451276
+      Bagno(1)_27: 1113176049
+      Bagno(1)_35: -1572545371
+      Bagno(1)_2: 1959793228
+      Bagno(1)_12: 155669783
+      Bagno(1)_25: 1066717707
+      Bagno(1)_6: 1503213355
+      Bagno(1)_34: -217415904
+      Bagno(1)_36: -862624835
+      Bagno(1)_14: -892233409
+      Bagno(1)_9: 997104298
+      Bagno(1)_1: -52861482
+      Bagno(1)_11: -2129834139
+      Bagno(1)_23: -261358819
+      Bagno(1)_33: 1495287424
+      Bagno(1)_15: 1652659496
+      Bagno(1)_39: -850553339
+      Bagno(1)_0: 231363764
+      Bagno(1)_32: 2076460645
+      Bagno(1)_40: 2110087067
+      Bagno(1)_19: -1361036438
+      Bagno(1)_21: -1476247598
+      Bagno(1)_7: 75878400
+      Bagno(1)_5: 1339088978
+      Bagno(1)_26: 1445758783
+      Bagno(1)_3: -49312376
+      Bagno(1)_4: -1713090490
+      Bagno(1)_29: 769831017
+      Bagno(1)_28: -744990079
+      Bagno(1)_38: -284276730
+      Bagno(1)_13: 854536601
+      Bagno(1)_30: 216499195
+      Bagno(1)_8: -1892550161
+      Bagno(1)_24: -810443795
+      Bagno(1)_41: -1616927393
+      Bagno(1)_22: 1048715420
+      Bagno(1)_20: 1634141298
+      Bagno(1)_31: -735446736
+      Bagno(1)_16: -1432990571
+      Bagno(1)_10: 1886555560
+      Bagno(1)_18: 149840678
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

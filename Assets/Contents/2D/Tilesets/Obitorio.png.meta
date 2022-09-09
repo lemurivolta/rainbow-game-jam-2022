@@ -138,7 +138,595 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Obitorio_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 17
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b8e78fc82b3b4438769ee1c3af80d1
+      internalID: -1256261765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 87
+        width: 31
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d05dc6e409ea094faab725548bab01d
+      internalID: 764890854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 87
+        width: 16
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2db484fe2c7e1f4397b466c6236dd51
+      internalID: -1395873516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 131
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 326c9c849256ad449a69177b33f53f41
+      internalID: 1311928704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 119
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f313a7b5ca9954291d0d80f165ea4a
+      internalID: 54876258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_5
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 111
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b6db25652bef4699e316b0af53bc8
+      internalID: -1761648155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_6
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 144
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b7fdac55783ed7498453cfe63020b24
+      internalID: -1702315976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_7
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 144
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59b5a3eadb4b054469b05320785b3887
+      internalID: 939778469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_8
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 144
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78498ca280e1ba448f855bab7d624ce
+      internalID: 1915523633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_9
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 144
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbcea5903f4cb949b8750412ce1aba3
+      internalID: 844890046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_10
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 87
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5f592f795b5784e9e3afde4a5d09f4
+      internalID: -1428569998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_11
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 88
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ca86eca5c272843a9d0b5d591c4809
+      internalID: -1840810101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_12
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 72
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0e297a10aec574ab340630d74ffa3a
+      internalID: -2041031335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_13
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 56
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6722eafdefa94e844a760096e4fe0212
+      internalID: 1440272410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_14
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 55
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9331d82bdb61974e96eeb837c898175
+      internalID: 1218153081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 72
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931f9f994247bff4b9c104b979ded9e5
+      internalID: 492929993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_16
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 40
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185a0180c50e9bb4a89f02524a19c2c8
+      internalID: -762387697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 80
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9487f5dabd04a3144aeaa73d20bcbeb4
+      internalID: 743585544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_18
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 3
+        width: 65
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655d3ec1fa26a524b982cce4962ef088
+      internalID: 1150178695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 57
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a512c79ceeb2504e896869118a3b869
+      internalID: 213398161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_20
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 58
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9757bfd8a47e642bcaa359def220a1
+      internalID: 982775466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 84
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e84b942fa528d84f976b97e4641c134
+      internalID: 1972146605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 84
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381e3173ae4fdf0498f0cb4db9ad5c10
+      internalID: -1613272965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 55
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93b10061021dae4a8f85eac8db741e7
+      internalID: -684099912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_24
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 32
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02952a5818e1aff459e14ec8bbbfb4a1
+      internalID: 1609663971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_25
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 32
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a47eaa60c724643b9dd8f860d34e7a
+      internalID: -991016870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_26
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 24
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a9ffa21e2ab0845b4be4caa898fa33
+      internalID: 1774512663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Obitorio_27
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 24
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b3f7e8d081e1c4ba5ba6fee7baba81
+      internalID: 986903432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +737,35 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Obitorio_15: -467880436
+      Obitorio_7: -1054291333
+      Obitorio_0: 353767870
+      Obitorio_2: -189313750
+      Obitorio_20: -1015564416
+      Obitorio_24: -1616375749
+      Obitorio_12: 1358004594
+      Obitorio_16: 1381619434
+      Obitorio_6: 687279695
+      Obitorio_23: -749948453
+      Obitorio_17: 743585544
+      Obitorio_4: 1569731694
+      Obitorio_21: 87360192
+      Obitorio_27: 1312237733
+      Obitorio_18: -1429061230
+      Obitorio_25: -1561902220
+      Obitorio_8: 84618161
+      Obitorio_22: 415541264
+      Obitorio_5: 1591463178
+      Obitorio_26: 1668112680
+      Obitorio_3: 630021118
+      Obitorio_10: -1438442923
+      Obitorio_19: -1652981819
+      Obitorio_1: -1108068626
+      Obitorio_14: -1364264505
+      Obitorio_9: -1954587200
+      Obitorio_13: -698721970
+      Obitorio_11: 910902008
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

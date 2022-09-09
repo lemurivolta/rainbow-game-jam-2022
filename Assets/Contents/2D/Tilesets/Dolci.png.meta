@@ -138,7 +138,721 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Dolci_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 115
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082d40802865aff4c9e473045eaded3e
+      internalID: 705484843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 115
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c626543a517d6b54fb461d89e661bd34
+      internalID: 312774156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 115
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0c3b8efcedd714e9089a571bc8085e
+      internalID: 1141767229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 99
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3295d52aeab5ad14f9e57abf36537908
+      internalID: 1869074721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 99
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607e708929e37224bb34c71d5f7cd21c
+      internalID: 950868446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 99
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951b73ce67ce0ac4ea4e8922aa2e7c73
+      internalID: 1690689935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 99
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 474c2a81de56f8846ac1ea7828a7c372
+      internalID: -1951349451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 99
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0761c9328648e65459f84aee711e0e10
+      internalID: -823816674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddcd472279f2b045a7b944152d25ca2
+      internalID: 538593259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 64
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de857ebb75fdc0845975bc615ad5a5cd
+      internalID: 363487122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77b4156e078d20429e6f8e6a62dd7b4
+      internalID: -1908491924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f379d23349c84241a2787b977b6c29a
+      internalID: 1795184258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49688724f4a53c4fbbb31c6d6e9ee4d
+      internalID: 1444195683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 67
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c39f85be2c79749af2743e8e3cd895
+      internalID: -321642347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 67
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fc7ebcc0c3b1a46b0fdc6933298f45
+      internalID: 1090442780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_15
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 67
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75673724f68b61c4e98e357e7aa3ccf6
+      internalID: -1416328315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_16
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 67
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e58c71ace5a2bc4584a721f364b4438
+      internalID: -882931425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 67
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccbdaea8a5a3064a8e4cb242b272e87
+      internalID: 164806236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_18
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 67
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f003fd85b29dc0140954495ef73be6a3
+      internalID: 412859271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 111
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0bd108369dcc74594bbca1ec97d932
+      internalID: -1277880206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_20
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 94
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fafaca1f5975bf449acc17bbd52f214
+      internalID: -1599938431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_21
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 79
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe11ba81f2ab4a45a91228c1af290d7
+      internalID: -2015597308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_22
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 95
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31954a14f583f2a4d8d806ffe16b2cc3
+      internalID: -1683197601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_23
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 79
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a219543f0a60764996347b092d83a4e
+      internalID: -1861018650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_24
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 30
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0be3fab061f934c8a0431589104c15
+      internalID: -1626765493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 31
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad69e1f6ed33ee94c896960187906fbf
+      internalID: 654151144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_26
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 31
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58bd74e651a57ce4dacf263291fbd4b4
+      internalID: -1815226036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_27
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 31
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a33de824bd297a4da84564084a3e217
+      internalID: 1335281313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_28
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 47
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0795d17f7a692241a24cf513e87f76b
+      internalID: -1657041267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 5
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bec5d05bab9dfe40be56190d365966b
+      internalID: 2125671601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 48
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36062a9f8f2460429a9cf6de8cdb768
+      internalID: -116011886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_31
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 15
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b6f619bcea1aa43b3d292c498b9345
+      internalID: -902645389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_32
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 80
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5b23a1bcae8ba44b2af6ad4f62476d
+      internalID: 1224621955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_33
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 80
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e176a869340da6b4199e7757be20cf48
+      internalID: 2011433275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +863,41 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dolci_31: -902645389
+      Dolci_22: -1683197601
+      Dolci_10: -1908491924
+      Dolci_18: 412859271
+      Dolci_6: -1951349451
+      Dolci_25: 654151144
+      Dolci_16: -882931425
+      Dolci_30: -116011886
+      Dolci_24: -1626765493
+      Dolci_7: -823816674
+      Dolci_3: 1869074721
+      Dolci_9: 363487122
+      Dolci_28: -1657041267
+      Dolci_11: 1795184258
+      Dolci_19: -1277880206
+      Dolci_21: -2015597308
+      Dolci_29: 2125671601
+      Dolci_27: 1335281313
+      Dolci_32: 1224621955
+      Dolci_0: 705484843
+      Dolci_13: -321642347
+      Dolci_33: 2011433275
+      Dolci_8: 538593259
+      Dolci_14: 1090442780
+      Dolci_12: 1444195683
+      Dolci_20: -1599938431
+      Dolci_15: -1416328315
+      Dolci_26: -1815226036
+      Dolci_2: 1141767229
+      Dolci_4: 950868446
+      Dolci_1: 312774156
+      Dolci_23: -1861018650
+      Dolci_5: 1690689935
+      Dolci_17: 164806236
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

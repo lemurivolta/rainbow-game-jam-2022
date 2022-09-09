@@ -138,7 +138,637 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Letti_0
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 188
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1ac7cb7da45024c8a6e54ecffcf924
+      internalID: 521399571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 182
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3252e339ab6426947bfe567ee2da0cec
+      internalID: -223109576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_2
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 182
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35679f574464b2b4497581f8b576debe
+      internalID: -584636996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_4
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 183
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7517a170d294f48b7d67cad6689726
+      internalID: 1888124866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 134
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dbb3f18ba86ca4fb6039173ce3b9dd
+      internalID: 1555415252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 156
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de48fe4c0febf3e4ab010c2099c51eda
+      internalID: 1891326090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_7
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 134
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08711e67ba2c3b4438e03c7ad0514e43
+      internalID: 1452128817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 156
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1560f01af1c5e34e9dabb3e6e8bb8d9
+      internalID: -854902397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_9
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 151
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa613c1582ac4b242aaa8c35a7d54cf9
+      internalID: 539062874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_10
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 108
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d5a341c35931249b0f42bef31225e5
+      internalID: 779215374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 108
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 618cfdce129f32446b7b1903b75fa1cd
+      internalID: -1426948166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_12
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 119
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaa9577b7332dc4591d494ed73786ef
+      internalID: -1271005027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 86
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e62ba5aef81854aaba9bff0e50061c
+      internalID: -537228747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_14
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 86
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213de374c08ae7246989b864d63ccf18
+      internalID: 1385910197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_15
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 87
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30239091c79fc6458ea7a9266c1550e
+      internalID: 1649034047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 55
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb96e39de3eb388448d10e8aec828033
+      internalID: 236098183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 38
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6bcb683996dd9f4bb9d0268f9ec2be5
+      internalID: 1561913642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_18
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 60
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10c48947380c9645884ec29bc38b21d
+      internalID: -1563206826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_19
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 38
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d06fedb818849742b85f202ca17e632
+      internalID: -1396394434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 60
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83714c1866d323e4fa8bae4e4bf35d80
+      internalID: -101896127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 55
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522d17057ed4d90428c457e034cd6fa4
+      internalID: -61139297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_22
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 55
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405ad64e007b12d489f691c4743e6469
+      internalID: 1027162955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 21
+        width: 64
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 302f5fdce0e8e6d4cb45a0482f4f955f
+      internalID: -1074494233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_24
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 21
+        width: 45
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b98feb0bec7cb7459336d2ed4dfee7f
+      internalID: -108559160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 21
+        width: 45
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca180030e08eab4c90dfab5d9fa5a04
+      internalID: -267338509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_26
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 23
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac75b29d51a3dcd4a967dbc01f540ff5
+      internalID: -392583988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_27
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 23
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c24f39196bde1469cbc2bccb965772
+      internalID: 2092413326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 156
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b612e17584c48c46a18d0be85d78d2a
+      internalID: -956391614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 124
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36abfb40e855926448ed75adf063f77a
+      internalID: -1160581582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Letti_29
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 92
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3080793a86eb57144867d72e60385d58
+      internalID: 1299761501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +779,37 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Letti_3: -956391614
+      Letti_22: 1027162955
+      Letti_16: 236098183
+      Letti_27: 2092413326
+      Letti_20: -101896127
+      Letti_10: 779215374
+      Letti_7: 1452128817
+      Letti_6: 1891326090
+      Letti_15: 1649034047
+      Letti_0: 521399571
+      Letti_5: 1555415252
+      Letti_21: -61139297
+      Letti_26: -392583988
+      Letti_8: -854902397
+      Letti_14: 1385910197
+      Letti_28: -1160581582
+      Letti_29: 1299761501
+      Letti_11: -1426948166
+      Letti_13: -537228747
+      Letti_25: -267338509
+      Letti_4: 1888124866
+      Letti_2: -584636996
+      Letti_1: -223109576
+      Letti_19: -1396394434
+      Letti_12: -1271005027
+      Letti_18: -1563206826
+      Letti_23: -1074494233
+      Letti_17: 1561913642
+      Letti_24: -108559160
+      Letti_9: 539062874
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

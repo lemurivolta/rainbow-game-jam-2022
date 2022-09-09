@@ -138,7 +138,1582 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Ospedale 2_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 634
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e9cb0ce1d820045a31f7e73ca16361
+      internalID: -1049324545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 632
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5725423ebd551f74c8f2d4402709e775
+      internalID: 161064228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 632
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02988f4d6cff67b488b002073b466441
+      internalID: 1234693597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 626
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c28edd10d438fd43987abd8bb11a9d7
+      internalID: -152152346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 626
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7fde6371d5d54b4292d194cd8fecc18
+      internalID: 1326087487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 626
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127716dd3bcf59e4ea396a307ce162ee
+      internalID: 355806799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_6
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 626
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c7c172d39d766459e3fd3cce63c703
+      internalID: -1502711011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 625
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e24454d987d07479fae0688526b04b
+      internalID: 427184774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 594
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf8b55575c9b534bbf0921526bf7c27
+      internalID: -1943546172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_9
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 594
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62269d02a80866479ef35493f541d13
+      internalID: -103855327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_10
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 596
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9589113ba6ada4788ea290f26bd5ec
+      internalID: 1727196323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 593
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2d4f7e89100ee48b3cd27eb91e9a76
+      internalID: -219910722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 594
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a5d6779cf98ca44abe7e69c614ca0a
+      internalID: -2006561173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 593
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61847567bd6a324d99661e1c3ccb8a8
+      internalID: -101768931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_14
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 587
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03cddc4eac963ed468b474ea5c263ede
+      internalID: -1159204703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 554
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad22e0f1a33dcc49b1528439dd4f71e
+      internalID: 131278507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_16
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 554
+        width: 22
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d0e272653a12340847e4d621c600a4
+      internalID: 137320666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_17
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 614
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e05cefc5de2ea4f9efafc5eccbe6bf
+      internalID: 1090630288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_18
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 531
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac58a19d7adbc541b11171a14239428
+      internalID: 1259036454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_19
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 515
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023aae39546852540b4edc12660bc35d
+      internalID: 176167355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_20
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 515
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea80acae2f022aa4aa90f934cf36cec9
+      internalID: 1149252506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_21
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 531
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c32cc87352de24990d93bd66818bee
+      internalID: 1900677877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 515
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07d54bb04e52c04bbfc9f6f20f4d124
+      internalID: -1037834860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_23
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 423
+        width: 19
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f46e6dc8ecd7ca46807a3a84ab18096
+      internalID: 1548791578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_24
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 425
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54934a5eec098ac449652148fc44f4df
+      internalID: -1054928412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_25
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 457
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bd743eeb82cd349b42707ff8bd0e07
+      internalID: -1598343666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 425
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7768b087227cadb4e9fc44109bd35526
+      internalID: 1567850038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_27
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 457
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59094d0b5a469894ba512107a92f1c5a
+      internalID: -233992615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_28
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 376
+        width: 24
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aac1cd6d83159d4781a6ea7e4d38797
+      internalID: 1260716600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 376
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 635d5351978866a44b08f89d3f5e067c
+      internalID: -493773552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_30
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 369
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6013aeae4a58dee4ebb49f8bd3e54c72
+      internalID: -145686895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 369
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d5228bef376b04a801cb9faaee546f
+      internalID: 157990236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_32
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 369
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffcf2641a7b77b49939cb0aef920fdb
+      internalID: 111389894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_33
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 312
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d4e745e27e329488ebd790bec9ed92
+      internalID: -766556442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_34
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 312
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc6aa22a228788478fa2be43756dc5a
+      internalID: 973930537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_35
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 267
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98716554bde39064caa1ce9a8e98aec9
+      internalID: -796330790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_36
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 267
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7872ab9e240f248a8e0b1d55558c79
+      internalID: 1559506297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_37
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 329
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367950cf2edb83c4f80a217adcb371a8
+      internalID: -266530917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_38
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 329
+        width: 35
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7be6eb4e79f27499a7be5fedd41d42
+      internalID: -1279651061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 292
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 176d26d7c15b5f84096f9a5987e12d7d
+      internalID: 242638945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_40
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 292
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137ba9a7efe0f204e84f3f49c73e6624
+      internalID: 656770281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_41
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 260
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26875f119c336aa468144ad64f6d160b
+      internalID: 630244393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_42
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 260
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bbe42929e193c45b14e34df3aff010
+      internalID: -1203575895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 261
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adf81ad6b4d40e45b7d6f3f5c6c1638
+      internalID: -359010710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 261
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4824dc058a3edd14cac5575f99fa72b5
+      internalID: 620754521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_45
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 289
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50d0b44f0e06518408a1336a4a63c5d2
+      internalID: 865871853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_46
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 269
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e6007d298e35342a84d1d38c0204c4
+      internalID: -777493117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_47
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 290
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4f93add8bd99343873e3ab0e961751
+      internalID: 655620998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_48
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 269
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0684a4946effbc84f9b27badb5a5be50
+      internalID: -1026999994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_49
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 337
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4859e5ea625b62d408cf3ca92960a408
+      internalID: -1076015504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_50
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 198
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e3706447ea4b3e4eb8da5de0238b55d
+      internalID: 660213252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_51
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 214
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556a89e9c7e8a774ca29739d8e94717f
+      internalID: 2023630281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 235
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1447796314f776a40bc3b7b670e1c1a3
+      internalID: 745233595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_53
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 202
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9f417151bc3de479e193721a49ed10
+      internalID: -41999360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_54
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 234
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4294750b2f472849bf98401e0450877
+      internalID: -1249225714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_55
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 234
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f65d377a5bf60439f04f4b60d76e69
+      internalID: 2047961453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_56
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 182
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc554bbfc51699499dc9387acb2c6d1
+      internalID: 1814701269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_57
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 182
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e78bcb78d266aae42b8098b6e3a076ff
+      internalID: -304315545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_58
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 311
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61008f880dad0743aeb510d13f66d99
+      internalID: 901705340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_59
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 498
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c45925158d3494a9174cd45d2c3fc1
+      internalID: -1576079712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_60
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 498
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a86dd207bc955140bc964236e656887
+      internalID: 1416849197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_61
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 500
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543180b8f65ab274f8b92cb8abbdc6db
+      internalID: -265078913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_62
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 498
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f38c91b51090ef4e8115594c359ed18
+      internalID: 513441144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_63
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 498
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2f61322c7e6eb4dbc03af401f25ce1
+      internalID: -1126410544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_64
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 497
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89bb6034517329d449bc20f7331f1363
+      internalID: -41943670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_65
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 102
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8934467c63021f94e8b72a82948b7353
+      internalID: 865070609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_66
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 46
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188e4fe64ad287243b369554bd91a71c
+      internalID: -515746635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_67
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 55
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6342905cafa8104bac15b731d5aac63
+      internalID: 634591150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_68
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 39
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3228a2062452f499b60bb63435ebd0
+      internalID: 2039157980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 21
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee07dd5e1c7726f4ea052102f12c92f8
+      internalID: 1743893150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_70
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 33
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e34246338eb1f24a87efba29e01a03c
+      internalID: -845108157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_71
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 39
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1996325f9482402478a03d82f2e7767f
+      internalID: 660616840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_72
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 55
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5a899d1c192914186f994068af5ab3
+      internalID: 712789908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_73
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 239
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81137835173bfec46aa6702481446fd7
+      internalID: -1214712849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_74
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 239
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae77ae448b2429f459d83b09aa9b6bfc
+      internalID: 809177201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +1724,82 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ospedale 2_47: 655620998
+      Ospedale 2_26: 1567850038
+      Ospedale 2_58: 901705340
+      Ospedale 2_31: 157990236
+      Ospedale 2_43: -359010710
+      Ospedale 2_60: 1416849197
+      Ospedale 2_15: 131278507
+      Ospedale 2_56: 1814701269
+      Ospedale 2_54: -1249225714
+      Ospedale 2_73: -1214712849
+      Ospedale 2_53: -41999360
+      Ospedale 2_11: -219910722
+      Ospedale 2_12: -2006561173
+      Ospedale 2_48: -1026999994
+      Ospedale 2_72: 712789908
+      Ospedale 2_16: 137320666
+      Ospedale 2_41: 630244393
+      Ospedale 2_44: 620754521
+      Ospedale 2_33: -766556442
+      Ospedale 2_8: -1943546172
+      Ospedale 2_25: -1598343666
+      Ospedale 2_22: -1037834860
+      Ospedale 2_61: -265078913
+      Ospedale 2_9: -103855327
+      Ospedale 2_14: -1159204703
+      Ospedale 2_3: -152152346
+      Ospedale 2_38: -1279651061
+      Ospedale 2_5: 355806799
+      Ospedale 2_19: 176167355
+      Ospedale 2_24: -1054928412
+      Ospedale 2_30: -145686895
+      Ospedale 2_1: 161064228
+      Ospedale 2_20: 1149252506
+      Ospedale 2_66: -515746635
+      Ospedale 2_42: -1203575895
+      Ospedale 2_59: -1576079712
+      Ospedale 2_28: 1260716600
+      Ospedale 2_27: -233992615
+      Ospedale 2_55: 2047961453
+      Ospedale 2_49: -1076015504
+      Ospedale 2_18: 1259036454
+      Ospedale 2_0: -1049324545
+      Ospedale 2_13: -101768931
+      Ospedale 2_7: 427184774
+      Ospedale 2_62: 513441144
+      Ospedale 2_35: -796330790
+      Ospedale 2_63: -1126410544
+      Ospedale 2_70: -845108157
+      Ospedale 2_39: 242638945
+      Ospedale 2_10: 1727196323
+      Ospedale 2_67: 634591150
+      Ospedale 2_52: 745233595
+      Ospedale 2_57: -304315545
+      Ospedale 2_50: 660213252
+      Ospedale 2_4: 1326087487
+      Ospedale 2_21: 1900677877
+      Ospedale 2_36: 1559506297
+      Ospedale 2_29: -493773552
+      Ospedale 2_46: -777493117
+      Ospedale 2_32: 111389894
+      Ospedale 2_71: 660616840
+      Ospedale 2_23: 1548791578
+      Ospedale 2_37: -266530917
+      Ospedale 2_51: 2023630281
+      Ospedale 2_68: 2039157980
+      Ospedale 2_65: 865070609
+      Ospedale 2_40: 656770281
+      Ospedale 2_69: 1743893150
+      Ospedale 2_34: 973930537
+      Ospedale 2_2: 1234693597
+      Ospedale 2_64: -41943670
+      Ospedale 2_45: 865871853
+      Ospedale 2_6: -1502711011
+      Ospedale 2_17: 1090630288
+      Ospedale 2_74: 809177201
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

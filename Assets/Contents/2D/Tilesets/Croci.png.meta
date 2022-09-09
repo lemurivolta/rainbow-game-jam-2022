@@ -138,7 +138,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Croci_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 120
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb280978eb1fabc4c882dac829be9914
+      internalID: -492441249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 120
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b508d55295d041d489af9406410a391f
+      internalID: -205365238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 152
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b2cc123429a4447a5535679acbe709
+      internalID: 1841340241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_3
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 25
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b3a6482eae1b347a4d6555b04ccfa4
+      internalID: -952261031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_4
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 25
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9975a2e22862ba9438dd5ef9d6f0bb54
+      internalID: -254816427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_5
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 25
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a370a00d2490b4418ea312cfdf4e1b3
+      internalID: -463590772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_6
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 126
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937875a5eb1ee704abfbcfaae49f0cb1
+      internalID: -1587811793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_7
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 102
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d90a2f81bb6fd4fa0f17eb032c3660
+      internalID: 567104516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 102
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a42e15d273dc14d948e75c0f2917ea
+      internalID: -193045585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_9
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 152
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c172d2a1579196a49baa519ab413f81b
+      internalID: -478566905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_10
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 153
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b765d22819c4244aab726264d5ca307
+      internalID: 1859029140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 34
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab51e8a00b6e8e846b43e4b4b06206f8
+      internalID: 709347447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 30
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269ab7aabefb0314e8d4dd781e4716f5
+      internalID: -118749226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 38
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f845d645428ba42a3b3df10080b3d9
+      internalID: -246839067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Croci_14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 38
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1419c21a0d244d469e2ac4cea3a84ce
+      internalID: 1191122019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +464,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Croci_3: -952261031
+      Croci_0: -492441249
+      Croci_13: -246839067
+      Croci_10: 1859029140
+      Croci_12: -118749226
+      Croci_2: 1841340241
+      Croci_7: 567104516
+      Croci_9: -478566905
+      Croci_1: -205365238
+      Croci_8: -193045585
+      Croci_11: 709347447
+      Croci_14: 1191122019
+      Croci_6: -1587811793
+      Croci_5: -463590772
+      Croci_4: -254816427
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

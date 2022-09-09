@@ -138,7 +138,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Lampade e piante_0
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 346
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8750de82c3cf142a3b8bd69113b0bb
+      internalID: 61891391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 346
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ddf7102a5e682a4f9ff31fd6ebc6914
+      internalID: -1358301870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_2
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 346
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f23078e594cef43a0d3b92091fad80
+      internalID: -408329149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 339
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bae55db7b2d0b4196bfb20b0a4bdf1
+      internalID: 1070693881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 313
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2ed0e0e8f64b048a0373efdf75f9d3
+      internalID: -47946593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 313
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50083f5ec04bc3244949c775124f5291
+      internalID: 772961784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 282
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bcd64f9c56986438b688f51081260f
+      internalID: -593648389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 282
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42ec86afb86c044fa140651b1c59252
+      internalID: 1296666662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 295
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32257900dee1d854691384d59bf4ca8c
+      internalID: -625626339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 297
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335eef9124a8217458d40d2c3d9a942f
+      internalID: 5780375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 278
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a64876e109ed2d4ebef402f13b3d480
+      internalID: -778964437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 263
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722371b0abdb9ae4b9d53323299e6106
+      internalID: 626458444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_12
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 264
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378185f3d89730b46ba211d6b6e28210
+      internalID: -1385911489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_13
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 203
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce1461bba8149b4799cd4a2bfb49949
+      internalID: -1980181277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 215
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf27b73e8c7d314e82ac2135b6a1608
+      internalID: -1611871538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_15
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 249
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2424ffbdaac6742800123f9913f435
+      internalID: 1916372811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 249
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d756b0a38198f4b81ae75b0632d58e
+      internalID: 915342305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 187
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae33a9720aab8d4a9587616cb9a894a
+      internalID: 844363501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_18
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 167
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85575f5c874413949bf6b9c5d1d5a865
+      internalID: -1542635016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 170
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a07a3382b067904ba64d7d0bb757b4c
+      internalID: -2123554080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_20
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 170
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21c21f0a366d5d4aa1251eb71a99bdf
+      internalID: -60553085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_21
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 171
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 954fbcf58bcd4ca41a007ff77092dd28
+      internalID: 1473096031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 231
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9f79672e4d96c47b303358dbea27e3
+      internalID: -843837478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 231
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd8faf0cdff53248b91f9ecad6973fa
+      internalID: -128200699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_24
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 131
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d911cddadeea87c49b76ccff46fcb502
+      internalID: -527182339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_25
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 60
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51da90732af3cb418a699ff2bfc6a0f
+      internalID: -286801073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_26
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 39
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef42a18e215f55e4987955722056f92b
+      internalID: -1389173365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 39
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721a015953c659144ad10541672ffb0b
+      internalID: 345973084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_28
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 71
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6404b45924291554e80f7cec08c3b0f8
+      internalID: -1454533846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_29
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 99
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4758aa55eec5bb541b190bab2ee5a0e4
+      internalID: 1553646581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 19
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e96e78d58e24140a836ef35a87b690
+      internalID: 510675196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_31
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 56
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9928b1c62a2ad4586326399a48a567
+      internalID: 1697134842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +821,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Lampade e piante_9: 5780375
+      Lampade e piante_30: 510675196
+      Lampade e piante_2: -408329149
+      Lampade e piante_4: -47946593
+      Lampade e piante_22: -843837478
+      Lampade e piante_0: 61891391
+      Lampade e piante_16: 915342305
+      Lampade e piante_11: 626458444
+      Lampade e piante_7: 1296666662
+      Lampade e piante_10: -778964437
+      Lampade e piante_6: -593648389
+      Lampade e piante_5: 772961784
+      Lampade e piante_14: -1611871538
+      Lampade e piante_8: -625626339
+      Lampade e piante_31: 1697134842
+      Lampade e piante_19: -2123554080
+      Lampade e piante_15: 1916372811
+      Lampade e piante_23: -128200699
+      Lampade e piante_26: -1389173365
+      Lampade e piante_1: -1358301870
+      Lampade e piante_29: 1553646581
+      Lampade e piante_25: -286801073
+      Lampade e piante_28: -1454533846
+      Lampade e piante_17: 844363501
+      Lampade e piante_3: 1070693881
+      Lampade e piante_12: -1385911489
+      Lampade e piante_21: 1473096031
+      Lampade e piante_24: -527182339
+      Lampade e piante_18: -1542635016
+      Lampade e piante_27: 345973084
+      Lampade e piante_20: -60553085
+      Lampade e piante_13: -1980181277
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

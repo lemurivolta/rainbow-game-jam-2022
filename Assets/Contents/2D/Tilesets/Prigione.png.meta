@@ -138,7 +138,1981 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Prigione_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 397
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded870e09a7158741b9dc3df2f797ba6
+      internalID: -936184657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 397
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4112be6644664624ab99215e44f144ad
+      internalID: -601755402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 397
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f8a7f126885c28469d4b47c83f2ed65
+      internalID: -1877636755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 397
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963b63c7a3fddcc4e8ebb5c0b1757ebc
+      internalID: 2101484754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_4
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 397
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eeab8cfd850ab4a82beadb0cbab2a3
+      internalID: 1894074060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 397
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc7d004ce36b81498558de45c0ce9c0
+      internalID: -1305646185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 368
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2500f060de9a41a4ba274025c0203b77
+      internalID: -1257101188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_7
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 368
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e85434a74003340bd30c7f3a5997b5
+      internalID: 1207669285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_8
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 370
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca73d112e52af3741a5faa2b01624a1c
+      internalID: -2141120113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 354
+        width: 8
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345dd3ea185d127489fa8b2ec9d43e9b
+      internalID: 1433391010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 342
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd1215cbc34cad49a72e2441f8dcf5c
+      internalID: -16019846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 342
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3ef069693c61244b5147b8fd26089b
+      internalID: 2072529369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_12
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 342
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d155716435da45c4db31e5f68efef598
+      internalID: 1486654459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_13
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 335
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0891031a3aa274f4e9591677282e4816
+      internalID: 84192263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_14
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43acc05d2a19e544b763b4ada25a44f
+      internalID: 1540559704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 333
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb9039691068a94789c4c5ed7862b26
+      internalID: -2058291470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 293
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d113f79cd9d0847975256601dc1ef8
+      internalID: -2127113452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_17
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 293
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e95e2595804994dbcc44ed44566d64
+      internalID: -2055902560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 293
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4eec4028270b3b45b455bbe532d7067
+      internalID: -106933373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 290
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91391fc74595e1244be9c9d9ecbcd0b2
+      internalID: 415969051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 355
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5c338506d8f104ea3ff085a6dadeba
+      internalID: 1796433213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 307
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4997c9be17323b4eba113c43017456d
+      internalID: 692383896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 259
+        width: 16
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a904693bec13e43bac8ef1009e7437
+      internalID: 265288723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 262
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d170fd9336b91cc4ea89ff474de79ab1
+      internalID: -592419688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_24
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 294
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96452f6c9e456a46b64c946ae4ada49
+      internalID: -552194367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_25
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 312
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba38dc236b17c744394f27480a8cfe82
+      internalID: 422414718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_26
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 310
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10cb9becc358ee44945555d3ad72e0e
+      internalID: -808175993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 317
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6939bef3b4dc3314986650a4663d7a12
+      internalID: -239096930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_28
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 306
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021c91ec33544df4da6178ca86ea6842
+      internalID: 922337786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f22c71a2f05ff442a7f618f7290ae5f
+      internalID: -825863617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 255
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a82ff59bb636241b261d2041c17fc3
+      internalID: 1027067697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 317
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a34333a060e3e54dae31b4ea77144e5
+      internalID: 510568228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 285
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285533a6590f1ef4ebc787a967098dde
+      internalID: -1626875601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 20
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702771e9cecde25418340ee6fecbf67c
+      internalID: -194272339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 349
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889bdf49bf8cc8b45834a2403e429c6e
+      internalID: -924841303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 208
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef28a07f30b036479564ef6cfa5bc3e
+      internalID: 1023969703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36e72c966c74dec48bb1155de7835d6e
+      internalID: -918910961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 197
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b26d943de1c9934988f17fc4901dc01
+      internalID: 1172570264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_38
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 208
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32718d565cdfac45890b69433d52bf3
+      internalID: 1065319651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_39
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 209
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b2fc791fd31544f9c3ffe7c10936de
+      internalID: 2140792346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_40
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 210
+        width: 22
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec33ca42ce11c084fbc0c8d2d03d9d47
+      internalID: -623462140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_41
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 186
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c283dac4cb9c3cf4cb025a49ca4d81ed
+      internalID: -1678213984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_42
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 186
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d0efaae30f3bc3478e3a4403dfc0c1d
+      internalID: -633553456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_43
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 186
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fb1e3c1108a2544e9ddee1d27cccea3
+      internalID: -628274955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_44
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 186
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af8715cf521cdb48812293868363111
+      internalID: 799180563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 177
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d269e54fd89ff9469a59f824eb22830
+      internalID: -954589640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_46
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 184
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec14ececffe4080459da51deff98c4ae
+      internalID: -111801441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_47
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 186
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16ae526cfb4a3b45bcd2734a073f6e6
+      internalID: 1767965204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_48
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 184
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883b2e3213caa48479cc2b91611534e7
+      internalID: 1407731196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 253
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b2854e1a4e4c6b44ac4f3e723e39960
+      internalID: -1927227539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_50
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 253
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fd705f7e2ba2f4087eb96eb45cc53f
+      internalID: -132741884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_51
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 237
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c3a1cf89c41cf449a78152ebedeb9f4
+      internalID: 1583157350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 237
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71104a077926fca438b57390376d4419
+      internalID: 1664507824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_53
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 225
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2a997a4c99e9d48a8aed25e5a5ec78
+      internalID: -1505392239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_54
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 225
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af527eabc4c1a44b835a98ca42ea37e
+      internalID: 1539781174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 141
+        width: 13
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a714958f4b230bd4095132a4e1fc7290
+      internalID: 551736536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_56
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 142
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7530372f2bcae47b5a314e0a787728
+      internalID: -2124425443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 145
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45c5c4e7609d1641ad4d2d33df2b6f1
+      internalID: -1839499361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 145
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01e286a1d929374e951ec097e8fe19c
+      internalID: 585947267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_59
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 94
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5a9bf85d7d9534e975137d44f0ba53
+      internalID: 1521801127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 97
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c930bfc41f9e4b488c0571913eb511c
+      internalID: -90615426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 97
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488b7fe781d71bd4d9a36d04bf589e8a
+      internalID: -1366629930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_62
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 94
+        width: 13
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5a1629e32442347bf9e8c00c850d71
+      internalID: 1129191839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 146
+        width: 47
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77c0ab4414271942996621dc33b7a0f
+      internalID: 1087601027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3ad6d9815363b244bc831accd6d81fa
+      internalID: -493540235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_65
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 120
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0adc72736f4c8994b95c3c72ddda9147
+      internalID: -1913721380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_66
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 120
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd65e58e1a5d219469cf3f7029f4136f
+      internalID: 889168702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_67
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 122
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f63542ad2b6014a8360ef492779cdc
+      internalID: -1925753823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_68
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 120
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bcc667f5f0aa54fbcfce995fc1f61a
+      internalID: 2063704640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_69
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 120
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b553ce6f337f6c94ca21fb2d1c14b92b
+      internalID: 567250833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_70
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 152
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f494f56efd3d674da700791f61de67a
+      internalID: -230633555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_71
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 152
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773331dd71ff0b34088554f0fc67afc4
+      internalID: -519079245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_72
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 154
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf168a48333aea49b917474339acf01
+      internalID: 1293904616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_73
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 152
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3533709bc0a38a4ab5146fd730304d1
+      internalID: -907217382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_74
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 152
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c48ec74f054ec41adfb6a138c5bc1e
+      internalID: 932383073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_75
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 116
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0496d536005904d9e61a7149c16acf
+      internalID: 813151918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_76
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 116
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7226231c538394c932c910f9c7ffe9
+      internalID: -2101040502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_77
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 116
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b84385753cfd44a9fa4d6ce45c7571
+      internalID: -1513902474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_78
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 87
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978b629710db14f40b0c068154be8cd1
+      internalID: -1677488431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_79
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 87
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d5119dc3e640f4689446d3dd2fcddb
+      internalID: -967068153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_80
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 87
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1b80bb3ba597a4aa431ef3fca5618b
+      internalID: -2141246406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_81
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 82
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1347492d591a640a4f05993b3c9050
+      internalID: 1106279925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_82
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 83
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca80b927a24de24bbd44d1add64cc5c
+      internalID: 701969164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_83
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 81
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6636a29c28978f14691d3738d09652de
+      internalID: 23762223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_84
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 50
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00db849c4e263ba40aeb14a94d99689b
+      internalID: -1070149776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_85
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 51
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65562727b36fcd042879a8de46c197e7
+      internalID: -1003280093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_86
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 49
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29167fad9369e6c4eb1294edb8cf19c4
+      internalID: 626662782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_87
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 55
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b754e4aa22b7db045883fdf5c1c2ab27
+      internalID: -1674021424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_88
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 55
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498ed2fb01a677f4e8f0dacda4b9c8ed
+      internalID: -604026424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_89
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 55
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677b290092d29c342b9b58b10ea6f41f
+      internalID: 1641753189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_90
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 72
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e7c26e78fe2274cb0cfa38c3da4426
+      internalID: 1868850969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 131
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ef69ce7de9a194db06062f1ad01f69
+      internalID: 14682357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_92
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 240
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc328ace304dfed49926d3f8fab8356d
+      internalID: -1235949334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_93
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 270
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1be4d51ae487a94da70136324a3ae1b
+      internalID: 293927365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -149,7 +2123,101 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Prigione_40: -623462140
+      Prigione_42: -633553456
+      Prigione_61: -1366629930
+      Prigione_49: -1927227539
+      Prigione_76: -2101040502
+      Prigione_5: -1305646185
+      Prigione_21: 692383896
+      Prigione_53: -1505392239
+      Prigione_3: 2101484754
+      Prigione_14: 1540559704
+      Prigione_57: -1839499361
+      Prigione_32: -1626875601
+      Prigione_0: -936184657
+      Prigione_1: -601755402
+      Prigione_85: -1003280093
+      Prigione_83: 23762223
+      Prigione_2: -1877636755
+      Prigione_17: -2055902560
+      Prigione_75: 813151918
+      Prigione_66: 889168702
+      Prigione_64: -493540235
+      Prigione_54: 1539781174
+      Prigione_18: -106933373
+      Prigione_27: -239096930
+      Prigione_38: 1065319651
+      Prigione_62: 1129191839
+      Prigione_79: -967068153
+      Prigione_65: -1913721380
+      Prigione_84: -1070149776
+      Prigione_87: -1674021424
+      Prigione_78: -1677488431
+      Prigione_51: 1583157350
+      Prigione_74: 932383073
+      Prigione_23: -592419688
+      Prigione_16: -2127113452
+      Prigione_90: 1868850969
+      Prigione_11: 2072529369
+      Prigione_30: 1027067697
+      Prigione_93: 293927365
+      Prigione_48: 1407731196
+      Prigione_26: -808175993
+      Prigione_39: 2140792346
+      Prigione_9: 1433391010
+      Prigione_72: 1293904616
+      Prigione_19: 415969051
+      Prigione_70: -230633555
+      Prigione_12: 1486654459
+      Prigione_35: 1023969703
+      Prigione_60: -90615426
+      Prigione_24: -552194367
+      Prigione_13: 84192263
+      Prigione_45: -954589640
+      Prigione_55: 551736536
+      Prigione_77: -1513902474
+      Prigione_71: -519079245
+      Prigione_58: 585947267
+      Prigione_41: -1678213984
+      Prigione_59: 1521801127
+      Prigione_28: 922337786
+      Prigione_69: 567250833
+      Prigione_52: 1664507824
+      Prigione_31: 510568228
+      Prigione_56: -2124425443
+      Prigione_4: 1894074060
+      Prigione_89: 1641753189
+      Prigione_92: -1235949334
+      Prigione_50: -132741884
+      Prigione_8: -2141120113
+      Prigione_86: 626662782
+      Prigione_36: -918910961
+      Prigione_80: -2141246406
+      Prigione_34: -924841303
+      Prigione_88: -604026424
+      Prigione_44: 799180563
+      Prigione_43: -628274955
+      Prigione_68: 2063704640
+      Prigione_33: -194272339
+      Prigione_73: -907217382
+      Prigione_63: 1087601027
+      Prigione_15: -2058291470
+      Prigione_25: 422414718
+      Prigione_46: -111801441
+      Prigione_82: 701969164
+      Prigione_10: -16019846
+      Prigione_6: -1257101188
+      Prigione_20: 1796433213
+      Prigione_29: -825863617
+      Prigione_22: 265288723
+      Prigione_37: 1172570264
+      Prigione_81: 1106279925
+      Prigione_67: -1925753823
+      Prigione_7: 1207669285
+      Prigione_91: 14682357
+      Prigione_47: 1767965204
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
