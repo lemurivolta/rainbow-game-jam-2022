@@ -25,7 +25,6 @@ public class EnemyCollision : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("On trigger enter");
         if (NumCharactersInside == 0)
         {
             SetupNewDangerSlope(1 / FullDangerTime);
@@ -44,7 +43,6 @@ public class EnemyCollision : MonoBehaviour
 
     private void SetupNewDangerSlope(float dangerPerSecond)
     {
-        Debug.Log($"Setup new slope: {dangerPerSecond}");
         var currentDanger = GetCurrentDangerValue();
         StartTime = Time.time;
         DangerPerSecond = dangerPerSecond;
