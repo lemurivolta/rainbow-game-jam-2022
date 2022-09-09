@@ -825,7 +825,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MinStepDistance: 0.01
-  MaxStepsNumber: 10
+  MaxStepsNumber: 15
 --- !u!114 &639941356714927502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -907,7 +907,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  MaxDistance: 1
+  MaxDistance: 2
   FrameTolerance: 15
 --- !u!1 &4976138183133875467
 GameObject:
