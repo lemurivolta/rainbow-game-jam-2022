@@ -52,7 +52,7 @@ public class ExchangeTimeout : MonoBehaviour
 
     private void Update()
     {
-        if (AcceptingInput && (switchP1Pressed || switchP2Pressed))
+        if (AcceptingInput && switchP1Pressed && switchP2Pressed)
         {
             if (BeginExchangeTime == float.PositiveInfinity)
             {
