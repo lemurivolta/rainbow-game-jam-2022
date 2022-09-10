@@ -41,7 +41,6 @@ public class EnemyFaint : MonoBehaviour
 
     private void OnPlayerAction(CharacterInfo.Players p)
     {
-        Debug.Log($"enemyfaint: player action with {CharacterInfoInArea.Count} characters inside");
         foreach (var characterInfo in CharacterInfoInArea)
         {
             if (characterInfo.Player == p && !characterInfo.IsFollower)
