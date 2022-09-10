@@ -8,7 +8,7 @@ public class Interactable : MonoBehaviour
     /// <summary>
     /// All the players currently near enough to activate the interactable.
     /// </summary>
-    private List<CharacterInfo> NearbyCharacters = new();
+    private HashSet<CharacterInfo> NearbyCharacters = new();
 
     private CameraStateUpdater CameraStateUpdater;
 
@@ -25,17 +25,15 @@ public class Interactable : MonoBehaviour
         CameraStateUpdater = GetComponentInChildren<CameraStateUpdater>();
     }
 
+    private delegate bool SetAction(CharacterInfo characterInfo);
+
     /// <summary>
     /// Event handler for when a character gets near enough.
     /// </summary>
     /// <param name="collision">The collider information</param>
     public void OnCharacterApproach(Collider2D collision)
     {
-        var ccb = collision.gameObject.GetComponent<CharacterInfo>();
-        if (ccb != null && NearbyCharacters.IndexOf(ccb) < 0)
-        {
-            NearbyCharacters.Add(ccb);
-        }
+        OnCharacter(collision, NearbyCharacters.Add);
     }
 
     /// <summary>
@@ -44,10 +42,16 @@ public class Interactable : MonoBehaviour
     /// <param name="collision">The collider information</param>
     public void OnCharacterDepart(Collider2D collision)
     {
-        var ccb = collision.gameObject.GetComponent<CharacterInfo>();
-        if (ccb != null && NearbyCharacters.IndexOf(ccb) >= 0)
+        OnCharacter(collision, NearbyCharacters.Remove);
+    }
+
+    private void OnCharacter(Collider2D collision, SetAction action)
+    {
+        var ccb = collision.gameObject.transform
+            .parent.gameObject.GetComponent<CharacterInfo>();
+        if (ccb != null)
         {
-            NearbyCharacters.Remove(ccb);
+            action(ccb);
         }
     }
 

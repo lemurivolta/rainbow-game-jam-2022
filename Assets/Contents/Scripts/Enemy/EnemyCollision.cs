@@ -51,7 +51,7 @@ public class EnemyCollision : MonoBehaviour
 
     private float GetCurrentDangerValue()
     {
-        return StartDanger + (Time.time - StartTime) * DangerPerSecond;
+        return Mathf.Clamp01(StartDanger + (Time.time - StartTime) * DangerPerSecond);
     }
 
     private void Update()
