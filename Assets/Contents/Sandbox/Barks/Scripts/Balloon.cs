@@ -33,13 +33,14 @@ public class Balloon : Singleton<Balloon>
         currentBark = b;
         currentBark.canSkip = false;
 
+        playerOneSkip.isOn = false;
+        playerTwoSkip.isOn = false;
+
         if (currentBark.pressToSkip)
         {
             //Time.timeScale = 0;
             playerOneSkip.gameObject.SetActive(true);
             playerTwoSkip.gameObject.SetActive(true);
-            playerOneSkip.isOn = false;
-            playerTwoSkip.isOn = false;
         }
         else
         {
@@ -62,11 +63,16 @@ public class Balloon : Singleton<Balloon>
 
     private void PlaceBalloon()
     {
-        if(currentBark.character == CHARACTER.NPC)
-            transform.position = currentBark.targetTransform.position + Vector3.up * yOffset;
+        if (currentBark.character == CHARACTER.NPC)
+        {
+            if (currentBark.targetTransform != null)
+                transform.position = currentBark.targetTransform.position + Vector3.up * yOffset;
+            else
+                transform.position = Vector3.zero;
+        }
         else
         {
-            CharacterInfo ci = CharacterInfo.AllCharacterControlledBy.Find((x)=>x.name.ToUpper() == currentBark.character.ToString());
+            CharacterInfo ci = CharacterInfo.AllCharacterControlledBy.Find((x) => x.name.ToUpper() == currentBark.character.ToString());
             if (ci)
                 transform.position = ci.transform.position + Vector3.up * yOffset;
             else
@@ -125,11 +131,24 @@ public class Balloon : Singleton<Balloon>
 
     public void TrySkipping(bool b)
     {
-        if (b && playerOneSkip.isOn && playerTwoSkip.isOn)
+        if (currentBark.pressToSkip && b && playerOneSkip.isOn && playerTwoSkip.isOn)
         {
             currentBark.canSkip = true;
-            OnTextAllShowed();
+
+            StartCoroutine(WaitToSkip());            
         }
+    }
+
+    IEnumerator WaitToSkip()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        playerOneSkip.SetIsOnWithoutNotify(false);
+        playerTwoSkip.SetIsOnWithoutNotify(false);
+
+        yield return new WaitForEndOfFrame();
+
+        OnTextAllShowed();
     }
 
     /*todo

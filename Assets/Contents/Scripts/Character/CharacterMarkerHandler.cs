@@ -12,7 +12,7 @@ public class CharacterMarkerHandler : MonoBehaviour
 
     private SpriteRenderer SpriteRenderer;
 
-    private void Start()
+    private void Awake()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -31,6 +31,7 @@ public class CharacterMarkerHandler : MonoBehaviour
 
     private void UpdateMarker()
     {
-        SpriteRenderer.enabled = Player == ThisPlayer && !IsFollowing;
+        if(SpriteRenderer != null)
+            SpriteRenderer.enabled = Player == ThisPlayer && !IsFollowing;
     }
 }

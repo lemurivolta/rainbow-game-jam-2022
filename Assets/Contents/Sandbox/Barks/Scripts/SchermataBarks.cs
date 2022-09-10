@@ -21,7 +21,8 @@ public class SchermataBarks : MonoBehaviour
         {
             b.restartAtEnd = true;
         }
-        endingBarks[endingBarks.Count - 1].nextSceneOnSkip = true;
+        if(endingBarks.Count > 0)
+           endingBarks[endingBarks.Count - 1].nextSceneOnSkip = true;
     }
 
     void BarksLinker(List <Bark> B)
@@ -37,7 +38,7 @@ public class SchermataBarks : MonoBehaviour
 
     public void PlayStartingBarks()
     {
-        Balloon.Instance.PlayBark(startingBarks[0]);
+            Balloon.Instance.PlayBark(startingBarks[0]);
     }
 
     public void PlayEndingBarks()
