@@ -2,15 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
+
 public class SchermateManager : Singleton<SchermateManager>
 {
-    [SerializeField] List<Schermata> Schermate;
+    [SerializeField] List<GameObject> PrefabSchermate;
+    AudioSource audioSource;
 
-    int currentSchermata = 0;
+    int currentSchermataIndex = 0;
+    GameObject currentSchermata;
     bool allowedToSkip;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
         FirstStart();
     }
 
@@ -26,54 +31,39 @@ public class SchermateManager : Singleton<SchermateManager>
 
     public void EndSchermata()
     {
-        Schermate[currentSchermata].barks.PlayEndingBarks();
+        currentSchermata.GetComponent<Schermata>().barks.PlayEndingBarks();
     }
 
     public void GoToNext()
-    {   
-        Schermate[currentSchermata].gameObject.SetActive(false);
-        currentSchermata++;
+    {
+        Destroy(currentSchermata);
+
+        currentSchermataIndex++;
 
         FirstStart();
     }
 
     public void FirstStart()
     {
-        Schermate[currentSchermata].gameObject.SetActive(true);
-        PlaceCharacters();
-        Schermate[currentSchermata].barks.PlayStartingBarks();
-        // fai partire eventuali bark
-        // azzera interruttori e npc
+        currentSchermata = Instantiate(PrefabSchermate[currentSchermataIndex]);
+        //PlaceCharacters();
+        currentSchermata.GetComponent<Schermata>().barks.PlayStartingBarks();
+        audioSource.clip = currentSchermata.GetComponent<Schermata>().music;
+        audioSource.Play();
     }
 
     public void GameOver()
     {
-        Schermate[currentSchermata].barks.PlayGameOverBark();
-        // Restart
+        currentSchermata.GetComponent<Schermata>().barks.PlayGameOverBark();
     }
     public void Restart()
     {
         Debug.Log("restart()");
-        PlaceCharacters();
-        // azzera interruttori e npc        
-    }
+        // fade
 
-
-    void PlaceCharacters()
-    {
-        foreach (var ccb in CharacterInfo.AllCharacterControlledBy)
-        {
-            if (!ccb.IsFollower)
-            {
-                if (ccb.Player == CharacterInfo.Players.P1)
-                {
-                    ccb.transform.position = Schermate[currentSchermata].playerOneSpawnPoint.position;
-                }
-                else
-                {
-                    ccb.transform.position = Schermate[currentSchermata].playerTwoSpawnPoint.position;
-                }
-            }
-        }
+        // distruggi schermata
+        Destroy(currentSchermata);
+        // reistanzia schermata
+        currentSchermata = Instantiate(PrefabSchermate[currentSchermataIndex]);
     }
 }

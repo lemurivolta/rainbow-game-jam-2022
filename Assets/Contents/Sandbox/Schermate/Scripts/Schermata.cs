@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(SchermataBarks))]
+
 [System.Serializable]
 public class Schermata : MonoBehaviour
 {
-    [SerializeField] string schermataName;
-    [SerializeField] public Transform playerOneSpawnPoint;
-    [SerializeField] public Transform playerTwoSpawnPoint;
-
-    [SerializeField] public SchermataBarks barks;
+    [HideInInspector] public SchermataBarks barks;
     [SerializeField] public AudioClip music;
+
+    private void Awake()
+    {
+        barks = GetComponent<SchermataBarks>();
+    }
 }
