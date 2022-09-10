@@ -2263,7 +2263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f92b3de8677903244a03987062df4bf4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PrefabSchermate: []
+  Schermate: []
 --- !u!82 &133527842245060021
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2431,6 +2431,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   schermataName: 
+  playerOneSpawnPoint: {fileID: 0}
+  playerTwoSpawnPoint: {fileID: 0}
   barks: {fileID: 0}
   music: {fileID: 0}
 --- !u!1001 &167604544004846043
@@ -2574,7 +2576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723304, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.3125
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723304, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_LocalPosition.z
