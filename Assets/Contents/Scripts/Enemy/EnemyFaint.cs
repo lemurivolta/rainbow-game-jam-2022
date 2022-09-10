@@ -21,7 +21,8 @@ public class EnemyFaint : MonoBehaviour
 
     private void OnTrigger(Collider2D other, Action<CharacterInfo> action)
     {
-        var characterInfo = other.gameObject.GetComponent<CharacterInfo>();
+        var characterInfo = other.gameObject.transform
+            .parent.gameObject.GetComponent<CharacterInfo>();
         if (characterInfo != null)
         {
             action(characterInfo);
@@ -40,18 +41,16 @@ public class EnemyFaint : MonoBehaviour
 
     private void OnPlayerAction(CharacterInfo.Players p)
     {
+        Debug.Log($"enemyfaint: player action with {CharacterInfoInArea.Count} characters inside");
         foreach (var characterInfo in CharacterInfoInArea)
         {
             if (characterInfo.Player == p && !characterInfo.IsFollower)
             {
-                if (characterInfo.Character == CHARACTER.CLOE)
+                if (characterInfo.Character == CHARACTER.MARIELLE)
                 {
                     Faint();
                 }
-                else
-                {
-                    break;
-                }
+                break;
             }
         }
     }
