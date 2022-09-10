@@ -265,6 +265,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Marielle Idle_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1d8978a87f19d4395707f0391f74b9
+      internalID: 808126459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Marielle Idle_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e45b862b2cc294e4f80d53686cb0d012
+      internalID: 1099007081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -280,7 +322,9 @@ TextureImporter:
       Marielle Idle_3: 73965751
       Marielle Idle_1: -1124394036
       Marielle Idle_4: 1458638708
+      Marielle Idle_6: 808126459
       Marielle Idle_0: 900587611
+      Marielle Idle_7: 1099007081
       Marielle Idle_5: -349416733
   spritePackingTag: 
   pSDRemoveMatte: 0

@@ -25,7 +25,6 @@ public class BalloonVisibility : MonoBehaviour
     /// </summary>
     public void OnCharacterApproach()
     {
-        Debug.Log("Character approaches");
         UpdateNearbyCharactersAndVisibility(1);
     }
 
@@ -34,7 +33,6 @@ public class BalloonVisibility : MonoBehaviour
     /// </summary>
     public void OnCharacterDepart()
     {
-        Debug.Log("Character departs");
         UpdateNearbyCharactersAndVisibility(-1);
     }
 

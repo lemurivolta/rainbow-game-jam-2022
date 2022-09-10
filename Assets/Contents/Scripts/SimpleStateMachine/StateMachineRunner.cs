@@ -88,13 +88,11 @@ namespace SimpleStateMachine
         /// <returns>Whether the state has been changed.</returns>
         public void PerformTransition(string transitionName)
         {
-            Debug.Log($"Performing transition {transitionName} from {_CurrentStateName}", this);
             foreach(var transition in StateMachine.Transitions)
             {
                 if(transition.Name == transitionName &&
                     transition.From == _CurrentStateName)
                 {
-                    Debug.Log($"Moving to {transition.To}", this);
                     var description = new HookEventDescription()
                     {
                         Phase = HookPhase.Exit,

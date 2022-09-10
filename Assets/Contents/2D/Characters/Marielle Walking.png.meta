@@ -202,27 +202,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Marielle Walking_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11be3b3517c498a498ce8bf769bae0cc
-      internalID: -138344921
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -237,7 +216,6 @@ TextureImporter:
       Marielle Walking_2: 1970282740
       Marielle Walking_0: 1403301615
       Marielle Walking_1: -1967616873
-      Marielle Walking_3: -138344921
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

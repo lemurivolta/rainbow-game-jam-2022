@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &743270454325637446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: AnimationOverrides.Array.data[0].OverrideClip
+      value: 
+      objectReference: {fileID: 7400000, guid: d1ba9aad4574e1c409442fcc91675310, type: 2}
+    - target: {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: AnimationOverrides.Array.data[1].OverrideClip
+      value: 
+      objectReference: {fileID: 7400000, guid: 4a7f489d3c614e549bb441488b21eb52, type: 2}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723045, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: CanCloeInteract
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723045, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: CanSarahInteract
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723045, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: CanYelenaInteract
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723045, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: CanMarielleInteract
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723065, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Name
+      value: Button Marielle Lever
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e4623cf0f2b70c6438dd5b8c6f320cde
+guid: 31628af0f7b751b4e9d44a4019d3e568
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -140,7 +140,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sarah Idle_0
+      name: interfono_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,14 +154,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e32ce343a41456142b31da219ad95472
-      internalID: 1912810975
+      spriteID: 6a72612809185d04389fd12cc0314905
+      internalID: -1158649683
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sarah Idle_1
+      name: interfono_1
       rect:
         serializedVersion: 2
         x: 32
@@ -175,92 +175,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dde4f27452ff5a94bba09eda2b63d3ea
-      internalID: 131602009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sarah Idle_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 239d6fce6753c724b9ffbdcabb6ca9b1
-      internalID: -828872112
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sarah Idle_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b40c353ef272f2468cfa1123df77a51
-      internalID: 766366121
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sarah Idle_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ce92474571f0ae4b84f0653f15c14b4
-      internalID: -476482480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Sarah Idle_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ddfdc33736a6bf4c8b03e607b822b82
-      internalID: -201256122
+      spriteID: 29ddee63555906642a9ce50003f295c8
+      internalID: 228347757
       vertices: []
       indices: 
       edges: []
@@ -276,12 +192,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sarah Idle_4: -476482480
-      Sarah Idle_5: -201256122
-      Sarah Idle_0: 1912810975
-      Sarah Idle_2: -828872112
-      Sarah Idle_3: 766366121
-      Sarah Idle_1: 131602009
+      interfono_0: -1158649683
+      interfono_1: 228347757
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

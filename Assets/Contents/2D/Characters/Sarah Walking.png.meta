@@ -202,6 +202,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Sarah Walking_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc9f74035a326f498e552a676abe679
+      internalID: -291796376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -214,6 +235,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Sarah Walking_0: -1256232214
+      Sarah Walking_3: -291796376
       Sarah Walking_1: 1076559971
       Sarah Walking_2: 1608310868
   spritePackingTag: 
