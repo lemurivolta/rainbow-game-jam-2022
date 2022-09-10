@@ -6,8 +6,9 @@ using UnityEngine;
 public class Schermata : MonoBehaviour
 {
     [SerializeField] string schermataName;
-    [SerializeField] Transform playerOneSpawnPoint;
-    [SerializeField] Transform playerTwoSpawnPoint;
+    [SerializeField] public Transform playerOneSpawnPoint;
+    [SerializeField] public Transform playerTwoSpawnPoint;
 
-    [SerializeField] Barks barks;
+    [SerializeField] public SchermataBarks barks;
+    [SerializeField] public AudioClip music;
 }

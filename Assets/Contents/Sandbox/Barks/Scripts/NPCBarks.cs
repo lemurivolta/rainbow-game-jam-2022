@@ -29,6 +29,11 @@ public class NPCBarks : MonoBehaviour
         if (isShowingBark || !useTimer)
             return;
 
+        if (Balloon.Instance.isBarking)
+        {
+            balloonGO.SetActive(false);
+        }
+
         UpdateTimer();        
         CheckTimer();
     }
@@ -48,7 +53,10 @@ public class NPCBarks : MonoBehaviour
     // funzione che può essere richiamata dall'interazione con un pulsante
     public void TimeToBark()
     {
-        StartCoroutine(ShowBalloon());        
+        if (Balloon.Instance.isBarking)
+            ResetTimer();
+        else
+            StartCoroutine(ShowBalloon());        
     }
 
     IEnumerator ShowBalloon()

@@ -9,11 +9,15 @@ public class Bark
     public string line_eng;
     [HideInInspector] public bool canSkip = false;
     public Transform targetTransform;
+    public AudioClip soundEffect;
     public Bark nextBark { get; set; }
     public bool pressToSkip;
     [HideInInspector] public bool nextSceneOnSkip;
 
     [HideInInspector] public bool restartAtEnd = false;
+
+    
+
 
     public void Play()
     {

@@ -3,19 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System;
 
 public class Balloon : Singleton<Balloon>
 {
     [SerializeField] TMP_Text label;
-    [SerializeField] Toggle playerOneGo;
-    [SerializeField] Toggle playerTwoGo;
+    [SerializeField] Toggle playerOneSkip;
+    [SerializeField] Toggle playerTwoSkip;
     [SerializeField] float timeBetweenLetters = 0.05f;
+    [SerializeField] float yOffset = 1.4f;
+    [SerializeField] float waitAfterTextIsShowed = 3f;
+    [SerializeField] GameObject mainPanel;
+    [SerializeField] AudioSource audioSource;
+    [HideInInspector] public bool isBarking;
+    Bark currentBark;
     
-    void SetPosition()
-    {
-
-    }
-
+    
     /*
     private void Start()
     {
@@ -25,16 +28,54 @@ public class Balloon : Singleton<Balloon>
 
     public void PlayBark(Bark b)
     {
+        isBarking = true;
 
+        currentBark = b;
+        currentBark.canSkip = false;
+
+        if (currentBark.pressToSkip)
+        {
+            //Time.timeScale = 0;
+            playerOneSkip.gameObject.SetActive(true);
+            playerTwoSkip.gameObject.SetActive(true);
+            playerOneSkip.isOn = false;
+            playerTwoSkip.isOn = false;
+        }
+        else
+        {
+            playerOneSkip.gameObject.SetActive(false);
+            playerTwoSkip.gameObject.SetActive(false);
+        }
+        
+        PlaceBalloon();
+        mainPanel.SetActive(true);
+
+        if (currentBark.soundEffect != null)
+        {
+            audioSource.clip = currentBark.soundEffect;
+            audioSource.Stop();
+            audioSource.Play();
+        }
+
+        SetText(currentBark.GetBark());
+    }
+
+    private void PlaceBalloon()
+    {
+        if(currentBark.character == CHARACTER.NPC)
+            transform.position = currentBark.targetTransform.position + Vector3.up * yOffset;
+        else
+        {
+            CharacterInfo ci = CharacterInfo.AllCharacterControlledBy.Find((x)=>x.name.ToUpper() == currentBark.character.ToString());
+            if (ci)
+                transform.position = ci.transform.position + Vector3.up * yOffset;
+            else
+                Debug.LogError("Character not found in scene: " + currentBark.character.ToString());
+        }
     }
 
     public void SetText(string s)
     {
-        Time.timeScale = 0;
-
-        playerOneGo.isOn = false;
-        playerTwoGo.isOn = false;
-
         label.text = "";
         StartCoroutine(ShowText(s));
     }
@@ -45,6 +86,49 @@ public class Balloon : Singleton<Balloon>
         {
             label.text += c;
             yield return new WaitForSeconds(timeBetweenLetters);
+        }
+
+        yield return new WaitForSeconds(waitAfterTextIsShowed);
+        
+        if(!currentBark.pressToSkip)
+            OnTextAllShowed();
+    }
+
+    private void OnTextAllShowed()
+    {
+        audioSource.Stop();
+        mainPanel.SetActive(false);
+
+        if (currentBark.pressToSkip) 
+        {
+            playerOneSkip.SetIsOnWithoutNotify(false);
+            playerTwoSkip.SetIsOnWithoutNotify(false);
+        }
+
+        if (currentBark.nextBark != null)
+        {
+            PlayBark(currentBark.nextBark);
+            return;
+        }
+
+        isBarking = false;
+
+        if (currentBark.restartAtEnd)
+        {
+            SchermateManager.Instance.Restart();
+            return;
+        }
+
+        if (currentBark.nextSceneOnSkip)
+            SchermateManager.Instance.GoToNext();
+    }
+
+    public void TrySkipping(bool b)
+    {
+        if (b && playerOneSkip.isOn && playerTwoSkip.isOn)
+        {
+            currentBark.canSkip = true;
+            OnTextAllShowed();
         }
     }
 
