@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -7,7 +8,11 @@ public class EnemyFaint : MonoBehaviour
 {
     public UnityEvent Fainted;
 
+    public UnityEvent Awoken;
+
     private List<CharacterInfo> CharacterInfoInArea = new();
+
+    public float FaintDuration = 5f;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -57,5 +62,12 @@ public class EnemyFaint : MonoBehaviour
     private void Faint()
     {
         Fainted.Invoke();
+        StartCoroutine(ResumeFromFainted());
+    }
+
+    private IEnumerator ResumeFromFainted()
+    {
+        yield return new WaitForSeconds(FaintDuration);
+        Awoken.Invoke();
     }
 }
