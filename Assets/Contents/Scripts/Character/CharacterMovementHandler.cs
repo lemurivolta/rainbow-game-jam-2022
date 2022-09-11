@@ -35,7 +35,7 @@ public class CharacterMovementHandler : MonoBehaviour
 
     private void OnMovement(Vector2 direction, CharacterInfo.Players p)
     {
-        if (!Balloon.Instance.isBarking &&
+        if (//!Balloon.Instance.isBarking &&
             CharacterInfo != null &&
             !CharacterInfo.IsFollower &&
             CharacterInfo.Player == p)
