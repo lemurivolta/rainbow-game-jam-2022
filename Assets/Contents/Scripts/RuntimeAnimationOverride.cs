@@ -17,7 +17,9 @@ public class RuntimeAnimationOverride : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(AnimationOverrides != null && AnimationOverrides.Count > 0)
+        // create an override only if there's at least on override clip
+        if(AnimationOverrides != null &&
+            AnimationOverrides.Find(ao => ao.OverrideClip != null) != null)
         {
             // switch the current animator with an override controller
             var animator = GetComponent<Animator>();
