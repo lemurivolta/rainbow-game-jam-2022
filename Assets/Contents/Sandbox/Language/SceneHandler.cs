@@ -17,4 +17,14 @@ public class SceneHandler : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
     }
+
+    public bool IsThereASceneAfterThis()
+    {
+        return SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 1;
+    }
+
+    public void GoTo(int i = 0)
+    {
+        SceneManager.LoadScene(i);
+    }
 }
