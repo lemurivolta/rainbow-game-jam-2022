@@ -2416,7 +2416,7 @@ TextureImporter:
         width: 5
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2437,7 +2437,7 @@ TextureImporter:
         width: 5
         height: 11
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2445,6 +2445,174 @@ TextureImporter:
       bones: []
       spriteID: 23c73cf271201c141b0c48b54c578593
       internalID: 2090522092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_110
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 263
+        width: 11
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0132d64886873d44a8cd719b67a31a70
+      internalID: 1315013596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_111
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 308
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cce375e6cf4ece4680f31cb03c76852
+      internalID: -1968059195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_112
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 112
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346df9c8e3b00d640b81765254a66e6a
+      internalID: -1656589708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_113
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 80
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d948ee2418c646342b387da73b79e6fa
+      internalID: -1961751919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_114
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 80
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d128958b924e647b5eb6d418023b01
+      internalID: 1882854318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_115
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 80
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9eacd4da25c3a4db105235a6109aa4
+      internalID: 1139224875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_116
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 112
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ad8c71e30715c46aadeb1c6d279064
+      internalID: 727048145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stanza dei giochi_117
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 112
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7297e4ba70b784989818c39c44ab4a
+      internalID: -956115971
       vertices: []
       indices: 
       edges: []
@@ -2469,6 +2637,7 @@ TextureImporter:
       Stanza dei giochi_96: 1871993448
       Stanza dei giochi_75: -859338860
       Stanza dei giochi_52: -978392147
+      Stanza dei giochi_115: 1139224875
       Stanza dei giochi_49: 703268558
       Stanza dei giochi_69: -2128363929
       Stanza dei giochi_24: 543196779
@@ -2478,14 +2647,17 @@ TextureImporter:
       Stanza dei giochi_56: 1262885561
       Stanza dei giochi_68: 1664352963
       Stanza dei giochi_33: -1478313643
+      Stanza dei giochi_114: 1882854318
       Stanza dei giochi_3: 437127906
       Stanza dei giochi_63: 1263497939
+      Stanza dei giochi_111: -1968059195
       Stanza dei giochi_14: -34467411
       Stanza dei giochi_98: -2107636716
       Stanza dei giochi_83: 275655174
       Stanza dei giochi_50: -1053166490
       Stanza dei giochi_5: -1345520031
       Stanza dei giochi_41: -2087607716
+      Stanza dei giochi_110: 1315013596
       Stanza dei giochi_97: -795181170
       Stanza dei giochi_19: 770248634
       Stanza dei giochi_82: -1998626551
@@ -2502,8 +2674,10 @@ TextureImporter:
       Stanza dei giochi_87: 29214828
       Stanza dei giochi_31: -354245563
       Stanza dei giochi_95: -1484381614
+      Stanza dei giochi_117: -956115971
       Stanza dei giochi_43: -10945226
       Stanza dei giochi_30: 1843094825
+      Stanza dei giochi_112: -1656589708
       Stanza dei giochi_91: -1165149955
       Stanza dei giochi_32: 962892258
       Stanza dei giochi_65: -581423960
@@ -2518,6 +2692,7 @@ TextureImporter:
       Stanza dei giochi_16: -2129377522
       Stanza dei giochi_77: 478905233
       Stanza dei giochi_25: 1279961607
+      Stanza dei giochi_113: -1961751919
       Stanza dei giochi_40: -243671396
       Stanza dei giochi_47: 1285149074
       Stanza dei giochi_58: -1994819662
@@ -2537,14 +2712,15 @@ TextureImporter:
       Stanza dei giochi_61: -1837178685
       Stanza dei giochi_78: 1368476668
       Stanza dei giochi_101: -422058836
-      Stanza dei giochi_20: 1543853727
-      Stanza dei giochi_29: 163897717
-      Stanza dei giochi_84: -1700674025
       Stanza dei giochi_108: 84992414
+      Stanza dei giochi_20: 1543853727
+      Stanza dei giochi_84: -1700674025
+      Stanza dei giochi_29: 163897717
       Stanza dei giochi_44: -1801373656
       Stanza dei giochi_71: -1646851635
       Stanza dei giochi_27: -1090263216
       Stanza dei giochi_55: -536991952
+      Stanza dei giochi_116: 727048145
       Stanza dei giochi_36: -1628760204
       Stanza dei giochi_94: 1927505977
       Stanza dei giochi_17: -134986192

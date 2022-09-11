@@ -1681,7 +1681,7 @@ TextureImporter:
         width: 21
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1702,7 +1702,7 @@ TextureImporter:
         width: 21
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1710,6 +1710,111 @@ TextureImporter:
       bones: []
       spriteID: ae77ae448b2429f459d83b09aa9b6bfc
       internalID: 809177201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_75
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 616
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b211804919f5348439ab87ca3713bc2b
+      internalID: -1292248126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_76
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 135
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04c48491615ec54981e3ce10a2c09e0
+      internalID: -951973705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_77
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 135
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479064ce86dafa34ca4e3d96f6926cd5
+      internalID: 904290207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_78
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 135
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e4408971ff95b547ba9735dae607662
+      internalID: -1234898571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ospedale 2_79
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 135
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8596b49cb857c47a5aa12daeacc260
+      internalID: 876667379
       vertices: []
       indices: 
       edges: []
@@ -1738,11 +1843,13 @@ TextureImporter:
       Ospedale 2_53: -41999360
       Ospedale 2_11: -219910722
       Ospedale 2_12: -2006561173
+      Ospedale 2_77: 904290207
       Ospedale 2_48: -1026999994
       Ospedale 2_72: 712789908
       Ospedale 2_16: 137320666
       Ospedale 2_41: 630244393
       Ospedale 2_44: 620754521
+      Ospedale 2_76: -951973705
       Ospedale 2_33: -766556442
       Ospedale 2_8: -1943546172
       Ospedale 2_25: -1598343666
@@ -1767,6 +1874,8 @@ TextureImporter:
       Ospedale 2_49: -1076015504
       Ospedale 2_18: 1259036454
       Ospedale 2_0: -1049324545
+      Ospedale 2_79: 876667379
+      Ospedale 2_78: -1234898571
       Ospedale 2_13: -101768931
       Ospedale 2_7: 427184774
       Ospedale 2_62: 513441144
@@ -1799,6 +1908,7 @@ TextureImporter:
       Ospedale 2_45: 865871853
       Ospedale 2_6: -1502711011
       Ospedale 2_17: 1090630288
+      Ospedale 2_75: -1292248126
       Ospedale 2_74: 809177201
   spritePackingTag: 
   pSDRemoveMatte: 0

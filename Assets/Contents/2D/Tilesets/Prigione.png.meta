@@ -248,12 +248,12 @@ TextureImporter:
       name: Prigione_5
       rect:
         serializedVersion: 2
-        x: 127
+        x: 128
         y: 397
-        width: 65
+        width: 64
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 1
+      pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2080,7 +2080,7 @@ TextureImporter:
         width: 26
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2101,7 +2101,7 @@ TextureImporter:
         width: 14
         height: 13
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2109,6 +2109,174 @@ TextureImporter:
       bones: []
       spriteID: c1be4d51ae487a94da70136324a3ae1b
       internalID: 293927365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336ca2fd1975e78468cb1e290a085375
+      internalID: -1090488312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_95
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6133e9c0b07bd14caf88d147e42d5c0
+      internalID: 1863249144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_96
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321a84b302ddf504098dbb283f0f1483
+      internalID: -1815622820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_97
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7811d76615c280041ba820ed93d76fc3
+      internalID: -1257215186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed22668c736323479908ad162669db3
+      internalID: -16596363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a340b6254c9862740b1006dd2a8243fe
+      internalID: 876399380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe26e3dc393ac948a5b4bc150378d2a
+      internalID: -119990013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Prigione_101
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 397
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ca9dd8622642e42a495b268d7b0c89
+      internalID: -952511907
       vertices: []
       indices: 
       edges: []
@@ -2124,6 +2292,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Prigione_98: -16596363
       Prigione_40: -623462140
       Prigione_42: -633553456
       Prigione_61: -1366629930
@@ -2139,9 +2308,11 @@ TextureImporter:
       Prigione_0: -936184657
       Prigione_1: -601755402
       Prigione_85: -1003280093
+      Prigione_97: -1257215186
       Prigione_83: 23762223
       Prigione_2: -1877636755
       Prigione_17: -2055902560
+      Prigione_99: 876399380
       Prigione_75: 813151918
       Prigione_66: 889168702
       Prigione_64: -493540235
@@ -2149,11 +2320,13 @@ TextureImporter:
       Prigione_18: -106933373
       Prigione_27: -239096930
       Prigione_38: 1065319651
+      Prigione_95: 1863249144
       Prigione_62: 1129191839
       Prigione_79: -967068153
       Prigione_65: -1913721380
       Prigione_84: -1070149776
       Prigione_87: -1674021424
+      Prigione_96: -1815622820
       Prigione_78: -1677488431
       Prigione_51: 1583157350
       Prigione_74: 932383073
@@ -2173,6 +2346,7 @@ TextureImporter:
       Prigione_12: 1486654459
       Prigione_35: 1023969703
       Prigione_60: -90615426
+      Prigione_100: -119990013
       Prigione_24: -552194367
       Prigione_13: 84192263
       Prigione_45: -954589640
@@ -2209,8 +2383,10 @@ TextureImporter:
       Prigione_82: 701969164
       Prigione_10: -16019846
       Prigione_6: -1257101188
+      Prigione_94: -1090488312
       Prigione_20: 1796433213
       Prigione_29: -825863617
+      Prigione_101: -952511907
       Prigione_22: 265288723
       Prigione_37: 1172570264
       Prigione_81: 1106279925
