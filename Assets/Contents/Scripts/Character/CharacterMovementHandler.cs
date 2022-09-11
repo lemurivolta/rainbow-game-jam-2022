@@ -35,7 +35,8 @@ public class CharacterMovementHandler : MonoBehaviour
 
     private void OnMovement(Vector2 direction, CharacterInfo.Players p)
     {
-        if (CharacterInfo != null &&
+        if (!Balloon.Instance.isBarking &&
+            CharacterInfo != null &&
             !CharacterInfo.IsFollower &&
             CharacterInfo.Player == p)
         {
@@ -48,7 +49,6 @@ public class CharacterMovementHandler : MonoBehaviour
     /// </summary>
     public void StopMovement()
     {
-        // VelocityP2 = Vector2.zero;
         Rigidbody2D.velocity = Vector2.zero;
     }
 }
