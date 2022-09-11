@@ -225,17 +225,27 @@ MonoBehaviour:
   Barks:
   - character: 0
     line_ita: "28/06/2025, ore 13:12, Bologna a firma del gruppo ribelle Opossum
-      Sognante.  Manifesto rizomatico contro il cisessismo borghese dell\u2019\xE9lite
-      neolib per un mondo dealtr\u0259fobicizzato.txt  PRESA NOTA dell\u2019aumento
+      Sognante.<br><br>Manifesto rizomatico contro il cisessismo borghese dell\u2019\xE9lite
+      neolib per un mondo dealtr\u0259fobicizzato.txt<br><br>PRESA NOTA dell\u2019aumento
       dei crimini di stampo ideologicamente queerfobico, razzista, abilista, misogino. 
-      PRESA NOTA che questi sono coincisi con l\u2019ascesa al potere del PRIMO MINISTRO
-      DONNA, ennesima portatrice di uno sguardo maschilizzato e di una visione borghese
-      eterosessista e cissessista sui corpi non conformi.  PRESA NOTA che molt3 di
-      noi sono stat3 fatt3 oggetto di violenza da parte della polizia, dei gruppi
-      paramilitari fascisti, dei simpatizzanti fascisti nonch\xE9 di bavosi a caso
-      sui bus.  PRESA NOTA che dopo la retata del 20 giugno alla Manifestazione per
-      il Diritto a Sopravvivere molt3 di noi sono scomparse. "
-    line_eng: 
+      <br><br>PRESA NOTA che questi sono coincisi con l\u2019ascesa al potere del
+      PRIMO MINISTRO DONNA, ennesima portatrice di uno sguardo maschilizzato e di
+      una visione borghese eterosessista e cissessista sui corpi non conformi.  <br><br>PRESA
+      NOTA che molt3 di noi sono stat3 fatt3 oggetto di violenza da parte della polizia,
+      dei gruppi paramilitari fascisti, dei simpatizzanti fascisti nonch\xE9 di bavosi
+      a caso sui bus.  <br><br>PRESA NOTA che dopo la retata del 20 giugno alla Manifestazione
+      per il Diritto a Sopravvivere molt3 di noi sono scomparse. "
+    line_eng: '06/28/2025, 1:12 p.m., Bologna signed by the rebel group Opossum Sognante.
+      <br><br>Rhizomatic manifesto against the bourgeois cissexism of the neolib
+      elite for an other-phobic free world.txt <br>TAKING NOTE of the increase in
+      ideologically motivated queerphobic, racist, ableist, misogynist crimes. <br><br>TAKEN
+      NOTE that these coincided with the rise to power of the FIRST WOMAN MINISTER,
+      yet another bearer of a masculinized gaze and a bourgeois heterosexist and
+      cissexist view on nonconforming bodies. <br><br>TAKEN NOTE that many of us
+      have been subjected to violence by the police, fascist paramilitary groups,
+      fascist sympathizers as well as random droolers on buses. <br><br>TAKE NOTE
+      that after the June 20 roundup at the Right to Survive Demonstration many of
+      us have disappeared. '
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
@@ -246,18 +256,31 @@ MonoBehaviour:
     line_ita: "DISSOCIANDOCI dalle azioni del Gruppo Rivoluzionario Per La Razionalizzazione
       del Genere (GRPLRg), dai comunicati del Governo Regionale Per La Ricollocazione
       Genitale (GRPLrG) e dai tentativi di pacificazione dei Gay Realisti Per La
-      Ricombinazione Governativa (GRpLRG).  TENENDO CONTO della complessit\xE0 rizomatica
-      dell\u2019interstizialit\xE0 tra movimentismo internazionale, nazionale, subnazionale
-      e colazionale, e della necessit\xE0 di unire la lotta di classe a quella contro
-      il classicismo del canone letterario e videoludico mondiale.  RICONOSCENDO
-      come mandanti morali e politici dei crimini di questi tre anni di governo anche
-      i marxisti che si sono rifiutati di vedere la violenza contro le persone dissidenti
-      sessuali, ignorando il potenziale dialettico e storico della sessualit\xE0
-      in relazione alla produzione economica capitalistica borghese.  DICHIARIAMO
-      reclamiamo pretendiamo il diritto di difenderci da sole da questi vettori del
-      capitalismo psichiatricizzante, neoliberale ed egemone che trasforma la nostra
-      esistenza queer in una colpa insostenibile. "
-    line_eng: 
+      Ricombinazione Governativa (GRpLRG).  <br><br>TENENDO CONTO della complessit\xE0
+      rizomatica dell\u2019interstizialit\xE0 tra movimentismo internazionale, nazionale,
+      subnazionale e colazionale, e della necessit\xE0 di unire la lotta di classe
+      a quella contro il classicismo del canone letterario e videoludico mondiale. 
+      <br><br>RICONOSCENDO come mandanti morali e politici dei crimini di questi
+      tre anni di governo anche i marxisti che si sono rifiutati di vedere la violenza
+      contro le persone dissidenti sessuali, ignorando il potenziale dialettico e
+      storico della sessualit\xE0 in relazione alla produzione economica capitalistica
+      borghese.  <br><br>DICHIARIAMO reclamiamo pretendiamo il diritto di difenderci
+      da sole da questi vettori del capitalismo psichiatricizzante, neoliberale ed
+      egemone che trasforma la nostra esistenza queer in una colpa insostenibile. "
+    line_eng: "DISSOCIATING from the actions of the Revolutionary Group For Gender
+      Rationalization (RGFGR), the communiqu\xE9s of the Regional Government For
+      Genital Relocation (RGfGR) and the appeasement attempts of the Royalist Gays
+      For Government Recombination (RGFGr). <br><br>TAKING INTO ACCOUNT the rhizomatic
+      complexity of the interstitiality between international, national, subnational
+      and intestinal movementism, and the need to unite class struggle with the struggle
+      against classicism in the literary world and video game canon. <br><br>RECOGNIZING
+      as moral and political instigators of the crimes of these three years of government
+      also Marxists who refused to see violence against sexual dissidents, ignoring
+      the dialectical and historical potential of sexuality in relation to bourgeois
+      capitalist economic production. <br><br>WE DECLARE, WE DEMAND, WE COMPLAIN
+      the right to defend ourselves on our own from these vectors of psychiatric,
+      neoliberal and hegemonic capitalism that turns our queer existence into an
+      unsustainable guilt. "
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
@@ -271,15 +294,28 @@ MonoBehaviour:
       cos\xEC che finalmente possiate tutt3 comprendere e reagire di fronte alla
       dissoluzione delle forme estatiche, dell\u2019espulsione dell\u2019Altr\u0259,
       del controllo esteticizzante della feticizzazione del dolore frocio e femmino
-      e straniero.  O come direbbe Cloe: cacciatevi l\u2019egemonia nel culo.  Qui
-      stiamo e non ce ne andiamo. "
-    line_eng: 
+      e straniero.<br><br>O come direbbe Cloe: cacciatevi l\u2019egemonia nel culo. 
+      <br><br>Qui stiamo e non ce ne andiamo. "
+    line_eng: 'WE WILL ACT by storming the The Very True News headquarters, reaching
+      the set of the reality TV show The Road to God where the FIRST WOMAN MINISTER
+      will be a guest this evening, and we will read our reduced 632-page manifesto
+      live nationwide, so that you can all finally understand and react in the face
+      of the dissolution of ecstatic forms, of the banishmentof the Other, of the
+      aestheticizing control of the fetishization of queer and femme and foreign
+      pain.<br><br>Or as Cloe would say: shove hegemony up your ass. <br><br>We are
+      here to stay. '
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
     pressToSkip: 1
     nextSceneOnSkip: 0
     restartAtEnd: 0
+  label: {fileID: 1785027058}
+  playerOneSkip: {fileID: 5825286803799709842}
+  playerTwoSkip: {fileID: 5825286801966000432}
+  timeBetweenLetters: 0.025
+  waitAfterTextIsShowed: 3
+  sceneHandler: {fileID: 878868814}
 --- !u!4 &878868812
 Transform:
   m_ObjectHideFlags: 0
@@ -367,18 +403,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 878868810}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e66526103339b2942bcbdf584e3227ec, type: 3}
+  m_Script: {fileID: 11500000, guid: c3cd910a7f13fa54e8962060ec68e744, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  label: {fileID: 1785027058}
-  playerOneSkip: {fileID: 5825286803799709842}
-  playerTwoSkip: {fileID: 5825286801966000432}
-  timeBetweenLetters: 0.05
-  yOffset: 1.4
-  waitAfterTextIsShowed: 3
-  mainPanel: {fileID: 0}
-  audioSource: {fileID: 0}
-  isBarking: 0
 --- !u!1 &994767828
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,6 +498,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1030200647}
   - {fileID: 1844388794}
   - {fileID: 5825286803799709843}
   - {fileID: 5825286801966000433}
@@ -482,6 +510,82 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1030200646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1030200647}
+  - component: {fileID: 1030200649}
+  - component: {fileID: 1030200648}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1030200647
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030200646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 994767833}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1030200648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030200646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1030200649
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030200646}
+  m_CullTransparentMesh: 1
 --- !u!1 &1785027056
 GameObject:
   m_ObjectHideFlags: 0
@@ -649,7 +753,7 @@ RectTransform:
   m_Children:
   - {fileID: 1785027057}
   m_Father: {fileID: 994767833}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -763,11 +867,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 1
+      value: 0.99949205
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 1
+      value: 0.99909747
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
@@ -818,8 +922,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 878868814}
-        m_TargetAssemblyTypeName: Balloon, Assembly-CSharp
+      - m_Target: {fileID: 878868811}
+        m_TargetAssemblyTypeName: ManifestoManager, Assembly-CSharp
         m_MethodName: TrySkipping
         m_Mode: 0
         m_Arguments:
@@ -845,7 +949,7 @@ RectTransform:
   m_Children:
   - {fileID: 5825286802150439829}
   m_Father: {fileID: 994767833}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -1239,8 +1343,8 @@ MonoBehaviour:
   onValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 878868814}
-        m_TargetAssemblyTypeName: Balloon, Assembly-CSharp
+      - m_Target: {fileID: 878868811}
+        m_TargetAssemblyTypeName: ManifestoManager, Assembly-CSharp
         m_MethodName: TrySkipping
         m_Mode: 0
         m_Arguments:
@@ -1266,7 +1370,7 @@ RectTransform:
   m_Children:
   - {fileID: 5825286803487863988}
   m_Father: {fileID: 994767833}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
