@@ -19,8 +19,9 @@ public class SchermateManager : Singleton<SchermateManager>
         FirstStart();
     }
 
+#if UNITY_EDITOR
     private void Update()
-    {
+    { 
         if (Input.GetKeyDown(KeyCode.Space))
             EndSchermata();
         if (Input.GetKeyDown(KeyCode.R))
@@ -28,6 +29,7 @@ public class SchermateManager : Singleton<SchermateManager>
         if (Input.GetKeyDown(KeyCode.G))
             GameOver();
     }
+#endif
 
     public void EndSchermata()
     {
