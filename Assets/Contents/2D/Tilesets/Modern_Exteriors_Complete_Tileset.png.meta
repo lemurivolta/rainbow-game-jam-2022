@@ -66,7 +66,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -732,9 +732,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 928
-        y: 1265
-        width: 113
-        height: 285
+        y: 1264
+        width: 112
+        height: 286
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -753,8 +753,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1056
-        y: 1393
-        width: 97
+        y: 1392
+        width: 96
         height: 160
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -773,10 +773,10 @@ TextureImporter:
       name: Modern_Exteriors_Complete_Tileset_30
       rect:
         serializedVersion: 2
-        x: 1055
-        y: 1266
-        width: 98
-        height: 114
+        x: 1056
+        y: 1264
+        width: 96
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -795,8 +795,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1168
-        y: 1377
-        width: 97
+        y: 1376
+        width: 96
         height: 167
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1070,7 +1070,7 @@ TextureImporter:
         x: 80
         y: 2160
         width: 32
-        height: 33
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1089,9 +1089,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 80
-        y: 2113
+        y: 2112
         width: 32
-        height: 31
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1702,7 +1702,7 @@ TextureImporter:
         width: 111
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1723,7 +1723,7 @@ TextureImporter:
         width: 112
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1744,7 +1744,7 @@ TextureImporter:
         width: 42
         height: 106
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1765,7 +1765,7 @@ TextureImporter:
         width: 42
         height: 107
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1773,6 +1773,216 @@ TextureImporter:
       bones: []
       spriteID: 52f7f4f6703fcfc41a8ffc0b6ffe70b9
       internalID: 1180024117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_78
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 2064
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e2f230595cadc458c536954ac5322b
+      internalID: 1384223222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_79
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2000
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeadb7b23cef6954ab707b5349b1c365
+      internalID: 440416191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2048
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486c9c186ec53e447a5c443963818966
+      internalID: 2091571871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_81
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2048
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ffaf1361c54614bb3ee1a53377a3e3
+      internalID: -1032754347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_82
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2048
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18165ca8a64706d48a7f476ce2d4be9c
+      internalID: -1710345895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_83
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2032
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 9, y: 0, z: 3, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da309a5833b23e45adf7291ee267012
+      internalID: -1845695996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_84
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2032
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 10, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827556a31d20f394c8d7c4fe9a41c6b3
+      internalID: 2037363548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_85
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 2016
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 2, y: 0, z: 0, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4f7995eb20e9b4a9cd9376771ed129
+      internalID: 1469093096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_86
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2016
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 3, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5632f3fec42cc794487c3dc66d995dfa
+      internalID: 1526639359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Modern_Exteriors_Complete_Tileset_87
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 2016
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 11}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe21ebbfa5867741846a0d7be60e4e0
+      internalID: -1722413052
       vertices: []
       indices: 
       edges: []
@@ -1788,84 +1998,94 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Modern_Exteriors_Complete_Tileset_53: -1056212614
+      Modern_Exteriors_Complete_Tileset_44: 983452407
+      Modern_Exteriors_Complete_Tileset_22: -279077319
+      Modern_Exteriors_Complete_Tileset_37: -833446762
+      Modern_Exteriors_Complete_Tileset_32: 791773484
+      Modern_Exteriors_Complete_Tileset_62: 1487264724
+      Modern_Exteriors_Complete_Tileset_71: 984138381
+      Modern_Exteriors_Complete_Tileset_70: -1659777185
+      Modern_Exteriors_Complete_Tileset_27: 268275295
+      Modern_Exteriors_Complete_Tileset_21: 261521148
+      Modern_Exteriors_Complete_Tileset_7: 1565462712
+      Modern_Exteriors_Complete_Tileset_14: -1776268885
+      Modern_Exteriors_Complete_Tileset_11: 265262350
+      Modern_Exteriors_Complete_Tileset_79: 440416191
+      Modern_Exteriors_Complete_Tileset_26: -606921736
+      Modern_Exteriors_Complete_Tileset_5: -942144668
+      Modern_Exteriors_Complete_Tileset_65: 42942519
+      Modern_Exteriors_Complete_Tileset_17: -332540000
+      Modern_Exteriors_Complete_Tileset_3: -1470777151
+      Modern_Exteriors_Complete_Tileset_77: 1180024117
+      Modern_Exteriors_Complete_Tileset_8: 986900867
+      Modern_Exteriors_Complete_Tileset_43: -570185844
+      Modern_Exteriors_Complete_Tileset_16: -851513490
+      Modern_Exteriors_Complete_Tileset_20: 133952959
+      Modern_Exteriors_Complete_Tileset_54: -457320153
+      Modern_Exteriors_Complete_Tileset_50: 2133592527
+      Modern_Exteriors_Complete_Tileset_85: 1469093096
+      Modern_Exteriors_Complete_Tileset_57: 810898462
+      Modern_Exteriors_Complete_Tileset_59: 19298051
+      Modern_Exteriors_Complete_Tileset_6: -25254167
+      Modern_Exteriors_Complete_Tileset_19: 595192168
+      Modern_Exteriors_Complete_Tileset_81: -1032754347
+      Modern_Exteriors_Complete_Tileset_51: 783002188
+      Modern_Exteriors_Complete_Tileset_13: 1290431708
+      Modern_Exteriors_Complete_Tileset_35: -1497834316
+      Modern_Exteriors_Complete_Tileset_83: -1845695996
       Modern_Exteriors_Complete_Tileset_55: 1177423121
       Modern_Exteriors_Complete_Tileset_69: 717398543
-      Modern_Exteriors_Complete_Tileset_53: -1056212614
       Modern_Exteriors_Complete_Tileset_29: 397285156
       Modern_Exteriors_Complete_Tileset_33: 1000063389
-      Modern_Exteriors_Complete_Tileset_44: 983452407
+      Modern_Exteriors_Complete_Tileset_86: 1526639359
       Modern_Exteriors_Complete_Tileset_66: -1609329654
-      Modern_Exteriors_Complete_Tileset_22: -279077319
+      Modern_Exteriors_Complete_Tileset_56: -681345437
       Modern_Exteriors_Complete_Tileset_46: -467149786
       Modern_Exteriors_Complete_Tileset_48: 1759373780
-      Modern_Exteriors_Complete_Tileset_56: -681345437
       Modern_Exteriors_Complete_Tileset_68: 1936732478
       Modern_Exteriors_Complete_Tileset_31: 2058169702
       Modern_Exteriors_Complete_Tileset_52: -1136394806
       Modern_Exteriors_Complete_Tileset_25: 1537225016
       Modern_Exteriors_Complete_Tileset_41: 787646962
-      Modern_Exteriors_Complete_Tileset_37: -833446762
-      Modern_Exteriors_Complete_Tileset_32: 791773484
       Modern_Exteriors_Complete_Tileset_34: -1897760112
-      Modern_Exteriors_Complete_Tileset_62: 1487264724
-      Modern_Exteriors_Complete_Tileset_71: 984138381
       Modern_Exteriors_Complete_Tileset_10: 162016099
-      Modern_Exteriors_Complete_Tileset_70: -1659777185
       Modern_Exteriors_Complete_Tileset_4: -1556185737
       Modern_Exteriors_Complete_Tileset_28: -906233497
-      Modern_Exteriors_Complete_Tileset_27: 268275295
-      Modern_Exteriors_Complete_Tileset_21: 261521148
-      Modern_Exteriors_Complete_Tileset_7: 1565462712
-      Modern_Exteriors_Complete_Tileset_14: -1776268885
       Modern_Exteriors_Complete_Tileset_64: -37575814
       Modern_Exteriors_Complete_Tileset_9: -65014818
       Modern_Exteriors_Complete_Tileset_1: -1288204801
-      Modern_Exteriors_Complete_Tileset_11: 265262350
       Modern_Exteriors_Complete_Tileset_63: 884440558
-      Modern_Exteriors_Complete_Tileset_26: -606921736
       Modern_Exteriors_Complete_Tileset_15: -2031090480
       Modern_Exteriors_Complete_Tileset_74: -1614856972
-      Modern_Exteriors_Complete_Tileset_5: -942144668
       Modern_Exteriors_Complete_Tileset_24: -440943249
-      Modern_Exteriors_Complete_Tileset_65: 42942519
       Modern_Exteriors_Complete_Tileset_40: 667597389
-      Modern_Exteriors_Complete_Tileset_17: -332540000
-      Modern_Exteriors_Complete_Tileset_30: 437862946
-      Modern_Exteriors_Complete_Tileset_3: -1470777151
       Modern_Exteriors_Complete_Tileset_18: 595320658
+      Modern_Exteriors_Complete_Tileset_30: 437862946
       Modern_Exteriors_Complete_Tileset_36: 492779376
       Modern_Exteriors_Complete_Tileset_42: 1305532774
-      Modern_Exteriors_Complete_Tileset_77: 1180024117
-      Modern_Exteriors_Complete_Tileset_8: 986900867
-      Modern_Exteriors_Complete_Tileset_43: -570185844
+      Modern_Exteriors_Complete_Tileset_78: 1384223222
       Modern_Exteriors_Complete_Tileset_60: 963987963
       Modern_Exteriors_Complete_Tileset_76: -200433312
       Modern_Exteriors_Complete_Tileset_38: 1836310570
       Modern_Exteriors_Complete_Tileset_72: -1596453687
-      Modern_Exteriors_Complete_Tileset_16: -851513490
-      Modern_Exteriors_Complete_Tileset_20: 133952959
       Modern_Exteriors_Complete_Tileset_61: -1036030093
-      Modern_Exteriors_Complete_Tileset_54: -457320153
       Modern_Exteriors_Complete_Tileset_39: -1117950196
-      Modern_Exteriors_Complete_Tileset_50: 2133592527
       Modern_Exteriors_Complete_Tileset_73: 1791337937
       Modern_Exteriors_Complete_Tileset_45: 592541864
-      Modern_Exteriors_Complete_Tileset_57: 810898462
-      Modern_Exteriors_Complete_Tileset_59: 19298051
       Modern_Exteriors_Complete_Tileset_75: 255192085
       Modern_Exteriors_Complete_Tileset_47: -1875108135
-      Modern_Exteriors_Complete_Tileset_6: -25254167
-      Modern_Exteriors_Complete_Tileset_19: 595192168
+      Modern_Exteriors_Complete_Tileset_82: -1710345895
+      Modern_Exteriors_Complete_Tileset_87: -1722413052
       Modern_Exteriors_Complete_Tileset_2: -437825174
-      Modern_Exteriors_Complete_Tileset_51: 783002188
-      Modern_Exteriors_Complete_Tileset_13: 1290431708
+      Modern_Exteriors_Complete_Tileset_80: 2091571871
       Modern_Exteriors_Complete_Tileset_12: -1741318294
       Modern_Exteriors_Complete_Tileset_0: -387220245
       Modern_Exteriors_Complete_Tileset_49: -917078270
-      Modern_Exteriors_Complete_Tileset_58: 1021100529
+      Modern_Exteriors_Complete_Tileset_84: 2037363548
       Modern_Exteriors_Complete_Tileset_67: 379791979
+      Modern_Exteriors_Complete_Tileset_58: 1021100529
       Modern_Exteriors_Complete_Tileset_23: 2108523837
-      Modern_Exteriors_Complete_Tileset_35: -1497834316
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
