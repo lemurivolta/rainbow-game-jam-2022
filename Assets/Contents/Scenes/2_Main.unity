@@ -232,6 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 577246378}
   - component: {fileID: 577246380}
+  - component: {fileID: 577246381}
   - component: {fileID: 577246379}
   m_Layer: 0
   m_Name: SchermateManager
@@ -366,8 +367,20 @@ MonoBehaviour:
   PrefabSchermate:
   - {fileID: 5809475545087457959, guid: 88432dbb8663590449bb21a79a0abe7c, type: 3}
   - {fileID: 2373726326641068600, guid: a2655cf7b3688ea4fb37059621b1a06d, type: 3}
-  - {fileID: 6549423669371849342, guid: 31144ba783c0b47488a190a81a6ecd7f, type: 3}
   - {fileID: 5828336998711315799, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+  sceneHandler: {fileID: 577246381}
+--- !u!114 &577246381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 577246376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3cd910a7f13fa54e8962060ec68e744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &680085466
 GameObject:
   m_ObjectHideFlags: 0

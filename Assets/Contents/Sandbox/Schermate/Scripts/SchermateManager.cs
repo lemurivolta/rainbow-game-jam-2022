@@ -7,6 +7,7 @@ using UnityEngine;
 public class SchermateManager : Singleton<SchermateManager>
 {
     [SerializeField] List<GameObject> PrefabSchermate;
+    [SerializeField] SceneHandler sceneHandler;
     AudioSource audioSource;
 
     int currentSchermataIndex = 0;
@@ -42,7 +43,12 @@ public class SchermateManager : Singleton<SchermateManager>
 
         currentSchermataIndex++;
 
-        FirstStart();
+        if (currentSchermataIndex <= PrefabSchermate.Count - 1)
+            FirstStart();
+        else if (sceneHandler.IsThereASceneAfterThis())
+            sceneHandler.NextScene();
+        else
+            sceneHandler.GoTo();
     }
 
     public void FirstStart()
