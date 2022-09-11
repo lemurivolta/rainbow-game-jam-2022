@@ -14,7 +14,7 @@ public class EnemyMovement : MonoBehaviour
 
     private Rigidbody2D Rigidbody2D;
 
-    private Vector3[] Points;
+    private Vector3[] Points = null;
 
     private float PausedAt = -1;
 
@@ -69,7 +69,21 @@ public class EnemyMovement : MonoBehaviour
 
     private Vector3 GetPosition(int i)
     {
-        return Points[i % Points.Length];
+        if (Points == null || Points.Length == 0)
+        {
+            if (Path.childCount == 0)
+            {
+                return Vector3.zero;
+            }
+            else
+            {
+                return Path.GetChild(i % Path.childCount).position;
+            }
+        }
+        else
+        {
+            return Points[i % Points.Length];
+        }
     }
 
     private void OnDrawGizmos()
@@ -79,11 +93,11 @@ public class EnemyMovement : MonoBehaviour
         {
             return;
         }
-        var firstPosition = Path.GetChild(0).position;
+        var firstPosition = GetPosition(0);
         var previousPosition = firstPosition;
         for (var i = 1; i < Path.childCount; i++)
         {
-            var childPosition = Path.GetChild(i).position;
+            var childPosition = GetPosition(i);
             Gizmos.DrawLine(previousPosition, childPosition);
             previousPosition = childPosition;
         }

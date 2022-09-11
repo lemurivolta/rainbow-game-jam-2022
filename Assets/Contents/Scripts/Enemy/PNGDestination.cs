@@ -42,11 +42,14 @@ public class PNGDestination : MonoBehaviour
         OnCharacterAction(CharacterInfo.Players.P2);
     }
 
+    private bool Moving = false;
+
     public void OnCharacterAction(CharacterInfo.Players p)
     {
-        // must check that yelena is inside, it's not a follower, and her player
-        // was the one issuing the command
-        if(AllowedCharacterInfo != null &&
+        // must check that we are not already moving, yelena is inside,
+        // it's not a follower, and her player was the one issuing the command
+        if(!Moving &&
+            AllowedCharacterInfo != null &&
             !AllowedCharacterInfo.IsFollower &&
             AllowedCharacterInfo.Player == p)
         {
@@ -56,6 +59,7 @@ public class PNGDestination : MonoBehaviour
 
     private IEnumerator Move()
     {
+        Moving = true;
         var targetTransform = transform.parent.transform;
         var pointA = targetTransform.position;
         var pointB = pointA + transform.localPosition;
@@ -65,6 +69,7 @@ public class PNGDestination : MonoBehaviour
         yield return new WaitForSeconds(ComeBackAfter);
         // come back
         yield return Move(targetTransform, pointA);
+        Moving = false;
     }
 
     private IEnumerator Move(Transform transform, Vector3 endPosition)

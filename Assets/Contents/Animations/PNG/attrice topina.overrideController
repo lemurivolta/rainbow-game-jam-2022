@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: attrice topina
+  m_Controller: {fileID: 9100000, guid: 30fbcfb4adc4dec4ab017bf8d3a91961, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: bc27b2aee51bb6d4c8b6a1201db1736c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 75054eaa8706e9546ba94d549f664ec0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0dd109c94eeb99848b61412b2fb2625b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4f973211776be6349b13989e1cf1fcb4, type: 2}

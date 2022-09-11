@@ -59,15 +59,27 @@ public class EnemyFaint : MonoBehaviour
         }
     }
 
-    private void Faint()
+    private Coroutine WaitToWakeUp = null;
+
+    public void Faint()
     {
         Fainted.Invoke();
-        StartCoroutine(ResumeFromFainted());
+        WaitToWakeUp = StartCoroutine(ResumeFromFainted());
     }
 
     private IEnumerator ResumeFromFainted()
     {
         yield return new WaitForSeconds(FaintDuration);
+        WaitToWakeUp = null;
+        Awake();
+    }
+
+    public void Awake()
+    {
+        if(WaitToWakeUp != null)
+        {
+            StopCoroutine(WaitToWakeUp);
+        }
         Awoken.Invoke();
     }
 }
