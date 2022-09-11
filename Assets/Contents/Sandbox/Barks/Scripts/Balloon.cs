@@ -83,6 +83,7 @@ public class Balloon : Singleton<Balloon>
     public void SetText(string s)
     {
         label.text = "";
+        //StopCoroutine(ShowText(s));
         StartCoroutine(ShowText(s));
     }
 
@@ -134,6 +135,10 @@ public class Balloon : Singleton<Balloon>
         if (currentBark.pressToSkip && b && playerOneSkip.isOn && playerTwoSkip.isOn)
         {
             currentBark.canSkip = true;
+
+            StopAllCoroutines();
+
+            label.text = currentBark.GetBark();
 
             StartCoroutine(WaitToSkip());            
         }

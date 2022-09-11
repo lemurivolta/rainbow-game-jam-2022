@@ -877,7 +877,11 @@ PrefabInstance:
       objectReference: {fileID: 2855542336654859765, guid: 0fa132da3439d4842bdb26560017ea09, type: 2}
     - target: {fileID: 889910217326085309, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
       propertyPath: m_VerticalAlignment
-      value: 256
+      value: 4096
+      objectReference: {fileID: 0}
+    - target: {fileID: 889910217326085309, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 889910217326085309, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
       propertyPath: m_hasFontAssetChanged
