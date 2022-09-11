@@ -18335,6 +18335,168 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: gameOverBarks.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[0].line_eng
+      value: There is no offense if it is precautionary self-defense!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[0].line_ita
+      value: "Non c\u2019\xE8 offesa, se \xE8 legittima preventiva difesa!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: gameOverBarks.Array.data[0].line_eng
+      value: I asked you Rom attackers, take these four morons away!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: gameOverBarks.Array.data[0].line_ita
+      value: Ve le avevo chieste Rom le assalitrici, portate via queste quattro cretine!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: gameOverBarks.Array.data[1].line_eng
+      value: I asked you Rom attackers, take these four morons away!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: gameOverBarks.Array.data[1].line_ita
+      value: Ve le avevo chieste Rom le assalitrici, portate via queste quattro cretine!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[0].line_eng
+      value: Stop stop fucking stop! Rebecca, it's not "Legitimate Preemptive Offense,"
+        it's "Legitimate Preemptive Defense"! It's not that difficult!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[0].line_ita
+      value: "Stop stop stop, cazzo! Rebecca, non \xE8 \"Legittima Offesa Preventiva\",
+        ma \"Legittima Difesa Preventiva\"! Non \xE8 difficile!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[1].line_eng
+      value: Sorry Mr. Director, it's just that guns make me uncomfortable.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[1].line_ita
+      value: "Scusi signor regista, \xE8 che le armi mi mettono a disagio."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[2].line_eng
+      value: I'm not sure I understand.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[2].line_ita
+      value: Non credo di aver capito.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[3].line_eng
+      value: Um, um, meaning, if they are that small.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[3].line_ita
+      value: "Ehm, ehm, nel senso, se sono cos\xEC piccole."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[4].line_eng
+      value: 'Sure, sure. Pull yourself together now. Remember: a clear shot when
+        he has his back to you, okay? Let''s start again boys: "My country, my rules,"
+        Ministry of Justice commercial, scene two, take number twelve. Action.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[4].line_ita
+      value: "Certo, certo. Ripigliati ora. E mi raccomando: un colpo secco, quando
+        ti d\xE0 le spalle, ok? Ricominciamo raga: \"Paese mio, regole mie\", spot
+        del Ministero della Giustizia, scena due, ripresa numero dodici. Azione!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[5].line_eng
+      value: 'Sure, sure. Pull yourself together now. Remember: a clear shot when
+        he has his back to you, okay? Let''s start again boys: "My country, my rules,"
+        Ministry of Justice commercial, scene two, take number twelve. Action.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[5].line_ita
+      value: "Certo, certo. Ripigliati ora. E mi raccomando: un colpo secco, quando
+        ti d\xE0 le spalle, ok? Ricominciamo raga: \"Paese mio, regole mie\", spot
+        del Ministero della Giustizia, scena due, ripresa numero dodici. Azione!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[0].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[0].soundEffect
+      value: 
+      objectReference: {fileID: 8300000, guid: 7d4e77cd631ca234c9a08e3007650160, type: 3}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: gameOverBarks.Array.data[0].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[0].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[1].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[2].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[3].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[4].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[0].targetTransform
+      value: 
+      objectReference: {fileID: 7930995190781909312}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: gameOverBarks.Array.data[0].targetTransform
+      value: 
+      objectReference: {fileID: 6266329489904175997}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: gameOverBarks.Array.data[1].targetTransform
+      value: 
+      objectReference: {fileID: 6266329489904175997}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[0].targetTransform
+      value: 
+      objectReference: {fileID: 6266329489904175997}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[1].targetTransform
+      value: 
+      objectReference: {fileID: 7930995190781909312}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[2].targetTransform
+      value: 
+      objectReference: {fileID: 6266329489904175997}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[3].targetTransform
+      value: 
+      objectReference: {fileID: 7930995190781909312}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[4].targetTransform
+      value: 
+      objectReference: {fileID: 6266329489904175997}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[5].targetTransform
+      value: 
+      objectReference: {fileID: 6266329489904175997}
     - target: {fileID: 2665030681764198241, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -42787,6 +42949,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3660025224787533978, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: music
+      value: 
+      objectReference: {fileID: 8300000, guid: dab45fe59f7349c47b3c61774cd782ff, type: 3}
     - target: {fileID: 4455576614141879651, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
       value: 6

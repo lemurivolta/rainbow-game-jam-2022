@@ -11,7 +11,7 @@ public class Bark
     public Transform targetTransform;
     public AudioClip soundEffect;
     public Bark nextBark { get; set; }
-    public bool pressToSkip;
+    public bool pressToSkip = true;
     [HideInInspector] public bool nextSceneOnSkip;
 
     [HideInInspector] public bool restartAtEnd = false;
