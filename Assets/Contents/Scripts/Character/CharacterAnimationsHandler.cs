@@ -50,4 +50,9 @@ public class CharacterAnimationsHandler : MonoBehaviour
     {
         SetMovementDirection(Vector2.zero);
     }
+
+    public void OnAction()
+    {
+        Animator.SetTrigger("Act");
+    }
 }

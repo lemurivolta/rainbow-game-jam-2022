@@ -106,6 +106,10 @@ public class Interactable : MonoBehaviour
                     }
                     // ok, we can do it!
                     Interaction.Invoke();
+                    // also make the animation start
+                    activePlayer.gameObject
+                        .GetComponent<CharacterAnimationsHandler>()
+                        .OnAction();
                 }
                 break;
             }
