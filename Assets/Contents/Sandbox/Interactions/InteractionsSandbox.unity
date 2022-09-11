@@ -179,12 +179,16 @@ PrefabInstance:
       value: Level Test
       objectReference: {fileID: 0}
     - target: {fileID: 7382156866093952661, guid: da72b70bb76ca6348b3b6e17e00794fe, type: 3}
+      propertyPath: orthographic size
+      value: 11.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7382156866093952661, guid: da72b70bb76ca6348b3b6e17e00794fe, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7382156866093952661, guid: da72b70bb76ca6348b3b6e17e00794fe, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0
+      value: 0.03426791
       objectReference: {fileID: 0}
     - target: {fileID: 7382156866093952661, guid: da72b70bb76ca6348b3b6e17e00794fe, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
@@ -192,7 +196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7382156866093952661, guid: da72b70bb76ca6348b3b6e17e00794fe, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 1
+      value: 0.9304906
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72b70bb76ca6348b3b6e17e00794fe, type: 3}
