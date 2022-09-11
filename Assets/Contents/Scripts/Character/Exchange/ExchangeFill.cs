@@ -6,13 +6,14 @@ public class ExchangeFill : MonoBehaviour
 {
     private SpriteMask SpriteMask;
 
-    private void Start()
+    private void Awake()
     {
         SpriteMask = GetComponent<SpriteMask>();
     }
 
     public void OnTimeoutProgress(float newValue)
     {
-        SpriteMask.alphaCutoff = 1 - newValue;
+        if(SpriteMask != null)
+            SpriteMask.alphaCutoff = 1 - newValue;
     }
 }
