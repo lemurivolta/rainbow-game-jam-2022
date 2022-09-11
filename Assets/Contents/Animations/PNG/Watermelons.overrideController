@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Watermelons
+  m_Controller: {fileID: 9100000, guid: a8c49c1808fae5f459121d99a0a9bf4b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 6e8d9901e170cbc4ba5a985d8fb74b7b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 11576dc63fa4d8f439a38888d5221010, type: 2}
