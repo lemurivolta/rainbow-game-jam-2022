@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 1234639205839197939}
   - component: {fileID: 8115731460208980329}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: Enemy Pig With Beanie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,7 +166,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 122101482, guid: 85269e64a52527e45926c42a05f2ef5d, type: 3}
+  m_Sprite: {fileID: -497825733, guid: 85269e64a52527e45926c42a05f2ef5d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
