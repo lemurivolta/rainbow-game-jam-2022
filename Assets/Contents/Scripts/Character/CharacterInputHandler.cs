@@ -78,7 +78,7 @@ public class CharacterInputHandler : MonoBehaviour
             ReleaseSwitchCharacters.Invoke();
         }
 
-        if(Input.GetKey(bindings.Action))
+        if(Input.GetKeyDown(bindings.Action))
         {
             Action.Invoke();
         }
