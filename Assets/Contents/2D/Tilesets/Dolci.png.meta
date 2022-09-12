@@ -820,7 +820,7 @@ TextureImporter:
         width: 9
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -841,7 +841,7 @@ TextureImporter:
         width: 9
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -849,6 +849,27 @@ TextureImporter:
       bones: []
       spriteID: e176a869340da6b4199e7757be20cf48
       internalID: 2011433275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dolci_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 5
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a7b9be4c5e70547afc758bc57db8c5
+      internalID: -902155140
       vertices: []
       indices: 
       edges: []
@@ -864,8 +885,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Dolci_31: -902645389
-      Dolci_22: -1683197601
+      Dolci_5: 1690689935
+      Dolci_17: 164806236
       Dolci_10: -1908491924
       Dolci_18: 412859271
       Dolci_6: -1951349451
@@ -878,6 +899,7 @@ TextureImporter:
       Dolci_9: 363487122
       Dolci_28: -1657041267
       Dolci_11: 1795184258
+      Dolci_34: -902155140
       Dolci_19: -1277880206
       Dolci_21: -2015597308
       Dolci_29: 2125671601
@@ -896,8 +918,8 @@ TextureImporter:
       Dolci_4: 950868446
       Dolci_1: 312774156
       Dolci_23: -1861018650
-      Dolci_5: 1690689935
-      Dolci_17: 164806236
+      Dolci_31: -902645389
+      Dolci_22: -1683197601
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

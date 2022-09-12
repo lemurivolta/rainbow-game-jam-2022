@@ -820,7 +820,7 @@ TextureImporter:
         width: 10
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -841,7 +841,7 @@ TextureImporter:
         width: 10
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -862,7 +862,7 @@ TextureImporter:
         width: 24
         height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -870,6 +870,48 @@ TextureImporter:
       bones: []
       spriteID: 79539fd46ce2c0342968307507b4ddbb
       internalID: -2080219985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_35
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 25
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0526b9cfaf471c845bc401adfe731c77
+      internalID: 941725956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lampade e piante_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 15
+        width: 50
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8d9492ea20e5a4e989a6d4413342e9
+      internalID: 1335477640
       vertices: []
       indices: 
       edges: []
@@ -902,6 +944,7 @@ TextureImporter:
       Lampade e piante_8: -625626339
       Lampade e piante_31: 1697134842
       Lampade e piante_19: -2123554080
+      Lampade e piante_36: 1335477640
       Lampade e piante_33: -2002716320
       Lampade e piante_15: 1916372811
       Lampade e piante_23: -128200699
@@ -909,6 +952,7 @@ TextureImporter:
       Lampade e piante_1: -1358301870
       Lampade e piante_29: 1553646581
       Lampade e piante_25: -286801073
+      Lampade e piante_35: 941725956
       Lampade e piante_28: -1454533846
       Lampade e piante_17: 844363501
       Lampade e piante_34: -2080219985
