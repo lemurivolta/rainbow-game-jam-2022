@@ -4258,7 +4258,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6101276139990319006, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: 0.43921918
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6101276139990319006, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
@@ -4266,11 +4266,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6101276139990319006, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.37069902
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6101276139990319006, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.35074627
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7407501095063387118, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: InitialStateName
@@ -4305,11 +4305,23 @@ PrefabInstance:
       value: 3228701881579601920
       objectReference: {fileID: 0}
     - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: Rules.Array.data[1].State
+      value: 3228701881579601921
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: managedReferences[3228701881579601920]
       value: Assembly-CSharp RuleSystem/MultiStateCondition
       objectReference: {fileID: 0}
     - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: managedReferences[3228701881579601921]
+      value: Assembly-CSharp RuleSystem/StateCondition
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: Rules.Array.data[0].WhenTrue.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: Rules.Array.data[1].WhenTrue.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -4321,8 +4333,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 896886328394817239}
     - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: Rules.Array.data[1].WhenTrue.Array.data[0]
+      value: 
+      objectReference: {fileID: 7553177452039447761}
+    - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: Rules.Array.data[1].WhenTrue.Array.data[1]
+      value: 
+      objectReference: {fileID: 896886328394817239}
+    - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: managedReferences[3228701881579601920].Kind
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: managedReferences[3228701881579601921].State
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: managedReferences[3228701881579601920].States.Array.size

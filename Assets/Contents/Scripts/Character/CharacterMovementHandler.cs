@@ -35,12 +35,20 @@ public class CharacterMovementHandler : MonoBehaviour
 
     private void OnMovement(Vector2 direction, CharacterInfo.Players p)
     {
-        if (//!Balloon.Instance.isBarking &&
+        if (!Balloon.Instance.isBarking &&
             CharacterInfo != null &&
             !CharacterInfo.IsFollower &&
             CharacterInfo.Player == p)
         {
             Rigidbody2D.velocity = Speed * direction.normalized;
+        }
+    }
+
+    private void Update()
+    {
+        if(Balloon.Instance.isBarking)
+        {
+            Rigidbody2D.velocity = Vector3.zero;
         }
     }
 

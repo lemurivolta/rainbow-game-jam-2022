@@ -30,8 +30,7 @@ public class Exit : MonoBehaviour
             .parent.GetComponent<CharacterInfo>() != null)
         {
             Debug.Log("Go to next level");
-            SchermateManager.Instance.GoToNext();
-
+            SchermateManager.Instance.EndSchermata();
         }
     }
 }
