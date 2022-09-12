@@ -166,7 +166,6 @@ GameObject:
   - component: {fileID: 5594815815017140838}
   - component: {fileID: 5059929339482568142}
   - component: {fileID: 5402811337432878353}
-  - component: {fileID: 2056247752597001949}
   - component: {fileID: 693240651772864845}
   - component: {fileID: 639941356714927502}
   - component: {fileID: 2389197504449970514}
@@ -377,18 +376,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 1
           m_CallState: 2
-        - m_Target: {fileID: 2056247752597001949}
-          m_TargetAssemblyTypeName: CharacterSelectorHandler, Assembly-CSharp
-          m_MethodName: ShowSelector
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
         - m_Target: {fileID: 1698085624232620087}
           m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
           m_MethodName: set_enabled
@@ -467,18 +454,6 @@ MonoBehaviour:
         - m_Target: {fileID: 934336133185989116}
           m_TargetAssemblyTypeName: CharacterAnimationsHandler, Assembly-CSharp
           m_MethodName: set_UseInput
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 2056247752597001949}
-          m_TargetAssemblyTypeName: CharacterSelectorHandler, Assembly-CSharp
-          m_MethodName: ShowSelector
           m_Mode: 6
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -985,19 +960,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 6
---- !u!114 &2056247752597001949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903119584884876940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13c9fd94f62269d47bb935e789113eef, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Selector: {fileID: 4976138183133875467}
 --- !u!114 &693240651772864845
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -188,15 +188,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.10830325
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.6497462
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.6498195
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
@@ -207,6 +207,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 349798525869499517, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_Color.a
+      value: 0.53333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 410784826870995181, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 410784826870995181, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 587818740626381577, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -250,6 +262,18 @@ PrefabInstance:
     - target: {fileID: 587818740626381577, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 652047857700628830, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_Color.a
+      value: 0.53333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529338545374034631, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529338545374034631, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2060980144895462127, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
       propertyPath: m_IsActive
@@ -8435,6 +8459,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2556524382146955869, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_Color.a
+      value: 0.53333336
+      objectReference: {fileID: 0}
     - target: {fileID: 5828336998711315799, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
       propertyPath: m_Name
       value: 04 - La strada verso Dio
@@ -10118,6 +10146,14 @@ PrefabInstance:
     - target: {fileID: 6708490344164059806, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
       propertyPath: m_Tiles.Array.data[396].second.m_TileSpriteIndex
       value: 187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6777026163244752528, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_Color.a
+      value: 0.53333336
+      objectReference: {fileID: 0}
+    - target: {fileID: 6929265573170600248, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+      propertyPath: m_Color.a
+      value: 0.53333336
       objectReference: {fileID: 0}
     - target: {fileID: 7839099677277585936, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
       propertyPath: orthographic size
