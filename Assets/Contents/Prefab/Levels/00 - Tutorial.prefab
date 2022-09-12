@@ -332,6 +332,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 6090953410687304120, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
 --- !u!114 &7553177452039447761 stripped
@@ -510,7 +514,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.size
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_eng
@@ -519,6 +523,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_ita
+      value: Siete quelle delle pulizie? Salite al terzo piano, che Matteuccio sta
+        facendo di nuovo i capricci, forza!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[1].line_eng
+      value: Are you the cleaning people? Hurry up and go up to the third floor!
+        Matteuccio is having a tantrum again.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[1].line_ita
       value: Siete quelle delle pulizie? Salite al terzo piano, che Matteuccio sta
         facendo di nuovo i capricci, forza!
       objectReference: {fileID: 0}
@@ -552,12 +566,12 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_eng
       value: The hospitals are in the basement, but you have to go through three
-        other areas first.
+        other areas first. And overcome the Robonuns!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_ita
       value: Gli ospedali sono nello scantinato, ma bisogna attraversare prima tre
-        sezioni
+        sezioni, e superare le suore robot
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].line_eng
@@ -595,32 +609,34 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[7].line_eng
+      value: Dear players, to change a character within the pair, press SHIFT RIGHT
+        (player1) or TAB (player 2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[7].line_ita
+      value: Care giocatrici, per cambiare una personaggia all'interno della coppia,
+        premete SHIFT DESTRO (player1) o TAB (player 2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[8].line_eng
+      value: To exchange together a character, hold down SHIFT RIGHT and TAB for
+        a long time
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[8].line_ita
+      value: Per scambiarvi una personaggia, tenete premuto a lungo SHIFT DESTRO
+        e TAB.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[9].line_eng
       value: 'Anyway: first territory to cross: a political talk show. There''s Minister
         Callendo, so it should be easy; he''s always caught up in himself.'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[7].line_ita
+      propertyPath: startingBarks.Array.data[9].line_ita
       value: "Comunque: primo territorio da attraversare: un talk show politico.
         C\u2019\xE8 il Ministro Callendo per cui dovrebbe essere facile, \xE8 sempre
         preso da s\xE9 stesso"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[8].line_eng
-      value: The one from "I will never govern with fascists"?
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[8].line_ita
-      value: "Quello de \u201CNon governer\xF2 mai coi fascisti\u201D?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[9].line_eng
-      value: "Right. Then there is the set of a commercial, I\u2019ve no information
-        about it. Then that unwatchable series that is Mother."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[9].line_ita
-      value: "Esatto. Poi c\u2019\xE8 il set di una pubblicit\xE0, non ci sono informazioni
-        a riguardo. Poi quell\u2019obbrobrio di serie che \xE8 Madre"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].character
@@ -632,36 +648,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[10].line_eng
-      value: "My daughter is crazy about that monstrosity. She believes it\u2019s
-        a parody."
+      value: The one from "I will never govern with fascists"?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[10].line_ita
-      value: "Mia figlia va matta per quella mostruosit\xE0. \xC8 convinta che sia
-        una parodia"
+      value: "Quello de \u201CNon governer\xF2 mai coi fascisti\u201D?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[11].line_eng
-      value: And finally, the hospital and study where we will find HER.
+      value: "Right. Then there is the set of a commercial, I\u2019ve no information
+        about it. Then that unwatchable series that is Mother."
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[11].line_ita
-      value: "E infine, l\u2019ospedale e lo studio dove troveremo lei."
+      value: "Esatto. Poi c\u2019\xE8 il set di una pubblicit\xE0, non ci sono informazioni
+        a riguardo. "
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[12].line_eng
-      value: "What do we do once we\u2019re there?"
+      value: And finally, the hospital and study where we will find HER.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[12].line_ita
-      value: "E quando siamo l\xEC che facciamo?"
+      value: "E infine, l\u2019ospedale e lo studio dove troveremo lei."
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[13].line_eng
-      value: We'll read the statement, of course!
+      value: "What do we do once we\u2019re there?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[13].line_ita
+      value: "E quando siamo l\xEC che facciamo?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[14].line_eng
+      value: We'll read the statement, of course!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[14].line_ita
       value: 'Ovvio: leggiamo il comunicato!'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -690,11 +714,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[7].character
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[8].character
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[9].character
@@ -702,7 +726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[10].character
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[11].character
@@ -710,10 +734,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[12].character
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[13].character
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[14].character
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -773,7 +801,15 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[14].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].targetTransform
+      value: 
+      objectReference: {fileID: 6384092221758159948}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[1].targetTransform
       value: 
       objectReference: {fileID: 6384092221758159948}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -807,11 +843,7 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[7].targetTransform
       value: 
-      objectReference: {fileID: 4862182009248803562}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[8].targetTransform
-      value: 
-      objectReference: {fileID: 8917583425879334163}
+      objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[9].targetTransform
       value: 
@@ -819,7 +851,7 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[10].targetTransform
       value: 
-      objectReference: {fileID: 8809143896888363772}
+      objectReference: {fileID: 8917583425879334163}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[11].targetTransform
       value: 
@@ -827,9 +859,13 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[12].targetTransform
       value: 
-      objectReference: {fileID: 7695093075718449366}
+      objectReference: {fileID: 4862182009248803562}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[13].targetTransform
+      value: 
+      objectReference: {fileID: 7695093075718449366}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[14].targetTransform
       value: 
       objectReference: {fileID: 8917583425879334163}
     - target: {fileID: 3233175324120322214, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}

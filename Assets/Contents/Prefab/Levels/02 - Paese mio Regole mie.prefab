@@ -18317,7 +18317,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1470115172673857375, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1470115172673857375, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18329,7 +18329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1550070913521901406, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1979866090971263696, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_IsActive
@@ -18345,7 +18345,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_eng
@@ -18408,26 +18408,22 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_eng
       value: 'Sure, sure. Pull yourself together now. Remember: a clear shot when
-        he has his back to you, okay? Let''s start again boys: "My country, my rules,"
-        Ministry of Justice commercial, scene two, take number twelve. Action.'
+        he has his back to you, okay? '
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_ita
       value: "Certo, certo. Ripigliati ora. E mi raccomando: un colpo secco, quando
-        ti d\xE0 le spalle, ok? Ricominciamo raga: \"Paese mio, regole mie\", spot
-        del Ministero della Giustizia, scena due, ripresa numero dodici. Azione!"
+        ti d\xE0 le spalle, ok?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_eng
-      value: 'Sure, sure. Pull yourself together now. Remember: a clear shot when
-        he has his back to you, okay? Let''s start again boys: "My country, my rules,"
-        Ministry of Justice commercial, scene two, take number twelve. Action.'
+      value: 'Let''s start again boys: "My country, my rules," Ministry of Justice
+        commercial, scene two, take number twelve. Action.'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_ita
-      value: "Certo, certo. Ripigliati ora. E mi raccomando: un colpo secco, quando
-        ti d\xE0 le spalle, ok? Ricominciamo raga: \"Paese mio, regole mie\", spot
-        del Ministero della Giustizia, scena due, ripresa numero dodici. Azione!"
+      value: 'Ricominciamo raga: "Paese mio, regole mie", spot del Ministero della
+        Giustizia, scena due, ripresa numero dodici. Azione! '
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].pressToSkip
@@ -18459,6 +18455,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[5].pressToSkip
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -42883,7 +42883,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3233175324120322214, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3233175324120322214, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42895,7 +42895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3269411572004816713, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3269411572004816713, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -42955,7 +42955,7 @@ PrefabInstance:
       objectReference: {fileID: 8300000, guid: dab45fe59f7349c47b3c61774cd782ff, type: 3}
     - target: {fileID: 4455576614141879651, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4455576614141879651, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -44395,7 +44395,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5790002276864585846, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6101276139990318945, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
@@ -78571,7 +78571,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9154342226936173454, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
