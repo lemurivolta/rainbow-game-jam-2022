@@ -16,5 +16,5 @@ MonoBehaviour:
   Right: 275
   Down: 274
   Left: 276
-  Action: 303
-  Switch: 13
+  Action: 13
+  Switch: 303
