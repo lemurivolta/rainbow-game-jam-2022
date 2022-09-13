@@ -79834,6 +79834,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Room_Builder_16x16_3795
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 1696
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d492b6ac265118740bfec8a70f930ee5
+      internalID: 1860809923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -79873,15 +79894,15 @@ TextureImporter:
       Room_Builder_16x16_1177: -735690477
       Room_Builder_16x16_825: -410477855
       Room_Builder_16x16_2463: 1070652487
-      Room_Builder_16x16_1119: -832558816
-      Room_Builder_16x16_1543: 1717619494
+      Room_Builder_16x16_80: -154029440
+      Room_Builder_16x16_826: -1437129036
       Room_Builder_16x16_2064: -177403065
       Room_Builder_16x16_3187: -674883375
       Room_Builder_16x16_515: 1780606492
       Room_Builder_16x16_1109: -1538429340
-      Room_Builder_16x16_80: -154029440
+      Room_Builder_16x16_1119: -832558816
+      Room_Builder_16x16_1543: 1717619494
       Room_Builder_16x16_669: -657427292
-      Room_Builder_16x16_826: -1437129036
       Room_Builder_16x16_315: -2114845363
       Room_Builder_16x16_1785: -870601738
       Room_Builder_16x16_2046: -1959618338
@@ -79898,6 +79919,7 @@ TextureImporter:
       Room_Builder_16x16_2768: -1344071375
       Room_Builder_16x16_3421: -887634046
       Room_Builder_16x16_650: 374696524
+      Room_Builder_16x16_3795: 1860809923
       Room_Builder_16x16_1536: 212879731
       Room_Builder_16x16_2971: 247264109
       Room_Builder_16x16_3083: -1005737601
@@ -80084,13 +80106,13 @@ TextureImporter:
       Room_Builder_16x16_2377: 525136317
       Room_Builder_16x16_3145: 1163486848
       Room_Builder_16x16_3409: 737620711
-      Room_Builder_16x16_2205: -245887536
+      Room_Builder_16x16_2149: -1247784958
       Room_Builder_16x16_167: 351069498
       Room_Builder_16x16_3252: -1727713724
       Room_Builder_16x16_2393: -1771245569
       Room_Builder_16x16_2450: -2143317228
       Room_Builder_16x16_104: -1038606658
-      Room_Builder_16x16_2149: -1247784958
+      Room_Builder_16x16_2205: -245887536
       Room_Builder_16x16_2264: -1751628530
       Room_Builder_16x16_2885: -810865526
       Room_Builder_16x16_3625: 124839767
