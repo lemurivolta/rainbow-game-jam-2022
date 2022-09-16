@@ -8,7 +8,7 @@ public class CameraSprite : MonoBehaviour
 
     public Sprite[] Sprites;
 
-    private void Start()
+    private void Awake()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
     }
@@ -20,6 +20,9 @@ public class CameraSprite : MonoBehaviour
             0,
             Sprites.Length - 1
         );
-        SpriteRenderer.sprite = Sprites[i];
+        if(SpriteRenderer != null)
+        {
+            SpriteRenderer.sprite = Sprites[i];
+        }            
     }
 }
