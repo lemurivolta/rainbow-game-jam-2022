@@ -63,7 +63,6 @@ public class EnemyFaint : MonoBehaviour
 
     public void Faint()
     {
-        Debug.Log("EnemyFaint.Faint!");
         Fainted.Invoke();
         WaitToWakeUp = StartCoroutine(ResumeFromFainted());
     }
@@ -72,12 +71,11 @@ public class EnemyFaint : MonoBehaviour
     {
         yield return new WaitForSeconds(FaintDuration);
         WaitToWakeUp = null;
-        Awake();
+        WakeUp();
     }
 
-    public void Awake()
+    public void WakeUp()
     {
-        Debug.Log("EnemyFaint.Awake!");
         if (WaitToWakeUp != null)
         {
             StopCoroutine(WaitToWakeUp);

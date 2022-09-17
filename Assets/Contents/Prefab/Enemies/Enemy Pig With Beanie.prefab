@@ -791,7 +791,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3608690437725090499}
         m_TargetAssemblyTypeName: EnemyFaint, Assembly-CSharp
-        m_MethodName: Awake
+        m_MethodName: WakeUp
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
