@@ -33,7 +33,7 @@ public class CameraRotation : MonoBehaviour
         {
             SweepCoroutine = StartCoroutine(DoMovement());
         }
-        if(!DoSweep && SweepCoroutine != null)
+        if (!DoSweep && SweepCoroutine != null)
         {
             StopCoroutine(SweepCoroutine);
         }
@@ -55,10 +55,10 @@ public class CameraRotation : MonoBehaviour
         var angle2 = MaxAngle;
         for (; ; )
         {
-            for(; ; )
+            for (; ; )
             {
                 var delta = (Time.time - startTime) / SingleSweepDuration;
-                if(delta >= 1)
+                if (delta >= 1)
                 {
                     yield return new WaitForSeconds(WaitTimeAtSweepEnd);
                     break;
@@ -75,10 +75,10 @@ public class CameraRotation : MonoBehaviour
     {
         var startAngle = transform.rotation.eulerAngles.z;
         var startTime = Time.time;
-        for(; ; )
+        for (; ; )
         {
             var delta = (Time.time - startTime) / duration;
-            if(delta >= 1)
+            if (delta >= 1)
             {
                 break;
             }
