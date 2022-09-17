@@ -15,9 +15,8 @@ public class PNGDestination : MonoBehaviour
     public void OnCharacterEnter(Collider2D collider)
     {
         var ci = collider.gameObject.transform.parent.gameObject.GetComponent<CharacterInfo>();
-        if(ci.Character == CharacterAllowedToMove)
+        if (ci.Character == CharacterAllowedToMove)
         {
-            Debug.Log("Yelena is inside");
             AllowedCharacterInfo = ci;
         }
     }
@@ -27,7 +26,6 @@ public class PNGDestination : MonoBehaviour
         var ci = collider.gameObject.transform.parent.gameObject.GetComponent<CharacterInfo>();
         if (ci.Character == CharacterAllowedToMove)
         {
-            Debug.Log("Yelena is outside");
             AllowedCharacterInfo = null;
         }
     }
@@ -48,7 +46,7 @@ public class PNGDestination : MonoBehaviour
     {
         // must check that we are not already moving, yelena is inside,
         // it's not a follower, and her player was the one issuing the command
-        if(!Moving &&
+        if (!Moving &&
             AllowedCharacterInfo != null &&
             !AllowedCharacterInfo.IsFollower &&
             AllowedCharacterInfo.Player == p)
@@ -77,10 +75,10 @@ public class PNGDestination : MonoBehaviour
         // move from current position to end position
         var startTime = Time.time;
         var startPosition = transform.position;
-        for(; ; )
+        for (; ; )
         {
             var k = (Time.time - startTime) / MovementDuration;
-            if(k >= 1)
+            if (k >= 1)
             {
                 break;
             }
