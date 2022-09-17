@@ -18,6 +18,7 @@ public class BalloonVisibility : MonoBehaviour
     private void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
+        UpdateAndVisibility();
     }
 
     /// <summary>
@@ -25,7 +26,8 @@ public class BalloonVisibility : MonoBehaviour
     /// </summary>
     public void OnCharacterApproach()
     {
-        UpdateNearbyCharactersAndVisibility(1);
+        NumNearbyCharacters += 1;
+        UpdateAndVisibility();
     }
 
     /// <summary>
@@ -33,16 +35,18 @@ public class BalloonVisibility : MonoBehaviour
     /// </summary>
     public void OnCharacterDepart()
     {
-        UpdateNearbyCharactersAndVisibility(-1);
+        NumNearbyCharacters += -1;
+        UpdateAndVisibility();
     }
 
     /// <summary>
-    /// Updates the number of nearby characters and then re-compute the visibility.
+    /// Set the visibility of the sprite renderer (if already available).
     /// </summary>
-    /// <param name="delta">The change in the number of nearby characters.</param>
-    private void UpdateNearbyCharactersAndVisibility(int delta)
+    private void UpdateAndVisibility()
     {
-        NumNearbyCharacters += delta;
-        SpriteRenderer.enabled = NumNearbyCharacters > 0;
+        if (SpriteRenderer != null)
+        {
+            SpriteRenderer.enabled = NumNearbyCharacters > 0;
+        }
     }
 }
