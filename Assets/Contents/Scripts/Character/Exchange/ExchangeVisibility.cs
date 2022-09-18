@@ -1,17 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ExchangeVisibility : MonoBehaviour
 {
     public float ReferenceWidth = 1.2f;
 
-    private SpriteRenderer SpriteRenderer;
+    [SerializeField] private SpriteRenderer SpriteRenderer;
+
     private bool SpriteRendererEnabled = false;
 
     private void Start()
     {
-        SpriteRenderer = GetComponent<SpriteRenderer>();
         UpdateVisibility();
     }
 
@@ -37,26 +35,27 @@ public class ExchangeVisibility : MonoBehaviour
 
     private void UpdatePositionAndSize()
     {
-        if(!SpriteRenderer.enabled)
+        if (!SpriteRenderer.enabled)
         {
             return;
         }
         // find he root transforms of the two main characters
         Transform p1 = null, p2 = null;
-        foreach(var ccb in CharacterInfo.AllCharacterControlledBy)
+        foreach (var ccb in CharacterInfo.AllCharacterControlledBy)
         {
-            if(!ccb.IsFollower)
+            if (!ccb.IsFollower)
             {
-                if(ccb.Player == CharacterInfo.Players.P1)
+                if (ccb.Player == CharacterInfo.Players.P1)
                 {
                     p1 = ccb.transform;
-                } else
+                }
+                else
                 {
                     p2 = ccb.transform;
                 }
             }
         }
-        if(!p1 || !p2)
+        if (!p1 || !p2)
         {
             throw new System.Exception("Cannot find main characters");
         }
@@ -68,7 +67,7 @@ public class ExchangeVisibility : MonoBehaviour
         var position = (p1.position + p2.position) / 2;
 
         transform.position = position;
-        transform.localScale= new Vector2(scale, scale);
+        transform.localScale = new Vector2(scale, scale);
         transform.rotation = Quaternion.Euler(0, 0, Mathf.Rad2Deg * rotation);
     }
 }

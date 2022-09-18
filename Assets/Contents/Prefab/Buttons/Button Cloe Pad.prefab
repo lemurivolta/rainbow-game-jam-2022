@@ -19,6 +19,10 @@ PrefabInstance:
       propertyPath: AnimationOverrides.Array.data[1].OverrideClip
       value: 
       objectReference: {fileID: 7400000, guid: 6f1efb1d8f9119b49a73960cacaa712a, type: 2}
+    - target: {fileID: 6945836375647723041, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 24feefbfd028115459c63a56c4c89f9e, type: 2}
     - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -79,9 +83,14 @@ PrefabInstance:
       propertyPath: CanMarielleInteract
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723047, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 825289946, guid: 9cd4e213f0e97404689cb453366a7193, type: 3}
     - target: {fileID: 6945836375647723065, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
       propertyPath: m_Name
       value: Button Cloe Pad
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}

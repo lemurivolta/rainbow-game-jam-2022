@@ -19,6 +19,10 @@ PrefabInstance:
       propertyPath: AnimationOverrides.Array.data[1].OverrideClip
       value: 
       objectReference: {fileID: 7400000, guid: 5bacf9f9d6a394243ad41f48770c075c, type: 2}
+    - target: {fileID: 6945836375647723041, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 543f76b16761018469f2220600b37f48, type: 2}
     - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -87,5 +91,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button Yelena Intercom
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}

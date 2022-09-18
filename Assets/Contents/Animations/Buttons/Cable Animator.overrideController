@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cable Animator
+  m_Controller: {fileID: 9100000, guid: bb76c1f3c2490b9428b1591d2348d36a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 2e04864380b78704fba5dbafbbd2d59f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 93be9937a4c66b94da6b9ba1b4136c0c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0c81385dfffe26847ae832f0271d1087, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bbb0ca98ff3276242b5e03904a5742ca, type: 2}

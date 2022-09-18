@@ -12,6 +12,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: 7704d4ef9c6d8af4391795e7ae2f35e0, type: 3}
     - target: {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
       propertyPath: AnimationOverrides.Array.data[0].OverrideClip
       value: 
       objectReference: {fileID: 7400000, guid: d1ba9aad4574e1c409442fcc91675310, type: 2}
@@ -19,6 +23,10 @@ PrefabInstance:
       propertyPath: AnimationOverrides.Array.data[1].OverrideClip
       value: 
       objectReference: {fileID: 7400000, guid: 4a7f489d3c614e549bb441488b21eb52, type: 2}
+    - target: {fileID: 6945836375647723041, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: fd798c9a5924e454d973af0a31996612, type: 2}
     - target: {fileID: 6945836375647723044, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -87,5 +95,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button Marielle Lever
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}

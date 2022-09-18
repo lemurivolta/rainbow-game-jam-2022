@@ -603,6 +603,18 @@ MonoBehaviour:
     OverrideClip: {fileID: 0}
   - OriginalClip: {fileID: 7400000, guid: d1ba9aad4574e1c409442fcc91675310, type: 2}
     OverrideClip: {fileID: 0}
+  - OriginalClip: {fileID: 7400000, guid: 8eb31b8b643f97b43aeb046b11c87f16, type: 2}
+    OverrideClip: {fileID: 0}
+  - OriginalClip: {fileID: 7400000, guid: bbb0ca98ff3276242b5e03904a5742ca, type: 2}
+    OverrideClip: {fileID: 0}
+  - OriginalClip: {fileID: 7400000, guid: c193f13514e25d8418dee7460d180d00, type: 2}
+    OverrideClip: {fileID: 0}
+  - OriginalClip: {fileID: 7400000, guid: a8ed7270809dee34e97fc4c2c2cecaff, type: 2}
+    OverrideClip: {fileID: 0}
+  - OriginalClip: {fileID: 7400000, guid: bf65c5bb651c287409fc55ccd185469a, type: 2}
+    OverrideClip: {fileID: 0}
+  - OriginalClip: {fileID: 7400000, guid: 18db67cbc0800ee44a9a44ed23313094, type: 2}
+    OverrideClip: {fileID: 0}
 --- !u!82 &867986822704066582
 AudioSource:
   m_ObjectHideFlags: 0

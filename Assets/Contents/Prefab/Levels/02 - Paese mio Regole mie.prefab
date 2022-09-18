@@ -80573,9 +80573,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3832088577727086279}
     m_Modifications:
+    - target: {fileID: 7652796540459118433, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1902028264, guid: 28567d71d6830194389b0fd17f9ce39f, type: 3}
     - target: {fileID: 7652796540459118434, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
       propertyPath: m_RootOrder
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652796540459118434, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7652796540459118434, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -80617,6 +80625,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7652796540459118439, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: cb3ce6819c8b48a449b60625652d67e2, type: 2}
     - target: {fileID: 7652796540459118440, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
       propertyPath: Delay
       value: 8

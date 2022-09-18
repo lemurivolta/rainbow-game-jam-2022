@@ -1,19 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ExchangeFill : MonoBehaviour
 {
-    private SpriteMask SpriteMask;
+    private SpriteRenderer spriteRenderer;
+    private Animator animator;
 
-    private void Awake()
+    private void Start()
     {
-        SpriteMask = GetComponent<SpriteMask>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
+        SetProgress(0);
     }
 
     public void OnTimeoutProgress(float newValue)
     {
-        if(SpriteMask != null)
-            SpriteMask.alphaCutoff = 1 - newValue;
+        SetProgress(newValue);
+    }
+
+    private void SetProgress(float newValue)
+    {
+        animator.Play("Exchange", 0, newValue);
     }
 }
