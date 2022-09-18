@@ -365,8 +365,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrefabSchermate:
-  - {fileID: 4583390502098074988, guid: e01fcf8c30539b847b879e2f59ffcb71, type: 3}
   - {fileID: 5809475545087457959, guid: 88432dbb8663590449bb21a79a0abe7c, type: 3}
+  - {fileID: 4583390502098074988, guid: e01fcf8c30539b847b879e2f59ffcb71, type: 3}
   - {fileID: 2373726326641068600, guid: a2655cf7b3688ea4fb37059621b1a06d, type: 3}
   - {fileID: 5828336998711315799, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
   sceneHandler: {fileID: 577246381}
@@ -473,20 +473,24 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
+      propertyPath: orthographic size
+      value: 11.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.50361013
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.70050764
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.7005866
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}

@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 867986822704066582, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 82dea427fd0a32e43bb54a3cbe6ef286, type: 3}
     - target: {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
       propertyPath: AnimationOverrides.Array.data[0].OverrideClip
       value: 
