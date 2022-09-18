@@ -148,7 +148,7 @@ public class CharacterInfo : MonoBehaviour
 
     public void OnExchangePerformed()
     {
-        if(!IsFollower)
+        if (!IsFollower)
         {
             Player = Player == Players.P1 ? Players.P2 : Players.P1;
             PlayerChanged.Invoke(Player);

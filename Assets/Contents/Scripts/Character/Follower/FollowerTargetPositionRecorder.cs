@@ -26,15 +26,6 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
     private void OnEnable()
     {
         SetupCharacterInfo();
-        // make a fake history of steps from our position to the target
-        for (var i = 0; i < MaxStepsNumber; i++)
-        {
-            steps.Add(Vector2.Lerp(
-                transform.position,
-                CharacterInfo.Companion.transform.position,
-                (float)i / (MaxStepsNumber - 1)
-            ));
-        }
     }
 
     private void OnDisable()
@@ -45,6 +36,25 @@ public class FollowerTargetPositionRecorder : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (steps.Count == 0)
+        {
+            // this happens on the first update after creation or after being disabled-enabled
+            // (e.g.: character switch)
+            // better do it in update because it relies on all the characters being correctly set,
+            // and during onenable could be too early
+            // make a fake history of steps from our position to the target
+            var delta = 1f / (MaxStepsNumber - 1);
+            var companion = CharacterInfo.Companion;
+            var companionPosition = companion.transform.position;
+            for (var i = 0; i < MaxStepsNumber; i++)
+            {
+                steps.Add(Vector2.Lerp(
+                    transform.position,
+                    companionPosition,
+                    i * delta
+                ));
+            }
+        }
         // adds a step only if we have no steps, or if the target has walked far enough
         Vector2 newPosition = CharacterInfo.Companion.transform.position;
         if (steps.Count == 0 || (steps[steps.Count - 1] - newPosition).sqrMagnitude > MinStepDistance)
