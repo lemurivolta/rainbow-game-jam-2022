@@ -123,6 +123,46 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &288855710 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2109562653096696429, guid: 599f7abc4c11465479ca6f97345c1e65, type: 3}
+  m_PrefabInstance: {fileID: 2109562652832606436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &288855714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 288855710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426abce2c30116f4a9d4a55defcf97b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 0}
+  line_ita: INIZIA
+  line_eng: START
+--- !u!1 &355323098 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2109562652510082900, guid: 599f7abc4c11465479ca6f97345c1e65, type: 3}
+  m_PrefabInstance: {fileID: 2109562652832606436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &355323102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355323098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 426abce2c30116f4a9d4a55defcf97b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label: {fileID: 0}
+  line_ita: LINGUA
+  line_eng: LANGUAGE
 --- !u!1 &358203316
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,11 +404,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.9993366
+      value: 0.99961066
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.9989682
+      value: 0.9989627
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
@@ -1153,6 +1193,10 @@ PrefabInstance:
     - target: {fileID: 2109562652529345742, guid: 599f7abc4c11465479ca6f97345c1e65, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2109562653096696431, guid: 599f7abc4c11465479ca6f97345c1e65, type: 3}
+      propertyPath: m_text
+      value: START
       objectReference: {fileID: 0}
     - target: {fileID: 2109562653096696431, guid: 599f7abc4c11465479ca6f97345c1e65, type: 3}
       propertyPath: m_fontSize

@@ -6,7 +6,9 @@ public enum Language { ITA, ENG }
 
 public static class LanguageManager
 {
-    public static Language currentLanguage = Language.ITA;
+    public static Language currentLanguage = Language.ENG;
+    public delegate void ChangeLanguage();
+    public static event ChangeLanguage OnChangeLanguage;
 
     public static Language GetLanguage()
     {
@@ -19,6 +21,8 @@ public static class LanguageManager
         {
             currentLanguage = (Language)l;
             Debug.Log("New language: " + currentLanguage.ToString());
+            if (OnChangeLanguage != null)
+                OnChangeLanguage();
         }
         catch (System.Exception e)
         {

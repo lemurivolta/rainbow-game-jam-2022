@@ -12,12 +12,18 @@ public class LanguageDependentLabel : MonoBehaviour
     private void Awake()
     {
         if (label == null)
-            label = GetComponent<TMP_Text>();
+            label = GetComponent<TMP_Text>();        
     }
 
     private void OnEnable()
     {
         SetText();
+        LanguageManager.OnChangeLanguage += SetText;
+    }
+
+    private void OnDisable()
+    {
+        LanguageManager.OnChangeLanguage -= SetText;
     }
 
     private void SetText()
