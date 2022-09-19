@@ -17,14 +17,20 @@ public class Balloon : Singleton<Balloon>
     [SerializeField] AudioSource audioSource;
     [HideInInspector] public bool isBarking;
     Bark currentBark;
-    
-    
+
+
     /*
     private void Start()
     {
         SetText("Bla bla bla bla! Bla bla bla, bla bla. Bla, bla bla... bla bla bla bla.");
     }
     */
+
+    private void Update()
+    {
+        if (isBarking)
+            PlaceBalloon();
+    }
 
     public void PlayBark(Bark b)
     {
@@ -63,6 +69,9 @@ public class Balloon : Singleton<Balloon>
 
     private void PlaceBalloon()
     {
+        if (currentBark == null)
+            return;
+
         if (currentBark.character == CHARACTER.NPC)
         {
             if (currentBark.targetTransform != null)
