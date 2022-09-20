@@ -23,7 +23,7 @@ public class EnemyCollision : MonoBehaviour
         DangerPerSecond = 0;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnGotVisible()
     {
         if (NumCharactersInside == 0)
         {
@@ -32,7 +32,7 @@ public class EnemyCollision : MonoBehaviour
         NumCharactersInside++;
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    public void OnGotHidden()
     {
         NumCharactersInside--;
         if (NumCharactersInside == 0)
@@ -62,7 +62,7 @@ public class EnemyCollision : MonoBehaviour
             DangerLevelChanged.Invoke(dangerValue);
             if (dangerValue >= 1)
             {
-                SchermateManager.Instance.GameOver();
+                // SchermateManager.Instance.GameOver();
             }
             else if (dangerValue <= 0)
             {

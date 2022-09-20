@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1250298490, guid: 85269e64a52527e45926c42a05f2ef5d, type: 3}
+    - target: {fileID: 1753152907274367747, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: ObstructionLayerMask.m_Bits
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6928410365138537039, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
       propertyPath: m_Controller
       value: 

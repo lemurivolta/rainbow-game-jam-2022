@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 1611852165927958725}
   - component: {fileID: 7983980436618560100}
   - component: {fileID: 3608690437725090499}
+  - component: {fileID: 4302297859817673575}
   m_Layer: 9
   m_Name: ViewArea
   m_TagString: Untagged
@@ -740,3 +741,48 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   FaintDuration: 5
+--- !u!114 &4302297859817673575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7204513694391678423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfeb9acc7eb84f24c9e5936c2d19bdd9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObstructionLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  GotVisible:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7983980436618560100}
+        m_TargetAssemblyTypeName: EnemyCollision, Assembly-CSharp
+        m_MethodName: OnGotVisible
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  GotHidden:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7983980436618560100}
+        m_TargetAssemblyTypeName: EnemyCollision, Assembly-CSharp
+        m_MethodName: OnGotHidden
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
