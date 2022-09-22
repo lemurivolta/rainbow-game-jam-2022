@@ -84,7 +84,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &1834664520499718739
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,16 +120,34 @@ MonoBehaviour:
       bla... bla bla.
     line_eng: Bla bla! Bla bla. Bla, bla bla... bla bla. Bla bla bla! Bla bla. Bla,
       bla... bla bla.
+    canSkip: 0
+    targetTransform: {fileID: 0}
+    soundEffect: {fileID: 0}
+    pressToSkip: 1
+    nextSceneOnSkip: 0
+    restartAtEnd: 0
   - character: 0
     line_ita: Bla bla! Bla bla. Bla, bla bla... bla bla. Bla bla bla! Bla bla. Bla,
       bla... bla bla.
     line_eng: Bla bla! Bla bla. Bla, bla bla... bla bla. Bla bla bla! Bla bla. Bla,
       bla... bla bla.
+    canSkip: 0
+    targetTransform: {fileID: 0}
+    soundEffect: {fileID: 0}
+    pressToSkip: 1
+    nextSceneOnSkip: 0
+    restartAtEnd: 0
   - character: 0
     line_ita: Bla bla! Bla bla. Bla, bla bla... bla bla. Bla bla bla! Bla bla. Bla,
       bla... bla bla.
     line_eng: Bla bla! Bla bla. Bla, bla bla... bla bla. Bla bla bla! Bla bla. Bla,
       bla... bla bla.
+    canSkip: 0
+    targetTransform: {fileID: 0}
+    soundEffect: {fileID: 0}
+    pressToSkip: 1
+    nextSceneOnSkip: 0
+    restartAtEnd: 0
   minTimeToBark: 3
   maxTimeToBark: 6
   barkLifetime: 5
@@ -205,8 +223,8 @@ MonoBehaviour:
   m_text: Bla bla! Bla bla. Bla, bla bla... bla bla. Bla bla bla! Bla bla. Bla, bla...
     bla bla.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: aa18db0989b707244b6db5aa63202595, type: 2}
-  m_sharedMaterial: {fileID: 5717034812289581751, guid: aa18db0989b707244b6db5aa63202595, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d93960a81191f044e9cae2752ab0e88a, type: 2}
+  m_sharedMaterial: {fileID: 3109692681575739353, guid: d93960a81191f044e9cae2752ab0e88a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -230,8 +248,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 0.45
+  m_fontSizeBase: 0.45
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

@@ -730,7 +730,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Bla bla! Bla bla. Bla, bla bla... a. Bla, bla... bla.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 0fa132da3439d4842bdb26560017ea09, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d93960a81191f044e9cae2752ab0e88a, type: 2}
   m_sharedMaterial: {fileID: 2855542336654859765, guid: 0fa132da3439d4842bdb26560017ea09, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -755,7 +755,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.5
+  m_fontSize: 0.45
   m_fontSizeBase: 0.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
