@@ -209,7 +209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &401749413
 RectTransform:
   m_ObjectHideFlags: 0
@@ -400,7 +400,7 @@ MonoBehaviour:
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
-    pressToSkip: 1
+    pressToSkip: 0
     nextSceneOnSkip: 0
     restartAtEnd: 0
   - character: 0
@@ -435,7 +435,7 @@ MonoBehaviour:
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
-    pressToSkip: 1
+    pressToSkip: 0
     nextSceneOnSkip: 0
     restartAtEnd: 0
   - character: 0
@@ -458,13 +458,13 @@ MonoBehaviour:
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
-    pressToSkip: 1
+    pressToSkip: 0
     nextSceneOnSkip: 0
     restartAtEnd: 0
   label: {fileID: 1785027058}
   playerOneSkip: {fileID: 5825286803799709842}
   playerTwoSkip: {fileID: 5825286801966000432}
-  timeBetweenLetters: 0.025
+  timeBetweenLetters: 0.001
   waitAfterTextIsShowed: 3
   sceneHandler: {fileID: 878868814}
 --- !u!4 &878868812
@@ -1019,11 +1019,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.99930024
+      value: 0.999434
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.9990671
+      value: 0.9993712
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
@@ -1124,7 +1124,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &5825286802150439828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1447,7 +1447,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &5825286803799709842
 MonoBehaviour:
   m_ObjectHideFlags: 0
