@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 5864811558064345058}
   - component: {fileID: 8397450966447756052}
   - component: {fileID: 8669059988390002615}
+  - component: {fileID: 283887254688567119}
   - component: {fileID: 7804935148760566582}
   m_Layer: 0
   m_Name: Destination
@@ -132,6 +133,44 @@ MonoBehaviour:
     _usage: 1
     _event: {fileID: 0}
     _eventInstancer: {fileID: 352955881268543637}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
+--- !u!114 &283887254688567119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4950141783181184921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64882d9a6a5104b579ad078658f093c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _developerDescription: 
+  _unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8397450966447756052}
+        m_TargetAssemblyTypeName: PNGDestination, Assembly-CSharp
+        m_MethodName: OnCharacterExit
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _actionResponses: []
+  _conditions: []
+  _operator: 0
+  _replayEventBufferOnRegister: 1
+  _eventReference:
+    _usage: 1
+    _event: {fileID: 0}
+    _eventInstancer: {fileID: 8542176859054876930}
     _variable: {fileID: 0}
     _variableInstancer: {fileID: 0}
 --- !u!114 &7804935148760566582
