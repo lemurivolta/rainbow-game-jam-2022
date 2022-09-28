@@ -447,6 +447,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button B2
       objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723065, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
 --- !u!114 &5936012570998181022 stripped
@@ -470,6 +474,10 @@ PrefabInstance:
     - target: {fileID: 4373956825251249090, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
       propertyPath: m_Name
       value: Button Sarah Cable
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373956825251249090, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4373956825251249119, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
       propertyPath: m_RootOrder
@@ -708,6 +716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button Marielle Lever
       objectReference: {fileID: 0}
+    - target: {fileID: 7652796540459118463, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
 --- !u!1001 &3388261519651057273
@@ -720,6 +732,10 @@ PrefabInstance:
     - target: {fileID: 4373956825251249090, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
       propertyPath: m_Name
       value: Button Sarah Cable (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373956825251249090, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4373956825251249119, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
       propertyPath: m_RootOrder
@@ -850,6 +866,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button C
       objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723065, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
 --- !u!114 &9025333376621433072 stripped
@@ -868,11 +888,11 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 184921460088076172}
+    m_TransformParent: {fileID: 2329326576482828420}
     m_Modifications:
     - target: {fileID: 2345544201834859555, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 2345544201834859555, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -917,6 +937,10 @@ PrefabInstance:
     - target: {fileID: 2345544201834859582, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
       propertyPath: m_Name
       value: Button Cloe Pad
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345544201834859582, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
@@ -1493,11 +1517,6 @@ PrefabInstance:
       objectReference: {fileID: 2371782569908342347}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
---- !u!4 &184921460088076172 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3480824887300892295, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-  m_PrefabInstance: {fileID: 3665550612278137099}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2329326576482828420 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1336945608022233487, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -1655,6 +1674,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button D
       objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723065, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
 --- !u!114 &7357734209707377612 stripped
@@ -1723,6 +1746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button Cloe Pad
       objectReference: {fileID: 0}
+    - target: {fileID: 2345544201834859582, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
 --- !u!1001 &4537574233896504179
@@ -1735,6 +1762,10 @@ PrefabInstance:
     - target: {fileID: 8748428825508259371, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
       propertyPath: m_Name
       value: Button Yelena Intercom
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748428825508259371, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
       propertyPath: m_RootOrder
@@ -1837,6 +1868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button B1
       objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723065, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
 --- !u!114 &1704141203305907088 stripped
@@ -1922,6 +1957,10 @@ PrefabInstance:
     - target: {fileID: 8748428825508259371, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
       propertyPath: m_Name
       value: Button Yelena Intercom (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8748428825508259371, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
       propertyPath: m_RootOrder
@@ -2023,6 +2062,10 @@ PrefabInstance:
     - target: {fileID: 7652796540459118463, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
       propertyPath: m_Name
       value: Button Marielle Lever (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7652796540459118463, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
@@ -2159,6 +2202,10 @@ PrefabInstance:
     - target: {fileID: 6717016851589128355, guid: 63ab375deac00494a8fdfb220686ac08, type: 3}
       propertyPath: m_Name
       value: Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717016851589128355, guid: 63ab375deac00494a8fdfb220686ac08, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63ab375deac00494a8fdfb220686ac08, type: 3}
@@ -2465,6 +2512,10 @@ PrefabInstance:
     - target: {fileID: 6945836375647723065, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
       propertyPath: m_Name
       value: Button B3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6945836375647723065, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}

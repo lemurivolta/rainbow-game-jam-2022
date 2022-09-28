@@ -240,6 +240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eba59238bacad9a40aec8d554d2083b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharacterLayer:
+    serializedVersion: 2
+    m_Bits: 1024
 --- !u!114 &6945836375598511712
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,7 +262,7 @@ MonoBehaviour:
       - m_Target: {fileID: 6945836375598511713}
         m_TargetAssemblyTypeName: BalloonVisibility, Assembly-CSharp
         m_MethodName: OnCharacterApproach
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -269,8 +272,7 @@ MonoBehaviour:
           m_BoolArgument: 1
         m_CallState: 2
   _actionResponses: []
-  _conditions:
-  - {fileID: 11400000, guid: d4fd021126bd04547b119a567bcf146c, type: 2}
+  _conditions: []
   _operator: 0
   _replayEventBufferOnRegister: 1
   _eventReference:
@@ -298,7 +300,7 @@ MonoBehaviour:
       - m_Target: {fileID: 6945836375598511713}
         m_TargetAssemblyTypeName: BalloonVisibility, Assembly-CSharp
         m_MethodName: OnCharacterDepart
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -308,8 +310,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   _actionResponses: []
-  _conditions:
-  - {fileID: 11400000, guid: d4fd021126bd04547b119a567bcf146c, type: 2}
+  _conditions: []
   _operator: 0
   _replayEventBufferOnRegister: 1
   _eventReference:

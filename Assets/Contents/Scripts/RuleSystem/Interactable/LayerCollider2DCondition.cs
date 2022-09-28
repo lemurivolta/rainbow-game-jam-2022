@@ -8,8 +8,6 @@ public class LayerCollider2DCondition : Collider2DCondition
 {
     public LayerMask AcceptableLayers;
 
-    public override bool Call(Collider2D t)
-    {
-        return (AcceptableLayers & (1 << t.gameObject.layer)) != 0;
-    }
+    public override bool Call(Collider2D t) =>
+        (AcceptableLayers & (1 << t.gameObject.layer)) != 0;
 }
