@@ -506,6 +506,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  ApproachedByPlayer:
+    m_PersistentCalls:
+      m_Calls: []
+  LeftByPlayer:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &6945836375647723042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -597,18 +603,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 6945836375598511713}
-        m_TargetAssemblyTypeName: BalloonVisibility, Assembly-CSharp
-        m_MethodName: OnCharacterApproach
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   _actionResponses: []
   _conditions: []
   _operator: 0
@@ -639,18 +633,6 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: Interactable, Assembly-CSharp
         m_MethodName: OnCharacterDepart
         m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 6945836375598511713}
-        m_TargetAssemblyTypeName: BalloonVisibility, Assembly-CSharp
-        m_MethodName: OnCharacterDepart
-        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1132,6 +1114,7 @@ MonoBehaviour:
   Changed:
     m_PersistentCalls:
       m_Calls: []
+  ReferenceInteractable: {fileID: 6945836375647723045}
 --- !u!1001 &7752641721034391832
 PrefabInstance:
   m_ObjectHideFlags: 0

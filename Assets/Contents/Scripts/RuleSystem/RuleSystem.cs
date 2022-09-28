@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class RuleSystem : MonoBehaviour
 {
@@ -16,6 +18,14 @@ public class RuleSystem : MonoBehaviour
             Listeners.Add(listener);
         }
 
+        public abstract void AddApproachedByPlayerListener(UnityAction<CharacterInfo.Players> listener);
+
+        public abstract void AddLeftByPlayerListener(UnityAction<CharacterInfo.Players> listener);
+
+        public abstract void RemoveAllApproachedByPlayerListeners();
+
+        public abstract void RemoveAllAddLeftByPlayerListeners();
+
         public void RemoveListener(StateChangeDelegate listener)
         {
             Listeners.Remove(listener);
@@ -30,7 +40,7 @@ public class RuleSystem : MonoBehaviour
 
         protected void RaiseNewState(bool value)
         {
-            foreach(var listener in Listeners)
+            foreach (var listener in Listeners)
             {
                 listener(value);
             }
@@ -42,7 +52,7 @@ public class RuleSystem : MonoBehaviour
     }
 
     [System.Serializable]
-    public class StateCondition: StateChangeNotifier
+    public class StateCondition : StateChangeNotifier
     {
         public State State;
 
@@ -65,10 +75,42 @@ public class RuleSystem : MonoBehaviour
         {
             return State.Value;
         }
+
+        public override void AddApproachedByPlayerListener(UnityAction<CharacterInfo.Players> listener)
+        {
+            if (State.ReferenceInteractable != null)
+            {
+                State.ReferenceInteractable.ApproachedByPlayer.AddListener(listener);
+            }
+        }
+
+        public override void AddLeftByPlayerListener(UnityAction<CharacterInfo.Players> listener)
+        {
+            if (State.ReferenceInteractable != null)
+            {
+                State.ReferenceInteractable.LeftByPlayer.AddListener(listener);
+            }
+        }
+
+        public override void RemoveAllApproachedByPlayerListeners()
+        {
+            if (State.ReferenceInteractable != null)
+            {
+                State.ReferenceInteractable.ApproachedByPlayer.RemoveAllListeners();
+            }
+        }
+
+        public override void RemoveAllAddLeftByPlayerListeners()
+        {
+            if (State.ReferenceInteractable != null)
+            {
+                State.ReferenceInteractable.LeftByPlayer.RemoveAllListeners();
+            }
+        }
     }
 
     [System.Serializable]
-    public class MultiStateCondition: StateChangeNotifier
+    public class MultiStateCondition : StateChangeNotifier
     {
         public enum StatesKind
         {
@@ -77,11 +119,11 @@ public class RuleSystem : MonoBehaviour
         }
 
         public State[] States = System.Array.Empty<State>();
-        
+
         public StatesKind Kind;
 
         private bool LastState;
-        
+
         public override void OnEnable()
         {
             foreach (var state in States)
@@ -119,6 +161,50 @@ public class RuleSystem : MonoBehaviour
             }
             return value;
         }
+
+        public override void AddApproachedByPlayerListener(UnityAction<CharacterInfo.Players> listener)
+        {
+            foreach (var state in States)
+            {
+                if (state.ReferenceInteractable != null)
+                {
+                    state.ReferenceInteractable.ApproachedByPlayer.AddListener(listener);
+                }
+            }
+        }
+
+        public override void AddLeftByPlayerListener(UnityAction<CharacterInfo.Players> listener)
+        {
+            foreach (var state in States)
+            {
+                if (state.ReferenceInteractable != null)
+                {
+                    state.ReferenceInteractable.LeftByPlayer.AddListener(listener);
+                }
+            }
+        }
+
+        public override void RemoveAllApproachedByPlayerListeners()
+        {
+            foreach (var state in States)
+            {
+                if (state.ReferenceInteractable != null)
+                {
+                    state.ReferenceInteractable.ApproachedByPlayer.RemoveAllListeners();
+                }
+            }
+        }
+
+        public override void RemoveAllAddLeftByPlayerListeners()
+        {
+            foreach (var state in States)
+            {
+                if (state.ReferenceInteractable != null)
+                {
+                    state.ReferenceInteractable.LeftByPlayer.RemoveAllListeners();
+                }
+            }
+        }
     }
 
     [System.Serializable]
@@ -134,10 +220,11 @@ public class RuleSystem : MonoBehaviour
 
     private void OnEnable()
     {
-        foreach(var rule in Rules)
+        foreach (var rule in Rules)
         {
-            rule.State.AddListener((newValue) => {
-                if(newValue)
+            rule.State.AddListener((newValue) =>
+            {
+                if (newValue)
                 {
                     foreach (var activity in rule.WhenTrue)
                     {
@@ -152,6 +239,22 @@ public class RuleSystem : MonoBehaviour
                     }
                 }
             });
+            var allActionables = new HashSet<Actionable>(rule.WhenTrue);
+            allActionables.UnionWith(rule.WhenFalse);
+            rule.State.AddApproachedByPlayerListener(player =>
+            {
+                foreach (var actionable in allActionables)
+                {
+                    actionable.PlayerJustApproachedControl(player);
+                }
+            });
+            rule.State.AddLeftByPlayerListener(player =>
+            {
+                foreach (var actionable in allActionables)
+                {
+                    actionable.PlayerJustLeftControl(player);
+                }
+            });
             rule.State.OnEnable();
         }
     }
@@ -161,6 +264,8 @@ public class RuleSystem : MonoBehaviour
         foreach (var rule in Rules)
         {
             rule.State.RemoveAllListeners();
+            rule.State.RemoveAllApproachedByPlayerListeners();
+            rule.State.RemoveAllAddLeftByPlayerListeners();
             rule.State.OnDisable();
         }
     }

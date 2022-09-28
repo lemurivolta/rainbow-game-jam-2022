@@ -33,7 +33,7 @@ public class Interactable : MonoBehaviour
     /// <param name="collision">The collider information</param>
     public void OnCharacterApproach(Collider2D collision)
     {
-        OnCharacter(collision, NearbyCharacters.Add);
+        OnCharacter(collision, NearbyCharacters.Add, ApproachedByPlayer);
     }
 
     /// <summary>
@@ -42,16 +42,17 @@ public class Interactable : MonoBehaviour
     /// <param name="collision">The collider information</param>
     public void OnCharacterDepart(Collider2D collision)
     {
-        OnCharacter(collision, NearbyCharacters.Remove);
+        OnCharacter(collision, NearbyCharacters.Remove, LeftByPlayer);
     }
 
-    private void OnCharacter(Collider2D collision, SetAction action)
+    private void OnCharacter(Collider2D collision, SetAction action, UnityEvent<CharacterInfo.Players> ev)
     {
         var ccb = collision.gameObject.transform
             .parent.gameObject.GetComponent<CharacterInfo>();
         if (ccb != null)
         {
             action(ccb);
+            ev.Invoke(ccb.Player);
         }
     }
 
@@ -74,6 +75,12 @@ public class Interactable : MonoBehaviour
     [Tooltip("Event raised when a player successfully interacts with this object")]
     public UnityEvent Interaction;
 
+    [Tooltip("Event raised when a player approaches this object")]
+    public UnityEvent<CharacterInfo.Players> ApproachedByPlayer;
+
+    [Tooltip("Event raised when a player leaves this object")]
+    public UnityEvent<CharacterInfo.Players> LeftByPlayer;
+
     /// <summary>
     /// Check if the given player has its active character near enough to activate
     /// the action.
@@ -81,6 +88,10 @@ public class Interactable : MonoBehaviour
     /// <param name="player">Player to check.</param>
     private void OnAction(CharacterInfo.Players player)
     {
+        if (Balloon.Instance.isBarking)
+        {
+            return; // don't do anything if the barks are on
+        }
         foreach (var activePlayer in NearbyCharacters)
         {
             if (activePlayer.Player == player)
