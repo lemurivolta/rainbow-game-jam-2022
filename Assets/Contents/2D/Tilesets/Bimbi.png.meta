@@ -883,7 +883,7 @@ TextureImporter:
         width: 68
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -904,7 +904,7 @@ TextureImporter:
         width: 32
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -925,7 +925,7 @@ TextureImporter:
         width: 32
         height: 52
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -933,6 +933,27 @@ TextureImporter:
       bones: []
       spriteID: 2411aadf295bb544bbc85ecf4294df3b
       internalID: -2101251373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bimbi_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 122
+        width: 96
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b818c59caa6bb0498f0f10b4d0c5c25
+      internalID: -1055484747
       vertices: []
       indices: 
       edges: []
@@ -975,6 +996,7 @@ TextureImporter:
       Bimbi_16: -724703145
       Bimbi_28: -268765438
       Bimbi_36: 1478915610
+      Bimbi_38: -421821703
       Bimbi_0: 596512662
       Bimbi_9: -948131030
       Bimbi_14: -319604571

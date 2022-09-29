@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: 1713202474, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -156,7 +156,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: 1028881309, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -240,7 +240,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -462279210, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -324,7 +324,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -2055608178, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -492,7 +492,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -1122404166, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -681,7 +681,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -183039737, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -765,7 +765,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -981573005, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -849,7 +849,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: 854206138, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -974,7 +974,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: 1967703538, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1058,7 +1058,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_Sprite: {fileID: -1654565102, guid: 99e5eff07d5e6eb429d0c8998dd792b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1487,7 +1487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.size
-      value: 44
+      value: 42
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_eng
@@ -1847,42 +1847,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[36].line_eng
-      value: Dear players, to change a character within the pair, press SHIFT RIGHT
-        (player1) or TAB (player 2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[36].line_ita
-      value: Care giocatrici, per cambiare una personaggia all'interno della coppia,
-        premete SHIFT DESTRO (player1) o TAB (player 2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[37].line_eng
-      value: To exchange together a character, hold down SHIFT RIGHT and TAB for
-        a long time
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[37].line_ita
-      value: Per scambiarvi una personaggia, tenete premuto a lungo SHIFT DESTRO
-        e TAB.
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[38].line_eng
       value: 'Anyway: first territory to cross: a political talk show. There''s Minister
         Callendo, so it should be easy; he''s always caught up in himself.'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[38].line_ita
+      propertyPath: startingBarks.Array.data[36].line_ita
       value: "Comunque: primo territorio da attraversare: un talk show politico.
         C\u2019\xE8 il Ministro Callendo per cui dovrebbe essere facile, \xE8 sempre
         preso da s\xE9 stesso"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[39].line_eng
+      propertyPath: startingBarks.Array.data[37].line_eng
       value: The one from "I will never govern with fascists"?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[39].line_ita
+      propertyPath: startingBarks.Array.data[37].line_ita
       value: "Quello de \u201CNon governer\xF2 mai coi fascisti\u201D?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[38].line_eng
+      value: "Right. Then there is the set of a commercial, I\u2019ve no information
+        about it. Then that unwatchable series that is Mother."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[38].line_ita
+      value: "Esatto. Poi c\u2019\xE8 il set di una pubblicit\xE0, non ci sono informazioni
+        a riguardo. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[39].line_eng
+      value: And finally, the hospital and study where we will find HER.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[39].line_ita
+      value: "E infine, l\u2019ospedale e lo studio dove troveremo lei."
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].character
@@ -1890,29 +1888,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[40].line_eng
-      value: "Right. Then there is the set of a commercial, I\u2019ve no information
-        about it. Then that unwatchable series that is Mother."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[40].line_ita
-      value: "Esatto. Poi c\u2019\xE8 il set di una pubblicit\xE0, non ci sono informazioni
-        a riguardo. "
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[41].line_eng
-      value: And finally, the hospital and study where we will find HER.
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[41].line_ita
-      value: "E infine, l\u2019ospedale e lo studio dove troveremo lei."
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[42].line_eng
       value: "What do we do once we\u2019re there?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[42].line_ita
+      propertyPath: startingBarks.Array.data[40].line_ita
       value: "E quando siamo l\xEC che facciamo?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[41].line_eng
+      value: We'll read the statement, of course!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[41].line_ita
+      value: 'Ovvio: leggiamo il comunicato!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[42].line_eng
+      value: We'll read the statement, of course!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[42].line_ita
+      value: 'Ovvio: leggiamo il comunicato!'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[43].line_eng
@@ -1999,24 +1995,32 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[36].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[37].character
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[38].character
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[39].character
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[40].character
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[41].character
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[42].character
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[43].character
@@ -2353,11 +2357,11 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[36].targetTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 4862182009248803562}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[37].targetTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 8917583425879334163}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[38].targetTransform
       value: 
@@ -2365,19 +2369,19 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[39].targetTransform
       value: 
-      objectReference: {fileID: 8917583425879334163}
+      objectReference: {fileID: 4862182009248803562}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[40].targetTransform
       value: 
-      objectReference: {fileID: 4862182009248803562}
+      objectReference: {fileID: 7695093075718449366}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[41].targetTransform
       value: 
-      objectReference: {fileID: 4862182009248803562}
+      objectReference: {fileID: 8917583425879334163}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[42].targetTransform
       value: 
-      objectReference: {fileID: 7695093075718449366}
+      objectReference: {fileID: 8917583425879334163}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[43].targetTransform
       value: 
