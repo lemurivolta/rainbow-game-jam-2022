@@ -15,4 +15,4 @@ MonoBehaviour:
   _developerDescription: 
   AcceptableLayers:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 1032
