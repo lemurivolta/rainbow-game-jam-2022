@@ -651,6 +651,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 889910217500788785, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
+      propertyPath: timeBetweenLetters
+      value: 0.04
+      objectReference: {fileID: 0}
     - target: {fileID: 889910217500788788, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
       propertyPath: m_Name
       value: Canvas - Balloon
