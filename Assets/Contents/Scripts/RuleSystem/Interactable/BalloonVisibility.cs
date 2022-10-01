@@ -29,9 +29,9 @@ public class BalloonVisibility : MonoBehaviour
     /// <summary>
     /// Event handler for when a character enters the trigger zone
     /// </summary>
-    public void OnCharacterApproach(Collider2D collider2D)
+    public void OnCharacterApproach(GameObject go)
     {
-        if (!IsCharacter(collider2D))
+        if (!IsCharacter(go))
         {
             return;
         }
@@ -42,9 +42,9 @@ public class BalloonVisibility : MonoBehaviour
     /// <summary>
     /// Event handler for when a character exits the trigger zone
     /// </summary>
-    public void OnCharacterDepart(Collider2D collider2D)
+    public void OnCharacterDepart(GameObject go)
     {
-        if (!IsCharacter(collider2D))
+        if (!IsCharacter(go))
         {
             return;
         }
@@ -52,9 +52,9 @@ public class BalloonVisibility : MonoBehaviour
         UpdateAndVisibility();
     }
 
-    private bool IsCharacter(Collider2D collider2D)
+    private bool IsCharacter(GameObject go)
     {
-        return (CharacterLayer & (1 << collider2D.gameObject.layer)) != 0;
+        return (CharacterLayer & (1 << go.layer)) != 0;
     }
 
     /// <summary>

@@ -31,23 +31,23 @@ public class Interactable : MonoBehaviour
     /// Event handler for when a character gets near enough.
     /// </summary>
     /// <param name="collision">The collider information</param>
-    public void OnCharacterApproach(Collider2D collision)
+    public void OnCharacterApproach(GameObject go)
     {
-        OnCharacter(collision, NearbyCharacters.Add, ApproachedByPlayer);
+        OnCharacter(go, NearbyCharacters.Add, ApproachedByPlayer);
     }
 
     /// <summary>
     /// Event handler for when a character is no longer near enough.
     /// </summary>
     /// <param name="collision">The collider information</param>
-    public void OnCharacterDepart(Collider2D collision)
+    public void OnCharacterDepart(GameObject go)
     {
-        OnCharacter(collision, NearbyCharacters.Remove, LeftByPlayer);
+        OnCharacter(go, NearbyCharacters.Remove, LeftByPlayer);
     }
 
-    private void OnCharacter(Collider2D collision, SetAction action, UnityEvent<CharacterInfo.Players> ev)
+    private void OnCharacter(GameObject go, SetAction action, UnityEvent<CharacterInfo.Players> ev)
     {
-        var ccb = collision.gameObject.transform
+        var ccb = go.transform
             .parent.gameObject.GetComponent<CharacterInfo>();
         if (ccb != null)
         {

@@ -1242,6 +1242,7 @@ Transform:
   - {fileID: 7776649687039382913}
   - {fileID: 2662052408779961228}
   - {fileID: 2863841282316078590}
+  - {fileID: 2148852959083318050}
   m_Father: {fileID: 3092791240620370945}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6682,8 +6683,8 @@ Transform:
   m_LocalScale: {x: -1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 587818740626381577}
-  m_RootOrder: 8
+  m_Father: {fileID: 963646597087558598}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5715013159854618030
 SpriteRenderer:
@@ -10814,6 +10815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Tiger Without Beanie
       objectReference: {fileID: 0}
+    - target: {fileID: 4306825149140045950, guid: fb826c06c9bec094ca0e496d660c7df4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4727897703133959446, guid: fb826c06c9bec094ca0e496d660c7df4, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -10945,6 +10950,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7083940692124526007, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.3125
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083940692124526007, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.70249987
+      objectReference: {fileID: 0}
     - target: {fileID: 9215941476138430608, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
       propertyPath: AnimationOverrides.Array.size
       value: 7
@@ -10986,6 +10999,14 @@ PrefabInstance:
       propertyPath: AnimationOverrides.Array.data[6].OriginalClip
       value: 
       objectReference: {fileID: 7400000, guid: d1ba9aad4574e1c409442fcc91675310, type: 2}
+    - target: {fileID: 3803410695758672138, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.30999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803410695758672138, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7652796539353229759, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
       propertyPath: m_Radius
       value: 0.6
@@ -11131,6 +11152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blocking PNG (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5854336031961756078, guid: d9386484bd629b9499da801d75d9d328, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5864811558064345058, guid: d9386484bd629b9499da801d75d9d328, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -11172,6 +11197,10 @@ PrefabInstance:
     - target: {fileID: 7177686854547998245, guid: bae6d0036e009ac40966203ae12c5881, type: 3}
       propertyPath: m_Name
       value: Blocking PNG 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177686854547998245, guid: bae6d0036e009ac40966203ae12c5881, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7188163617752971369, guid: bae6d0036e009ac40966203ae12c5881, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11243,6 +11272,14 @@ PrefabInstance:
       propertyPath: AnimationOverrides.Array.data[6].OriginalClip
       value: 
       objectReference: {fileID: 7400000, guid: d1ba9aad4574e1c409442fcc91675310, type: 2}
+    - target: {fileID: 3803410695758672138, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.26500034
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803410695758672138, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.61000013
+      objectReference: {fileID: 0}
     - target: {fileID: 7652796539353229759, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
       propertyPath: m_Radius
       value: 0.6
@@ -11568,6 +11605,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2156974839842860360}
     m_Modifications:
+    - target: {fileID: 2852174542259861598, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.4050007
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852174542259861598, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.64000034
+      objectReference: {fileID: 0}
     - target: {fileID: 4196891774919044473, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
       propertyPath: AnimationOverrides.Array.size
       value: 7
@@ -11794,6 +11839,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Pig Without Beanie
       objectReference: {fileID: 0}
+    - target: {fileID: 5566023500471551322, guid: 64b09f2cab13bab429307da292740f24, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 64b09f2cab13bab429307da292740f24, type: 3}
 --- !u!4 &278107944338838487 stripped
@@ -11860,6 +11909,10 @@ PrefabInstance:
     - target: {fileID: 5854336031961756078, guid: d9386484bd629b9499da801d75d9d328, type: 3}
       propertyPath: m_Name
       value: Blocking PNG (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854336031961756078, guid: d9386484bd629b9499da801d75d9d328, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5864811558064345058, guid: d9386484bd629b9499da801d75d9d328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11934,6 +11987,10 @@ PrefabInstance:
     - target: {fileID: 5854336031961756078, guid: d9386484bd629b9499da801d75d9d328, type: 3}
       propertyPath: m_Name
       value: Blocking PNG (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854336031961756078, guid: d9386484bd629b9499da801d75d9d328, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5864811558064345058, guid: d9386484bd629b9499da801d75d9d328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53342,11 +53399,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4455576614141879651, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
   m_PrefabInstance: {fileID: 4063942093112016270}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &587818740626381577 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3480824887300892295, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-  m_PrefabInstance: {fileID: 4063942093112016270}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1493099538346601768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3233175324120322214, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -53442,6 +53494,14 @@ PrefabInstance:
       propertyPath: AnimationOverrides.Array.data[6].OriginalClip
       value: 
       objectReference: {fileID: 7400000, guid: d1ba9aad4574e1c409442fcc91675310, type: 2}
+    - target: {fileID: 9111151542754513483, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5024996
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111151542754513483, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.41499996
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
 --- !u!4 &1992530455062863577 stripped
@@ -53771,6 +53831,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blocking PNG
       objectReference: {fileID: 0}
+    - target: {fileID: 5854336031961756078, guid: d9386484bd629b9499da801d75d9d328, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5864811558064345058, guid: d9386484bd629b9499da801d75d9d328, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -53836,6 +53900,10 @@ PrefabInstance:
     - target: {fileID: 5854336031961756078, guid: d9386484bd629b9499da801d75d9d328, type: 3}
       propertyPath: m_Name
       value: Blocking PNG (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5854336031961756078, guid: d9386484bd629b9499da801d75d9d328, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5864811558064345058, guid: d9386484bd629b9499da801d75d9d328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53985,6 +54053,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7083940692124526007, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.27499962
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083940692124526007, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.6274996
+      objectReference: {fileID: 0}
     - target: {fileID: 9215941476138430608, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
       propertyPath: AnimationOverrides.Array.size
       value: 7
@@ -54029,6 +54105,10 @@ PrefabInstance:
     - target: {fileID: 3976777267424189133, guid: f120b10956e14534b8b281d14dde1151, type: 3}
       propertyPath: m_Name
       value: Enemy Tiger With Beanie (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3976777267424189133, guid: f120b10956e14534b8b281d14dde1151, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5085290789500287213, guid: f120b10956e14534b8b281d14dde1151, type: 3}
       propertyPath: Speed
@@ -54145,6 +54225,14 @@ PrefabInstance:
       propertyPath: AnimationOverrides.Array.data[6].OriginalClip
       value: 
       objectReference: {fileID: 7400000, guid: d1ba9aad4574e1c409442fcc91675310, type: 2}
+    - target: {fileID: 3803410695758672138, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.14499998
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803410695758672138, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7652796539353229759, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
       propertyPath: m_Radius
       value: 0.6
@@ -54234,6 +54322,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7893550429962696069}
     m_Modifications:
+    - target: {fileID: 2852174542259861598, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.625
+      objectReference: {fileID: 0}
     - target: {fileID: 4196891774919044473, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
       propertyPath: AnimationOverrides.Array.size
       value: 7
@@ -54628,6 +54720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy Pig With Beanie
       objectReference: {fileID: 0}
+    - target: {fileID: 742803081741388328, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1611852165927958725, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
       propertyPath: m_Radius
       value: 1.05
@@ -54823,6 +54919,14 @@ PrefabInstance:
       propertyPath: AnimationOverrides.Array.data[6].OriginalClip
       value: 
       objectReference: {fileID: 7400000, guid: d1ba9aad4574e1c409442fcc91675310, type: 2}
+    - target: {fileID: 9111151542754513483, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.46500015
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111151542754513483, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.52
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
 --- !u!4 &5682847797427340456 stripped
@@ -54980,6 +55084,10 @@ PrefabInstance:
     - target: {fileID: 6429470709303150653, guid: dc94dbd1439f1cb46bc1131740675a85, type: 3}
       propertyPath: m_Name
       value: Blocking PNG 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6429470709303150653, guid: dc94dbd1439f1cb46bc1131740675a85, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6442162975503906417, guid: dc94dbd1439f1cb46bc1131740675a85, type: 3}
       propertyPath: m_LocalPosition.x
