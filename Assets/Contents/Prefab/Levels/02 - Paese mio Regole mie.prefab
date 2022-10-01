@@ -18467,7 +18467,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_eng
-      value: There is no offense if it is precautionary self-defense!
+      value: There is no offense if it is Preemptive Legitimate Defense!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_ita
@@ -18475,7 +18475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].line_eng
-      value: I asked you Rom attackers, take these four morons away!
+      value: 'I asked you for gipsy attackers: take these four morons away!'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].line_ita
@@ -18491,8 +18491,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[0].line_eng
-      value: Stop stop fucking stop! Rebecca, it's not "Legitimate Preemptive Offense,"
-        it's "Legitimate Preemptive Defense"! It's not that difficult!
+      value: Stop, stop, fucking stop! Rebecca, it's not "Preemptive Legitimate Offense,"
+        it's "Preemptive Legitimate Defense"! It's not that difficult!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[0].line_ita
@@ -18509,7 +18509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_eng
-      value: I'm not sure I understand.
+      value: I'm not sure I've heard you right.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_ita
@@ -18517,7 +18517,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].line_eng
-      value: Um, um, meaning, if they are that small.
+      value: Uhm, uhm, I mean... if they are so small!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].line_ita
@@ -18526,7 +18526,7 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_eng
       value: 'Sure, sure. Pull yourself together now. Remember: a clear shot when
-        he has his back to you, okay? '
+        he turns his back on you, okay? '
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_ita
@@ -18535,7 +18535,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_eng
-      value: 'Let''s start again boys: "My country, my rules," Ministry of Justice
+      value: 'Let''s start again, boys: "My country, my rules," Ministry of Justice
         commercial, scene two, take number twelve. Action.'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -79444,6 +79444,10 @@ PrefabInstance:
     - target: {fileID: 5697038205568801090, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
       propertyPath: IsExit
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5697038205568801090, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
+      propertyPath: AutomaticallyOpen
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6090953410687304118, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
       propertyPath: m_Sprite

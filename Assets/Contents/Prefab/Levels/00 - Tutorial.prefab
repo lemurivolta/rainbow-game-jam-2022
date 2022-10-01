@@ -1077,6 +1077,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5013313157601287226}
     m_Modifications:
+    - target: {fileID: 3803410695758672138, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7652796540459118434, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1373,6 +1377,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7083940692124526007, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99badd511dbd8f641895ee70ffa656ad, type: 3}
 --- !u!114 &3585217924387217802 stripped
@@ -1444,6 +1452,10 @@ PrefabInstance:
     - target: {fileID: 2345544201834859582, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
       propertyPath: m_Name
       value: Button Cloe Pad
+      objectReference: {fileID: 0}
+    - target: {fileID: 9111151542754513483, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd0020019b8c44d41a0902893dc8b78d, type: 3}
@@ -1520,7 +1532,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[0].line_eng
-      value: Press ENTER and E, come on, we don't have all day!
+      value: Press ENTER and E, come on, we haven't got all day!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[0].line_ita
@@ -1528,7 +1540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[1].line_eng
-      value: Hello!
+      value: What, sorry?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[1].line_ita
@@ -1536,7 +1548,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_eng
-      value: Ah yes yes, it' s all right, I was just watching the construction site.
+      value: Ah, yes, yes, it' s all right, I was just watching the construction
+        site.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_ita
@@ -1544,7 +1557,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].line_eng
-      value: Although it's been stationary for a while, you know?
+      value: Although it's a while that's halted, you know?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].line_ita
@@ -1552,7 +1565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_eng
-      value: They said they would solve everything, but.
+      value: They said they would solve everything, but instead...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_ita
@@ -1560,7 +1573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_eng
-      value: No, not the girls up here.
+      value: No, not the girls up there.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_ita
@@ -1568,7 +1581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[6].line_eng
-      value: THEY, I don't know if you understand.
+      value: THEY, I don't know we understood each other.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[6].line_ita
@@ -1608,7 +1621,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[10].line_eng
-      value: Although I can see that you are two people who like trouble, right?
+      value: Although I can see you two like trouble, right?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[10].line_ita
@@ -1624,8 +1637,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[12].line_eng
-      value: Let me tell you two things now, as if I were your grandfather, a couple
-        of hints.
+      value: Let me tell you two things now, as if I were your grandfather, just
+        a couple of hints.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[12].line_ita
@@ -1644,7 +1657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[14].line_eng
-      value: Like my nieces, that my son is an idiot.
+      value: Like my nieces, since my son is an idiot.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[14].line_ita
@@ -1652,8 +1665,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[15].line_eng
-      value: 'First thing: there are two of you, four of them. You must therefore
-        move two of them each.'
+      value: 'First thing: there are two of you, four of them. Each one of you must
+        therefore move two of them.'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[15].line_ita
@@ -1687,7 +1700,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[19].line_eng
-      value: Then you kind of want to interact with things, especially the forbidden
+      value: Then you surely want to interact with things, especially the forbidden
         ones, like my little niece does.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -1701,7 +1714,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[20].line_eng
-      value: Player one does it by pressing ENTER, Player two the letter E.
+      value: Player one does it by pressing ENTER, Player two with the key E.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[20].line_ita
@@ -1710,8 +1723,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[21].line_eng
-      value: 'Then. Ah, yes: maybe you don''t need the first personage of your pair,
-        but the second?'
+      value: 'Then, then... ah, yes: maybe you don''t need the first character of
+        the pair, but the second one?'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[21].line_ita
@@ -1720,7 +1733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[22].line_eng
-      value: Then player one will press SHIFT RIGHT once, player two instead TAB.
+      value: Then player one will press RIGHT SHIFT, player two TAB.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[22].line_ita
@@ -1729,7 +1742,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[23].line_eng
-      value: Or the swap is between your couples.
+      value: Or maybe you want to swap between players.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[23].line_ita
@@ -1737,7 +1750,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[24].line_eng
-      value: How then?
+      value: So, how do you do it?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[24].line_ita
@@ -1745,11 +1758,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[25].line_eng
-      value: You have to press and hold down SHIFT RIGHT and TAB together.
+      value: You have to get near to each other and press and hold RIGHT SHIFT and
+        TAB, together.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[25].line_ita
-      value: Dovete premere assieme, a lungo, SHIFT DESTRO e TAB.
+      value: Dovete avvicinarvi e premere assieme, a lungo, SHIFT DESTRO e TAB.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[26].line_eng
@@ -1762,8 +1776,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[27].line_eng
-      value: Although, by dint of going slow, the past has caught up with us and
-        now rules.
+      value: Although, by going slow, the past caught up with us, and now it rules.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[27].line_ita
@@ -1772,8 +1785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[28].line_eng
-      value: Pull two frying pans for me too, and come say hello to this old man
-        every now and then
+      value: Hit them with the pan for me too, and come say hello every now and then.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[28].line_ita
@@ -1829,7 +1841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[34].line_eng
-      value: Cloe, can I stay with you? Marielle will dumb me out before the end
+      value: Cloe, can I stay with you? Marielle will drive me crazy before the end
         of the day.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -1867,7 +1879,7 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[38].line_eng
       value: "Right. Then there is the set of a commercial, I\u2019ve no information
-        about it. Then that unwatchable series that is Mother."
+        about it."
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[38].line_ita
@@ -1880,7 +1892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[39].line_ita
-      value: "E infine, l\u2019ospedale e lo studio dove troveremo lei."
+      value: "E infine, l\u2019ospedale e lo studio dove troveremo LEI."
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].character
@@ -1888,7 +1900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[40].line_eng
-      value: "What do we do once we\u2019re there?"
+      value: "And what do we do once we\u2019re there?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[40].line_ita
@@ -68248,6 +68260,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5013313157601287226}
     m_Modifications:
+    - target: {fileID: 2852174542259861598, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.1
+      objectReference: {fileID: 0}
     - target: {fileID: 8748428825508259371, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
       propertyPath: m_Name
       value: Button Yelena Intercom
