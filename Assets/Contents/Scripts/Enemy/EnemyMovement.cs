@@ -29,8 +29,17 @@ public class EnemyMovement : MonoBehaviour
         SetVelocity();
     }
 
+    private bool wasBarking = false;
+
     private void FixedUpdate()
     {
+        // stop or resume movement when is barking
+        var isBarking = Balloon.Instance.isBarking;
+        if (wasBarking != isBarking)
+        {
+            SetVelocity();
+        }
+        wasBarking = isBarking;
         // check if we are pausing
         if (PausedAt > 0)
         {
@@ -56,15 +65,25 @@ public class EnemyMovement : MonoBehaviour
             // we are almost overshooting the destination (or already did): correct!
             currentSegment = (currentSegment + 1) % Points.Length;
             PausedAt = Time.time;
-            Rigidbody2D.velocity = Vector3.zero;
+            SetVelocity();
         }
     }
 
+    /// <summary>
+    /// Set the enemy's velocity according to the status (barking, paused, or moving).
+    /// </summary>
     private void SetVelocity()
     {
-        var p1 = GetPosition(currentSegment);
-        var p2 = GetPosition(currentSegment + 1);
-        Rigidbody2D.velocity = Speed * (p2 - p1).normalized;
+        if (Balloon.Instance.isBarking || PausedAt >= 0)
+        {
+            Rigidbody2D.velocity = Vector2.zero;
+        }
+        else
+        {
+            var p1 = GetPosition(currentSegment);
+            var p2 = GetPosition(currentSegment + 1);
+            Rigidbody2D.velocity = Speed * (p2 - p1).normalized;
+        }
     }
 
     private Vector3 GetPosition(int i)
