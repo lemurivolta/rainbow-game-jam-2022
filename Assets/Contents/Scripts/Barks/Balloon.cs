@@ -8,6 +8,7 @@ using System;
 public class Balloon : Singleton<Balloon>
 {
     [SerializeField] TMP_Text label;
+    [SerializeField] RectTransform image;
     [SerializeField] Toggle playerOneSkip;
     [SerializeField] Toggle playerTwoSkip;
     [SerializeField] float timeBetweenLetters = 0.05f;
@@ -53,7 +54,7 @@ public class Balloon : Singleton<Balloon>
             playerOneSkip.gameObject.SetActive(false);
             playerTwoSkip.gameObject.SetActive(false);
         }
-        
+
         PlaceBalloon();
         mainPanel.SetActive(true);
 
@@ -67,6 +68,8 @@ public class Balloon : Singleton<Balloon>
         SetText(currentBark.GetBark());
     }
 
+    [SerializeField] private float maxY = 5.7f;
+
     private void PlaceBalloon()
     {
         if (currentBark == null)
@@ -75,9 +78,15 @@ public class Balloon : Singleton<Balloon>
         if (currentBark.character == CHARACTER.NPC)
         {
             if (currentBark.targetTransform != null)
-                transform.position = currentBark.targetTransform.position + Vector3.up * yOffset;
+            {
+                var veryHigh = currentBark.targetTransform.position.y > maxY;
+                label.transform.localScale = image.transform.localScale = new Vector3(1, veryHigh ? -1 : 1, 1);
+                transform.position = currentBark.targetTransform.position + (veryHigh ? Vector3.down : Vector3.up) * yOffset;
+            }
             else
+            {
                 transform.position = Vector3.zero;
+            }
         }
         else
         {
@@ -105,8 +114,8 @@ public class Balloon : Singleton<Balloon>
         }
 
         yield return new WaitForSeconds(waitAfterTextIsShowed);
-        
-        if(!currentBark.pressToSkip)
+
+        if (!currentBark.pressToSkip)
             OnTextAllShowed();
     }
 
@@ -115,7 +124,7 @@ public class Balloon : Singleton<Balloon>
         audioSource.Stop();
         mainPanel.SetActive(false);
 
-        if (currentBark.pressToSkip) 
+        if (currentBark.pressToSkip)
         {
             playerOneSkip.SetIsOnWithoutNotify(false);
             playerTwoSkip.SetIsOnWithoutNotify(false);
@@ -149,7 +158,7 @@ public class Balloon : Singleton<Balloon>
 
             label.text = currentBark.GetBark();
 
-            StartCoroutine(WaitToSkip());            
+            StartCoroutine(WaitToSkip());
         }
     }
 
