@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [Tooltip("Component that manages the visibility of the balloon according to whether there are characters nearby")]
@@ -20,10 +18,12 @@ public class BalloonVisibility : MonoBehaviour
     /// </summary>
     private SpriteRenderer SpriteRenderer;
 
+    public Interactable Interactable;
+
     private void Start()
     {
         SpriteRenderer = GetComponent<SpriteRenderer>();
-        UpdateAndVisibility();
+        UpdateVisibility();
     }
 
     /// <summary>
@@ -31,12 +31,12 @@ public class BalloonVisibility : MonoBehaviour
     /// </summary>
     public void OnCharacterApproach(GameObject go)
     {
-        if (!IsCharacter(go))
+        if (!IsCharacter(go) || !CanInteract(go))
         {
             return;
         }
         NumNearbyCharacters += 1;
-        UpdateAndVisibility();
+        UpdateVisibility();
     }
 
     /// <summary>
@@ -44,12 +44,12 @@ public class BalloonVisibility : MonoBehaviour
     /// </summary>
     public void OnCharacterDepart(GameObject go)
     {
-        if (!IsCharacter(go))
+        if (!IsCharacter(go) || !CanInteract(go))
         {
             return;
         }
         NumNearbyCharacters += -1;
-        UpdateAndVisibility();
+        UpdateVisibility();
     }
 
     private bool IsCharacter(GameObject go)
@@ -57,10 +57,17 @@ public class BalloonVisibility : MonoBehaviour
         return (CharacterLayer & (1 << go.layer)) != 0;
     }
 
+    private bool CanInteract(GameObject go)
+    {
+        var characterInfo = go.transform.parent.GetComponent<CharacterInfo>();
+        var rv = Interactable.CanInteract(characterInfo);
+        return rv;
+    }
+
     /// <summary>
     /// Set the visibility of the sprite renderer (if already available).
     /// </summary>
-    private void UpdateAndVisibility()
+    private void UpdateVisibility()
     {
         if (SpriteRenderer != null)
         {

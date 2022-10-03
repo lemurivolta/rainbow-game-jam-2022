@@ -104,10 +104,7 @@ public class Interactable : MonoBehaviour
                 else
                 {
                     // check if this character can interact with this interactable
-                    if ((!CanCloeInteract && activePlayer.Character == CHARACTER.CLOE) ||
-                    (!CanMarielleInteract && activePlayer.Character == CHARACTER.MARIELLE) ||
-                    (!CanSarahInteract && activePlayer.Character == CHARACTER.SARAH) ||
-                    (!CanYelenaInteract && activePlayer.Character == CHARACTER.YELENA))
+                    if (!CanInteract(activePlayer))
                     {
                         activePlayer
                             .gameObject
@@ -125,5 +122,18 @@ public class Interactable : MonoBehaviour
                 break;
             }
         }
+    }
+
+    /// <summary>
+    /// Check whether given character can interact with this interactable.
+    /// </summary>
+    /// <param name="activePlayer">The player to check.</param>
+    /// <returns>Whether given player can interact with this interactable.</returns>
+    public bool CanInteract(CharacterInfo activePlayer)
+    {
+        return !((!CanCloeInteract && activePlayer.Character == CHARACTER.CLOE) ||
+            (!CanMarielleInteract && activePlayer.Character == CHARACTER.MARIELLE) ||
+            (!CanSarahInteract && activePlayer.Character == CHARACTER.SARAH) ||
+            (!CanYelenaInteract && activePlayer.Character == CHARACTER.YELENA));
     }
 }

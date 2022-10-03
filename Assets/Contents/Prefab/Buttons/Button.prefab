@@ -272,6 +272,7 @@ MonoBehaviour:
   CharacterLayer:
     serializedVersion: 2
     m_Bits: 1024
+  Interactable: {fileID: 6945836375647723045}
 --- !u!1 &6945836375647723065
 GameObject:
   m_ObjectHideFlags: 0
