@@ -409,11 +409,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.9994397
+      value: 0.99939954
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.999502
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
@@ -579,7 +579,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: -149.59552, y: -148.84436}
-  m_SizeDelta: {x: 117.40454, y: 97.90961}
+  m_SizeDelta: {x: 334.1002, y: 97.9096}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1019125828
 MonoBehaviour:
