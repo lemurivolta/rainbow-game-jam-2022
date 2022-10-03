@@ -150,7 +150,7 @@ public class Balloon : Singleton<Balloon>
 
     public void TrySkipping(bool b)
     {
-        if (currentBark.pressToSkip && b && playerOneSkip.isOn && playerTwoSkip.isOn)
+        if (isBarking && currentBark.pressToSkip && b && playerOneSkip.isOn && playerTwoSkip.isOn)
         {
             currentBark.canSkip = true;
 

@@ -34,11 +34,13 @@ public class SchermateManager : Singleton<SchermateManager>
 
     public void EndSchermata()
     {
+//        Balloon.Instance.StopAllCoroutines();
         currentSchermata.GetComponent<Schermata>().barks.PlayEndingBarks();
     }
 
     public void GoToNext()
     {
+
         Destroy(currentSchermata);
 
         currentSchermataIndex++;
@@ -62,16 +64,22 @@ public class SchermateManager : Singleton<SchermateManager>
 
     public void GameOver()
     {
+        Debug.Log("GameOver()");
+        Balloon.Instance.StopAllCoroutines();
         currentSchermata.GetComponent<Schermata>().barks.PlayGameOverBark();
     }
     public void Restart()
     {
-        Debug.Log("restart()");
+        Debug.Log("Restart()");
         // fade
+
+        Balloon.Instance.StopAllCoroutines();
 
         // distruggi schermata
         Destroy(currentSchermata);
         // reistanzia schermata
         currentSchermata = Instantiate(PrefabSchermate[currentSchermataIndex]);
+
+        
     }
 }
