@@ -19,6 +19,7 @@ public class Balloon : Singleton<Balloon>
     [HideInInspector] public bool isBarking;
     Bark currentBark;
 
+    [SerializeField] GameObject resetButton;
 
     /*
     private void Start()
@@ -36,6 +37,7 @@ public class Balloon : Singleton<Balloon>
     public void PlayBark(Bark b)
     {
         isBarking = true;
+        resetButton.SetActive(false);
 
         currentBark = b;
         currentBark.canSkip = false;
@@ -137,6 +139,7 @@ public class Balloon : Singleton<Balloon>
         }
 
         isBarking = false;
+        resetButton.SetActive(true);
 
         if (currentBark.restartAtEnd)
         {

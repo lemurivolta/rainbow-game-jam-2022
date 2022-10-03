@@ -78,8 +78,12 @@ public class SchermateManager : Singleton<SchermateManager>
         // distruggi schermata
         Destroy(currentSchermata);
         // reistanzia schermata
-        currentSchermata = Instantiate(PrefabSchermate[currentSchermataIndex]);
+        currentSchermata = Instantiate(PrefabSchermate[currentSchermataIndex]);        
+    }
 
-        
+    public void ResetButton()
+    {
+        if (!Balloon.Instance.isBarking)
+            GameOver();
     }
 }

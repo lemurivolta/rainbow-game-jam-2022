@@ -469,7 +469,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 577246380}
         m_TargetAssemblyTypeName: SchermateManager, Assembly-CSharp
-        m_MethodName: GameOver
+        m_MethodName: ResetButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1099,6 +1099,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 889910217500788785, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
+      propertyPath: resetButton
+      value: 
+      objectReference: {fileID: 578494998}
     - target: {fileID: 889910217500788785, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
       propertyPath: timeBetweenLetters
       value: 0.04
