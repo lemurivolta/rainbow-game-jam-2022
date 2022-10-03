@@ -76,7 +76,7 @@ public class SightTrigger : MonoBehaviour
                 {
                     result = o.transform;
                 }
-                Debug.Log($"SightCoordinatesReference of {o.name} is {(result == null ? "<not found>" : result.name)}");
+                // Debug.Log($"SightCoordinatesReference of {o.name} is {(result == null ? "<not found>" : result.name)}");
                 return result;
             }
         );
@@ -103,10 +103,10 @@ public class SightTrigger : MonoBehaviour
             Physics2D.queriesHitTriggers = queriesHitTriggers;
             // the other object is visible if there are NO objects obstructing our view
             var visible = hit.collider == null;
-            if (hit.collider != null)
-            {
-                Debug.Log($"Cannot see {go.name} because it is obstructed by {hit.collider.gameObject.name}", hit.collider.gameObject);
-            }
+            // if (hit.collider != null)
+            // {
+            //     Debug.Log($"Cannot see {go.name} because it is obstructed by {hit.collider.gameObject.name}", hit.collider.gameObject);
+            // }
             // check if we must send events
             CheckVisibilityChanged(go, visible);
         }
@@ -122,7 +122,7 @@ public class SightTrigger : MonoBehaviour
     {
         if (gameObjectVisibility[gameObject] != visible)
         {
-            Debug.Log($"game object {this.gameObject.name} {(visible ? "sees" : "no longer sees")} {gameObject.name}");
+            // Debug.Log($"game object {this.gameObject.name} {(visible ? "sees" : "no longer sees")} {gameObject.name}");
             gameObjectVisibility[gameObject] = visible;
             (visible ? GotVisible : GotHidden).Invoke(gameObject);
         }
