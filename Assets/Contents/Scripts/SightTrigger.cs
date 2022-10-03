@@ -89,26 +89,29 @@ public class SightTrigger : MonoBehaviour
         // check all objects inside our trigger zone
         foreach (var go in gameObjectsInTriggerZone)
         {
-            // send a ray between us that interacts with objects obstructing our view
-            var myPosition = GetPosition(this.gameObject);
-            var otherPosition = GetPosition(go);
-            var queriesHitTriggers = Physics2D.queriesHitTriggers;
-            Physics2D.queriesHitTriggers = false;
-            var hit = Physics2D.Raycast(
-                myPosition,
-                otherPosition - myPosition,
-                (otherPosition - myPosition).magnitude,
-                ObstructionLayerMask
-            );
-            Physics2D.queriesHitTriggers = queriesHitTriggers;
-            // the other object is visible if there are NO objects obstructing our view
-            var visible = hit.collider == null;
-            // if (hit.collider != null)
-            // {
-            //     Debug.Log($"Cannot see {go.name} because it is obstructed by {hit.collider.gameObject.name}", hit.collider.gameObject);
-            // }
-            // check if we must send events
-            CheckVisibilityChanged(go, visible);
+            if(go != null)
+            {
+                // send a ray between us that interacts with objects obstructing our view
+                var myPosition = GetPosition(this.gameObject);
+                var otherPosition = GetPosition(go);
+                var queriesHitTriggers = Physics2D.queriesHitTriggers;
+                Physics2D.queriesHitTriggers = false;
+                var hit = Physics2D.Raycast(
+                    myPosition,
+                    otherPosition - myPosition,
+                    (otherPosition - myPosition).magnitude,
+                    ObstructionLayerMask
+                );
+                Physics2D.queriesHitTriggers = queriesHitTriggers;
+                // the other object is visible if there are NO objects obstructing our view
+                var visible = hit.collider == null;
+                // if (hit.collider != null)
+                // {
+                //     Debug.Log($"Cannot see {go.name} because it is obstructed by {hit.collider.gameObject.name}", hit.collider.gameObject);
+                // }
+                // check if we must send events
+                CheckVisibilityChanged(go, visible);
+            }            
         }
     }
 
