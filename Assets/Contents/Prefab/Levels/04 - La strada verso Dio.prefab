@@ -12032,7 +12032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.size
-      value: 19
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.size
@@ -12044,135 +12044,138 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_eng
-      value: Okay, I stopped the FIRST WOMAN PRESIDENT! Read that manifesto, now!
+      value: Okay, I stopped the FIRST WOMAN PRESIDENT!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_ita
-      value: Ok, ho fermato il PRIMO PRESIDENTE DONNA! Leggete quel manifesto, su!
+      value: Ok, ho fermato il PRIMO PRESIDENTE DONNA!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[1].line_eng
-      value: Uhm, I can't find it.
+      value: There are only two genders!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[1].line_ita
-      value: Ehm, non lo trovo.
+      value: Esistono solo due generi!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[2].line_eng
-      value: How can you not find it? It weighs seventy pounds!
+      value: '"God created man in his own image, male and female he created them."
+        God is non binary, dear!'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[2].line_ita
-      value: "Come non lo trovi? Peser\xE0 trenta chili!"
+      value: "\xABDio cre\xF2 l'uomo a sua immagine, maschio e femmina li cre\xF2\xBB.
+        Dio \xE8 non binary, ciccia!"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[3].line_eng
-      value: I told you to carry a cell phone with you instead of printing it out!
+      value: Whatever, you already have civil partnerships, you can do whatever you
+        want!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[3].line_ita
-      value: "Ve l\u2019avevo detto di portarvi dietro un cellulare invece di stamparlo!"
+      value: "Vabb\xE8 hai gi\xE0 le unioni civili, puoi fare quello che vuoi!"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[4].line_eng
-      value: They track us with cell phones!
+      value: Like getting beaten up by your fascist buddies?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[4].line_ita
-      value: Ci tracciano coi cellulari!
+      value: Mmm, tipo farci menare dai tuoi amichetti fasci?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[5].line_eng
-      value: We weren't exactly discreet and quiet.
+      value: I appreciate spanking, when I choose who gives it to me.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[5].line_ita
-      value: "Non \xE8 che siamo state esattamente discrete e silenziose."
+      value: "Le sculacciate le apprezzo pure, ma se scelgo io chi me le d\xE0."
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[6].line_eng
-      value: Uhm, guys, we're kind of live on national TV, do we say anything?
+      value: My gender is a helicopter!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[6].line_ita
-      value: Eh, raga, siamo tipo in diretta nazionale, diciamo qualcosa?
+      value: "Il mio genere \xE8 un elicottero!"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[7].line_eng
-      value: ...
+      value: Then fly away, sweetheart!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[7].line_ita
-      value: ...
+      value: Allora vola via, tesoro!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[8].line_eng
-      value: ...
+      value: Read that manifesto, come on!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[8].line_ita
-      value: ...
+      value: Leggete quel manifesto, su!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[9].line_eng
-      value: ...
+      value: Uhm, I can't find it.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[9].line_ita
-      value: ...
+      value: Ehm, non lo trovo.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].character
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[10].line_eng
-      value: ...
+      value: How can you not find it? It weighs seventy pounds!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[10].line_ita
-      value: ...
+      value: "Come non lo trovi? Peser\xE0 trenta chili!"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[11].line_eng
-      value: Peace was never an option!
+      value: I told you to carry a cell phone with you instead of printing it out!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[11].line_ita
-      value: "La pace non \xE8 mai stata una possibilit\xE0!"
+      value: "Ve l\u2019avevo detto di portarvi dietro un cellulare invece di stamparlo!"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[12].line_eng
-      value: We have always been here, and we are here to stay!
+      value: They track us with cell phones!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[12].line_ita
-      value: Ci siamo sempre state, e siamo qui per restare!
+      value: Ci tracciano coi cellulari!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[13].line_eng
-      value: We have always been here, and we are here to stay!
+      value: We weren't exactly discreet and quiet.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[13].line_ita
-      value: Ci siamo sempre state, e siamo qui per restare!
+      value: "Non \xE8 che siamo state esattamente discrete e silenziose."
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[14].line_eng
-      value: We have always been here, and we are here to stay!
+      value: Uhm, guys, we're kind of live on national TV, do we say anything?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[14].line_ita
-      value: Ci siamo sempre state, e siamo qui per restare!
+      value: Eh, raga, siamo tipo in diretta nazionale, diciamo qualcosa?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[15].line_eng
-      value: We have always been here, and we are here to stay!
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[15].line_ita
-      value: Ci siamo sempre state, e siamo qui per restare!
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[16].line_eng
@@ -12184,49 +12187,128 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[17].line_eng
-      value: And now?
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[17].line_ita
-      value: E ora?
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[18].line_eng
-      value: I have tons of lasagna back at home. What about a little snack while
-        the revolution begins?
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[18].line_ita
-      value: A casa mi son rimaste due teglie di lasagna. Che ci facciamo una merendina,
-        mentre inizia la rivoluzione?
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[19].line_eng
+      value: There are no rights without a fight!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[19].line_ita
+      value: Non ci sono diritti senza lotta!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[1].character
-      value: 3
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[20].line_eng
+      value: Together we are stronger!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[20].line_ita
+      value: Unit3 siamo imbattibili!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[21].line_eng
+      value: Video games taught me to resist and fight!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[21].line_ita
+      value: I videogiochi mi hanno insegnato a resistere e lottare!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[22].line_eng
+      value: And when your voice is taken away, the only thing left is to beat them
+        up.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[22].line_ita
+      value: "E quando ti viene tolta la voce, l'unica cosa che rimane \xE8 menare."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[23].line_eng
+      value: We have always been here, and we are here to stay!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[23].line_ita
+      value: Ci siamo sempre state, e siamo qui per restare!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[24].line_eng
+      value: We have always been here, and we are here to stay!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[24].line_ita
+      value: Ci siamo sempre state, e siamo qui per restare!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[25].line_eng
+      value: We have always been here, and we are here to stay!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[25].line_ita
+      value: Ci siamo sempre state, e siamo qui per restare!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[26].line_eng
+      value: We have always been here, and we are here to stay!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[26].line_ita
+      value: Ci siamo sempre state, e siamo qui per restare!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[27].line_eng
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[27].line_ita
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[28].line_eng
+      value: And now?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[28].line_ita
+      value: E ora?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[2].character
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[3].character
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[4].character
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[5].character
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[6].character
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[7].character
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[8].character
@@ -12242,35 +12324,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[11].character
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[12].character
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[13].character
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[14].character
+      propertyPath: endingBarks.Array.data[12].character
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[15].character
+      propertyPath: endingBarks.Array.data[13].character
       value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[16].character
+      propertyPath: endingBarks.Array.data[14].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[15].character
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[16].character
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[17].character
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[18].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[19].character
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[20].character
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[21].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[22].character
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[23].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[24].character
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[25].character
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[26].character
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[27].character
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[28].character
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].line_eng
@@ -12421,6 +12543,46 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[19].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[20].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[21].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[22].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[23].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[24].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[25].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[26].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[27].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[28].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].pressToSkip
       value: 1
       objectReference: {fileID: 0}
@@ -12455,39 +12617,39 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].targetTransform
       value: 
-      objectReference: {fileID: 410784826870995181}
+      objectReference: {fileID: 8476545839092494572, guid: 25b39af14bf4e1c47a880567a117c296, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[1].targetTransform
       value: 
-      objectReference: {fileID: 1529338545374034631}
+      objectReference: {fileID: 7776649687039382913}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[2].targetTransform
       value: 
-      objectReference: {fileID: 1493099538346601768}
+      objectReference: {fileID: 5947872352799578436, guid: 6b9277d502301bc4d947de320a901f50, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[3].targetTransform
       value: 
-      objectReference: {fileID: 3170780671636527825}
+      objectReference: {fileID: 7776649687039382913}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[4].targetTransform
       value: 
-      objectReference: {fileID: 1529338545374034631}
+      objectReference: {fileID: 4577363814706615480, guid: 8b96867838550f7488f11ddd29bcee06, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[5].targetTransform
       value: 
-      objectReference: {fileID: 1493099538346601768}
+      objectReference: {fileID: 4577363814706615480, guid: 8b96867838550f7488f11ddd29bcee06, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[6].targetTransform
       value: 
-      objectReference: {fileID: 3170780671636527825}
+      objectReference: {fileID: 7776649687039382913}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[7].targetTransform
       value: 
-      objectReference: {fileID: 3170780671636527825}
+      objectReference: {fileID: 1367128676472578431, guid: cba433c84f369c04a9d06083ca42715b, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[8].targetTransform
       value: 
-      objectReference: {fileID: 410784826870995181}
+      objectReference: {fileID: 4577363814706615480, guid: 8b96867838550f7488f11ddd29bcee06, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[9].targetTransform
       value: 
@@ -12499,35 +12661,75 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[11].targetTransform
       value: 
-      objectReference: {fileID: 410784826870995181}
+      objectReference: {fileID: 3170780671636527825}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[12].targetTransform
       value: 
-      objectReference: {fileID: 3170780671636527825}
+      objectReference: {fileID: 1529338545374034631}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[13].targetTransform
       value: 
-      objectReference: {fileID: 410784826870995181}
+      objectReference: {fileID: 1493099538346601768}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[14].targetTransform
       value: 
-      objectReference: {fileID: 1529338545374034631}
+      objectReference: {fileID: 3170780671636527825}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[15].targetTransform
       value: 
-      objectReference: {fileID: 1493099538346601768}
+      objectReference: {fileID: 410784826870995181}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[16].targetTransform
       value: 
-      objectReference: {fileID: 410784826870995181}
+      objectReference: {fileID: 1529338545374034631}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[17].targetTransform
       value: 
-      objectReference: {fileID: 410784826870995181}
+      objectReference: {fileID: 1493099538346601768}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[18].targetTransform
       value: 
+      objectReference: {fileID: 3170780671636527825}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[19].targetTransform
+      value: 
+      objectReference: {fileID: 410784826870995181}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[20].targetTransform
+      value: 
+      objectReference: {fileID: 1367128676472578431, guid: cba433c84f369c04a9d06083ca42715b, type: 3}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[21].targetTransform
+      value: 
+      objectReference: {fileID: 5947872352799578436, guid: 6b9277d502301bc4d947de320a901f50, type: 3}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[22].targetTransform
+      value: 
       objectReference: {fileID: 1529338545374034631}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[23].targetTransform
+      value: 
+      objectReference: {fileID: 3170780671636527825}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[24].targetTransform
+      value: 
+      objectReference: {fileID: 410784826870995181}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[25].targetTransform
+      value: 
+      objectReference: {fileID: 1529338545374034631}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[26].targetTransform
+      value: 
+      objectReference: {fileID: 1493099538346601768}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[27].targetTransform
+      value: 
+      objectReference: {fileID: 410784826870995181}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[28].targetTransform
+      value: 
+      objectReference: {fileID: 410784826870995181}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].targetTransform
       value: 
