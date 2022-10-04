@@ -11768,7 +11768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6090953410687304120, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
@@ -12032,7 +12032,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.size
-      value: 29
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.size
@@ -12044,11 +12044,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_eng
-      value: Okay, I stopped the FIRST WOMAN PRESIDENT!
+      value: Okay, we stopped the FIRST WOMAN PRESIDENT!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].line_ita
-      value: Ok, ho fermato il PRIMO PRESIDENTE DONNA!
+      value: Ok, abbiamo fermato il PRIMO PRESIDENTE DONNA!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[1].line_eng
@@ -12087,15 +12087,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[5].line_eng
-      value: I appreciate spanking, when I choose who gives it to me.
+      value: I appreciate spanking, when I choose who gives it to me
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[5].line_ita
-      value: "Le sculacciate le apprezzo pure, ma se scelgo io chi me le d\xE0."
+      value: "Le sculacciate le apprezzo pure, ma se scelgo io chi me le d\xE0"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[6].line_eng
-      value: My gender is a helicopter!
+      value: My gender is an attack helicopter!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[6].line_ita
@@ -12119,11 +12119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[9].line_eng
-      value: Uhm, I can't find it.
+      value: Uhm, I can't find it
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[9].line_ita
-      value: Ehm, non lo trovo.
+      value: Ehm, non lo trovo
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[0].character
@@ -12155,11 +12155,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[13].line_eng
-      value: We weren't exactly discreet and quiet.
+      value: We weren't exactly discreet and quiet
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[13].line_ita
-      value: "Non \xE8 che siamo state esattamente discrete e silenziose."
+      value: "Non \xE8 che siamo state esattamente discrete e silenziose"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[14].line_eng
@@ -12215,76 +12215,94 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[20].line_eng
-      value: Together we are stronger!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[20].line_ita
-      value: Unit3 siamo imbattibili!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[21].line_eng
       value: Video games taught me to resist and fight!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[21].line_ita
+      propertyPath: endingBarks.Array.data[20].line_ita
       value: I videogiochi mi hanno insegnato a resistere e lottare!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[22].line_eng
+      propertyPath: endingBarks.Array.data[21].line_eng
       value: And when your voice is taken away, the only thing left is to beat them
-        up.
+        up
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[21].line_ita
+      value: "E quando ti viene tolta la voce, l'unica cosa che rimane \xE8 menare"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[22].line_eng
+      value: We have always been here, and we are here to stay!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[22].line_ita
-      value: "E quando ti viene tolta la voce, l'unica cosa che rimane \xE8 menare."
+      value: Ci siamo sempre state, e siamo qui per restare!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[23].line_eng
-      value: We have always been here, and we are here to stay!
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[23].line_ita
-      value: Ci siamo sempre state, e siamo qui per restare!
+      value: ...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[24].line_eng
-      value: We have always been here, and we are here to stay!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[24].line_ita
-      value: Ci siamo sempre state, e siamo qui per restare!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[25].line_eng
-      value: We have always been here, and we are here to stay!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[25].line_ita
-      value: Ci siamo sempre state, e siamo qui per restare!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[26].line_eng
-      value: We have always been here, and we are here to stay!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[26].line_ita
-      value: Ci siamo sempre state, e siamo qui per restare!
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[27].line_eng
-      value: ...
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[27].line_ita
-      value: ...
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[28].line_eng
       value: And now?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[28].line_ita
+      propertyPath: endingBarks.Array.data[24].line_ita
       value: E ora?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[25].line_eng
+      value: I have two pans of lasagna left at home. What about a little snack while
+        the revolution begins?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[25].line_ita
+      value: A casa mi son rimaste due teglie di lasagna. Che ci facciamo una merendina,
+        mentre inizia la rivoluzione?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[26].line_eng
+      value: I have two pans of lasagna left at home. What about a little snack while
+        the revolution begins?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[26].line_ita
+      value: A casa mi son rimaste due teglie di lasagna. Che ci facciamo una merendina,
+        mentre inizia la rivoluzione?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[27].line_eng
+      value: I have two pans of lasagna left at home. What about a little snack while
+        the revolution begins?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[27].line_ita
+      value: A casa mi son rimaste due teglie di lasagna. Che ci facciamo una merendina,
+        mentre inizia la rivoluzione?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[28].line_eng
+      value: I have two pans of lasagna left at home. What about a little snack while
+        the revolution begins?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[28].line_ita
+      value: A casa mi son rimaste due teglie di lasagna. Che ci facciamo una merendina,
+        mentre inizia la rivoluzione?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[29].line_eng
+      value: I have two pans of lasagna left at home. What about a little snack while
+        the revolution begins?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[29].line_ita
+      value: A casa mi son rimaste due teglie di lasagna. Che ci facciamo una merendina,
+        mentre inizia la rivoluzione?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[2].character
@@ -12360,19 +12378,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[20].character
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[21].character
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: endingBarks.Array.data[22].character
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[22].character
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[23].character
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[24].character
@@ -12384,15 +12402,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[26].character
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[27].character
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[28].character
-      value: 2
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[29].character
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].line_eng
@@ -12414,11 +12436,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[1].line_eng
-      value: A miracle, and the loving hands of Dr. Arthur Arden, I would say.
+      value: A miracle, and the loving hands of Dr. Arthur Arden, I would say
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[1].line_ita
-      value: Un miracolo, e le mani amorevoli del dottor Arthur Arden direi.
+      value: Un miracolo, e le mani amorevoli del dottor Arthur Arden direi
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_eng
@@ -12440,11 +12462,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_eng
-      value: Of course. Voluntarily brought here by their families.
+      value: Of course. Voluntarily brought here by their families
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_ita
-      value: Certamente, portati volontariamente qui dalle loro famiglie.
+      value: Certamente, portati volontariamente qui dalle loro famiglie
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_eng
@@ -12583,6 +12605,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[29].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].pressToSkip
       value: 1
       objectReference: {fileID: 0}
@@ -12697,19 +12723,19 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[20].targetTransform
       value: 
-      objectReference: {fileID: 1367128676472578431, guid: cba433c84f369c04a9d06083ca42715b, type: 3}
+      objectReference: {fileID: 5947872352799578436, guid: 6b9277d502301bc4d947de320a901f50, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[21].targetTransform
       value: 
-      objectReference: {fileID: 5947872352799578436, guid: 6b9277d502301bc4d947de320a901f50, type: 3}
+      objectReference: {fileID: 1529338545374034631}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[22].targetTransform
       value: 
-      objectReference: {fileID: 1529338545374034631}
+      objectReference: {fileID: 1367128676472578431, guid: cba433c84f369c04a9d06083ca42715b, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[23].targetTransform
       value: 
-      objectReference: {fileID: 3170780671636527825}
+      objectReference: {fileID: 410784826870995181}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[24].targetTransform
       value: 
@@ -12717,19 +12743,23 @@ PrefabInstance:
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[25].targetTransform
       value: 
-      objectReference: {fileID: 1529338545374034631}
+      objectReference: {fileID: 8476545839092494572, guid: 25b39af14bf4e1c47a880567a117c296, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[26].targetTransform
       value: 
-      objectReference: {fileID: 1493099538346601768}
+      objectReference: {fileID: 8476545839092494572, guid: 25b39af14bf4e1c47a880567a117c296, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[27].targetTransform
       value: 
-      objectReference: {fileID: 410784826870995181}
+      objectReference: {fileID: 8476545839092494572, guid: 25b39af14bf4e1c47a880567a117c296, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[28].targetTransform
       value: 
-      objectReference: {fileID: 410784826870995181}
+      objectReference: {fileID: 8476545839092494572, guid: 25b39af14bf4e1c47a880567a117c296, type: 3}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[29].targetTransform
+      value: 
+      objectReference: {fileID: 8476545839092494572, guid: 25b39af14bf4e1c47a880567a117c296, type: 3}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].targetTransform
       value: 
@@ -55220,7 +55250,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6090953410687304120, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 426b41e9095b22b46bd11ae12e25d513, type: 3}
