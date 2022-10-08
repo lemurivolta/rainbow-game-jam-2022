@@ -3,6 +3,8 @@ using UnityEngine.Events;
 
 public class EnemyCollision : MonoBehaviour
 {
+    public float BaseDanger = 0f;
+
     public float FullDangerTime = 1f;
 
     public UnityEvent<float> DangerLevelChanged;
@@ -21,6 +23,8 @@ public class EnemyCollision : MonoBehaviour
     {
         StartTime = Time.time;
         DangerPerSecond = 0;
+        StartDanger = BaseDanger;
+        DangerLevelChanged.Invoke(StartDanger);
     }
 
     public void OnGotVisible()
@@ -64,9 +68,9 @@ public class EnemyCollision : MonoBehaviour
             {
                  SchermateManager.Instance.GameOver();
             }
-            else if (dangerValue <= 0)
+            else if (dangerValue <= BaseDanger)
             {
-                StartDanger = 0;
+                StartDanger = BaseDanger;
                 StartTime = Time.time;
                 DangerPerSecond = 0;
             }
