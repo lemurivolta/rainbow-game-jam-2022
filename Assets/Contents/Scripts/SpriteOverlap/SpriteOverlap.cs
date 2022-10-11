@@ -8,19 +8,36 @@ public class SpriteOverlap : MonoBehaviour
 
     public SpriteRenderer SpriteRenderer;
 
+    public bool isEnabled = true;
+
+    public void SetIsEnabled(bool isEnabled)
+    {
+        this.isEnabled = isEnabled;
+    }
+
+    private string GetName(GameObject o)
+    {
+        return o.transform.parent.gameObject.name + "." + o.name;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.GetComponent<SpriteOverlap>() == null)
-        {
-            SetColor(other, AlphaWhenSecondary);
-        }
+        if (!isEnabled) { return; }
+        Debug.Log($"{GetName(gameObject)} entered triggered of {GetName(other.gameObject)}");
+        SetColor(other, AlphaWhenSecondary);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.GetComponent<SpriteOverlap>() == null)
-        {
-            SetColor(other, 1);
+        if (!isEnabled) { return; }
+        Debug.Log($"{GetName(gameObject)} exited triggered of {GetName(other.gameObject)}");
+        SetColor(other, 1);
+    }
+
+    private void OnTriggerStay2D(Collider2D other) {
+        if (!isEnabled) { return; }
+        if(Time.frameCount % 60 == 0) {
+            Debug.Log($"{GetName(gameObject)} in in trigger of {GetName(other.gameObject)}");
         }
     }
 
@@ -28,8 +45,8 @@ public class SpriteOverlap : MonoBehaviour
 
     private void SetColor(Collider2D other, float alpha)
     {
-        // only secondary elements have SpriteOverlap attached
-        if (other.GetComponent<SpriteOverlap>() == null)
+        var spriteOverlap = other.GetComponent<SpriteOverlap>();
+        if (spriteOverlap == null || !spriteOverlap.isEnabled)
         {
             if (colorAnimationCoroutine != null)
             {
@@ -46,7 +63,7 @@ public class SpriteOverlap : MonoBehaviour
     private IEnumerator AnimateColor(Color color, Color newColor)
     {
         var start = Time.time;
-        while(Time.time <= start + animationDuration)
+        while (Time.time <= start + animationDuration)
         {
             var t = (Time.time - start) / animationDuration;
             SpriteRenderer.color = Color.Lerp(color, newColor, t);
