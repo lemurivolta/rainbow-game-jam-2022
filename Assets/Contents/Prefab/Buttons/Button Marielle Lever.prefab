@@ -95,6 +95,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: Button Marielle Lever
       objectReference: {fileID: 0}
+    - target: {fileID: 7410564144342284645, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Size.x
+      value: 0.78876686
+      objectReference: {fileID: 0}
+    - target: {fileID: 7410564144342284645, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Size.y
+      value: 1.3183146
+      objectReference: {fileID: 0}
+    - target: {fileID: 7410564144342284645, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.03106308
+      objectReference: {fileID: 0}
+    - target: {fileID: 7410564144342284645, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.09998894
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2536197417485981035, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
+    - {fileID: 8294433674001951128, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e6197b29c55a7e247b237f83b3f74ac1, type: 3}
