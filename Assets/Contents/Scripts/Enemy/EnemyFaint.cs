@@ -70,8 +70,11 @@ public class EnemyFaint : MonoBehaviour
     private IEnumerator ResumeFromFainted()
     {
         yield return new WaitForSeconds(FaintDuration);
-        WaitToWakeUp = null;
-        WakeUp();
+        if (!Balloon.Instance.isBarking)
+        {
+            WaitToWakeUp = null;
+            WakeUp();
+        }
     }
 
     public void WakeUp()

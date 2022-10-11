@@ -63,7 +63,10 @@ public class ButtonOnOff : MonoBehaviour
     private IEnumerator OffTimeout()
     {
         yield return new WaitForSeconds(Delay);
-        IsOn = false;
-        DelayExpired.Invoke();
+        if (!Balloon.Instance.isBarking)
+        {
+            IsOn = false;
+            DelayExpired.Invoke();
+        }
     }
 }

@@ -60,7 +60,7 @@ public class ButtonTimer : MonoBehaviour
             delta = (Time.time - startTime) / duration;
             animator.Play("Timer", 0, delta);
             yield return null;
-        } while (delta < 1f);
+        } while (delta < 1f && !Balloon.Instance.isBarking);
         spriteRenderer.enabled = false;
     }
 }
