@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -31,7 +30,7 @@ public class SpriteOverlap : MonoBehaviour
         var spriteOverlap = other.GetComponent<SpriteOverlap>();
         Assert.IsNotNull(spriteOverlap);
         trackedGameObjects.Add(spriteOverlap);
-        PrintTracked();
+        // PrintTracked();
     }
 
     private void OnTriggerExit2D(Collider2D other)
@@ -39,18 +38,18 @@ public class SpriteOverlap : MonoBehaviour
         var spriteOverlap = other.GetComponent<SpriteOverlap>();
         Assert.IsNotNull(spriteOverlap);
         trackedGameObjects.Remove(spriteOverlap);
-        PrintTracked();
+        // PrintTracked();
     }
 
-    private void PrintTracked()
-    {
-        var s = $"Tracked by {GetName(gameObject)}: ";
-        foreach (var o in trackedGameObjects)
-        {
-            s += $"{GetName(o.gameObject)}, ";
-        }
-        Debug.Log(s);
-    }
+    // private void PrintTracked()
+    // {
+    //     var s = $"Tracked by {GetName(gameObject)}: ";
+    //     foreach (var o in trackedGameObjects)
+    //     {
+    //         s += $"{GetName(o.gameObject)}, ";
+    //     }
+    //     Debug.Log(s);
+    // }
 
     private bool covered = false;
 
