@@ -19,12 +19,14 @@ public class ExchangeTrigger : MonoBehaviour
     {
         // when the trigger turns on, just save the other target so to check possible obstacles
         // on Update
+        // Debug.Log("Entered another entity exchange layer", this);
         target = collision.gameObject.transform;
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         // when we exit trigger, forget our target and disable exchange
+        // Debug.Log("Exited another entity exchange layer", this);
         target = null;
         ExchangeEnabled.Value = false;
     }

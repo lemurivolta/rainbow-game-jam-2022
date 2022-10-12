@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player1KeyBindings: {fileID: 11400000, guid: 82fc961c79ce17d4eb926ce3774b7103, type: 2}
   Player2KeyBindings: {fileID: 11400000, guid: 6bfab2d0459811f4ba69cab6dd09c4fa, type: 2}
+  LongPressMinimumDuration: 0.3
   InputActionAsset: {fileID: -944628639613478452, guid: b6feb20f8f3613342956668a7dcb8435, type: 3}
   MovementP1:
     m_PersistentCalls:
@@ -134,25 +135,16 @@ MonoBehaviour:
       m_Calls: []
   SwitchCharactersP1:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4233448910925933670}
-        m_TargetAssemblyTypeName: ExchangeTimeout, Assembly-CSharp
-        m_MethodName: OnSwitchCharactersP1Pressed
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   SwitchCharactersP2:
     m_PersistentCalls:
+      m_Calls: []
+  ExchangeCharactersStartedP1:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4233448910925933670}
         m_TargetAssemblyTypeName: ExchangeTimeout, Assembly-CSharp
-        m_MethodName: OnSwitchCharactersP2Pressed
+        m_MethodName: OnExchangeCharactersStartedP1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -162,12 +154,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  ReleaseSwitchCharactersP1:
+  ExchangeCharactersStartedP2:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4233448910925933670}
         m_TargetAssemblyTypeName: ExchangeTimeout, Assembly-CSharp
-        m_MethodName: OnSwitchCharactersP1Released
+        m_MethodName: OnExchangeCharactersStartedP2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -177,12 +169,27 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  ReleaseSwitchCharactersP2:
+  ExchangeCharactersStoppedP1:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4233448910925933670}
         m_TargetAssemblyTypeName: ExchangeTimeout, Assembly-CSharp
-        m_MethodName: OnSwitchCharactersP2Released
+        m_MethodName: OnExchangeCharactersStoppedP1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ExchangeCharactersStoppedP2:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4233448910925933670}
+        m_TargetAssemblyTypeName: ExchangeTimeout, Assembly-CSharp
+        m_MethodName: OnExchangeCharactersStoppedP2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

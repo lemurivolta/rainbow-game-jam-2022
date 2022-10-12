@@ -165,7 +165,6 @@ GameObject:
   - component: {fileID: 7584115163060991042}
   - component: {fileID: 934336133185989116}
   - component: {fileID: 5594815815017140838}
-  - component: {fileID: 5059929339482568142}
   - component: {fileID: 5402811337432878353}
   - component: {fileID: 693240651772864845}
   - component: {fileID: 639941356714927502}
@@ -813,6 +812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player1KeyBindings: {fileID: 11400000, guid: 82fc961c79ce17d4eb926ce3774b7103, type: 2}
   Player2KeyBindings: {fileID: 11400000, guid: 6bfab2d0459811f4ba69cab6dd09c4fa, type: 2}
+  LongPressMinimumDuration: 0.3
   InputActionAsset: {fileID: -944628639613478452, guid: b6feb20f8f3613342956668a7dcb8435, type: 3}
   MovementP1:
     m_PersistentCalls:
@@ -898,10 +898,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  ReleaseSwitchCharactersP1:
+  ExchangeCharactersStartedP1:
     m_PersistentCalls:
       m_Calls: []
-  ReleaseSwitchCharactersP2:
+  ExchangeCharactersStartedP2:
+    m_PersistentCalls:
+      m_Calls: []
+  ExchangeCharactersStoppedP1:
+    m_PersistentCalls:
+      m_Calls: []
+  ExchangeCharactersStoppedP2:
     m_PersistentCalls:
       m_Calls: []
   ActionP1:
@@ -934,45 +940,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04f6c4c46469cee4a93e34d57df1ba0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5059929339482568142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3903119584884876940}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6ab7cbc45164d19b20476265c251c2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _developerDescription: When exchange distance is reached, no longer switch characters
-    but use exchange
-  _unityEventResponse:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5594815815017140838}
-        m_TargetAssemblyTypeName: CharacterSwitchHandler, Assembly-CSharp
-        m_MethodName: OnExchangeEnabled
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  _actionResponses: []
-  _conditions: []
-  _operator: 0
-  _replayEventBufferOnRegister: 1
-  _eventReference:
-    _usage: 0
-    _event: {fileID: 11400000, guid: 62809c608cf0bd34db9808fd84641973, type: 2}
-    _eventInstancer: {fileID: 0}
-    _variable: {fileID: 0}
-    _variableInstancer: {fileID: 0}
 --- !u!114 &5402811337432878353
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1350,7 +1317,7 @@ Rigidbody2D:
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!58 &8036954058404067984

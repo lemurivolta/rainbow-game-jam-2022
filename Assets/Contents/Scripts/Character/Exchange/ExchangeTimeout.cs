@@ -25,32 +25,32 @@ public class ExchangeTimeout : MonoBehaviour
         AcceptingInput = enabled;
     }
 
-    bool switchP1Pressed = false;
-    bool switchP2Pressed = false;
+    bool exchangeP1Activated = false;
+    bool exchangeP2Activated = false;
 
-    public void OnSwitchCharactersP1Pressed()
+    public void OnExchangeCharactersStartedP1()
     {
-        switchP1Pressed = true;
+        exchangeP1Activated = true;
     }
 
-    public void OnSwitchCharactersP1Released()
+    public void OnExchangeCharactersStoppedP1()
     {
-        switchP1Pressed = false;
+        exchangeP1Activated = false;
     }
 
-    public void OnSwitchCharactersP2Pressed()
+    public void OnExchangeCharactersStartedP2()
     {
-        switchP2Pressed = true;
+        exchangeP2Activated = true;
     }
 
-    public void OnSwitchCharactersP2Released()
+    public void OnExchangeCharactersStoppedP2()
     {
-        switchP2Pressed = false;
+        exchangeP2Activated = false;
     }
 
     private void Update()
     {
-        if (AcceptingInput && switchP1Pressed && switchP2Pressed)
+        if (AcceptingInput && exchangeP1Activated && exchangeP2Activated)
         {
             if (BeginExchangeTime == float.PositiveInfinity)
             {
@@ -62,6 +62,8 @@ public class ExchangeTimeout : MonoBehaviour
             {
                 ExchangePerformed.Raise();
                 ResetBeginExchangeTime();
+                exchangeP1Activated = false;
+                exchangeP2Activated = false;
             }
         }
         else
