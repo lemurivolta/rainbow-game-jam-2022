@@ -11,19 +11,19 @@ jobs:
         include:
           - targetPlatform: WebGL
             channel: html
-            package: build/WebGL/WebGL
+            package: build/ManifestoFerocio/WebGL
             platform: ubuntu-latest
           - targetPlatform: StandaloneLinux64
             channel: linux
-            package: build/StandaloneLinux64
+            package: build/ManifestoFerocio
             platform: ubuntu-latest
           - targetPlatform: StandaloneWindows64
             channel: windows
-            package: build/StandaloneWindows64
+            package: build/ManifestoFerocio
             platform: windows-2019
           - targetPlatform: StandaloneOSX
             channel: mac
-            package: build/StandaloneOSX
+            package: build/ManifestoFerocio
             platform: macos-latest
     defaults:
       run:
@@ -77,6 +77,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
+          buildName: ManifestoFerocio
 
       - name: Upload full build as artifact
         uses: actions/upload-artifact@v2
