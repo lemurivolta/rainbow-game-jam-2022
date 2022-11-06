@@ -370,10 +370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PrefabSchermate:
-  - {fileID: 4583390502098074988, guid: e01fcf8c30539b847b879e2f59ffcb71, type: 3}
-  - {fileID: 5809475545087457959, guid: 88432dbb8663590449bb21a79a0abe7c, type: 3}
-  - {fileID: 2373726326641068600, guid: a2655cf7b3688ea4fb37059621b1a06d, type: 3}
-  - {fileID: 5828336998711315799, guid: 5d3912440b6b26d4e88798fcb3c58824, type: 3}
+  - {fileID: 4583390502098074988, guid: be985de52550cc94292491c3350cb1ef, type: 3}
   sceneHandler: {fileID: 577246381}
 --- !u!114 &577246381
 MonoBehaviour:
@@ -803,8 +800,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.9994816
-    height: 1
+    width: 1
+    height: 0.99988514
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

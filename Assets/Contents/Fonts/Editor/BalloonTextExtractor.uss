@@ -1,0 +1,7 @@
+TemplateContainer {
+    height: 100%
+}
+
+#characters {
+    flex-grow: 1;
+}

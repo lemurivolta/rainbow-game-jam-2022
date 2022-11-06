@@ -4,22 +4,36 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System;
+using UnityEngine.Assertions;
 
 public class Balloon : Singleton<Balloon>
 {
-    [SerializeField] TMP_Text label;
-    [SerializeField] RectTransform image;
-    [SerializeField] Toggle playerOneSkip;
-    [SerializeField] Toggle playerTwoSkip;
+    [System.Serializable]
+    public struct UIReferences
+    {
+        public TMP_Text label;
+        public RectTransform image;
+        public Toggle playerOneSkip;
+        public Toggle playerTwoSkip;
+    }
+    [SerializeField] UIReferences TopBalloon;
+    [SerializeField] UIReferences BottomBalloon;
+    [SerializeField] UIReferences LeftBalloon;
+    [SerializeField] UIReferences RightBalloon;
     [SerializeField] float timeBetweenLetters = 0.05f;
-    [SerializeField] float yOffset = 1.4f;
-    [SerializeField] float waitAfterTextIsShowed = 3f;
+    [SerializeField] float yOffset = 0;
+    [SerializeField] float xOffset = 0;
+    [SerializeField] float waitAfterTextIsShown = 3f;
     [SerializeField] GameObject mainPanel;
     [SerializeField] AudioSource audioSource;
     [HideInInspector] public bool isBarking;
     Bark currentBark;
 
     [SerializeField] GameObject resetButton;
+
+    [SerializeField] private Camera mainCamera;
+
+    private CanvasScaler canvasScaler;
 
     /*
     private void Start()
@@ -28,11 +42,58 @@ public class Balloon : Singleton<Balloon>
     }
     */
 
+    private void Start()
+    {
+        canvasScaler = GetComponentInParent<CanvasScaler>();
+    }
+
     private void Update()
     {
         if (isBarking)
             PlaceBalloon();
     }
+
+    private void OnAllBalloons(Action<UIReferences> balloonAction)
+    {
+        balloonAction(TopBalloon);
+        balloonAction(BottomBalloon);
+        balloonAction(LeftBalloon);
+        balloonAction(RightBalloon);
+    }
+
+    private void OnAllPlayerOneSkips(Action<Toggle> toggleAction)
+    {
+        OnAllBalloons(uiReferences => toggleAction(uiReferences.playerOneSkip));
+    }
+
+    private void OnAllPlayerTwoSkips(Action<Toggle> toggleAction)
+    {
+        OnAllBalloons(uiReferences => toggleAction(uiReferences.playerTwoSkip));
+    }
+
+    private void OnAllPlayerSkips(Action<Toggle> toggleAction)
+    {
+        OnAllPlayerOneSkips(toggleAction);
+        OnAllPlayerTwoSkips(toggleAction);
+    }
+
+    private bool ForAllPlayerSkips(Predicate<Toggle> predicate)
+    {
+        bool ok = true;
+        OnAllPlayerSkips(playerSkip => ok = ok && predicate(playerSkip));
+        return ok;
+    }
+
+    private void OnAllLabels(Action<TMP_Text> labelAction)
+    {
+        OnAllBalloons(uiReferences => labelAction(uiReferences.label));
+    }
+
+    private void OnAllImages(Action<RectTransform> imageAction)
+    {
+        OnAllBalloons(uiReferences => imageAction(uiReferences.image));
+    }
+
 
     public void PlayBark(Bark b)
     {
@@ -42,20 +103,11 @@ public class Balloon : Singleton<Balloon>
         currentBark = b;
         currentBark.canSkip = false;
 
-        playerOneSkip.isOn = false;
-        playerTwoSkip.isOn = false;
-
-        if (currentBark.pressToSkip)
+        OnAllPlayerSkips(playerSkip =>
         {
-            //Time.timeScale = 0;
-            playerOneSkip.gameObject.SetActive(true);
-            playerTwoSkip.gameObject.SetActive(true);
-        }
-        else
-        {
-            playerOneSkip.gameObject.SetActive(false);
-            playerTwoSkip.gameObject.SetActive(false);
-        }
+            playerSkip.isOn = false;
+            playerSkip.gameObject.SetActive(currentBark.pressToSkip);
+        });
 
         PlaceBalloon();
         mainPanel.SetActive(true);
@@ -77,32 +129,64 @@ public class Balloon : Singleton<Balloon>
         if (currentBark == null)
             return;
 
+        Vector3 position = Vector3.zero;
         if (currentBark.character == CHARACTER.NPC)
         {
             if (currentBark.targetTransform != null)
             {
-                var veryHigh = currentBark.targetTransform.position.y > maxY;
-                label.transform.localScale = image.transform.localScale = new Vector3(1, veryHigh ? -1 : 1, 1);
-                transform.position = currentBark.targetTransform.position + (veryHigh ? Vector3.down : Vector3.up) * yOffset;
+                position = currentBark.targetTransform.position;
             }
             else
             {
-                transform.position = Vector3.zero;
+                Debug.LogWarning($"Could not find a target for bark '{currentBark.line_eng}' / '{currentBark.line_ita}'");
             }
         }
         else
         {
-            CharacterInfo ci = CharacterInfo.AllCharacterControlledBy.Find((x) => x.name.ToUpper() == currentBark.character.ToString());
-            if (ci)
-                transform.position = ci.transform.position + Vector3.up * yOffset;
-            else
-                Debug.LogError("Character not found in scene: " + currentBark.character.ToString());
+            CharacterInfo ci = CharacterInfo.AllCharacterControlledBy
+                .Find((x) => x.Character == currentBark.character);
+            Assert.IsNotNull(ci);
+            position = ci.transform.position;
         }
+
+        var sf = canvasScaler.scaleFactor;
+        var balloonHeight = TopBalloon.image.sizeDelta.y * sf; // top is the default balloon if possible
+        var balloonWidth = TopBalloon.image.sizeDelta.x * sf;
+        var screenPoint = (Vector2)mainCamera.WorldToScreenPoint(position);
+        int chosenBalloon; // 0 = top, 1 = bottom, 2 = left, 3 = right
+        if (screenPoint.y + yOffset + balloonHeight > Screen.height)
+        {
+            // we're too high: use the bottom balloon
+            chosenBalloon = 1;
+            BottomBalloon.image.anchoredPosition = screenPoint / sf + Vector2.down * yOffset;
+        }
+        else if (screenPoint.x + balloonWidth / 2 > Screen.width)
+        {
+            // we're too much to the right: use left balloon
+            chosenBalloon = 2;
+            LeftBalloon.image.anchoredPosition = screenPoint / sf + Vector2.left * xOffset;
+        }
+        else if (screenPoint.x - balloonWidth / 2 < 0)
+        {
+            // we're too much to the left: use right balloon
+            chosenBalloon = 3;
+            RightBalloon.image.anchoredPosition = screenPoint / sf + Vector2.right * xOffset;
+        }
+        else
+        {
+            // top balloon will fit, and this is the default
+            chosenBalloon = 0;
+            TopBalloon.image.anchoredPosition = screenPoint / sf + Vector2.up * yOffset;
+        }
+        TopBalloon.image.gameObject.SetActive(chosenBalloon == 0);
+        BottomBalloon.image.gameObject.SetActive(chosenBalloon == 1);
+        LeftBalloon.image.gameObject.SetActive(chosenBalloon == 2);
+        RightBalloon.image.gameObject.SetActive(chosenBalloon == 3);
     }
 
     public void SetText(string s)
     {
-        label.text = "";
+        OnAllLabels(label => label.text = "");
         //StopCoroutine(ShowText(s));
         StartCoroutine(ShowText(s));
     }
@@ -111,25 +195,26 @@ public class Balloon : Singleton<Balloon>
     {
         foreach (char c in s)
         {
-            label.text += c;
+            OnAllLabels(label => label.text += c);
             yield return new WaitForSeconds(timeBetweenLetters);
         }
 
-        yield return new WaitForSeconds(waitAfterTextIsShowed);
+        yield return new WaitForSeconds(waitAfterTextIsShown);
 
         if (!currentBark.pressToSkip)
-            OnTextAllShowed();
+        {
+            OnTextAllShown();
+        }
     }
 
-    private void OnTextAllShowed()
+    private void OnTextAllShown()
     {
         audioSource.Stop();
         mainPanel.SetActive(false);
 
         if (currentBark.pressToSkip)
         {
-            playerOneSkip.SetIsOnWithoutNotify(false);
-            playerTwoSkip.SetIsOnWithoutNotify(false);
+            OnAllPlayerSkips(playerSkip => playerSkip.SetIsOnWithoutNotify(false));
         }
 
         if (currentBark.nextBark != null)
@@ -153,13 +238,13 @@ public class Balloon : Singleton<Balloon>
 
     public void TrySkipping(bool b)
     {
-        if (isBarking && currentBark.pressToSkip && b && playerOneSkip.isOn && playerTwoSkip.isOn)
+        if (isBarking && currentBark.pressToSkip && b && ForAllPlayerSkips(playerSkip => playerSkip.isOn))
         {
             currentBark.canSkip = true;
 
             StopAllCoroutines();
 
-            label.text = currentBark.GetBark();
+            OnAllLabels(label => label.text = currentBark.GetBark());
 
             StartCoroutine(WaitToSkip());
         }
@@ -169,12 +254,11 @@ public class Balloon : Singleton<Balloon>
     {
         yield return new WaitForSeconds(0.5f);
 
-        playerOneSkip.SetIsOnWithoutNotify(false);
-        playerTwoSkip.SetIsOnWithoutNotify(false);
+        OnAllPlayerSkips(playerSkip => playerSkip.SetIsOnWithoutNotify(false));
 
         yield return new WaitForEndOfFrame();
 
-        OnTextAllShowed();
+        OnTextAllShown();
     }
 
     /*todo

@@ -9,6 +9,10 @@ public class SchermataBarks : MonoBehaviour
     [SerializeField] List<Bark> gameOverBarks;
     [SerializeField] List<Bark> endingBarks;
 
+    public List<Bark> StartingBarks => startingBarks;
+    public List<Bark> GameOverBarks => gameOverBarks;
+    public List<Bark> EndingBarks => endingBarks;
+
     int maximumCharShowed = 70;
 
     int charIndex;
@@ -21,24 +25,24 @@ public class SchermataBarks : MonoBehaviour
         {
             b.restartAtEnd = true;
         }
-        if(endingBarks.Count > 0)
-           endingBarks[endingBarks.Count - 1].nextSceneOnSkip = true;
+        if (endingBarks.Count > 0)
+            endingBarks[endingBarks.Count - 1].nextSceneOnSkip = true;
     }
 
-    void BarksLinker(List <Bark> B)
+    void BarksLinker(List<Bark> B)
     {
         for (int i = 0; i < B.Count; i++)
         {
-            if(i < B.Count-1)
+            if (i < B.Count - 1)
             {
                 B[i].nextBark = B[i + 1];
             }
-        }    
+        }
     }
 
     public void PlayStartingBarks()
     {
-            Balloon.Instance.PlayBark(startingBarks[0]);
+        Balloon.Instance.PlayBark(startingBarks[0]);
     }
 
     public void PlayEndingBarks()
@@ -48,6 +52,6 @@ public class SchermataBarks : MonoBehaviour
 
     public void PlayGameOverBark()
     {
-        Balloon.Instance.PlayBark(gameOverBarks[UnityEngine.Random.Range(0, gameOverBarks.Count-1)]);
+        Balloon.Instance.PlayBark(gameOverBarks[UnityEngine.Random.Range(0, gameOverBarks.Count - 1)]);
     }
 }

@@ -400,7 +400,7 @@ MonoBehaviour:
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
-    pressToSkip: 0
+    pressToSkip: 1
     nextSceneOnSkip: 0
     restartAtEnd: 0
   - character: 0
@@ -435,7 +435,7 @@ MonoBehaviour:
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
-    pressToSkip: 0
+    pressToSkip: 1
     nextSceneOnSkip: 0
     restartAtEnd: 0
   - character: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
     canSkip: 0
     targetTransform: {fileID: 0}
     soundEffect: {fileID: 0}
-    pressToSkip: 0
+    pressToSkip: 1
     nextSceneOnSkip: 0
     restartAtEnd: 0
   label: {fileID: 1785027058}
@@ -496,6 +496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player1KeyBindings: {fileID: 11400000, guid: 82fc961c79ce17d4eb926ce3774b7103, type: 2}
   Player2KeyBindings: {fileID: 11400000, guid: 6bfab2d0459811f4ba69cab6dd09c4fa, type: 2}
+  LongPressMinimumDuration: 0.3
   InputActionAsset: {fileID: -944628639613478452, guid: b6feb20f8f3613342956668a7dcb8435, type: 3}
   MovementP1:
     m_PersistentCalls:
@@ -509,10 +510,16 @@ MonoBehaviour:
   SwitchCharactersP2:
     m_PersistentCalls:
       m_Calls: []
-  ReleaseSwitchCharactersP1:
+  ExchangeCharactersStartedP1:
     m_PersistentCalls:
       m_Calls: []
-  ReleaseSwitchCharactersP2:
+  ExchangeCharactersStartedP2:
+    m_PersistentCalls:
+      m_Calls: []
+  ExchangeCharactersStoppedP1:
+    m_PersistentCalls:
+      m_Calls: []
+  ExchangeCharactersStoppedP2:
     m_PersistentCalls:
       m_Calls: []
   ActionP1:
@@ -1019,11 +1026,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.9996248
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.999
+      value: 0.99979234
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
@@ -1124,7 +1131,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &5825286802150439828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1447,7 +1454,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &5825286803799709842
 MonoBehaviour:
   m_ObjectHideFlags: 0
