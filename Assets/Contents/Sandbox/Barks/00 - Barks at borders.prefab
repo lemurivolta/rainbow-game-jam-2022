@@ -1629,7 +1629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[8].line_ita
-      value: "Comunque: primo spazio da attraversare: un talk show politico. C\u2019\xE8
+      value: "Comunque: primo spazio da attraversare: un talk show politico. C'\xE8
         il Ministro Callendo per cui dovrebbe essere facile, \xE8 sempre preso da
         s\xE9 stesso"
       objectReference: {fileID: 0}
@@ -1639,7 +1639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[9].line_ita
-      value: "Quello de \u201CNon governer\xF2 mai coi fascisti\u201D?"
+      value: "Quello de \"Non governer\xF2 mai coi fascisti\"?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].character

@@ -1,7 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <Style src="project://database/Assets/Contents/Fonts/Utilities/BalloonTextExtractor.uss?fileID=7433441132597879392&amp;guid=feca6438dcea263408a94204a047d7c2&amp;type=3#BalloonTextExtractor" />
+    <Style src="project://database/Assets/Contents/Fonts/Editor/BalloonTextExtractor.uss?fileID=7433441132597879392&amp;guid=feca6438dcea263408a94204a047d7c2&amp;type=3#BalloonTextExtractor" />
     <ui:Button text="Find all used characters" display-tooltip-when-elided="true" name="findButton" />
     <ui:Label text="Extracted characters:" display-tooltip-when-elided="true" />
     <ui:TextField picking-mode="Ignore" text="filler text" name="characters" readonly="true" multiline="true" />
+    <ui:VisualElement name="buttonsContainer" style="flex-grow: 1; flex-direction: row; flex-wrap: wrap; flex-shrink: 0;" />
+    <ui:ListView focusable="true" name="linesListView" style="flex-grow: 1;" />
     <ui:Label display-tooltip-when-elided="true" name="status" />
 </ui:UXML>

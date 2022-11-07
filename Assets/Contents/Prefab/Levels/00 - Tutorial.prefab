@@ -1891,7 +1891,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[37].line_ita
-      value: "Comunque: primo spazio da attraversare: un talk show politico. C\u2019\xE8
+      value: "Comunque: primo spazio da attraversare: un talk show politico. C'\xE8
         il Ministro Callendo per cui dovrebbe essere facile, \xE8 sempre preso da
         s\xE9 stesso"
       objectReference: {fileID: 0}
@@ -1901,16 +1901,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[38].line_ita
-      value: "Quello de \u201CNon governer\xF2 mai coi fascisti\u201D?"
+      value: "Quello de \"Non governer\xF2 mai coi fascisti\"?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[39].line_eng
-      value: "Right. Then there is the set of a commercial, I\u2019ve no information
-        about it."
+      value: Right. Then there is the set of a commercial, I've no information about
+        it.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[39].line_ita
-      value: "Esatto. Poi c\u2019\xE8 il set di una pubblicit\xE0, non ci sono informazioni
+      value: "Esatto. Poi c'\xE8 il set di una pubblicit\xE0, non ci sono informazioni
         a riguardo. "
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -1923,11 +1923,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[40].line_ita
-      value: "E infine, l\u2019ospedale e lo studio dove troveremo LEI."
+      value: E infine, l'ospedale e lo studio dove troveremo LEI.
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[41].line_eng
-      value: "And what do we do once we\u2019re there?"
+      value: And what do we do once we're there?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[41].line_ita

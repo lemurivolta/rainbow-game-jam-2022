@@ -12146,7 +12146,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[11].line_ita
-      value: "Ve l\u2019avevo detto di portarvi dietro un cellulare invece di stamparlo!"
+      value: Ve l'avevo detto di portarvi dietro un cellulare invece di stamparlo!
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: endingBarks.Array.data[12].line_eng
@@ -12478,7 +12478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_ita
-      value: "Che bello, trovare tanto amore. Ma dov\u2019\xE8 quella ragazza simpatica
+      value: "Che bello, trovare tanto amore. Ma dov'\xE8 quella ragazza simpatica
         di prima, suor JK?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
