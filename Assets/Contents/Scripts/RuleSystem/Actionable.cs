@@ -12,7 +12,7 @@ public class Actionable : MonoBehaviour
     public UnityEvent ActedUpon;
 
     /// <summary>
-    /// Event raised when a character approaches something that control this actionable.
+    /// Event raised when a character approaches something that controls this actionable.
     /// </summary>
     public UnityEvent<CharacterInfo.Players> PlayerApproachedControl;
 
