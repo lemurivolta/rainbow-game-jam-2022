@@ -52,7 +52,7 @@ public class EnemyFaint : MonoBehaviour
             {
                 if (characterInfo.Character == CHARACTER.MARIELLE)
                 {
-                    Faint();
+                    Faint(p);
                 }
                 break;
             }
@@ -61,9 +61,14 @@ public class EnemyFaint : MonoBehaviour
 
     private Coroutine WaitToWakeUp = null;
 
-    public void Faint()
+    public void Faint(CharacterInfo.Players p)
     {
         Fainted.Invoke();
+        CharacterInfo.AllCharacterInfos
+            .Find(ci => ci.Player == p && !ci.IsFollower)
+            .gameObject
+            .GetComponent<CharacterAnimationsHandler>()
+            .OnAction();
         WaitToWakeUp = StartCoroutine(ResumeFromFainted());
     }
 
