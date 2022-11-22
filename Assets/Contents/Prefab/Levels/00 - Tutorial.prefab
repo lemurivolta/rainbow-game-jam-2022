@@ -1560,75 +1560,77 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[1].line_eng
-      value: What, sorry?
+      value: 'A lot of stuff, right? But don''t worry: things should happen slowly'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[1].line_ita
-      value: Come, scusate?
+      value: "Tanta roba, vero? Per\xF2 non vi preoccupate: le cose dovrebbero accadere
+        pian piano"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_eng
-      value: Ah, yes, yes, it's all right, I was just watching the construction site
+      value: And it's a game where it's right to make mistakes
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].line_ita
-      value: "Ah s\xEC s\xEC, tutto bene, guardavo giusto il cantiere"
+      value: "Ed \xE8 un gioco dov'\xE8 giusto sbagliare"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].line_eng
-      value: Although it's a while that's halted, you know?
+      value: Although, by going slow, the past caught up with us, and now it rules
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[3].line_ita
-      value: "Anche se \xE8 fermo da un po', sapete?"
+      value: Anche se, a forza di andare piano, il passato ci ha raggiunto e ora
+        governa
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_eng
-      value: They said they would solve everything, but instead...
+      value: Hit them with the pan for me too, and come say hello every now and then
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[4].line_ita
-      value: Dicevano che avrebbero risolto tutto loro, e invece ...
+      value: Tirate due padellate anche per me, e venite a salutarmi ogni tanto
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_eng
-      value: No, not the girls up there
+      value: What, sorry?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[5].line_ita
-      value: No, non le ragazze qui sopra
+      value: Come, scusate?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[6].line_eng
-      value: THEY, if you know what I mean
+      value: Ah, yes, yes, it's all right, I was just watching the construction site
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[6].line_ita
-      value: LORO, non so se ci siamo capiti
+      value: "Ah s\xEC s\xEC, tutto bene, guardavo giusto il cantiere"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[7].line_eng
-      value: Those whose right armpit is always itchy
+      value: Although it's a while that's halted, you know?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[7].line_ita
-      value: Quelli a cui prude sempre l'ascella destra
+      value: "Anche se \xE8 fermo da un po', sapete?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[8].line_eng
-      value: THEY
+      value: They said they would solve everything, but instead...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[8].line_ita
-      value: LORO
+      value: Dicevano che avrebbero risolto tutto loro, e invece ...
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[9].line_eng
-      value: Don't get me into trouble, come on, I'm old
+      value: No, not the girls up there
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[9].line_ita
-      value: Non mi fate finire nei guai, su, che son vecchio
+      value: No, non le ragazze qui sopra
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].character
@@ -1640,92 +1642,89 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[10].line_eng
-      value: Although I can see you two like trouble, right?
+      value: THEY, if you know what I mean
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[10].line_ita
-      value: Anche se si vede che voi siete due a cui i guai piacciono, vero?
+      value: LORO, non so se ci siamo capiti
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[11].line_eng
-      value: You are about to join those four up there, I can see it in your faces
+      value: Those whose right armpit is always itchy
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[11].line_ita
-      value: "State per unirvi a quelle quattro lass\xF9, ve lo si legge in faccia"
+      value: Quelli a cui prude sempre l'ascella destra
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[12].line_eng
+      value: THEY
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[12].line_ita
+      value: LORO
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[13].line_eng
+      value: Don't get me into trouble, come on, I'm old
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[13].line_ita
+      value: Non mi fate finire nei guai, su, che son vecchio
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[14].line_eng
+      value: Although I can see you two like trouble, right?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[14].line_ita
+      value: Anche se si vede che voi siete due a cui i guai piacciono, vero?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[15].line_eng
+      value: You are about to join those four up there, I can see it in your faces
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[15].line_ita
+      value: "State per unirvi a quelle quattro lass\xF9, ve lo si legge in faccia"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[16].line_eng
       value: Let me tell you two things now, as if I were your grandfather, just
         a couple of hints
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[12].line_ita
+      propertyPath: startingBarks.Array.data[16].line_ita
       value: Lasciate che vi dica due cose ora, come se fossi il vostro nonno, un
         paio di consigli
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[13].line_eng
+      propertyPath: startingBarks.Array.data[17].line_eng
       value: Since I do not know your names, I will call you Player One and Player
         Two
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[13].line_ita
+      propertyPath: startingBarks.Array.data[17].line_ita
       value: "Dato che non conosco i vostri nomi, vi chiamer\xF2 Giocatrice uno e
         due"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[14].line_eng
+      propertyPath: startingBarks.Array.data[18].line_eng
       value: Like my nieces, since my son is an idiot
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[14].line_ita
+      propertyPath: startingBarks.Array.data[18].line_ita
       value: "Come le mie nipoti, che mio figlio \xE8 un idiota"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[15].line_eng
+      propertyPath: startingBarks.Array.data[19].line_eng
       value: 'First thing: there are two of you, four of them. Each one of you must
         therefore move two of them'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[15].line_ita
+      propertyPath: startingBarks.Array.data[19].line_ita
       value: 'Prima cosa: voi siete in due, loro in quattro. Dovrete quindi muovere
         due di loro a testa'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[16].line_eng
-      value: Secondly, you will want to move, I suppose
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[16].line_ita
-      value: 'Seconda cosa: vorrete spostarvi, immagino'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[17].line_eng
-      value: Player one moves with arrow keys
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[17].line_ita
-      value: Giocatrice uno si muove con le freccette
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[18].line_eng
-      value: Player two moves instead with WASD letters, as my big niece always says
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[18].line_ita
-      value: Giocatrice due si muove invece con le letterine WASD, come dice sempre
-        mia nipote grande
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[19].line_eng
-      value: Then you surely want to interact with things, especially the forbidden
-        ones, like my little niece does
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[19].line_ita
-      value: Poi vorrete tipo interagire con le cose, soprattutto quelle vietate,
-        come fa la nipote piccola
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[1].character
@@ -1733,90 +1732,91 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[20].line_eng
-      value: Player one does it by pressing ENTER, Player two with the key E
+      value: Secondly, you will want to move, I suppose
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[20].line_ita
+      value: 'Seconda cosa: vorrete spostarvi, immagino'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[21].line_eng
+      value: Player one moves with arrow keys
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[21].line_ita
+      value: Giocatrice uno si muove con le freccette
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[22].line_eng
+      value: Player two moves instead with WASD letters, as my big niece always says
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[22].line_ita
+      value: Giocatrice due si muove invece con le letterine WASD, come dice sempre
+        mia nipote grande
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[23].line_eng
+      value: Then you surely want to interact with things, especially the forbidden
+        ones, like my little niece does
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[23].line_ita
+      value: Poi vorrete tipo interagire con le cose, soprattutto quelle vietate,
+        come fa la nipote piccola
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[24].line_eng
+      value: Player one does it by pressing ENTER, Player two with the key E
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: startingBarks.Array.data[24].line_ita
       value: 'Ecco: Giocatrice uno lo fa premendo ENTER, Giocatrice due la lettera
         E'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[21].line_eng
+      propertyPath: startingBarks.Array.data[25].line_eng
       value: 'Then, then... ah, yes: maybe you don''t need the first character of
         the pair, but the second one?'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[21].line_ita
+      propertyPath: startingBarks.Array.data[25].line_ita
       value: "Poi, poi. Ah, s\xEC: magari non vi serve la prima personaggia della
         vostra coppia, ma la seconda?"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[22].line_eng
+      propertyPath: startingBarks.Array.data[26].line_eng
       value: Then player one will press RIGHT SHIFT, player two TAB
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[22].line_ita
+      propertyPath: startingBarks.Array.data[26].line_ita
       value: "Allora l\xEC giocatrice uno premer\xE0 una volta SHIFT DESTRO, giocatrice
         due invece TAB"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[23].line_eng
+      propertyPath: startingBarks.Array.data[27].line_eng
       value: Or maybe you want to swap between players
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[23].line_ita
+      propertyPath: startingBarks.Array.data[27].line_ita
       value: "Oppure lo scambio \xE8 tra le vostre coppie"
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[24].line_eng
+      propertyPath: startingBarks.Array.data[28].line_eng
       value: So, how do you do it?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[24].line_ita
+      propertyPath: startingBarks.Array.data[28].line_ita
       value: E allora, come fare?
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[25].line_eng
+      propertyPath: startingBarks.Array.data[29].line_eng
       value: You have to get near to each other and press and hold RIGHT SHIFT and
         TAB, together
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[25].line_ita
-      value: Dovete avvicinarvi e premere assieme, a lungo, SHIFT DESTRO e TAB
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[26].line_eng
-      value: 'A lot of stuff, right? But don''t worry: things should happen slowly'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[26].line_ita
-      value: "Tanta roba, vero? Per\xF2 non vi preoccupate: le cose dovrebbero accadere
-        pian piano"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[27].line_eng
-      value: And it's a game where it's right to make mistakes
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[27].line_ita
-      value: "Ed \xE8 un gioco dov'\xE8 giusto sbagliare"
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[28].line_eng
-      value: Although, by going slow, the past caught up with us, and now it rules
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[28].line_ita
-      value: Anche se, a forza di andare piano, il passato ci ha raggiunto e ora
-        governa
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-      propertyPath: startingBarks.Array.data[29].line_eng
-      value: Hit them with the pan for me too, and come say hello every now and then
-      objectReference: {fileID: 0}
-    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[29].line_ita
-      value: Tirate due padellate anche per me, e venite a salutarmi ogni tanto
+      value: Dovete avvicinarvi e premere assieme, a lungo, SHIFT DESTRO e TAB
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[2].character
