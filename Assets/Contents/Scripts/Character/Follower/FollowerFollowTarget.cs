@@ -19,7 +19,7 @@ public class FollowerFollowTarget : MonoBehaviour
 
     private float Speed;
 
-    private CharacterInfo CharacterControlledBy;
+    private CharacterInfo CharacterInfo;
 
     private FollowerTargetPositionRecorder FollowerTargetPositionRecorder;
 
@@ -32,16 +32,16 @@ public class FollowerFollowTarget : MonoBehaviour
     {
         // get components we'll reference during execution
         FollowerTargetPositionRecorder = GetComponent<FollowerTargetPositionRecorder>();
-        CharacterControlledBy = GetComponent<CharacterInfo>();
+        CharacterInfo = GetComponent<CharacterInfo>();
         FollowerMove = GetComponent<FollowerMove>();
         // copy the speed from the target
-        Speed = CharacterControlledBy.Companion.GetComponent<CharacterMovementHandler>().Speed;
+        Speed = CharacterInfo.Companion.GetComponent<CharacterMovementHandler>().Speed;
     }
 
     private void Update()
     {
         // run follow animation if the target went too far
-        var targetPosition = (Vector2)CharacterControlledBy.Companion.transform.position;
+        var targetPosition = (Vector2)CharacterInfo.Companion.transform.position;
         var myPosition = (Vector2)transform.position;
         var sqrMaxDistance = MaxDistance * MaxDistance;
         if ((targetPosition - myPosition).sqrMagnitude >= sqrMaxDistance)

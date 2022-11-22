@@ -41,7 +41,7 @@ public class ExchangeVisibility : MonoBehaviour
         }
         // find he root transforms of the two main characters
         Transform p1 = null, p2 = null;
-        foreach (var ccb in CharacterInfo.AllCharacterControlledBy)
+        foreach (var ccb in CharacterInfo.AllCharacterInfos)
         {
             if (!ccb.IsFollower)
             {

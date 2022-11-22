@@ -143,7 +143,7 @@ public class Balloon : Singleton<Balloon>
         }
         else
         {
-            CharacterInfo ci = CharacterInfo.AllCharacterControlledBy
+            CharacterInfo ci = CharacterInfo.AllCharacterInfos
                 .Find((x) => x.Character == currentBark.character);
             Assert.IsNotNull(ci);
             position = ci.transform.position;

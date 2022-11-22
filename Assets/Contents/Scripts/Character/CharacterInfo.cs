@@ -65,9 +65,9 @@ public class CharacterInfo : MonoBehaviour
     }
 
     /// <summary>
-    /// All the enabled CharacterControlledBy. Do not change this list.
+    /// All the enabled CharacterInfo. Do not change this list.
     /// </summary>
-    public static List<CharacterInfo> AllCharacterControlledBy
+    public static List<CharacterInfo> AllCharacterInfos
     {
         get
         {
