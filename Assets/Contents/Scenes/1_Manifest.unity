@@ -209,7 +209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &401749413
 RectTransform:
   m_ObjectHideFlags: 0
@@ -243,8 +243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label: {fileID: 0}
-  line_ita: PREMI AZIONE PER SALTARE
-  line_eng: PRESS ACTION TO SKIP
+  line_ita: Premete ENTER ed E per saltare.<br>Non vorrete leggerlo per davvero?
+  line_eng: Press ENTER and E to skip.<br>Don't you really want to read it?
 --- !u!114 &401749415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PRESS ACTION TO SKIP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0fa132da3439d4842bdb26560017ea09, type: 2}
   m_sharedMaterial: {fileID: 2855542336654859765, guid: 0fa132da3439d4842bdb26560017ea09, type: 2}
