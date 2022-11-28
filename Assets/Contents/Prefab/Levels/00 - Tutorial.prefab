@@ -1631,6 +1631,10 @@ PrefabInstance:
       value: Non mi fate finire nei guai, su, che son vecchio
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
+      propertyPath: endingBarks.Array.data[0].pressToSkip
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: gameOverBarks.Array.data[0].character
       value: 0
       objectReference: {fileID: 0}
@@ -1886,12 +1890,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[37].line_eng
-      value: 'Anyway: first territory to cross: a political talk show. There''s Minister
+      value: 'Anyway, first territory to cross: a political talk show. There''s Minister
         Callendo, so it should be easy; he''s always caught up in himself.'
       objectReference: {fileID: 0}
     - target: {fileID: 2607935509919451076, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: startingBarks.Array.data[37].line_ita
-      value: "Comunque: primo spazio da attraversare: un talk show politico. C'\xE8
+      value: "Comunque, primo spazio da attraversare: un talk show politico. C'\xE8
         il Ministro Callendo per cui dovrebbe essere facile, \xE8 sempre preso da
         s\xE9 stesso"
       objectReference: {fileID: 0}
