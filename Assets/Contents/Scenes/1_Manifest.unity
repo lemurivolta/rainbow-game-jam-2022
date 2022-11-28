@@ -209,7 +209,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &401749413
 RectTransform:
   m_ObjectHideFlags: 0
@@ -243,8 +243,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label: {fileID: 0}
-  line_ita: PREMI AZIONE PER SALTARE
-  line_eng: PRESS ACTION TO SKIP
+  line_ita: Premete ENTER ed E per saltare.<br>Non vorrete leggerlo per davvero?
+  line_eng: Press ENTER and E to skip.<br>Don't you really want to read it?
 --- !u!114 &401749415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: PRESS ACTION TO SKIP
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0fa132da3439d4842bdb26560017ea09, type: 2}
   m_sharedMaterial: {fileID: 2855542336654859765, guid: 0fa132da3439d4842bdb26560017ea09, type: 2}
@@ -464,7 +464,7 @@ MonoBehaviour:
   label: {fileID: 1785027058}
   playerOneSkip: {fileID: 5825286803799709842}
   playerTwoSkip: {fileID: 5825286801966000432}
-  timeBetweenLetters: 0.001
+  timeBetweenLetters: 0.01
   waitAfterTextIsShowed: 3
   sceneHandler: {fileID: 878868814}
 --- !u!4 &878868812
@@ -1154,7 +1154,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.width
-      value: 0.99970526
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height

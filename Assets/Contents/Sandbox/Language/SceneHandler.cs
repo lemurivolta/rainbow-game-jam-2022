@@ -27,4 +27,9 @@ public class SceneHandler : MonoBehaviour
     {
         SceneManager.LoadScene(i);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
