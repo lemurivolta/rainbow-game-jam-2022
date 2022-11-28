@@ -66,6 +66,11 @@ public class SightTrigger : MonoBehaviour
     /// <returns>the coordinates of the gameobject.</returns>
     private Vector3 GetPosition(GameObject o)
     {
+        if (o == null)
+        {
+            return Vector3.zero;
+        }
+
         // look for the sight coordinates reference
         var transform = SightCoordinatesReferences.GetValue(
             o,

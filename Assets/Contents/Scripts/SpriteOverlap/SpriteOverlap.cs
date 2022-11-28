@@ -95,14 +95,31 @@ public class SpriteOverlap : MonoBehaviour
     {
         // check whether some SpriteOverlap covers us
         var newCovered = false;
+        List<SpriteOverlap> objectsToRemove = null;
         foreach (var trackedGameObject in trackedGameObjects)
         {
+            if (trackedGameObject == null)
+            {
+                if (objectsToRemove == null)
+                {
+                    objectsToRemove = new();
+                }
+                objectsToRemove.Add(trackedGameObject);
+                continue;
+            }
             if (trackedGameObject.priority > priority &&
                 IsOver(SpriteRenderer, trackedGameObject.SpriteRenderer) &&
                 trackedGameObject.Collider.IsTouching(Collider))
             {
                 newCovered = true;
                 break;
+            }
+        }
+        if (objectsToRemove != null)
+        {
+            foreach (var objectToRemove in objectsToRemove)
+            {
+                trackedGameObjects.Remove(objectToRemove);
             }
         }
         // start animation if we changed state
