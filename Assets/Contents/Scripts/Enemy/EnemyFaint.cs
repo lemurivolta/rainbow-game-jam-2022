@@ -61,14 +61,23 @@ public class EnemyFaint : MonoBehaviour
 
     private Coroutine WaitToWakeUp = null;
 
-    public void Faint(CharacterInfo.Players p)
+    public void Faint()
+    {
+        Faint(null);
+    }
+
+    public void Faint(CharacterInfo.Players? p)
     {
         Fainted.Invoke();
-        CharacterInfo.AllCharacterInfos
-            .Find(ci => ci.Player == p && !ci.IsFollower)
-            .gameObject
-            .GetComponent<CharacterAnimationsHandler>()
-            .OnAction();
+        if (p.HasValue)
+        {
+            // p is optional for use in the Faint actionable
+            CharacterInfo.AllCharacterInfos
+                .Find(ci => ci.Player == p && !ci.IsFollower)
+                .gameObject
+                .GetComponent<CharacterAnimationsHandler>()
+                .OnAction();
+        }
         WaitToWakeUp = StartCoroutine(ResumeFromFainted());
     }
 
