@@ -154,19 +154,22 @@ public class Balloon : Singleton<Balloon>
         var balloonWidth = TopBalloon.image.sizeDelta.x * sf;
         var screenPoint = (Vector2)mainCamera.WorldToScreenPoint(position);
         int chosenBalloon; // 0 = top, 1 = bottom, 2 = left, 3 = right
-        if (screenPoint.y + yOffset + balloonHeight > Screen.height)
+        var tooHigh = screenPoint.y + yOffset + balloonHeight > Screen.height;
+        bool tooRight = screenPoint.x + balloonWidth / 2 > Screen.width;
+        bool tooLeft = screenPoint.x - balloonWidth / 2 < 0;
+        if (tooHigh && !tooRight)
         {
             // we're too high: use the bottom balloon
             chosenBalloon = 1;
             BottomBalloon.image.anchoredPosition = screenPoint / sf + Vector2.down * yOffset;
         }
-        else if (screenPoint.x + balloonWidth / 2 > Screen.width)
+        else if (tooRight)
         {
             // we're too much to the right: use left balloon
             chosenBalloon = 2;
             LeftBalloon.image.anchoredPosition = screenPoint / sf + Vector2.left * xOffset;
         }
-        else if (screenPoint.x - balloonWidth / 2 < 0)
+        else if (tooLeft)
         {
             // we're too much to the left: use right balloon
             chosenBalloon = 3;
