@@ -12,7 +12,7 @@ jobs:
         include:
           - targetPlatform: WebGL
             channel: html
-            package: build/WebGL/WebGL
+            package: build/WebGL/ManifestoFerocio
             platform: ubuntu-latest
           - targetPlatform: StandaloneLinux64
             channel: linux
