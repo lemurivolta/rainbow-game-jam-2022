@@ -12,19 +12,19 @@ jobs:
         include:
           - targetPlatform: WebGL
             channel: html
-            package: build/ManifestoFerocio/WebGL
+            package: build/WebGL/WebGL
             platform: ubuntu-latest
           - targetPlatform: StandaloneLinux64
             channel: linux
-            package: build/ManifestoFerocio
+            package: build/StandaloneLinux64
             platform: ubuntu-latest
           - targetPlatform: StandaloneWindows64
             channel: windows
-            package: build/ManifestoFerocio
+            package: build/StandaloneWindows64
             platform: windows-2019
           - targetPlatform: StandaloneOSX
             channel: mac
-            package: build/ManifestoFerocio
+            package: build/StandaloneOSX
             platform: macos-latest
     defaults:
       run:
