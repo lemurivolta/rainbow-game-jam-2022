@@ -7,6 +7,9 @@ public class EnemyDangerBalloonHandler : MonoBehaviour
     [SerializeField] private Animator animator;
     [SerializeField] private SpriteRenderer spriteRenderer;
 
-    public void OnDangerLevelChanged(float delta) =>
+    public void OnDangerLevelChanged(float delta)
+    {
         spriteRenderer.enabled = delta > 0;
+        animator.Play("warning", 0, delta);
+    }
 }
