@@ -316,6 +316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Player1KeyBindings: {fileID: 11400000, guid: 82fc961c79ce17d4eb926ce3774b7103, type: 2}
   Player2KeyBindings: {fileID: 11400000, guid: 6bfab2d0459811f4ba69cab6dd09c4fa, type: 2}
+  LongPressMinimumDuration: 0.3
   InputActionAsset: {fileID: 0}
   MovementP1:
     m_PersistentCalls:
@@ -329,10 +330,16 @@ MonoBehaviour:
   SwitchCharactersP2:
     m_PersistentCalls:
       m_Calls: []
-  ReleaseSwitchCharactersP1:
+  ExchangeCharactersStartedP1:
     m_PersistentCalls:
       m_Calls: []
-  ReleaseSwitchCharactersP2:
+  ExchangeCharactersStartedP2:
+    m_PersistentCalls:
+      m_Calls: []
+  ExchangeCharactersStoppedP1:
+    m_PersistentCalls:
+      m_Calls: []
+  ExchangeCharactersStoppedP2:
     m_PersistentCalls:
       m_Calls: []
   ActionP1:
@@ -545,7 +552,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0005669594, y: 0.06009388}
