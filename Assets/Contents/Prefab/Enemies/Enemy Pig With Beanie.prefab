@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 8929577766145419272}
   - component: {fileID: 1234639205839197939}
   - component: {fileID: 8115731460208980329}
+  - component: {fileID: 6785024933498874627}
   m_Layer: 0
   m_Name: Enemy Pig With Beanie
   m_TagString: Untagged
@@ -200,7 +201,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: e4e6ae9bb5c080d41b8eaebe7a9d1dba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -372,6 +373,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &6785024933498874627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742803081741388328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7df098687f23bd4490b5676e61b2824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 1248404072121738091}
+  _markColor: {r: 1, g: 0, b: 0, a: 1}
+  _k: 2
+  _period: 1
 --- !u!1 &761697749878236062
 GameObject:
   m_ObjectHideFlags: 0
