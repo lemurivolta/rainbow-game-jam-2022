@@ -7,11 +7,7 @@ public class Markable : MonoBehaviour
 {
     [SerializeField] private Renderer _renderer;
 
-    [SerializeField] private Color _markColor = Color.red;
-
-    [SerializeField] private float _k = 2;
-
-    [SerializeField] private float _period = 1;
+    [SerializeField] private MarkableProperties _markableProperties;
 
     private const string markColorProperty = "_MarkColor";
     private const string kProperty = "_K";
@@ -28,7 +24,7 @@ public class Markable : MonoBehaviour
     {
         Debug.Log($"default mark color is " + GetMaterial().GetColor(markColorProperty).ToString());
         GetMaterial().SetColor(markColorProperty, transparent);
-        GetMaterial().SetFloat(kProperty, _k);
+        GetMaterial().SetFloat(kProperty, _markableProperties.K);
         GetMaterial().SetFloat(phaseProperty, 0);
     }
 
@@ -36,7 +32,7 @@ public class Markable : MonoBehaviour
 
     public void StartMark()
     {
-        GetMaterial().SetColor(markColorProperty, _markColor);
+        GetMaterial().SetColor(markColorProperty, _markableProperties.Color);
         StopPhasing();
         _phasingCoroutine = StartCoroutine(Phase());
     }
@@ -58,13 +54,17 @@ public class Markable : MonoBehaviour
 
     private IEnumerator Phase()
     {
+        var start = Time.time;
         for (; ; )
         {
-            GetMaterial().SetColor(markColorProperty, _markColor);
-            GetMaterial().SetFloat(kProperty, _k);
+            var t = (Time.time - start) / _markableProperties.FadeIn;
+            GetMaterial().SetColor(markColorProperty,
+                t < 1 ? Color.Lerp(transparent, _markableProperties.Color, t) : _markableProperties.Color
+            );
+            GetMaterial().SetFloat(kProperty, _markableProperties.K);
             GetMaterial().SetFloat(
                 phaseProperty,
-                ((Time.time % _period) / _period) * 2 * MathF.PI
+                ((Time.time % _markableProperties.Period) / _markableProperties.Period) * 2 * MathF.PI
             );
             yield return null;
         }
