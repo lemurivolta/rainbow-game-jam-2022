@@ -17,7 +17,7 @@ public class Markable : MonoBehaviour
 
     private Material GetMaterial()
     {
-        return _renderer.sharedMaterial;
+        return _renderer.material;
     }
 
     private void Start()
