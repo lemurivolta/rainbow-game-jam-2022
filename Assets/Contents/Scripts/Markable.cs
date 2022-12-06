@@ -17,6 +17,8 @@ public class Markable : MonoBehaviour
     private const string kProperty = "_K";
     private const string phaseProperty = "_Phase";
 
+    private static Color transparent = new Color(0, 0, 0, 0);
+
     private Material GetMaterial()
     {
         return _renderer.sharedMaterial;
@@ -25,7 +27,7 @@ public class Markable : MonoBehaviour
     private void Start()
     {
         Debug.Log($"default mark color is " + GetMaterial().GetColor(markColorProperty).ToString());
-        GetMaterial().SetColor(markColorProperty, Color.white);
+        GetMaterial().SetColor(markColorProperty, transparent);
         GetMaterial().SetFloat(kProperty, _k);
         GetMaterial().SetFloat(phaseProperty, 0);
     }
@@ -36,18 +38,18 @@ public class Markable : MonoBehaviour
     {
         GetMaterial().SetColor(markColorProperty, _markColor);
         StopPhasing();
-        StartCoroutine(Phase());
+        _phasingCoroutine = StartCoroutine(Phase());
     }
 
     public void StopMark()
     {
         StopPhasing();
-        GetMaterial().SetColor(markColorProperty, Color.white);
+        GetMaterial().SetColor(markColorProperty, transparent);
     }
 
     private void StopPhasing()
     {
-        if(_phasingCoroutine != null)
+        if (_phasingCoroutine != null)
         {
             StopCoroutine(_phasingCoroutine);
             _phasingCoroutine = null;
@@ -56,9 +58,14 @@ public class Markable : MonoBehaviour
 
     private IEnumerator Phase()
     {
-        for(; ; )
+        for (; ; )
         {
-            GetMaterial().SetFloat(phaseProperty, (Time.time % _period) / _period);
+            GetMaterial().SetColor(markColorProperty, _markColor);
+            GetMaterial().SetFloat(kProperty, _k);
+            GetMaterial().SetFloat(
+                phaseProperty,
+                ((Time.time % _period) / _period) * 2 * MathF.PI
+            );
             yield return null;
         }
     }
