@@ -803,7 +803,7 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.9994816
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
@@ -981,7 +981,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7723376517739723479, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
       propertyPath: m_NormalizedViewPortRect.height
-      value: 0.99988514
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 256666b1855ed1542b1c162ff03b4272, type: 3}
@@ -1161,6 +1161,10 @@ PrefabInstance:
       value: 0.27850342
       objectReference: {fileID: 0}
     - target: {fileID: 889910217326085309, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 889910217326085309, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
       propertyPath: m_fontSize
       value: 10
       objectReference: {fileID: 0}
@@ -1272,5 +1276,17 @@ PrefabInstance:
       propertyPath: MainCamera
       value: 
       objectReference: {fileID: 85495888}
+    - target: {fileID: 4725861328871839616, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6029390295733036740, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9192785753739541934, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90f727b731f2a51438121c0d78b0ca6b, type: 3}
