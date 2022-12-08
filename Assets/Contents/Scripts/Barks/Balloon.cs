@@ -33,7 +33,7 @@ public class Balloon : Singleton<Balloon>
 
     [SerializeField] private Camera mainCamera;
 
-    private CanvasScaler canvasScaler;
+    [SerializeField] private CanvasScaler canvasScaler;
 
     /*
     private void Start()
@@ -44,7 +44,7 @@ public class Balloon : Singleton<Balloon>
 
     private void Start()
     {
-        canvasScaler = GetComponentInParent<CanvasScaler>();
+        Assert.IsNotNull(canvasScaler, "canvas scaler not set!");
     }
 
     private void Update()
