@@ -257,6 +257,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267616905}
   m_CullTransparentMesh: 1
+--- !u!1001 &288100476
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 742803081741388328, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_Name
+      value: Enemy Pig With Beanie (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785024933498874627, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: _k
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785024933498874627, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: _period
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6785024933498874627, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: _markableProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: cf81471e63f0ef942b34f5a7f2cce8e0, type: 2}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.51125
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27981806
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
 --- !u!1 &305016456
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +420,7 @@ RectTransform:
   m_Children:
   - {fileID: 923680295}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -950,7 +1019,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1666379058
 PrefabInstance:
@@ -971,6 +1040,10 @@ PrefabInstance:
       propertyPath: _period
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6785024933498874627, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
+      propertyPath: _markableProperties
+      value: 
+      objectReference: {fileID: 11400000, guid: cf81471e63f0ef942b34f5a7f2cce8e0, type: 2}
     - target: {fileID: 8076854334607560512, guid: ebfb401db1730ff46acbb0a7a1047785, type: 3}
       propertyPath: m_RootOrder
       value: 1
