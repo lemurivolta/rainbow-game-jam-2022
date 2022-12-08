@@ -62,11 +62,15 @@ public class SchermateManager : Singleton<SchermateManager>
         audioSource.Play();
     }
 
-    public void GameOver()
+    public void GameOver(Markable markable = null)
     {
         Debug.Log("GameOver()");
         Balloon.Instance.StopAllCoroutines();
         currentSchermata.GetComponent<Schermata>().barks.PlayGameOverBark();
+        if (markable != null)
+        {
+            markable.StartMark();
+        }
     }
     public void Restart()
     {

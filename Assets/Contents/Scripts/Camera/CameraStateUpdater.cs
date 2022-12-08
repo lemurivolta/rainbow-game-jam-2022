@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraStateUpdater : MonoBehaviour
@@ -10,11 +11,16 @@ public class CameraStateUpdater : MonoBehaviour
 
     public int NumCameras => _NumCameras;
 
+    private readonly List<GameObject> _Cameras = new();
+
+    public IEnumerable<GameObject> Cameras => _Cameras;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if((CameraLayer & (1 << collision.gameObject.layer)) != 0)
         {
             _NumCameras++;
+            _Cameras.Add(collision.gameObject);
             UpdateState();
         }
     }
@@ -24,13 +30,13 @@ public class CameraStateUpdater : MonoBehaviour
         if ((CameraLayer & (1 << collision.gameObject.layer)) != 0)
         {
             _NumCameras--;
+            _Cameras.Remove(collision.gameObject);
             UpdateState();
         }
     }
 
     private void UpdateState()
     {
-        //Debug.Log($"Setting {gameObject.transform.parent.gameObject.name} is now under {_NumCameras} cameras.");
         State.Set(_NumCameras > 0);
     }
 }

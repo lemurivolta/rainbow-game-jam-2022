@@ -383,6 +383,7 @@ GameObject:
   - component: {fileID: 6717016850092731324}
   - component: {fileID: 6717016850092731325}
   - component: {fileID: 6717016850092731326}
+  - component: {fileID: 1887343427838555405}
   m_Layer: 8
   m_Name: RotationRoot
   m_TagString: Untagged
@@ -490,6 +491,20 @@ PolygonCollider2D:
       - {x: -0.47682542, y: -2.3636534}
       - {x: 0.49253964, y: -2.3647344}
       - {x: 1.2885487, y: -2.0311067}
+--- !u!114 &1887343427838555405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717016850092731320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7df098687f23bd4490b5676e61b2824, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderer: {fileID: 6717016850234603334}
+  _markableProperties: {fileID: 11400000, guid: 7ab70f34153b6e546a1b77208b9546c0, type: 2}
 --- !u!1 &6717016850234603328
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,7 +557,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: e4e6ae9bb5c080d41b8eaebe7a9d1dba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

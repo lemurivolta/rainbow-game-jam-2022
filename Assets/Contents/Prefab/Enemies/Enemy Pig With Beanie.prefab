@@ -386,9 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _renderer: {fileID: 1248404072121738091}
-  _markColor: {r: 1, g: 0, b: 0, a: 1}
-  _k: 2
-  _period: 1
+  _markableProperties: {fileID: 11400000, guid: 7ab70f34153b6e546a1b77208b9546c0, type: 2}
 --- !u!1 &761697749878236062
 GameObject:
   m_ObjectHideFlags: 0
@@ -666,6 +664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BaseDanger: 0
   FullDangerTime: 1
+  Markable: {fileID: 6785024933498874627}
   DangerLevelChanged:
     m_PersistentCalls:
       m_Calls:

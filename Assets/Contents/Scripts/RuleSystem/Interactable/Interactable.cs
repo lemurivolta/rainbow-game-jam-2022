@@ -99,6 +99,14 @@ public class Interactable : MonoBehaviour
                 if (CameraStateUpdater != null && CameraStateUpdater.NumCameras > 0)
                 {
                     // oops: object was under camera and we tried to interact!
+                    foreach(var camera in CameraStateUpdater.Cameras)
+                    {
+                        var markable = camera != null ? camera.GetComponentInChildren<Markable>() : null;
+                        if(markable != null)
+                        {
+                            markable.StartMark();
+                        }
+                    }
                     SchermateManager.Instance.GameOver();
                 }
                 else

@@ -22,7 +22,6 @@ public class Markable : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log($"default mark color is " + GetMaterial().GetColor(markColorProperty).ToString());
         GetMaterial().SetColor(markColorProperty, transparent);
         GetMaterial().SetFloat(kProperty, _markableProperties.K);
         GetMaterial().SetFloat(phaseProperty, 0);

@@ -7,6 +7,8 @@ public class EnemyCollision : MonoBehaviour
 
     public float FullDangerTime = 1f;
 
+    public Markable Markable;
+
     public UnityEvent<float> DangerLevelChanged;
 
     private int NumCharactersInside = 0;
@@ -66,7 +68,7 @@ public class EnemyCollision : MonoBehaviour
             DangerLevelChanged.Invoke(dangerValue);
             if (dangerValue >= 1)
             {
-                 SchermateManager.Instance.GameOver();
+                 SchermateManager.Instance.GameOver(Markable);
             }
             else if (dangerValue <= BaseDanger)
             {
