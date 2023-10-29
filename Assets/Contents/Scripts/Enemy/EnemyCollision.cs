@@ -19,6 +19,8 @@ public class EnemyCollision : MonoBehaviour
 
     private float LastDangerValue = 0;
 
+    [SerializeField] private GameOverCauseSpriteRenderer gameOverCauseSpriteRenderer;
+
     private void Start()
     {
         StartTime = Time.time;
@@ -66,7 +68,7 @@ public class EnemyCollision : MonoBehaviour
             DangerLevelChanged.Invoke(dangerValue);
             if (dangerValue >= 1)
             {
-                 SchermateManager.Instance.GameOver();
+                 SchermateManager.Instance.GameOver(gameOverCauseSpriteRenderer);
             }
             else if (dangerValue <= BaseDanger)
             {

@@ -596,6 +596,7 @@ GameObject:
   - component: {fileID: 7983980436618560100}
   - component: {fileID: 3608690437725090499}
   - component: {fileID: 1753152907274367747}
+  - component: {fileID: 8362863467547710427}
   m_Layer: 9
   m_Name: ViewArea
   m_TagString: Untagged
@@ -664,6 +665,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  gameOverCauseSpriteRenderer: {fileID: 8362863467547710427}
 --- !u!114 &3608690437725090499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -860,6 +862,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &8362863467547710427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7204513694391678423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66813c4a1093c664e9659824ae24a3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 1248404072121738091}
 --- !u!1 &7342375285738812152
 GameObject:
   m_ObjectHideFlags: 0

@@ -35,7 +35,7 @@ public class EnemyMovement : MonoBehaviour
     {
         // stop or resume movement when is barking
         var isBarking = Balloon.Instance != null && Balloon.Instance.isBarking;
-        if (wasBarking != isBarking)
+        if (wasBarking != isBarking || GameOverManagement.InGameOverSequence)
         {
             SetVelocity();
         }
@@ -74,7 +74,8 @@ public class EnemyMovement : MonoBehaviour
     /// </summary>
     private void SetVelocity()
     {
-        if ((Balloon.Instance != null && Balloon.Instance.isBarking) || PausedAt >= 0)
+        if ((Balloon.Instance != null && Balloon.Instance.isBarking) || PausedAt >= 0 ||
+            GameOverManagement.InGameOverSequence)
         {
             Rigidbody2D.velocity = Vector2.zero;
         }

@@ -84,7 +84,7 @@ public class EnemyFaint : MonoBehaviour
     private IEnumerator ResumeFromFainted()
     {
         yield return new WaitForSeconds(FaintDuration);
-        if (!Balloon.Instance.isBarking)
+        if (!Balloon.Instance.isBarking && !GameOverManagement.InGameOverSequence)
         {
             WaitToWakeUp = null;
             WakeUp();

@@ -187,11 +187,17 @@ public class Balloon : Singleton<Balloon>
         RightBalloon.image.gameObject.SetActive(chosenBalloon == 3);
     }
 
+    private Coroutine previousTextCoroutine;
+
     public void SetText(string s)
     {
         OnAllLabels(label => label.text = "");
         //StopCoroutine(ShowText(s));
-        StartCoroutine(ShowText(s));
+        if(previousTextCoroutine != null)
+        {
+            StopCoroutine(previousTextCoroutine);
+        }
+        previousTextCoroutine = StartCoroutine(ShowText(s));
     }
 
     IEnumerator ShowText(string s)
@@ -208,6 +214,8 @@ public class Balloon : Singleton<Balloon>
         {
             OnTextAllShown();
         }
+
+        previousTextCoroutine = null;
     }
 
     private void OnTextAllShown()

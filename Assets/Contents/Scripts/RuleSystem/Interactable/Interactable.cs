@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -88,9 +90,9 @@ public class Interactable : MonoBehaviour
     /// <param name="player">Player to check.</param>
     private void OnAction(CharacterInfo.Players player)
     {
-        if (Balloon.Instance.isBarking)
+        if ((Balloon.Instance && Balloon.Instance.isBarking) || GameOverManagement.InGameOverSequence)
         {
-            return; // don't do anything if the barks are on
+            return; // don't do anything if the barks are on or in game over
         }
         foreach (var activePlayer in NearbyCharacters)
         {
@@ -99,7 +101,10 @@ public class Interactable : MonoBehaviour
                 if (CameraStateUpdater != null && CameraStateUpdater.NumCameras > 0)
                 {
                     // oops: object was under camera and we tried to interact!
-                    SchermateManager.Instance.GameOver();
+                    SchermateManager.Instance.GameOver(
+                        CameraStateUpdater.Cameras
+                        .FirstOrDefault()?
+                        .GetComponentInChildren<GameOverCauseSpriteRenderer>());
                 }
                 else
                 {
