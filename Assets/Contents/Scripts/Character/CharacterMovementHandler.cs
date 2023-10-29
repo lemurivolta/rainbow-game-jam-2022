@@ -35,18 +35,25 @@ public class CharacterMovementHandler : MonoBehaviour
 
     private void OnMovement(Vector2 direction, CharacterInfo.Players p)
     {
-        if (!(Balloon.Instance != null && Balloon.Instance.isBarking) &&
-            CharacterInfo != null &&
-            !CharacterInfo.IsFollower &&
-            CharacterInfo.Player == p)
+        if (Balloon.Instance && Balloon.Instance.isBarking)
         {
-            Rigidbody2D.velocity = Speed * direction.normalized;
+            return;
         }
+        if (GameOverManagement.InGameOverSequence)
+        {
+            return;
+        }
+        if (CharacterInfo == null || CharacterInfo.IsFollower || CharacterInfo.Player != p)
+        {
+            return;
+        }
+        Rigidbody2D.velocity = Speed * direction.normalized;
     }
 
     private void Update()
     {
-        if(Balloon.Instance != null && Balloon.Instance.isBarking)
+        if ((Balloon.Instance != null && Balloon.Instance.isBarking) ||
+            GameOverManagement.InGameOverSequence)
         {
             Rigidbody2D.velocity = Vector3.zero;
         }

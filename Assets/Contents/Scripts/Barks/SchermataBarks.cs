@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+
 using UnityEngine;
 
 public class SchermataBarks : MonoBehaviour
@@ -8,8 +9,9 @@ public class SchermataBarks : MonoBehaviour
     [SerializeField] List<Bark> startingBarks;
     [SerializeField] List<Bark> gameOverBarks;
     [SerializeField] List<Bark> endingBarks;
+    [SerializeField] private bool skipStartingBarks;
 
-    public List<Bark> StartingBarks => startingBarks;
+    public List<Bark> StartingBarks => skipStartingBarks ? new List<Bark>(new Bark[] { startingBarks[0] }) : startingBarks;
     public List<Bark> GameOverBarks => gameOverBarks;
     public List<Bark> EndingBarks => endingBarks;
 
@@ -19,7 +21,7 @@ public class SchermataBarks : MonoBehaviour
 
     private void Awake()
     {
-        BarksLinker(startingBarks);
+        BarksLinker(StartingBarks);
         BarksLinker(endingBarks);
         foreach (Bark b in gameOverBarks)
         {
@@ -42,7 +44,7 @@ public class SchermataBarks : MonoBehaviour
 
     public void PlayStartingBarks()
     {
-        Balloon.Instance.PlayBark(startingBarks[0]);
+        Balloon.Instance.PlayBark(StartingBarks[0]);
     }
 
     public void PlayEndingBarks()

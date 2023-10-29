@@ -1,5 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -47,7 +47,7 @@ public class CameraRotation : MonoBehaviour
 
     IEnumerator DoMovement()
     {
-        // fake start time to simulate the fact we're in the middle of the roration
+        // fake start time to simulate the fact we're in the middle of the rotation
         var startTime = Time.time -
             SingleSweepDuration * (StartingAngle - MinAngle) / (MaxAngle - MinAngle);
         SetRotation(StartingAngle);
@@ -91,6 +91,11 @@ public class CameraRotation : MonoBehaviour
 
     private void SetRotation(float angle)
     {
+        // don't do anything on game over sequence
+        if (GameOverManagement.InGameOverSequence)
+        {
+            return;
+        }
         var value = 2 * (angle - MinAngle) / (MaxAngle - MinAngle) - 1;
         AngleChanged.Invoke(value);
         transform.rotation = Quaternion.Euler(0, 0, angle);

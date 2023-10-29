@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -62,12 +63,19 @@ public class SchermateManager : Singleton<SchermateManager>
         audioSource.Play();
     }
 
-    public void GameOver()
+    public void GameOver(GameOverCauseSpriteRenderer cause = null)
     {
         Debug.Log("GameOver()");
         Balloon.Instance.StopAllCoroutines();
+        StartCoroutine(GameOverCoroutine(cause));
+    }
+
+    private IEnumerator GameOverCoroutine(GameOverCauseSpriteRenderer cause)
+    {
+        yield return StartCoroutine(GameOverManagement.StartZoomIn(cause));
         currentSchermata.GetComponent<Schermata>().barks.PlayGameOverBark();
     }
+
     public void Restart()
     {
         Debug.Log("Restart()");
@@ -83,7 +91,7 @@ public class SchermateManager : Singleton<SchermateManager>
 
     public void ResetButton()
     {
-        if (!Balloon.Instance.isBarking)
+        if (!Balloon.Instance.isBarking && !GameOverManagement.InGameOverSequence)
             GameOver();
     }
 }
