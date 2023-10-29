@@ -37,6 +37,9 @@ public class GameOverManagement : MonoBehaviour
         var rect = cause.GetBoundaryWorldRect();
         instance.rect = rect;
 
+        var spriteRenderer = cause.SpriteRenderer;
+        var material = spriteRenderer.material;
+
         try
         {
             Vector3 destPosition = rect.center;
@@ -51,6 +54,7 @@ public class GameOverManagement : MonoBehaviour
                 var d = (Time.time - startTime) / instance.zoomInDuration;
                 mainCamera.transform.position = Vector3.Lerp(sourcePosition, destPosition, d);
                 mainCamera.orthographicSize = Mathf.Lerp(sourceOrthographicSize, destOrthographicSize, d);
+                material.SetFloat("_WarningFactor", d);
                 Debug.Log($"from {sourceOrthographicSize} to {destOrthographicSize} at {d} is {mainCamera.orthographicSize}");
                 yield return null;
             }
@@ -66,6 +70,7 @@ public class GameOverManagement : MonoBehaviour
                 var d = (Time.time - startTime) / instance.zoomOutDuration;
                 mainCamera.transform.position = Vector3.Lerp(destPosition, sourcePosition, d);
                 mainCamera.orthographicSize = Mathf.Lerp(destOrthographicSize, sourceOrthographicSize, d);
+                material.SetFloat("_WarningFactor", 1 - d);
                 yield return null;
             }
         }
@@ -76,6 +81,7 @@ public class GameOverManagement : MonoBehaviour
             mainCamera.orthographicSize = sourceOrthographicSize;
             ppcamera.enabled = true;
             instance.rect = null;
+            material.SetFloat("_WarningFactor", 0);
         }
     }
 
