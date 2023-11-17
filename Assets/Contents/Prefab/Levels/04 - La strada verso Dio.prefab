@@ -35930,11 +35930,11 @@ PrefabInstance:
     - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: managedReferences[4529603730724618240].State
       value: 
-      objectReference: {fileID: 2819489180601908095}
+      objectReference: {fileID: 0}
     - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: managedReferences[4529603730724618241].State
       value: 
-      objectReference: {fileID: 1186278764162620436}
+      objectReference: {fileID: 0}
     - target: {fileID: 8859870599736577654, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
       propertyPath: managedReferences[3228701870456307712].States.Array.size
       value: 4
@@ -53998,11 +53998,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4455576614141879651, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
   m_PrefabInstance: {fileID: 4063942093112016270}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &587818740626381577 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3480824887300892295, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
-  m_PrefabInstance: {fileID: 4063942093112016270}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1493099538346601768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3233175324120322214, guid: 20dbf095b244eba469a40e0431935e3b, type: 3}
@@ -54799,74 +54794,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7652796540459118434, guid: 0b95237a41b17be4ab3ade40c3c6decb, type: 3}
   m_PrefabInstance: {fileID: 6561471899087925862}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &6582998684287425680
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 587818740626381577}
-    m_Modifications:
-    - target: {fileID: 8748428825508259371, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_Name
-      value: Button Yelena Intercom (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.0625
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.09375
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
---- !u!114 &1186278764162620436 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5416986119588823172, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-  m_PrefabInstance: {fileID: 6582998684287425680}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c3a396e20cda2c4a8027e1db367b915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &6584996588341757331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -55265,74 +55192,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7910406083782890018, guid: afef754188a4dd7498519b7a64dffce8, type: 3}
   m_PrefabInstance: {fileID: 7574442745219801528}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &7786114988443515899
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 587818740626381577}
-    m_Modifications:
-    - target: {fileID: 8748428825508259371, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_Name
-      value: Button Yelena Intercom
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -14.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.590907
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8748428825508259382, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
---- !u!114 &2819489180601908095 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5416986119588823172, guid: 351b63d471f49274aa3800e0cbe03755, type: 3}
-  m_PrefabInstance: {fileID: 7786114988443515899}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c3a396e20cda2c4a8027e1db367b915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &7884758088777124717
 PrefabInstance:
   m_ObjectHideFlags: 0
